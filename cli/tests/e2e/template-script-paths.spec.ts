@@ -9,6 +9,7 @@ const cases = [
   ['droid', '.factory/skills/ui-ux-pro-max/scripts/search.py'],
   ['zcode', '.zcode/skills/ui-ux-pro-max/scripts/search.py'],
   ['amazonq', '.amazonq/skills/ui-ux-pro-max/scripts/search.py'],
+  ['openclaw', '.agents/skills/ui-ux-pro-max/scripts/search.py'],
 ] as const;
 const SEARCH_COMMAND_COUNT = 17;
 

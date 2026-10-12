@@ -56,6 +56,7 @@ const AI_TO_PLATFORM: Record<string, string> = {
   codewhale: 'codewhale',
   zcode: 'zcode',
   amazonq: 'amazonq',
+  openclaw: 'openclaw',
   universal: 'universal',
 };
 

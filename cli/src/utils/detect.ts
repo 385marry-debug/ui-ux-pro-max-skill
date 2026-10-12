@@ -23,6 +23,7 @@ export function detectAIType(cwd: string = process.cwd()): DetectionResult {
     detected.push('antigravity');
     detected.push('codex');
     detected.push('universal');
+    detected.push('openclaw');
   } else if (existsSync(join(cwd, '.agent'))) {
     detected.push('antigravity');
   }
@@ -83,7 +84,7 @@ export function detectAIType(cwd: string = process.cwd()): DetectionResult {
   if (detected.length === 1) {
     suggested = detected[0];
   } else if (
-    (detected.length === 2 || detected.length === 3) &&
+    (detected.length >= 2 && detected.length <= 4) &&
     detected.includes('antigravity') &&
     detected.includes('codex')
   ) {
@@ -140,6 +141,8 @@ export function getAITypeDescription(aiType: AIType): string {
       return 'ZCode (.zcode/skills/)';
     case 'amazonq':
       return 'Amazon Q Developer (.amazonq/rules/)';
+    case 'openclaw':
+      return 'OpenClaw (.agents/skills/)';
     case 'universal':
       return 'Universal (.agents/skills/)';
     case 'all':
