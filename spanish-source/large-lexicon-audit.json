@@ -1,0 +1,23 @@
+{
+  "sourceHeadwords": 6500,
+  "distinctSourceHeadwords": 6500,
+  "frequencyRange": [
+    6.37,
+    1.77
+  ],
+  "senseAlignment": "Exact shared Princeton WordNet 3.0 synset IDs, not English-string pivot translations",
+  "morphologyLookup": "spaCy lookups: exclude forms whose dictionary lemma differs; retain source headwords only",
+  "scope": "Single Spanish dictionary headwords with at least one Chinese same-concept lemma; Chinese mappings and sense ordering are source data, not fully teacher-reviewed; no synthetic example sentences",
+  "partOfSpeech": {
+    "名词": 3584,
+    "形容词": 1369,
+    "动词": 1499,
+    "副词": 48
+  },
+  "licences": [
+    "MCR CC BY 3.0",
+    "Chinese Open WordNet WordNet-style licence",
+    "Princeton WordNet licence"
+  ],
+  "sourceZipSHA256": "3b941e664852f3297b6040236626065796a2aaf7d7f9eec8779a3beaa1096c2d"
+}
