@@ -1,0 +1,900 @@
+{
+  "source": "西班牙语公共课·上册（Caminante）",
+  "scope": "18课58项一级语法主题对应实际课程与题目；不是全书子规则、脚注、原题和配套录音的完整验收。",
+  "counts": {
+    "chapters": 18,
+    "topics": 58,
+    "newSupplementLessons": 17,
+    "supplementQuestions": 102,
+    "gradedUnits": 40,
+    "unitMicroSteps": 120,
+    "addedUnitInputQuestions": 120,
+    "questionsPerUnit": 12,
+    "entries": 7240
+  },
+  "rows": [
+    {
+      "chapter": 1,
+      "pdfPage": 27,
+      "topic": "名词的性",
+      "guide": "foundation-gender",
+      "change": "关联已有详解",
+      "questions": [
+        "foundation-gender-q0",
+        "foundation-gender-q1",
+        "foundation-gender-q2",
+        "foundation-gender-depth-0",
+        "foundation-gender-depth-1",
+        "foundation-gender-depth-2",
+        "foundation-gender-depth-3",
+        "foundation-gender-depth-4"
+      ]
+    },
+    {
+      "chapter": 1,
+      "pdfPage": 27,
+      "topic": "单数定冠词",
+      "guide": "foundation-bridge-articles",
+      "change": "关联已有详解",
+      "questions": [
+        "foundation-bridge-articles-q0",
+        "foundation-bridge-articles-q1",
+        "foundation-bridge-articles-q2",
+        "foundation-bridge-articles-depth-0",
+        "foundation-bridge-articles-depth-1",
+        "foundation-bridge-articles-depth-2"
+      ]
+    },
+    {
+      "chapter": 1,
+      "pdfPage": 27,
+      "topic": "大小写",
+      "guide": "foundation-sound",
+      "change": "关联已有详解",
+      "questions": [
+        "foundation-sound-q0",
+        "foundation-sound-q1",
+        "foundation-sound-q2",
+        "foundation-sound-depth-0",
+        "foundation-sound-depth-1",
+        "foundation-sound-depth-2"
+      ]
+    },
+    {
+      "chapter": 1,
+      "pdfPage": 27,
+      "topic": "问号与感叹号",
+      "guide": "foundation-sound",
+      "change": "关联已有详解",
+      "questions": [
+        "foundation-sound-q0",
+        "foundation-sound-q1",
+        "foundation-sound-q2",
+        "foundation-sound-depth-0",
+        "foundation-sound-depth-1",
+        "foundation-sound-depth-2"
+      ]
+    },
+    {
+      "chapter": 2,
+      "pdfPage": 39,
+      "topic": "名词复数",
+      "guide": "foundation-bridge-plural",
+      "change": "关联已有详解",
+      "questions": [
+        "foundation-bridge-plural-q0",
+        "foundation-bridge-plural-q1",
+        "foundation-bridge-plural-q2",
+        "foundation-bridge-plural-depth-0",
+        "foundation-bridge-plural-depth-1",
+        "foundation-bridge-plural-depth-2"
+      ]
+    },
+    {
+      "chapter": 2,
+      "pdfPage": 39,
+      "topic": "复数定冠词",
+      "guide": "foundation-bridge-articles",
+      "change": "关联已有详解",
+      "questions": [
+        "foundation-bridge-articles-q0",
+        "foundation-bridge-articles-q1",
+        "foundation-bridge-articles-q2",
+        "foundation-bridge-articles-depth-0",
+        "foundation-bridge-articles-depth-1",
+        "foundation-bridge-articles-depth-2"
+      ]
+    },
+    {
+      "chapter": 2,
+      "pdfPage": 39,
+      "topic": "指示代词",
+      "guide": "foundation-topic-demonstratives",
+      "change": "本轮补专项课",
+      "questions": [
+        "foundation-topic-demonstratives-q0",
+        "foundation-topic-demonstratives-q1",
+        "foundation-topic-demonstratives-q2",
+        "foundation-topic-demonstratives-depth-0",
+        "foundation-topic-demonstratives-depth-1",
+        "foundation-topic-demonstratives-depth-2"
+      ]
+    },
+    {
+      "chapter": 2,
+      "pdfPage": 39,
+      "topic": "介词 de",
+      "guide": "foundation-topic-prepositions",
+      "change": "本轮补专项课",
+      "questions": [
+        "foundation-topic-prepositions-q0",
+        "foundation-topic-prepositions-q1",
+        "foundation-topic-prepositions-q2",
+        "foundation-topic-prepositions-depth-0",
+        "foundation-topic-prepositions-depth-1",
+        "foundation-topic-prepositions-depth-2"
+      ]
+    },
+    {
+      "chapter": 3,
+      "pdfPage": 60,
+      "topic": "不定冠词",
+      "guide": "foundation-bridge-articles",
+      "change": "关联已有详解",
+      "questions": [
+        "foundation-bridge-articles-q0",
+        "foundation-bridge-articles-q1",
+        "foundation-bridge-articles-q2",
+        "foundation-bridge-articles-depth-0",
+        "foundation-bridge-articles-depth-1",
+        "foundation-bridge-articles-depth-2"
+      ]
+    },
+    {
+      "chapter": 3,
+      "pdfPage": 60,
+      "topic": "主格人称代词",
+      "guide": "foundation-bridge-people",
+      "change": "关联已有详解",
+      "questions": [
+        "foundation-bridge-people-q0",
+        "foundation-bridge-people-q1",
+        "foundation-bridge-people-q2",
+        "foundation-bridge-people-depth-0",
+        "foundation-bridge-people-depth-1",
+        "foundation-bridge-people-depth-2"
+      ]
+    },
+    {
+      "chapter": 3,
+      "pdfPage": 60,
+      "topic": "ser 现在时",
+      "guide": "foundation-core",
+      "change": "关联已有详解",
+      "questions": [
+        "foundation-core-q0",
+        "foundation-core-q1",
+        "foundation-core-q2",
+        "foundation-core-depth-0",
+        "foundation-core-depth-1",
+        "foundation-core-depth-2",
+        "foundation-core-depth-3",
+        "foundation-core-depth-4"
+      ]
+    },
+    {
+      "chapter": 4,
+      "pdfPage": 86,
+      "topic": "estar 现在时",
+      "guide": "foundation-core",
+      "change": "关联已有详解",
+      "questions": [
+        "foundation-core-q0",
+        "foundation-core-q1",
+        "foundation-core-q2",
+        "foundation-core-depth-0",
+        "foundation-core-depth-1",
+        "foundation-core-depth-2",
+        "foundation-core-depth-3",
+        "foundation-core-depth-4"
+      ]
+    },
+    {
+      "chapter": 4,
+      "pdfPage": 86,
+      "topic": "介词 en",
+      "guide": "foundation-topic-prepositions",
+      "change": "本轮补专项课",
+      "questions": [
+        "foundation-topic-prepositions-q0",
+        "foundation-topic-prepositions-q1",
+        "foundation-topic-prepositions-q2",
+        "foundation-topic-prepositions-depth-0",
+        "foundation-topic-prepositions-depth-1",
+        "foundation-topic-prepositions-depth-2"
+      ]
+    },
+    {
+      "chapter": 4,
+      "pdfPage": 86,
+      "topic": "规则 -ar 现在时",
+      "guide": "foundation-bridge-present-ar",
+      "change": "关联已有详解",
+      "questions": [
+        "foundation-bridge-present-ar-q0",
+        "foundation-bridge-present-ar-q1",
+        "foundation-bridge-present-ar-q2",
+        "foundation-bridge-present-ar-depth-0",
+        "foundation-bridge-present-ar-depth-1",
+        "foundation-bridge-present-ar-depth-2"
+      ]
+    },
+    {
+      "chapter": 5,
+      "pdfPage": 107,
+      "topic": "钟点",
+      "guide": "foundation-bridge-clock",
+      "change": "关联已有详解",
+      "questions": [
+        "foundation-bridge-clock-q0",
+        "foundation-bridge-clock-q1",
+        "foundation-bridge-clock-q2",
+        "foundation-bridge-clock-depth-0",
+        "foundation-bridge-clock-depth-1",
+        "foundation-bridge-clock-depth-2"
+      ]
+    },
+    {
+      "chapter": 5,
+      "pdfPage": 107,
+      "topic": "ir 现在时",
+      "guide": "foundation-topic-core-verbs",
+      "change": "本轮补专项课",
+      "questions": [
+        "foundation-topic-core-verbs-q0",
+        "foundation-topic-core-verbs-q1",
+        "foundation-topic-core-verbs-q2",
+        "foundation-topic-core-verbs-depth-0",
+        "foundation-topic-core-verbs-depth-1",
+        "foundation-topic-core-verbs-depth-2"
+      ]
+    },
+    {
+      "chapter": 5,
+      "pdfPage": 107,
+      "topic": "介词 a",
+      "guide": "foundation-topic-prepositions",
+      "change": "本轮补专项课",
+      "questions": [
+        "foundation-topic-prepositions-q0",
+        "foundation-topic-prepositions-q1",
+        "foundation-topic-prepositions-q2",
+        "foundation-topic-prepositions-depth-0",
+        "foundation-topic-prepositions-depth-1",
+        "foundation-topic-prepositions-depth-2"
+      ]
+    },
+    {
+      "chapter": 6,
+      "pdfPage": 128,
+      "topic": "形容词一致",
+      "guide": "foundation-topic-agreement",
+      "change": "本轮补专项课",
+      "questions": [
+        "foundation-topic-agreement-q0",
+        "foundation-topic-agreement-q1",
+        "foundation-topic-agreement-q2",
+        "foundation-topic-agreement-depth-0",
+        "foundation-topic-agreement-depth-1",
+        "foundation-topic-agreement-depth-2"
+      ]
+    },
+    {
+      "chapter": 6,
+      "pdfPage": 128,
+      "topic": "tener 现在时",
+      "guide": "foundation-topic-core-verbs",
+      "change": "本轮补专项课",
+      "questions": [
+        "foundation-topic-core-verbs-q0",
+        "foundation-topic-core-verbs-q1",
+        "foundation-topic-core-verbs-q2",
+        "foundation-topic-core-verbs-depth-0",
+        "foundation-topic-core-verbs-depth-1",
+        "foundation-topic-core-verbs-depth-2"
+      ]
+    },
+    {
+      "chapter": 6,
+      "pdfPage": 128,
+      "topic": "规则 -er 现在时",
+      "guide": "foundation-bridge-present-er-ir",
+      "change": "关联已有详解",
+      "questions": [
+        "foundation-bridge-present-er-ir-q0",
+        "foundation-bridge-present-er-ir-q1",
+        "foundation-bridge-present-er-ir-q2",
+        "foundation-bridge-present-er-ir-depth-0",
+        "foundation-bridge-present-er-ir-depth-1",
+        "foundation-bridge-present-er-ir-depth-2"
+      ]
+    },
+    {
+      "chapter": 6,
+      "pdfPage": 128,
+      "topic": "非重读物主词",
+      "guide": "foundation-topic-possessives",
+      "change": "本轮补专项课",
+      "questions": [
+        "foundation-topic-possessives-q0",
+        "foundation-topic-possessives-q1",
+        "foundation-topic-possessives-q2",
+        "foundation-topic-possessives-depth-0",
+        "foundation-topic-possessives-depth-1",
+        "foundation-topic-possessives-depth-2"
+      ]
+    },
+    {
+      "chapter": 7,
+      "pdfPage": 155,
+      "topic": "指示限定词",
+      "guide": "foundation-topic-demonstratives",
+      "change": "本轮补专项课",
+      "questions": [
+        "foundation-topic-demonstratives-q0",
+        "foundation-topic-demonstratives-q1",
+        "foundation-topic-demonstratives-q2",
+        "foundation-topic-demonstratives-depth-0",
+        "foundation-topic-demonstratives-depth-1",
+        "foundation-topic-demonstratives-depth-2"
+      ]
+    },
+    {
+      "chapter": 7,
+      "pdfPage": 155,
+      "topic": "重读物主词",
+      "guide": "foundation-topic-possessives",
+      "change": "本轮补专项课",
+      "questions": [
+        "foundation-topic-possessives-q0",
+        "foundation-topic-possessives-q1",
+        "foundation-topic-possessives-q2",
+        "foundation-topic-possessives-depth-0",
+        "foundation-topic-possessives-depth-1",
+        "foundation-topic-possessives-depth-2"
+      ]
+    },
+    {
+      "chapter": 7,
+      "pdfPage": 155,
+      "topic": "规则 -ir 现在时",
+      "guide": "foundation-bridge-present-er-ir",
+      "change": "关联已有详解",
+      "questions": [
+        "foundation-bridge-present-er-ir-q0",
+        "foundation-bridge-present-er-ir-q1",
+        "foundation-bridge-present-er-ir-q2",
+        "foundation-bridge-present-er-ir-depth-0",
+        "foundation-bridge-present-er-ir-depth-1",
+        "foundation-bridge-present-er-ir-depth-2"
+      ]
+    },
+    {
+      "chapter": 7,
+      "pdfPage": 155,
+      "topic": "及物与不及物",
+      "guide": "foundation-topic-transitivity",
+      "change": "本轮补专项课",
+      "questions": [
+        "foundation-topic-transitivity-q0",
+        "foundation-topic-transitivity-q1",
+        "foundation-topic-transitivity-q2",
+        "foundation-topic-transitivity-depth-0",
+        "foundation-topic-transitivity-depth-1",
+        "foundation-topic-transitivity-depth-2"
+      ]
+    },
+    {
+      "chapter": 8,
+      "pdfPage": 179,
+      "topic": "词干变化 e→ie / o→ue",
+      "guide": "foundation-topic-stem-patterns",
+      "change": "本轮补专项课",
+      "questions": [
+        "foundation-topic-stem-patterns-q0",
+        "foundation-topic-stem-patterns-q1",
+        "foundation-topic-stem-patterns-q2",
+        "foundation-topic-stem-patterns-depth-0",
+        "foundation-topic-stem-patterns-depth-1",
+        "foundation-topic-stem-patterns-depth-2"
+      ]
+    },
+    {
+      "chapter": 8,
+      "pdfPage": 179,
+      "topic": "ser/estar 与形容词",
+      "guide": "foundation-core",
+      "change": "关联已有详解",
+      "questions": [
+        "foundation-core-q0",
+        "foundation-core-q1",
+        "foundation-core-q2",
+        "foundation-core-depth-0",
+        "foundation-core-depth-1",
+        "foundation-core-depth-2",
+        "foundation-core-depth-3",
+        "foundation-core-depth-4"
+      ]
+    },
+    {
+      "chapter": 8,
+      "pdfPage": 179,
+      "topic": "直接/间接宾语辨认",
+      "guide": "foundation-topic-transitivity",
+      "change": "本轮补专项课",
+      "questions": [
+        "foundation-topic-transitivity-q0",
+        "foundation-topic-transitivity-q1",
+        "foundation-topic-transitivity-q2",
+        "foundation-topic-transitivity-depth-0",
+        "foundation-topic-transitivity-depth-1",
+        "foundation-topic-transitivity-depth-2"
+      ]
+    },
+    {
+      "chapter": 8,
+      "pdfPage": 179,
+      "topic": "直接宾语代词",
+      "guide": "foundation-bridge-direct",
+      "change": "关联已有详解",
+      "questions": [
+        "foundation-bridge-direct-q0",
+        "foundation-bridge-direct-q1",
+        "foundation-bridge-direct-q2",
+        "foundation-bridge-direct-depth-0",
+        "foundation-bridge-direct-depth-1",
+        "foundation-bridge-direct-depth-2"
+      ]
+    },
+    {
+      "chapter": 9,
+      "pdfPage": 206,
+      "topic": "词干变化 e→i",
+      "guide": "foundation-topic-stem-patterns",
+      "change": "本轮补专项课",
+      "questions": [
+        "foundation-topic-stem-patterns-q0",
+        "foundation-topic-stem-patterns-q1",
+        "foundation-topic-stem-patterns-q2",
+        "foundation-topic-stem-patterns-depth-0",
+        "foundation-topic-stem-patterns-depth-1",
+        "foundation-topic-stem-patterns-depth-2"
+      ]
+    },
+    {
+      "chapter": 9,
+      "pdfPage": 206,
+      "topic": "代词式动词",
+      "guide": "foundation-bridge-reflexive",
+      "change": "关联已有详解",
+      "questions": [
+        "foundation-bridge-reflexive-q0",
+        "foundation-bridge-reflexive-q1",
+        "foundation-bridge-reflexive-q2",
+        "foundation-bridge-reflexive-depth-0",
+        "foundation-bridge-reflexive-depth-1",
+        "foundation-bridge-reflexive-depth-2"
+      ]
+    },
+    {
+      "chapter": 9,
+      "pdfPage": 206,
+      "topic": "间接宾语代词",
+      "guide": "foundation-bridge-indirect",
+      "change": "关联已有详解",
+      "questions": [
+        "foundation-bridge-indirect-q0",
+        "foundation-bridge-indirect-q1",
+        "foundation-bridge-indirect-q2",
+        "foundation-bridge-indirect-depth-0",
+        "foundation-bridge-indirect-depth-1",
+        "foundation-bridge-indirect-depth-2"
+      ]
+    },
+    {
+      "chapter": 9,
+      "pdfPage": 206,
+      "topic": "现在时用法",
+      "guide": "foundation-topic-present-uses",
+      "change": "本轮补专项课",
+      "questions": [
+        "foundation-topic-present-uses-q0",
+        "foundation-topic-present-uses-q1",
+        "foundation-topic-present-uses-q2",
+        "foundation-topic-present-uses-depth-0",
+        "foundation-topic-present-uses-depth-1",
+        "foundation-topic-present-uses-depth-2"
+      ]
+    },
+    {
+      "chapter": 10,
+      "pdfPage": 231,
+      "topic": "双宾语代词",
+      "guide": "foundation-pronouns",
+      "change": "关联已有详解",
+      "questions": [
+        "foundation-pronouns-q0",
+        "foundation-pronouns-q1",
+        "foundation-pronouns-q2",
+        "foundation-pronouns-depth-0",
+        "foundation-pronouns-depth-1",
+        "foundation-pronouns-depth-2",
+        "foundation-pronouns-depth-3",
+        "foundation-pronouns-depth-4"
+      ]
+    },
+    {
+      "chapter": 10,
+      "pdfPage": 231,
+      "topic": "代词式动词扩展",
+      "guide": "foundation-bridge-reflexive",
+      "change": "关联已有详解",
+      "questions": [
+        "foundation-bridge-reflexive-q0",
+        "foundation-bridge-reflexive-q1",
+        "foundation-bridge-reflexive-q2",
+        "foundation-bridge-reflexive-depth-0",
+        "foundation-bridge-reflexive-depth-1",
+        "foundation-bridge-reflexive-depth-2"
+      ]
+    },
+    {
+      "chapter": 10,
+      "pdfPage": 231,
+      "topic": "肯定命令入门",
+      "guide": "foundation-topic-commands",
+      "change": "本轮补专项课",
+      "questions": [
+        "foundation-topic-commands-q0",
+        "foundation-topic-commands-q1",
+        "foundation-topic-commands-q2",
+        "foundation-topic-commands-depth-0",
+        "foundation-topic-commands-depth-1",
+        "foundation-topic-commands-depth-2"
+      ]
+    },
+    {
+      "chapter": 10,
+      "pdfPage": 231,
+      "topic": "介词 de 扩展",
+      "guide": "foundation-topic-prepositions",
+      "change": "本轮补专项课",
+      "questions": [
+        "foundation-topic-prepositions-q0",
+        "foundation-topic-prepositions-q1",
+        "foundation-topic-prepositions-q2",
+        "foundation-topic-prepositions-depth-0",
+        "foundation-topic-prepositions-depth-1",
+        "foundation-topic-prepositions-depth-2"
+      ]
+    },
+    {
+      "chapter": 11,
+      "pdfPage": 259,
+      "topic": "肯定命令扩展",
+      "guide": "foundation-topic-commands",
+      "change": "本轮补专项课",
+      "questions": [
+        "foundation-topic-commands-q0",
+        "foundation-topic-commands-q1",
+        "foundation-topic-commands-q2",
+        "foundation-topic-commands-depth-0",
+        "foundation-topic-commands-depth-1",
+        "foundation-topic-commands-depth-2"
+      ]
+    },
+    {
+      "chapter": 11,
+      "pdfPage": 259,
+      "topic": "疑问句词序",
+      "guide": "foundation-topic-question-order",
+      "change": "本轮补专项课",
+      "questions": [
+        "foundation-topic-question-order-q0",
+        "foundation-topic-question-order-q1",
+        "foundation-topic-question-order-q2",
+        "foundation-topic-question-order-depth-0",
+        "foundation-topic-question-order-depth-1",
+        "foundation-topic-question-order-depth-2"
+      ]
+    },
+    {
+      "chapter": 11,
+      "pdfPage": 259,
+      "topic": "句中一致关系",
+      "guide": "foundation-topic-agreement",
+      "change": "本轮补专项课",
+      "questions": [
+        "foundation-topic-agreement-q0",
+        "foundation-topic-agreement-q1",
+        "foundation-topic-agreement-q2",
+        "foundation-topic-agreement-depth-0",
+        "foundation-topic-agreement-depth-1",
+        "foundation-topic-agreement-depth-2"
+      ]
+    },
+    {
+      "chapter": 11,
+      "pdfPage": 259,
+      "topic": "介词 con",
+      "guide": "foundation-topic-prepositions",
+      "change": "本轮补专项课",
+      "questions": [
+        "foundation-topic-prepositions-q0",
+        "foundation-topic-prepositions-q1",
+        "foundation-topic-prepositions-q2",
+        "foundation-topic-prepositions-depth-0",
+        "foundation-topic-prepositions-depth-1",
+        "foundation-topic-prepositions-depth-2"
+      ]
+    },
+    {
+      "chapter": 12,
+      "pdfPage": 288,
+      "topic": "否定命令",
+      "guide": "foundation-topic-commands",
+      "change": "本轮补专项课",
+      "questions": [
+        "foundation-topic-commands-q0",
+        "foundation-topic-commands-q1",
+        "foundation-topic-commands-q2",
+        "foundation-topic-commands-depth-0",
+        "foundation-topic-commands-depth-1",
+        "foundation-topic-commands-depth-2"
+      ]
+    },
+    {
+      "chapter": 12,
+      "pdfPage": 288,
+      "topic": "宾语从句",
+      "guide": "foundation-topic-object-clauses",
+      "change": "本轮补专项课",
+      "questions": [
+        "foundation-topic-object-clauses-q0",
+        "foundation-topic-object-clauses-q1",
+        "foundation-topic-object-clauses-q2",
+        "foundation-topic-object-clauses-depth-0",
+        "foundation-topic-object-clauses-depth-1",
+        "foundation-topic-object-clauses-depth-2"
+      ]
+    },
+    {
+      "chapter": 13,
+      "pdfPage": 321,
+      "topic": "si 条件句",
+      "guide": "foundation-topic-conditions",
+      "change": "本轮补专项课",
+      "questions": [
+        "foundation-topic-conditions-q0",
+        "foundation-topic-conditions-q1",
+        "foundation-topic-conditions-q2",
+        "foundation-topic-conditions-depth-0",
+        "foundation-topic-conditions-depth-1",
+        "foundation-topic-conditions-depth-2"
+      ]
+    },
+    {
+      "chapter": 13,
+      "pdfPage": 321,
+      "topic": "无人称句",
+      "guide": "foundation-topic-impersonal",
+      "change": "本轮补专项课",
+      "questions": [
+        "foundation-topic-impersonal-q0",
+        "foundation-topic-impersonal-q1",
+        "foundation-topic-impersonal-q2",
+        "foundation-topic-impersonal-depth-0",
+        "foundation-topic-impersonal-depth-1",
+        "foundation-topic-impersonal-depth-2"
+      ]
+    },
+    {
+      "chapter": 13,
+      "pdfPage": 321,
+      "topic": "tener que / hay que",
+      "guide": "foundation-topic-core-verbs",
+      "change": "本轮补专项课",
+      "questions": [
+        "foundation-topic-core-verbs-q0",
+        "foundation-topic-core-verbs-q1",
+        "foundation-topic-core-verbs-q2",
+        "foundation-topic-core-verbs-depth-0",
+        "foundation-topic-core-verbs-depth-1",
+        "foundation-topic-core-verbs-depth-2"
+      ]
+    },
+    {
+      "chapter": 14,
+      "pdfPage": 344,
+      "topic": "关系从句与关系词",
+      "guide": "foundation-relative",
+      "change": "关联已有详解",
+      "questions": [
+        "foundation-relative-q0",
+        "foundation-relative-q1",
+        "foundation-relative-q2"
+      ]
+    },
+    {
+      "chapter": 14,
+      "pdfPage": 344,
+      "topic": "感叹句",
+      "guide": "foundation-topic-exclamations",
+      "change": "本轮补专项课",
+      "questions": [
+        "foundation-topic-exclamations-q0",
+        "foundation-topic-exclamations-q1",
+        "foundation-topic-exclamations-q2",
+        "foundation-topic-exclamations-depth-0",
+        "foundation-topic-exclamations-depth-1",
+        "foundation-topic-exclamations-depth-2"
+      ]
+    },
+    {
+      "chapter": 15,
+      "pdfPage": 362,
+      "topic": "se 被动",
+      "guide": "foundation-topic-impersonal",
+      "change": "本轮补专项课",
+      "questions": [
+        "foundation-topic-impersonal-q0",
+        "foundation-topic-impersonal-q1",
+        "foundation-topic-impersonal-q2",
+        "foundation-topic-impersonal-depth-0",
+        "foundation-topic-impersonal-depth-1",
+        "foundation-topic-impersonal-depth-2"
+      ]
+    },
+    {
+      "chapter": 15,
+      "pdfPage": 362,
+      "topic": "donde 地点从句",
+      "guide": "foundation-topic-relative-time-place",
+      "change": "本轮补专项课",
+      "questions": [
+        "foundation-topic-relative-time-place-q0",
+        "foundation-topic-relative-time-place-q1",
+        "foundation-topic-relative-time-place-q2",
+        "foundation-topic-relative-time-place-depth-0",
+        "foundation-topic-relative-time-place-depth-1",
+        "foundation-topic-relative-time-place-depth-2"
+      ]
+    },
+    {
+      "chapter": 16,
+      "pdfPage": 397,
+      "topic": "简单过去入门",
+      "guide": "foundation-past",
+      "change": "关联已有详解",
+      "questions": [
+        "foundation-past-q0",
+        "foundation-past-q1",
+        "foundation-past-q2",
+        "foundation-past-depth-0",
+        "foundation-past-depth-1",
+        "foundation-past-depth-2",
+        "foundation-past-depth-3",
+        "foundation-past-depth-4"
+      ]
+    },
+    {
+      "chapter": 16,
+      "pdfPage": 397,
+      "topic": "无人称句扩展",
+      "guide": "foundation-topic-impersonal",
+      "change": "本轮补专项课",
+      "questions": [
+        "foundation-topic-impersonal-q0",
+        "foundation-topic-impersonal-q1",
+        "foundation-topic-impersonal-q2",
+        "foundation-topic-impersonal-depth-0",
+        "foundation-topic-impersonal-depth-1",
+        "foundation-topic-impersonal-depth-2"
+      ]
+    },
+    {
+      "chapter": 17,
+      "pdfPage": 422,
+      "topic": "简单过去扩展",
+      "guide": "foundation-past",
+      "change": "关联已有详解",
+      "questions": [
+        "foundation-past-q0",
+        "foundation-past-q1",
+        "foundation-past-q2",
+        "foundation-past-depth-0",
+        "foundation-past-depth-1",
+        "foundation-past-depth-2",
+        "foundation-past-depth-3",
+        "foundation-past-depth-4"
+      ]
+    },
+    {
+      "chapter": 17,
+      "pdfPage": 422,
+      "topic": "日期",
+      "guide": "foundation-topic-calendar",
+      "change": "本轮补专项课",
+      "questions": [
+        "foundation-topic-calendar-q0",
+        "foundation-topic-calendar-q1",
+        "foundation-topic-calendar-q2",
+        "foundation-topic-calendar-depth-0",
+        "foundation-topic-calendar-depth-1",
+        "foundation-topic-calendar-depth-2"
+      ]
+    },
+    {
+      "chapter": 17,
+      "pdfPage": 422,
+      "topic": "过去分词",
+      "guide": "foundation-topic-nonfinite",
+      "change": "本轮补专项课",
+      "questions": [
+        "foundation-topic-nonfinite-q0",
+        "foundation-topic-nonfinite-q1",
+        "foundation-topic-nonfinite-q2",
+        "foundation-topic-nonfinite-depth-0",
+        "foundation-topic-nonfinite-depth-1",
+        "foundation-topic-nonfinite-depth-2"
+      ]
+    },
+    {
+      "chapter": 18,
+      "pdfPage": 454,
+      "topic": "cuando 时间从句",
+      "guide": "foundation-topic-relative-time-place",
+      "change": "本轮补专项课",
+      "questions": [
+        "foundation-topic-relative-time-place-q0",
+        "foundation-topic-relative-time-place-q1",
+        "foundation-topic-relative-time-place-q2",
+        "foundation-topic-relative-time-place-depth-0",
+        "foundation-topic-relative-time-place-depth-1",
+        "foundation-topic-relative-time-place-depth-2"
+      ]
+    },
+    {
+      "chapter": 18,
+      "pdfPage": 454,
+      "topic": "未完成过去入门",
+      "guide": "foundation-past",
+      "change": "关联已有详解",
+      "questions": [
+        "foundation-past-q0",
+        "foundation-past-q1",
+        "foundation-past-q2",
+        "foundation-past-depth-0",
+        "foundation-past-depth-1",
+        "foundation-past-depth-2",
+        "foundation-past-depth-3",
+        "foundation-past-depth-4"
+      ]
+    },
+    {
+      "chapter": 18,
+      "pdfPage": 454,
+      "topic": "副动词入门",
+      "guide": "foundation-topic-nonfinite",
+      "change": "本轮补专项课",
+      "questions": [
+        "foundation-topic-nonfinite-q0",
+        "foundation-topic-nonfinite-q1",
+        "foundation-topic-nonfinite-q2",
+        "foundation-topic-nonfinite-depth-0",
+        "foundation-topic-nonfinite-depth-1",
+        "foundation-topic-nonfinite-depth-2"
+      ]
+    }
+  ]
+}

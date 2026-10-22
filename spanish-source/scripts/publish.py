@@ -17,7 +17,7 @@ for destination in [repository, repository / 'docs', repository / 'spanish']:
         target.parent.mkdir(parents=True, exist_ok=True)
         shutil.copy2(source / relative, target)
     (destination / '.nojekyll').touch()
-    reports = {name: json.loads((source / (name + '.json')).read_text()) for name in ['public-site-validation', 'expanded-content-validation', 'expansion-browser-validation', 'gender-depth-validation', 'bridges-validation'] if (source / (name + '.json')).exists()}
+    reports = {name: json.loads((source / (name + '.json')).read_text()) for name in ['public-site-validation', 'expanded-content-validation', 'expansion-browser-validation', 'gender-depth-validation', 'bridges-validation', 'graded-scaffolds-validation', 'textbook-coverage-audit'] if (source / (name + '.json')).exists()}
     (destination / 'validation.json').write_text(json.dumps({'version':'2026-10-23-scaffolded','verification':'Local Chromium and content checks; hosting result is recorded separately in GitHub Pages Actions.','reports':reports}, ensure_ascii=False, indent=2))
     assert (destination / 'index.html').read_bytes() == (source / 'index.html').read_bytes()
     print(f'Synced {destination.relative_to(repository) or "."}')

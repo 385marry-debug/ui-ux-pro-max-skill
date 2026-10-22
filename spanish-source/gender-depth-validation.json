@@ -5,8 +5,8 @@
     "长课目录、冠词缩合、解释、8道实题与刷新恢复",
     "动词构造推理、深层内容搜索、390px无溢出"
   ],
-  "nounEntries": 4029,
-  "genderLabeled": 3696,
+  "nounEntries": 4041,
+  "genderLabeled": 3708,
   "unmatched": 333,
   "unmatchedCore": [
     [
@@ -58,7 +58,7 @@
       "日本"
     ]
   ],
-  "deepLessons": 16,
-  "deepQuestions": 108,
+  "deepLessons": 33,
+  "deepQuestions": 210,
   "errors": []
 }

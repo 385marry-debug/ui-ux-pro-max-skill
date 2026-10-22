@@ -1,5 +1,5 @@
 // Bibliographic references and independently summarized topic index, not a textbook transcription.
-const textbookReview={title:'西班牙语公共课·上册（Caminante）',editor:'陈芷主编',pdfPages:487,scope:'已核对前言、18课语法导入与主题清单；细读早期名词/冠词、现在时、钟点、宾语代词及无人称等代表性讲解与练习。尚未逐题核验全书、配套音频或出版方应用。',lessons:[
+const textbookReview={title:'西班牙语公共课·上册（Caminante）',editor:'陈芷主编',pdfPages:487,scope:'按18课语法主题逐项对照站内讲解，补上直达课程和题目；已阅读各课导入与代表性规则、注意事项。配套音频、原题答案和所有子规则尚未逐条核验。',lessons:[
 [1,27,['名词的性','单数定冠词','大小写','问号与感叹号']],
 [2,39,['名词复数','复数定冠词','指示代词','介词 de']],
 [3,60,['不定冠词','主格人称代词','ser 现在时']],
