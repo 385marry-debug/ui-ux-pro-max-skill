@@ -12,7 +12,9 @@ src/ 是课程、教学、词库及交互源文件；保留完整数据，构建
 
 ## 更新网站
 
-修改后运行 python3 build.py，将 index.html 和 assets/licenses/ 同步到 ../spanish/ 和 ../docs/。公开产物不包含用户 PDF、扫描页或原书 OCR 摘录。
+修改后运行 `python3 scripts/publish.py`，自动构建并将 index.html 和 assets/licenses/ 同步到仓库根目录、../spanish/ 和 ../docs/。因此 Pages 选择根目录或 /docs 都会打开同一网站。同步时只包含网站文件和许可声明，不会复制用户 PDF、扫描页或原书 OCR 摘录。
+
+公开网址：https://385marry-debug.github.io/ui-ux-pro-max-skill/ 。GitHub Pages 已于 2026-10-22 成功完成首次发布，发布记录：https://github.com/385marry-debug/ui-ux-pro-max-skill/actions/runs/39783910005 。
 
 ## 重新生成扩展词库（可选）
 
