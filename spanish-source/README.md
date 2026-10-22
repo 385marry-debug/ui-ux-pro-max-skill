@@ -35,7 +35,7 @@ public-site-validation.json、classroom-validation.json 和 navigation-validatio
 - 全部7213个词条具有词性；45个高频多义词另配按义项区分的例句、译文和使用提示。其余开放词典义项仍需逐条审校，词性有标注不等于已核验其全部义项。
 - 原3个场景保留，新增12个场景示意图，共15场景、120物品、45道场景题。新图使用Lucide图标及部分原创SVG，明确为场景示意图。
 
-数据和教学文件：`conjugation-*`、`verb-teaching.js`、`foundation-lessons.js`、`rich-dialogues.js`、`culture-lessons.js`、`unit-translations.js`、`lexical-enrichment.js`、`extra-scenes.js`。入口和导航整合见 `learning-expansion-ui.js`。许可见 assets/licenses/SOURCES.html；变位数据库采用CC BY-NC-SA 3.0，与应用代码及其他数据许可分别管理。
+数据和教学文件：`conjugation-*`、`verb-teaching.js`、`foundation-lessons.js`、`rich-dialogues.js`、`culture-lessons.js`、`unit-translations.js`、`lexical-enrichment.js`、`lexical-pos.js`、`extra-scenes.js`。入口和导航整合见 `learning-expansion-ui.js`。许可见 assets/licenses/SOURCES.html；变位数据库采用CC BY-NC-SA 3.0，与应用代码及其他数据许可分别管理。
 
 验证：`node tests/expanded-content.cjs`；`SITE_URL=http://127.0.0.1:8000 node tests/expansion-browser.mjs`。浏览器测试需Playwright、Chromium，安装位置根据机器修改。`expanded-content-validation.json`、`expansion-browser-validation.json`记录本轮结果。音频再生成可使用 `scripts/build-listening-audio.py`；常规构建/发布直接复用已生成MP3。
 
