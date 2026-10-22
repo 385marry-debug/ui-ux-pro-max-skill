@@ -1,0 +1,9 @@
+function conjugationMeaning(v){const exact=vocab.find(w=>lexicalHeadword(w.word)===v);return conjugationData[v]?.zh||exact?.meaning||conjugationData[v]?.en||''}
+const conjPeople=['yo','tú','él / ella / usted','nosotros / nosotras','vosotros / vosotras','ellos / ellas / ustedes'];
+function conjugationQuestion(id){if(typeof id!=='string'||!id.startsWith('cx~'))return null;const parts=id.split('~');if(parts.length!==4)return null;let v;try{v=decodeURIComponent(parts[1])}catch{return null}const t=conjugationTenses.find(t=>t.key===parts[2]),p=Number(parts[3]),entry=Object.hasOwn(conjugationData,v)?conjugationData[v]:null;if(!entry||!t||!Number.isInteger(p)||p<0||p>5)return null;const answer=entry.forms[t.key]?.[p];if(!answer)return null;const rule=verbRuleLessons[t.key];return {id,kind:'input',level:t.level,cat:'动词变位',conjVerb:v,conjTense:t.key,person:p,prompt:`${v} · ${t.name} · ${conjPeople[p]}：_____`,answer,hint:'填写完整目标形式；自复动词保留代词，否定命令保留 no。',explain:`${v} → ${answer}。人称：${conjPeople[p]}。${rule.build} ${entry.reflexive?'本词带代词，必须同时匹配代词人称和动词形式。':''}${v==='haber'?'这里是助动词变位；表示存在时另看 hay/había/hubo 的非人称规则。':''}`,speak:answer}}
+const fixedQuestionGet=byId.get.bind(byId),fixedQuestionHas=byId.has.bind(byId);
+function hydrateConjugation(id){const q=conjugationQuestion(id);if(q)byId.set(id,q);return q||undefined}
+byId.get=function(id){return fixedQuestionGet(id)||hydrateConjugation(id)};
+byId.has=function(id){return fixedQuestionHas(id)||!!hydrateConjugation(id)};
+// Search indexes one entry question per verb; other cells are constructed on demand, not counted as new knowledge points.
+for(const [verb,entry] of Object.entries(conjugationData)){const p=entry.forms.present[0]?0:2;const q=conjugationQuestion('cx~'+encodeURIComponent(verb)+'~present~'+p);if(q){questionBank.push(q);byId.set(q.id,q)}}

@@ -1,0 +1,11 @@
+{
+  "distinctInfinitives": 638,
+  "sourceInfinitives": 637,
+  "authoredAuxiliary": "haber",
+  "moodTenseGroups": 20,
+  "nonemptyCells": 74942,
+  "source": "https://raw.githubusercontent.com/ghidinelli/fred-jehle-spanish-verbs/master/jehle_verb_database.csv",
+  "sourceSHA256": "f77f01d536cd351584051d76902ff8051ab1b945a38e69c7ed02da78ab082ea8",
+  "license": "CC BY-NC-SA 3.0",
+  "note": "-se alternatives derived from supplied -ra forms. Historical forms explicitly labelled; source tables are not claimed to cover every contemporary regional variant or every verb."
+}

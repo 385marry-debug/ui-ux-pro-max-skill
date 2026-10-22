@@ -1,0 +1,10 @@
+// Original lessons and listening materials; synthetic audio is labelled separately.
+const listeningLessons=[];
+for(const u of units){const q=u.questions.find(q=>q.passage);if(q)listeningLessons.push({id:'listen-base-'+u.id,unit:u.id,title:u.title+' · 叙述短文',level:u.level,sourceType:'graded',script:u.text,translation:u.translation,turns:[],focus:u.rules.join(' '),questions:[{prompt:q.prompt,answer:q.answer,options:q.options,explain:q.explain,evidence:-1}]})}
+for(const d of richDialogues){listeningLessons.push({...d,id:'listen-'+d.id,sourceType:'dialogue',script:d.turns.map(t=>t.es).join(' ')});const u=units.find(u=>u.id===d.unit);u.richDialogue=d.id;for(const [i,q]of d.questions.entries()){const check={...q,id:'rich-'+u.id+'-q'+i,level:u.level,unit:u.id,cat:'对话理解',kind:'choice',passage:d.turns.map(t=>t.es).join(' '),explain:q.explain+' 文本依据：'+d.turns[q.evidence].es};u.questions.push(check);questionBank.push(check);byId.set(check.id,check)}}
+for(const c of cultureLessons)listeningLessons.push({...c,id:'listen-'+c.id,sourceType:'culture',script:c.turns.map(t=>t.es).join(' '),focus:c.paragraphs.join(' ')});
+for(const l of listeningLessons){l.audio='assets/audio/'+l.id+'.mp3';l.questions=l.questions.map((q,i)=>({...q,id:l.id+'-q'+i,level:l.level,cat:'听力理解',kind:'choice',listenId:l.id,explain:q.explain+(q.evidence>=0?' 听力证据：'+l.turns[q.evidence].es:''),speak:q.answer}));for(const q of l.questions){questionBank.push(q);byId.set(q.id,q)}}
+// Preserve the original 10 cultural topic identifiers when extending the catalog.
+for(const c of cultureLessons)for(const [i,q]of c.questions.entries()){const check={...q,id:c.id+'-q'+i,level:c.level,cat:'文化与交际',kind:'choice',cultureLesson:c.id,explain:q.explain+' 示范依据：'+c.turns[q.evidence].es};questionBank.push(check);byId.set(check.id,check)}
+
+for(const q of questionBank){if(/^(foundation-|rich-|listen-|culture-deep-)/.test(q.id)&&q.options){const shift=[...q.id].reduce((n,c)=>n+c.charCodeAt(0),0)%q.options.length;q.options=[...q.options.slice(shift),...q.options.slice(0,shift)]}}

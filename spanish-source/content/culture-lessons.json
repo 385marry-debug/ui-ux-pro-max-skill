@@ -1,0 +1,1562 @@
+[
+  {
+    "id": "culture-deep-0",
+    "title": "地理与多语世界",
+    "level": "A1",
+    "region": "跨地区基础",
+    "paragraphs": [
+      "西语不是一个国家的一套声音。它在欧洲、美洲以及其他地区的多个社会中使用；同一国家内部也有城乡、代际和个人差异。先认识地图，再选择自己的重点使用场景。",
+      "西班牙内部的语言现实也多样：加泰罗尼亚语、加利西亚语、巴斯克语等在相应地区有重要地位；美洲多地同时使用原住民语言。不能凭某人国籍就断定他只说西语。",
+      "交流中先问 ¿Qué lenguas hablas?，而不是替别人决定身份。国家、居住地、出生地和母语是不同信息：Soy de México、Vivo en España 与 Mi lengua materna es… 不可互相代替。"
+    ],
+    "turns": [
+      {
+        "es": "Soy de México, pero ahora vivo en España.",
+        "zh": "我来自墨西哥，现在住西班牙。"
+      },
+      {
+        "es": "¿Hablas otras lenguas además del español?",
+        "zh": "除西语外还说其他语言吗？"
+      },
+      {
+        "es": "Sí, en mi familia también se habla una lengua indígena.",
+        "zh": "是，家里也说一种原住民语言。"
+      },
+      {
+        "es": "Me gustaría aprender cómo se llama, si quieres contármelo.",
+        "zh": "如果你愿意说，我想了解它的名字。"
+      }
+    ],
+    "questions": [
+      {
+        "prompt": "说话者来自哪里？",
+        "answer": "墨西哥",
+        "options": [
+          "墨西哥",
+          "西班牙",
+          "未说明"
+        ],
+        "evidence": 0,
+        "explain": "来源与住处要分开。"
+      },
+      {
+        "prompt": "现在住哪里？",
+        "answer": "西班牙",
+        "options": [
+          "西班牙",
+          "墨西哥",
+          "不知道"
+        ],
+        "evidence": 0,
+        "explain": "ahora vivo 明确现居地。"
+      },
+      {
+        "prompt": "较合适的提问方式是什么？",
+        "answer": "允许对方自愿介绍",
+        "options": [
+          "允许对方自愿介绍",
+          "断言对方只能说西语",
+          "按长相猜语言"
+        ],
+        "evidence": 3,
+        "explain": "si quieres 给对方保留是否讲述的空间。"
+      }
+    ],
+    "repair": "把“你们国家的人都说……”改成“你自己说哪些语言？”；没有得到回答不代表你可以替对方补全。"
+  },
+  {
+    "id": "culture-deep-1",
+    "title": "名字、称呼与礼貌",
+    "level": "A1",
+    "region": "因地区、关系、机构而异",
+    "paragraphs": [
+      "tú、usted、vos 不是只由年龄决定的开关。陌生人、同事、家人之间怎样称呼，要看当地用法、关系和机构习惯；有些地区家人之间也用 usted。",
+      "许多西语社会可见一个或多个名字及两个姓氏，但排列、法律和个人使用都有差异。填表应看 nombre(s)、apellido(s) 的实际要求，不擅自把所有姓名压成英语式 first/last 两格。",
+      "不确定时可以礼貌询问 ¿Cómo prefiere que le llame?。对方明确偏好之后保持一致。称呼较正式不等于一定疏远，使用 tú 也不自动意味着亲密。"
+    ],
+    "turns": [
+      {
+        "es": "Buenos días, profesora. ¿Cómo prefiere que le llame?",
+        "zh": "早上好，老师，您希望我怎样称呼？"
+      },
+      {
+        "es": "Puedes llamarme Ana y hablarme de tú.",
+        "zh": "可以叫我 Ana，也可以用 tú。"
+      },
+      {
+        "es": "Gracias, Ana. ¿Podrías explicarme esta palabra?",
+        "zh": "谢谢 Ana，能解释这个词吗？"
+      },
+      {
+        "es": "Claro. Y si necesitas usar mi apellido en un formulario, te lo escribo.",
+        "zh": "当然，填表需要我的姓氏，我可以写给你。"
+      }
+    ],
+    "questions": [
+      {
+        "prompt": "老师希望怎样称呼？",
+        "answer": "Ana",
+        "options": [
+          "Ana",
+          "必须完整职衔",
+          "不能直接称呼"
+        ],
+        "evidence": 1,
+        "explain": "对方已给出明确偏好。"
+      },
+      {
+        "prompt": "转换为 tú 后能随意不礼貌吗？",
+        "answer": "不能",
+        "options": [
+          "不能",
+          "可以",
+          "无需考虑语气"
+        ],
+        "evidence": 2,
+        "explain": "podrías 仍保留适当请求语气。"
+      },
+      {
+        "prompt": "填表信息不确定时怎么做？",
+        "answer": "请本人确认拼写",
+        "options": [
+          "请本人确认拼写",
+          "猜测姓氏",
+          "删除另一姓氏"
+        ],
+        "evidence": 3,
+        "explain": "尊重姓名使用与表格要求。"
+      }
+    ],
+    "repair": "先问偏好，再调整代词和动词：usted puede／tú puedes。不要只换称呼，动词却维持另一套人称。"
+  },
+  {
+    "id": "culture-deep-2",
+    "title": "饮食与日常作息",
+    "level": "A1",
+    "region": "具体城市和场所优先",
+    "paragraphs": [
+      "不要把“某地吃饭晚”“每天都午睡”当作所有人的统一时间表。工作、家庭、季节和城市会影响作息；餐厅厨房营业时间也可能不同于店面营业时间。",
+      "看菜单先区分菜品、份量、是否含饮料与套餐条件。menú del día 在许多西班牙场所指当日套餐，carta 常指菜单；同一个词在别处用法可能不同，应向店员确认。",
+      "特殊饮食需求要说清楚：Sin leche、Soy alérgico/a a…，并询问是否含某成分。不要假定“去掉表面配料”就一定满足过敏要求。"
+    ],
+    "turns": [
+      {
+        "es": "¿A qué hora abre la cocina?",
+        "zh": "厨房几点开始供应？"
+      },
+      {
+        "es": "A la una. Ahora solo servimos bebidas.",
+        "zh": "一点，现在只供应饮品。"
+      },
+      {
+        "es": "¿El menú incluye agua y postre?",
+        "zh": "套餐含水和甜点吗？"
+      },
+      {
+        "es": "Incluye agua, pero el postre se paga aparte.",
+        "zh": "含水，但甜点另付。"
+      }
+    ],
+    "questions": [
+      {
+        "prompt": "厨房几点供应？",
+        "answer": "一点",
+        "options": [
+          "一点",
+          "现在全部菜都能点",
+          "十二点"
+        ],
+        "evidence": 1,
+        "explain": "abre la cocina 与门店开放不完全等同。"
+      },
+      {
+        "prompt": "套餐含什么？",
+        "answer": "水",
+        "options": [
+          "水",
+          "甜点一定免费",
+          "所有饮料"
+        ],
+        "evidence": 3,
+        "explain": "incluye agua 明确范围。"
+      },
+      {
+        "prompt": "甜点怎么付？",
+        "answer": "另付",
+        "options": [
+          "另付",
+          "全部免费",
+          "不能购买"
+        ],
+        "evidence": 3,
+        "explain": "se paga aparte 表另计。"
+      }
+    ],
+    "repair": "用“¿Qué incluye?”确认内容，比只看套餐价格更可靠。对含糊的点头可复述完整条件。"
+  },
+  {
+    "id": "culture-deep-3",
+    "title": "地区词汇与口音",
+    "level": "A2",
+    "region": "识别差异，稳定输出",
+    "paragraphs": [
+      "ordenador、computadora、computador 都可指电脑；coche、carro、auto 的分布也随地区变化。同形词还可能有不同含义，不能建立只有一一对应的国家标签表。",
+      "发音差异如 seseo、yeísmo 与部分地区的 /s/ 弱化，是需要逐步认识的系统差异。初学先维持清楚的元音、重读与一个稳定变体，不需要模仿所有口音。",
+      "听不懂先问具体词义：¿Con… te refieres a…?。不要直接评价“口音不标准”。数据库中的六人称表也并不包含所有 voseo 变体。"
+    ],
+    "turns": [
+      {
+        "es": "En mi casa decimos computadora. ¿Aquí se usa ordenador?",
+        "zh": "我家说 computadora，这里说 ordenador 吗？"
+      },
+      {
+        "es": "Sí, aunque entendemos las dos palabras.",
+        "zh": "是，不过两种都懂。"
+      },
+      {
+        "es": "Y cuando dices carro, ¿te refieres al coche o al carrito de compra?",
+        "zh": "说 carro 是车还是购物推车？"
+      },
+      {
+        "es": "En esta conversación me refiero al coche.",
+        "zh": "这段话里指汽车。"
+      }
+    ],
+    "questions": [
+      {
+        "prompt": "两种电脑词都能理解吗？",
+        "answer": "能",
+        "options": [
+          "能",
+          "绝对不能",
+          "只懂中文"
+        ],
+        "evidence": 1,
+        "explain": "entendemos las dos 明确理解范围。"
+      },
+      {
+        "prompt": "carro 在本对话指什么？",
+        "answer": "汽车",
+        "options": [
+          "汽车",
+          "购物车",
+          "火车"
+        ],
+        "evidence": 3,
+        "explain": "词义由当前语境与澄清决定。"
+      },
+      {
+        "prompt": "不明白地区词怎么办？",
+        "answer": "具体询问所指",
+        "options": [
+          "具体询问所指",
+          "直接判错",
+          "假装听懂"
+        ],
+        "evidence": 2,
+        "explain": "例句给出澄清框架。"
+      }
+    ],
+    "repair": "用“本对话里你指的是……”确认，而不是把词永久固定成一个中文释义。"
+  },
+  {
+    "id": "culture-deep-4",
+    "title": "邀请、拒绝与边界",
+    "level": "A2",
+    "region": "尊重个人意愿",
+    "paragraphs": [
+      "邀请并不意味着对方有义务接受。拒绝时可以感谢邀请、简短说明限制，并且仅在自己愿意时提出替代方案；不需要为每次拒绝编造长篇借口。",
+      "见面时的握手、拥抱、贴面礼等取决于地区、关系和个人意愿。观察与询问比按国籍强行实施一种礼仪更稳妥。拒绝身体接触不等于敌意。",
+      "表达边界要明确：Prefiero…、Ahora no me viene bien。听者应接受回答，不把“礼貌”理解成继续施压。"
+    ],
+    "turns": [
+      {
+        "es": "¿Te apetece venir a cenar el sábado?",
+        "zh": "周六来吃晚饭吗？"
+      },
+      {
+        "es": "Gracias por invitarme, pero este sábado no puedo.",
+        "zh": "谢谢邀请，但这个周六不行。"
+      },
+      {
+        "es": "No pasa nada. ¿Quieres que busquemos otra fecha?",
+        "zh": "没关系，要不要另约？"
+      },
+      {
+        "es": "Sí, el domingo me viene mejor. Si a ti te va bien, lo confirmamos.",
+        "zh": "好，周日更合适，你也方便的话就定下来。"
+      }
+    ],
+    "questions": [
+      {
+        "prompt": "拒绝的是所有邀请吗？",
+        "answer": "只是这周六",
+        "options": [
+          "只是这周六",
+          "永远不再见面",
+          "没给任何信息"
+        ],
+        "evidence": 1,
+        "explain": "este sábado 限定具体时间。"
+      },
+      {
+        "prompt": "替代日期是哪天？",
+        "answer": "周日",
+        "options": [
+          "周日",
+          "周五",
+          "周六没变"
+        ],
+        "evidence": 3,
+        "explain": "el domingo 给替代方案。"
+      },
+      {
+        "prompt": "听到拒绝后怎样回应？",
+        "answer": "接受并询问是否愿意另约",
+        "options": [
+          "接受并询问是否愿意另约",
+          "持续施压",
+          "要求长篇证明"
+        ],
+        "evidence": 2,
+        "explain": "No pasa nada 尊重原答复。"
+      }
+    ],
+    "repair": "想拒绝时可以停在“Gracias, pero no puedo”。替代方案是选择，不是礼貌义务。"
+  },
+  {
+    "id": "culture-deep-5",
+    "title": "节日与社区",
+    "level": "A2",
+    "region": "具体地点与参与者",
+    "paragraphs": [
+      "节日要分清宗教传统、家庭记忆、社区活动与旅游展示，不能把一张宣传海报当作所有居民共同的生活。圣周、三王节等在不同地方有不同实践，也有人不参与。",
+      "墨西哥的亡灵节常与纪念逝者、家庭和地方传统相关，不能简单说成“墨西哥的万圣节”。它的实践与意义在社区间有差异；参观活动应尊重私人空间和纪念行为。",
+      "提问时从当地经验入手：¿Cómo se celebra en tu comunidad?，并问对方是否愿意分享。解释时使用 En mi familia… 或 En este pueblo… 限定范围。"
+    ],
+    "turns": [
+      {
+        "es": "¿Cómo celebráis esta fiesta en tu familia?",
+        "zh": "你们家怎样过这个节？"
+      },
+      {
+        "es": "En mi familia nos reunimos, pero no todos participamos de la misma manera.",
+        "zh": "我们家聚会，但不是每个人参与方式都一样。"
+      },
+      {
+        "es": "¿Puedo hacer fotos de la mesa?",
+        "zh": "可以拍桌子的照片吗？"
+      },
+      {
+        "es": "Prefiero que preguntes antes a las demás personas.",
+        "zh": "请先问其他人是否同意。"
+      }
+    ],
+    "questions": [
+      {
+        "prompt": "同一家人是否完全相同地参与？",
+        "answer": "不完全相同",
+        "options": [
+          "不完全相同",
+          "必然完全一样",
+          "都不参与"
+        ],
+        "evidence": 1,
+        "explain": "no todos…de la misma manera 排除统一假设。"
+      },
+      {
+        "prompt": "拍照前应怎样？",
+        "answer": "先问相关人",
+        "options": [
+          "先问相关人",
+          "看到就拍",
+          "按游客习惯决定"
+        ],
+        "evidence": 3,
+        "explain": "征询具体人的同意。"
+      },
+      {
+        "prompt": "怎样限定解释范围？",
+        "answer": "En mi familia",
+        "options": [
+          "En mi familia",
+          "Todo el mundo siempre",
+          "任何地方完全一样"
+        ],
+        "evidence": 1,
+        "explain": "家庭经验不能自动代表全社会。"
+      }
+    ],
+    "repair": "把“这个国家都这样过节”改成“这个社区/家庭怎样实践”，再说明你的信息来自谁。"
+  },
+  {
+    "id": "culture-deep-6",
+    "title": "历史与多元身份",
+    "level": "B1",
+    "region": "区分事实、解释与视角",
+    "paragraphs": [
+      "西语在美洲的传播与殖民历史密切相关，也与后来各地区的独立、迁移和社会变化相连。语言扩展不应被讲成没有权力关系的单线进步故事。",
+      "同一事件的命名、纪念方式和评价可能体现不同群体视角。学习时区分时间地点等可核实信息、因果解释与价值判断，并寻找原住民、移民及其他群体的声音。",
+      "讲历史可先用 Según esta fuente… 标注来源，再比较另一来源怎样叙述。不同叙述不意味着所有事实都可随意编写，也不意味着某一国籍的人必须持某种立场。"
+    ],
+    "turns": [
+      {
+        "es": "Este museo llama al proceso «encuentro», pero otra exposición habla de «conquista».",
+        "zh": "这个博物馆称为相遇，另一个展览称征服。"
+      },
+      {
+        "es": "Conviene preguntar quién usa cada palabra y qué experiencias destaca.",
+        "zh": "应问谁使用各词、突出哪些经历。"
+      },
+      {
+        "es": "Podemos comparar fechas y testimonios sin fingir que todas las interpretaciones son idénticas.",
+        "zh": "可以比较日期证言，不假装所有解释一样。"
+      },
+      {
+        "es": "Sí, y citar las fuentes para que otros puedan comprobarlas.",
+        "zh": "是，也标明来源便于核查。"
+      }
+    ],
+    "questions": [
+      {
+        "prompt": "两个展览的措辞相同吗？",
+        "answer": "不同",
+        "options": [
+          "不同",
+          "完全相同",
+          "没有措辞"
+        ],
+        "evidence": 0,
+        "explain": "encuentro 与 conquista 表现不同框架。"
+      },
+      {
+        "prompt": "比较时关注什么？",
+        "answer": "使用者、经历与证据",
+        "options": [
+          "使用者、经历与证据",
+          "只看哪句更长",
+          "按国籍自动判定"
+        ],
+        "evidence": 1,
+        "explain": "提问对象是叙述框架与材料。"
+      },
+      {
+        "prompt": "为什么引注来源？",
+        "answer": "让别人核查",
+        "options": [
+          "让别人核查",
+          "阻止比较",
+          "代替全部论证"
+        ],
+        "evidence": 3,
+        "explain": "可核查性与观点比较相辅相成。"
+      }
+    ],
+    "repair": "不要用一句旅游标签替代历史。先分清事实与解释，再明确自己的材料范围。"
+  },
+  {
+    "id": "culture-deep-7",
+    "title": "音乐、电影与文学",
+    "level": "B1",
+    "region": "作品语体不等于日常模板",
+    "paragraphs": [
+      "歌词为节奏押韵可能省略或调整顺序；电影对白会使用口语、地区词甚至有意不规范表达。能听懂作品，不等于每句话都适合发给老师或写正式邮件。",
+      "学习作品时先找人物关系与情境，再确认一个表达的字面义、语境义和语体。例如夸张语句可能表达情绪，不应逐字当成事实。",
+      "从短片段开始：先听大意，再看字幕，选两句可迁移的表达，换到自己的场景。引用作品时尊重版权；本站使用原创示范对话，不把整部作品搬进课程。"
+    ],
+    "turns": [
+      {
+        "es": "En la canción dice «me muero de ganas de verte». ¿Habla de morir de verdad?",
+        "zh": "歌里说想见你想死了，真指死亡吗？"
+      },
+      {
+        "es": "No, en este contexto es una exageración para expresar muchas ganas.",
+        "zh": "不，此处夸张表达强烈愿望。"
+      },
+      {
+        "es": "¿Puedo usarla en una solicitud formal?",
+        "zh": "可以用在正式申请里吗？"
+      },
+      {
+        "es": "Sería mejor una expresión más neutra, como «me gustaría reunirme con usted».",
+        "zh": "宜用更中性的“希望与您会面”。"
+      }
+    ],
+    "questions": [
+      {
+        "prompt": "示例表达是字面死亡吗？",
+        "answer": "不是，是夸张愿望",
+        "options": [
+          "不是，是夸张愿望",
+          "是医学诊断",
+          "是在命令别人"
+        ],
+        "evidence": 1,
+        "explain": "语境决定修辞含义。"
+      },
+      {
+        "prompt": "适合所有正式申请吗？",
+        "answer": "不宜直接套用",
+        "options": [
+          "不宜直接套用",
+          "任何表达都一样",
+          "必须使用"
+        ],
+        "evidence": 3,
+        "explain": "语体要匹配交际目的。"
+      },
+      {
+        "prompt": "学习片段后应做什么？",
+        "answer": "判断语境并迁移合适表达",
+        "options": [
+          "判断语境并迁移合适表达",
+          "整段逐字当规则",
+          "只记中文字幕"
+        ],
+        "evidence": 0,
+        "explain": "理解形式之外还要理解使用条件。"
+      }
+    ],
+    "repair": "判断一句话“什么意思”后，还要问“谁对谁说、在什么场合说”。"
+  },
+  {
+    "id": "culture-deep-8",
+    "title": "社会议题与媒体",
+    "level": "B2",
+    "region": "证据与范围",
+    "paragraphs": [
+      "新闻中应区分新闻事实、机构声明、评论、广告和个人叙述。日期、地点、样本和统计定义会改变数字的含义；旧消息可能被换标题重新传播。",
+      "关联不自动证明因果，单个经历也不能直接代表总体。比较住房、就业或教育信息时，先核对相同地区、相同时间和相近指标，再考虑解释。",
+      "表达结论可以用 Los datos sugieren…、En esta muestra…，避免来源只测到偏好，却写成“已证明提高所有人的成绩”。谨慎不是不表达观点，而是让观点与证据相称。"
+    ],
+    "turns": [
+      {
+        "es": "El titular afirma que los alquileres subieron un veinte por ciento.",
+        "zh": "标题说租金涨两成。"
+      },
+      {
+        "es": "¿En qué ciudad, durante qué periodo y con qué tipo de viviendas?",
+        "zh": "哪个城市、何时、什么住房类型？"
+      },
+      {
+        "es": "La nota solo describe anuncios de una plataforma durante un mes.",
+        "zh": "文章只描述某平台一个月的挂牌。"
+      },
+      {
+        "es": "Entonces no basta para concluir que todos los contratos del país cambiaron igual.",
+        "zh": "那不能推断全国所有合同都一样变化。"
+      }
+    ],
+    "questions": [
+      {
+        "prompt": "数据来自哪里？",
+        "answer": "某平台挂牌",
+        "options": [
+          "某平台挂牌",
+          "全国所有合同",
+          "每个家庭"
+        ],
+        "evidence": 2,
+        "explain": "anuncios 不等于全部实际成交合同。"
+      },
+      {
+        "prompt": "观察期多长？",
+        "answer": "一个月",
+        "options": [
+          "一个月",
+          "十年",
+          "没有提"
+        ],
+        "evidence": 2,
+        "explain": "durante un mes 是明确范围。"
+      },
+      {
+        "prompt": "结论应怎样？",
+        "answer": "限定范围",
+        "options": [
+          "限定范围",
+          "直接代表全国",
+          "数字大就无需核查"
+        ],
+        "evidence": 3,
+        "explain": "证据与推广范围必须匹配。"
+      }
+    ],
+    "repair": "先问定义与覆盖范围，再讨论数字大不大；百分比不能消除抽样局限。"
+  },
+  {
+    "id": "culture-deep-9",
+    "title": "解释自己的文化",
+    "level": "B2",
+    "region": "双向交流",
+    "paragraphs": [
+      "跨文化交流不只是了解“对方文化”，也包括把自己的经验解释清楚。先给具体例子，再限定家庭、城市、群体和时间，不把个人习惯包装成全国规定。",
+      "有些概念没有完全对应的单个西语词，可以用短句解释功能与情境，而不是寻找一个看似高级的词强行对等。也允许同一文化背景的人有不同态度。",
+      "良好的解释给对方提问空间：En mi familia solemos…、No todo el mundo lo hace igual、¿Hay algo parecido en tu entorno?。解释不是要求对方接受或模仿。"
+    ],
+    "turns": [
+      {
+        "es": "En mi familia solemos reunirnos para cenar durante esa fiesta.",
+        "zh": "我们家这个节常聚餐。"
+      },
+      {
+        "es": "¿Todas las familias lo hacen igual?",
+        "zh": "每家都一样吗？"
+      },
+      {
+        "es": "No necesariamente. Depende del lugar y de las preferencias de cada familia.",
+        "zh": "不一定，看地方与各家偏好。"
+      },
+      {
+        "es": "Entiendo. ¿Qué parte es importante para ti personalmente?",
+        "zh": "明白，对你个人最重要的是哪部分？"
+      }
+    ],
+    "questions": [
+      {
+        "prompt": "所讲习惯的范围是什么？",
+        "answer": "说话者家庭",
+        "options": [
+          "说话者家庭",
+          "所有人统一",
+          "法律强制"
+        ],
+        "evidence": 0,
+        "explain": "En mi familia 明确范围。"
+      },
+      {
+        "prompt": "各家是否必然相同？",
+        "answer": "不一定",
+        "options": [
+          "不一定",
+          "完全一样",
+          "没人过节"
+        ],
+        "evidence": 2,
+        "explain": "No necesariamente 保留差异。"
+      },
+      {
+        "prompt": "后续问题关注什么？",
+        "answer": "个人意义",
+        "options": [
+          "个人意义",
+          "强迫模仿",
+          "评比文化高低"
+        ],
+        "evidence": 3,
+        "explain": "个人理解与社会规则不等同。"
+      }
+    ],
+    "repair": "可以把对方不熟悉的事拆成“何时—谁参与—做什么—为什么对我重要”。"
+  },
+  {
+    "id": "culture-deep-10",
+    "title": "餐厅服务、账单与小费",
+    "level": "A1",
+    "region": "以当地规则和本店信息为准",
+    "paragraphs": [
+      "点餐可分问候、说明需求、确认内容、结账四步。称呼服务人员可以用 Disculpe，不必为了显得地道使用过分亲昵的词。",
+      "小费、税费、服务费是否另计随地区与场所而异，不设一个适用于所有西语地区的百分比。看清账单；不确定就问 ¿Está incluido el servicio?。",
+      "分开结账可以说 ¿Podemos pagar por separado?，但店家能否操作仍需确认。发现错误先指明项目与数量，不先指责对方动机。"
+    ],
+    "turns": [
+      {
+        "es": "Disculpe, ¿nos trae la cuenta, por favor?",
+        "zh": "请拿账单来好吗？"
+      },
+      {
+        "es": "Aquí la tienen. El servicio está incluido.",
+        "zh": "账单在这，已含服务费。"
+      },
+      {
+        "es": "Veo tres cafés, pero pedimos dos. ¿Podría revisarlo?",
+        "zh": "这里三个咖啡，但只点两个，能核对吗？"
+      },
+      {
+        "es": "Tiene razón. Lo corrijo ahora mismo.",
+        "zh": "您说得对，马上改。"
+      }
+    ],
+    "questions": [
+      {
+        "prompt": "服务费另加吗？",
+        "answer": "已包含",
+        "options": [
+          "已包含",
+          "确定加20%",
+          "未说明"
+        ],
+        "evidence": 1,
+        "explain": "está incluido 给出明确本店条件。"
+      },
+      {
+        "prompt": "点了几个咖啡？",
+        "answer": "两个",
+        "options": [
+          "两个",
+          "三个",
+          "一个"
+        ],
+        "evidence": 2,
+        "explain": "账单数量与实际点单对照。"
+      },
+      {
+        "prompt": "怎样指出问题？",
+        "answer": "说明项目并请核对",
+        "options": [
+          "说明项目并请核对",
+          "直接侮辱",
+          "假装没看见"
+        ],
+        "evidence": 2,
+        "explain": "具体、可核查的请求便于解决。"
+      }
+    ],
+    "repair": "把“账单错了”说得可操作：哪一项、实际几个、显示几个，再请对方核查。"
+  },
+  {
+    "id": "culture-deep-11",
+    "title": "约定时间与迟到通知",
+    "level": "A2",
+    "region": "双方明确约定优先",
+    "paragraphs": [
+      "不要把迟到归结为一个国家的统一文化，也不要用文化印象替自己取消已确认的时间。上课、医疗、工作会议与朋友聚会的期待可能不同。",
+      "约时间应明确日期、时刻、地点、时区及线上/线下方式。跨国交流中 aquí/a la tarde 可能含糊，要给出可核实信息。",
+      "预计迟到时及时说明延迟多久，并询问是否还能继续。道歉之后给方案，不把“马上”重复很多次却不给信息。"
+    ],
+    "turns": [
+      {
+        "es": "He quedado contigo a las cinco, pero el tren se ha retrasado.",
+        "zh": "约了五点，但火车晚点。"
+      },
+      {
+        "es": "Creo que llegaré diez minutos tarde. ¿Te sigue viniendo bien?",
+        "zh": "估计晚十分钟，你还方便吗？"
+      },
+      {
+        "es": "Sí, puedo esperar hasta las cinco y veinte.",
+        "zh": "可以，我能等到五点二十。"
+      },
+      {
+        "es": "Gracias. Si cambia algo, te aviso enseguida.",
+        "zh": "谢谢，有变化马上通知。"
+      }
+    ],
+    "questions": [
+      {
+        "prompt": "原约几点？",
+        "answer": "五点",
+        "options": [
+          "五点",
+          "五点二十",
+          "六点"
+        ],
+        "evidence": 0,
+        "explain": "不要把等待上限当成原定时间。"
+      },
+      {
+        "prompt": "预计晚多久？",
+        "answer": "十分钟",
+        "options": [
+          "十分钟",
+          "二十分钟",
+          "一小时"
+        ],
+        "evidence": 1,
+        "explain": "diez minutos tarde 为延迟量。"
+      },
+      {
+        "prompt": "对方最多等到何时？",
+        "answer": "五点二十",
+        "options": [
+          "五点二十",
+          "五点十分必然结束",
+          "全天"
+        ],
+        "evidence": 2,
+        "explain": "hasta 明确等待上限。"
+      }
+    ],
+    "repair": "通知要包含“原约＋新预计＋询问对方是否仍方便”，而不只是 Estoy llegando。"
+  },
+  {
+    "id": "culture-deep-12",
+    "title": "购物、试穿与退换",
+    "level": "A1",
+    "region": "商店与当地消费者规则",
+    "paragraphs": [
+      "购物先说明物品、尺寸、颜色与用途，再问价格。不同尺码体系不完全一致，最好看实际尺寸或试穿，不把国内尺码直接套到另一地区。",
+      "talla 常用于服装尺码，número 常用于鞋码，但实际用法可变。退换期限、商品状况与凭证要求要按店家和当地规则核实，口头示范不是法律承诺。",
+      "保留小票，确认 cambio（换货）、devolución（退货）和返款方式的区别。问条件比仅问“能退吗”更具体。"
+    ],
+    "turns": [
+      {
+        "es": "¿Puedo probarme esta chaqueta en una talla mediana?",
+        "zh": "能试中码夹克吗？"
+      },
+      {
+        "es": "Sí, el probador está al fondo.",
+        "zh": "可以，试衣间在里面。"
+      },
+      {
+        "es": "Si no me queda bien, ¿puedo cambiarla con el recibo?",
+        "zh": "不合适可拿小票换吗？"
+      },
+      {
+        "es": "Puede cambiarla dentro de catorce días si conserva las etiquetas.",
+        "zh": "保留标签，十四天内可换。"
+      }
+    ],
+    "questions": [
+      {
+        "prompt": "需要什么尺码？",
+        "answer": "中码",
+        "options": [
+          "中码",
+          "小码",
+          "没要求"
+        ],
+        "evidence": 0,
+        "explain": "mediana 指中码。"
+      },
+      {
+        "prompt": "示例店允许哪种操作？",
+        "answer": "符合条件换货",
+        "options": [
+          "符合条件换货",
+          "任何情况永久退现金",
+          "不许任何更换"
+        ],
+        "evidence": 3,
+        "explain": "cambiarla 与 devolución 不必相同。"
+      },
+      {
+        "prompt": "要求保留什么？",
+        "answer": "小票与标签",
+        "options": [
+          "小票与标签",
+          "包装颜色",
+          "购买时的天气"
+        ],
+        "evidence": 2,
+        "explain": "结合提问 recibo 和回答 etiquetas。"
+      }
+    ],
+    "repair": "复述退换的期限、凭证、状态和方式；不要把课堂店家的条件推广成所有国家法律。"
+  },
+  {
+    "id": "culture-deep-13",
+    "title": "住房、合租与边界",
+    "level": "A2",
+    "region": "城市、合同与住户约定",
+    "paragraphs": [
+      "alquiler、fianza、gastos incluidos 等词要连同合同看。fianza 通常涉及押金，但具体用途、扣除和返还规则应按当地法律及合同核实。",
+      "合租可主动谈安静时段、公共区域、访客和清洁分工。不要把个人卫生偏好包装成“我们国家都这样”，先说明具体需要并协商可执行规则。",
+      "不确定费用是否包含时逐项问水电网；没有写明的承诺应进一步确认，本站示例不构成租房法律意见。"
+    ],
+    "turns": [
+      {
+        "es": "¿El precio incluye agua, luz e internet?",
+        "zh": "价格含水电网吗？"
+      },
+      {
+        "es": "Incluye agua e internet, pero la electricidad se paga aparte.",
+        "zh": "含水网，电另付。"
+      },
+      {
+        "es": "Trabajo de noche. ¿Podemos acordar unas horas de silencio?",
+        "zh": "我夜班，能约定安静时间吗？"
+      },
+      {
+        "es": "Sí, dejemos el acuerdo por escrito para evitar malentendidos.",
+        "zh": "可以，写下来免误会。"
+      }
+    ],
+    "questions": [
+      {
+        "prompt": "哪项另付？",
+        "answer": "电费",
+        "options": [
+          "电费",
+          "水费",
+          "网费"
+        ],
+        "evidence": 1,
+        "explain": "pero 后列出排除项。"
+      },
+      {
+        "prompt": "为何要约安静时间？",
+        "answer": "夜班作息",
+        "options": [
+          "夜班作息",
+          "讨厌所有室友",
+          "没有工作"
+        ],
+        "evidence": 2,
+        "explain": "说明个人实际需要。"
+      },
+      {
+        "prompt": "约定怎样保存？",
+        "answer": "写下来",
+        "options": [
+          "写下来",
+          "只靠猜测",
+          "不让对方确认"
+        ],
+        "evidence": 3,
+        "explain": "共同明确比文化标签可靠。"
+      }
+    ],
+    "repair": "把“你们太吵”换成“我夜班白天要睡，能约定哪个时段安静吗？”具体需求更容易协商。"
+  },
+  {
+    "id": "culture-deep-14",
+    "title": "公共交通与购票",
+    "level": "A1",
+    "region": "实际运输系统",
+    "paragraphs": [
+      "billete、boleto、pasaje 的分布与交通系统有关；ida/vuelta 常用于单程/往返。不要看到 boleto 就认定是某个唯一国家。",
+      "核对出发站、到达站、日期、班次、座位和换乘条件；站台可能临时变化。表达“晚点、取消、换乘”的词应放回实际提示理解。",
+      "问路时复述方向与站名，避免只听懂一个熟悉词就上车。"
+    ],
+    "turns": [
+      {
+        "es": "Quisiera un billete de ida a Toledo para mañana.",
+        "zh": "想买明天去托莱多的单程票。"
+      },
+      {
+        "es": "El tren sale a las nueve y llega a las nueve y media.",
+        "zh": "九点发，九点半到。"
+      },
+      {
+        "es": "¿Tengo que hacer transbordo?",
+        "zh": "需要换乘吗？"
+      },
+      {
+        "es": "No, es directo. Compruebe el andén en la pantalla antes de subir.",
+        "zh": "不用，直达，上车前看屏幕确认站台。"
+      }
+    ],
+    "questions": [
+      {
+        "prompt": "买单程还是往返？",
+        "answer": "单程",
+        "options": [
+          "单程",
+          "往返",
+          "没说"
+        ],
+        "evidence": 0,
+        "explain": "de ida 指单程。"
+      },
+      {
+        "prompt": "行程多久？",
+        "answer": "半小时",
+        "options": [
+          "半小时",
+          "一小时半",
+          "九小时"
+        ],
+        "evidence": 1,
+        "explain": "九点到九点半为三十分钟。"
+      },
+      {
+        "prompt": "上车前确认什么？",
+        "answer": "站台",
+        "options": [
+          "站台",
+          "餐厅菜单",
+          "酒店名字"
+        ],
+        "evidence": 3,
+        "explain": "andén 与班次信息要核对。"
+      }
+    ],
+    "repair": "先确认目的地和班次，再确认站台。相同站名不保证每班车都停靠。"
+  },
+  {
+    "id": "culture-deep-15",
+    "title": "酒店入住与解决问题",
+    "level": "A2",
+    "region": "以预订条款和前台确认",
+    "paragraphs": [
+      "入住时先说明预订名、日期和房型。身份文件与押金要求按当地规则和酒店政策确认，不把本示例当所有地方统一要求。",
+      "遇到问题按“事实—影响—请求”说：空调不工作、房间太热、能否检查或换房。具体描述比只说 habitación mala 更有用。",
+      "离店时间与取消规则要看预订条件；不确定时请对方写下来。"
+    ],
+    "turns": [
+      {
+        "es": "Tengo una reserva a nombre de Lin para dos noches.",
+        "zh": "Lin 名下预订了两晚。"
+      },
+      {
+        "es": "La salida es a las once del último día.",
+        "zh": "最后一天十一点退房。"
+      },
+      {
+        "es": "En mi habitación no funciona el aire acondicionado. ¿Podrían revisarlo?",
+        "zh": "空调不工作，能检查吗？"
+      },
+      {
+        "es": "Sí, enviamos a alguien. Si no se soluciona, buscamos otra habitación.",
+        "zh": "会派人，解决不了再找其他房间。"
+      }
+    ],
+    "questions": [
+      {
+        "prompt": "住几晚？",
+        "answer": "两晚",
+        "options": [
+          "两晚",
+          "三晚",
+          "十一晚"
+        ],
+        "evidence": 0,
+        "explain": "dos noches 与退房时刻分开听。"
+      },
+      {
+        "prompt": "有什么问题？",
+        "answer": "空调不工作",
+        "options": [
+          "空调不工作",
+          "没有预订",
+          "门卡必然丢了"
+        ],
+        "evidence": 2,
+        "explain": "先描述可核查事实。"
+      },
+      {
+        "prompt": "已经承诺立即换房了吗？",
+        "answer": "先检查，未解决再找房",
+        "options": [
+          "先检查，未解决再找房",
+          "无条件立刻换",
+          "拒绝帮助"
+        ],
+        "evidence": 3,
+        "explain": "si no se soluciona 给条件。"
+      }
+    ],
+    "repair": "提出可行请求后确认流程与时间，不把对方的条件性答复当作无条件承诺。"
+  },
+  {
+    "id": "culture-deep-16",
+    "title": "就医沟通与紧急信息",
+    "level": "A2",
+    "region": "机构流程需当地确认",
+    "paragraphs": [
+      "描述症状时先说部位、开始时间、持续/反复和严重程度，再说明过敏、服药等相关信息。身体感受的语法如 me duele/me duelen 应与部位一致。",
+      "cita（预约）、urgencias（急诊）、receta（处方）是不同流程的词，不应把一般语言练习当诊断或用药指导。急救电话与保险安排要查当地官方信息。",
+      "没听懂时请重复，必要时要求翻译支持；重要信息不能靠点头猜测。"
+    ],
+    "turns": [
+      {
+        "es": "Me duele el oído desde ayer y soy alérgico a un medicamento.",
+        "zh": "昨天起耳朵痛，且对一种药过敏。"
+      },
+      {
+        "es": "¿Puede decirme cuál es o mostrarme el nombre?",
+        "zh": "能说出药名或出示名称吗？"
+      },
+      {
+        "es": "Lo tengo escrito aquí. No he entendido la última pregunta.",
+        "zh": "写在这里，最后一个问题没听懂。"
+      },
+      {
+        "es": "Se la repito más despacio y comprobamos los datos juntos.",
+        "zh": "慢点重说，一起核对。"
+      }
+    ],
+    "questions": [
+      {
+        "prompt": "症状从何时开始？",
+        "answer": "昨天",
+        "options": [
+          "昨天",
+          "一年以前",
+          "刚才一定如此"
+        ],
+        "evidence": 0,
+        "explain": "desde ayer 是起点。"
+      },
+      {
+        "prompt": "药名如何确认？",
+        "answer": "出示写下的名称",
+        "options": [
+          "出示写下的名称",
+          "凭颜色随便猜",
+          "不提过敏"
+        ],
+        "evidence": 2,
+        "explain": "具体名称比笼统“某种药”更安全准确。"
+      },
+      {
+        "prompt": "没听懂应该怎样？",
+        "answer": "明确提出并核对",
+        "options": [
+          "明确提出并核对",
+          "假装明白",
+          "随意答是"
+        ],
+        "evidence": 2,
+        "explain": "语言理解是流程的重要部分。"
+      }
+    ],
+    "repair": "先准备简短且真实的信息卡；本站只教沟通表达，不给药物选择或诊断。"
+  },
+  {
+    "id": "culture-deep-17",
+    "title": "数字、日期与跨国表格",
+    "level": "A1",
+    "region": "格式以文件说明为准",
+    "paragraphs": [
+      "日期格式存在差异，03/04 不能脱离表格规则猜是三月四日还是四月三日。说出月份名字可减少歧义：tres de abril。",
+      "小数分隔符、千位符、货币和单位也可能不同。看到 1.500 时先看文档惯例，不自动套用一种格式。",
+      "填写姓名、地址和证件号码后逐项复述；字符 O 与数字 0、字母 B 与 V 可通过拼读和例词确认。"
+    ],
+    "turns": [
+      {
+        "es": "La fecha es el tres de abril, no el cuatro de marzo.",
+        "zh": "是四月三日，不是三月四日。"
+      },
+      {
+        "es": "Gracias. ¿El importe es mil quinientos euros?",
+        "zh": "谢谢，金额是一千五百欧元吗？"
+      },
+      {
+        "es": "Sí. Y en el código hay un cero, no la letra o.",
+        "zh": "对，编码有数字零，不是字母 O。"
+      },
+      {
+        "es": "Voy a repetirlo para comprobar que lo he anotado bien.",
+        "zh": "我复述一遍确认记对。"
+      }
+    ],
+    "questions": [
+      {
+        "prompt": "日期是什么？",
+        "answer": "四月三日",
+        "options": [
+          "四月三日",
+          "三月四日",
+          "三月三日"
+        ],
+        "evidence": 0,
+        "explain": "月份名消除纯数字歧义。"
+      },
+      {
+        "prompt": "金额多少？",
+        "answer": "1500欧元",
+        "options": [
+          "1500欧元",
+          "1.5欧元",
+          "150欧元"
+        ],
+        "evidence": 1,
+        "explain": "mil quinientos 为一千五百。"
+      },
+      {
+        "prompt": "代码里是什么？",
+        "answer": "数字0",
+        "options": [
+          "数字0",
+          "字母O",
+          "数字8"
+        ],
+        "evidence": 2,
+        "explain": "cero 与 letra o 明确区分。"
+      }
+    ],
+    "repair": "先问格式，再填写；尤其跨国文件，用月份全称和币种确认关键数字。"
+  },
+  {
+    "id": "culture-deep-18",
+    "title": "消息、邮件与语体转换",
+    "level": "B1",
+    "region": "收件人与关系决定表达",
+    "paragraphs": [
+      "给朋友的消息可简短口语化，给机构的邮件应清楚交代身份、事项、所需回应与联系方式。正式不等于故意使用拗口长句。",
+      "缩写、表情、语音消息和非即时回复的接受程度因人而异。首次联系先用清晰文字，不假设对方愿意收长段语音。",
+      "修改语体时保留同一事实与请求，改变称呼、句框和结束语，不把原意思改掉。"
+    ],
+    "turns": [
+      {
+        "es": "A una amiga le escribiría: «¿Me pasas la dirección cuando puedas?»",
+        "zh": "给朋友可写：方便时发下地址？"
+      },
+      {
+        "es": "A la oficina: «Les agradecería que me confirmaran la dirección de la cita».",
+        "zh": "给办公室：烦请确认预约地址。"
+      },
+      {
+        "es": "¿Tengo que añadir muchas frases complicadas?",
+        "zh": "要加很多复杂句吗？"
+      },
+      {
+        "es": "No. Lo esencial es que sepan quién eres y qué respuesta necesitas.",
+        "zh": "不，关键是身份与所需回复明确。"
+      }
+    ],
+    "questions": [
+      {
+        "prompt": "两条消息的共同任务是什么？",
+        "answer": "确认/获得地址",
+        "options": [
+          "确认/获得地址",
+          "取消预约",
+          "投诉朋友"
+        ],
+        "evidence": 0,
+        "explain": "语体改变，核心意图不变。"
+      },
+      {
+        "prompt": "正式邮件一定越复杂越好吗？",
+        "answer": "不是",
+        "options": [
+          "不是",
+          "是",
+          "只能用诗歌"
+        ],
+        "evidence": 3,
+        "explain": "清楚可答比复杂更重要。"
+      },
+      {
+        "prompt": "初次联系应交代什么？",
+        "answer": "身份与事项",
+        "options": [
+          "身份与事项",
+          "所有个人隐私",
+          "只发问号"
+        ],
+        "evidence": 3,
+        "explain": "信息要与任务相关。"
+      }
+    ],
+    "repair": "同一个请求先写给朋友，再写给机构，逐项比较称呼、人称、委婉程度与结尾。"
+  },
+  {
+    "id": "culture-deep-19",
+    "title": "提出异议与修复误解",
+    "level": "B1",
+    "region": "讨论问题，不推断国民性",
+    "paragraphs": [
+      "异议可先确认自己理解，再指出具体分歧和依据。Entiendo tu punto no significa Estoy de acuerdo：理解对方与认同对方是两件事。",
+      "语调、直接程度与交谈节奏可能不同。发生误会时先核查意图，不立即把一次个人互动上升成某国人都如何。",
+      "修复可以说 No quería decir eso、Me refería a…，也要允许对方说明受到的影响，不能只强调“我没有恶意”就要求对方接受。"
+    ],
+    "turns": [
+      {
+        "es": "Si te he entendido bien, prefieres cambiar la fecha.",
+        "zh": "若理解没错，你想改日期。"
+      },
+      {
+        "es": "No exactamente: quiero mantener la fecha y cambiar el lugar.",
+        "zh": "不完全是，日期不变，地点改。"
+      },
+      {
+        "es": "Gracias por aclararlo. Entonces busquemos otro sitio.",
+        "zh": "谢谢澄清，那找别处。"
+      },
+      {
+        "es": "Sí, eso era lo que quería decir.",
+        "zh": "对，这才是我的意思。"
+      }
+    ],
+    "questions": [
+      {
+        "prompt": "真正要改什么？",
+        "answer": "地点",
+        "options": [
+          "地点",
+          "日期",
+          "所有安排"
+        ],
+        "evidence": 1,
+        "explain": "no exactamente 后是修复信息。"
+      },
+      {
+        "prompt": "听到纠正应怎样？",
+        "answer": "接受澄清并重建共识",
+        "options": [
+          "接受澄清并重建共识",
+          "坚持第一次理解",
+          "质疑国籍"
+        ],
+        "evidence": 2,
+        "explain": "感谢澄清让对话继续。"
+      },
+      {
+        "prompt": "理解对方等于同意吗？",
+        "answer": "不一定",
+        "options": [
+          "不一定",
+          "一定",
+          "永远相反"
+        ],
+        "evidence": 0,
+        "explain": "复述是检查理解，不自动表达赞同。"
+      }
+    ],
+    "repair": "先用复述确认，再反驳或协商；否则可能争论一个对方根本没提出的主张。"
+  },
+  {
+    "id": "culture-deep-20",
+    "title": "职场会议与职责确认",
+    "level": "B1",
+    "region": "具体团队规则",
+    "paragraphs": [
+      "会议里要区分建议、决定、负责人和截止期。“可以考虑”不等于已经通过，“我们”也未必说明谁实际执行。",
+      "讨论后可复述 Quién hace qué para cuándo，并请负责人确认。机构对称呼、邮件回复和会议记录的规则不同，应看具体团队惯例。",
+      "提到限制时给出可行选项；合理的跨文化理解不能代替明确分工。"
+    ],
+    "turns": [
+      {
+        "es": "Propongo enviar el informe el jueves, pero aún no es una decisión.",
+        "zh": "建议周四发报告，还没决定。"
+      },
+      {
+        "es": "Yo puedo revisar los datos si Marta prepara el borrador.",
+        "zh": "Marta 写草稿的话我能查数据。"
+      },
+      {
+        "es": "Marta ha confirmado que lo tendrá listo el miércoles.",
+        "zh": "Marta 确认周三写好。"
+      },
+      {
+        "es": "Entonces anotemos responsables y plazo antes de cerrar la reunión.",
+        "zh": "那散会前记下负责人和期限。"
+      }
+    ],
+    "questions": [
+      {
+        "prompt": "周四发送最初是什么性质？",
+        "answer": "建议",
+        "options": [
+          "建议",
+          "已经正式决定",
+          "已完成事实"
+        ],
+        "evidence": 0,
+        "explain": "propongo 与 aún no es una decisión 很关键。"
+      },
+      {
+        "prompt": "谁准备草稿？",
+        "answer": "Marta",
+        "options": [
+          "Marta",
+          "所有人都没分工",
+          "发言者一定负责"
+        ],
+        "evidence": 1,
+        "explain": "条件与后续确认合并理解。"
+      },
+      {
+        "prompt": "会前结束应记录什么？",
+        "answer": "负责人和期限",
+        "options": [
+          "负责人和期限",
+          "只记闲聊",
+          "只记谁说得多"
+        ],
+        "evidence": 3,
+        "explain": "可执行共识需要责任和时间。"
+      }
+    ],
+    "repair": "把讨论记录分四栏：建议、已决定、负责人、截止期；没有确认的保留为待确认。"
+  },
+  {
+    "id": "culture-deep-21",
+    "title": "学术交流与引用",
+    "level": "B2",
+    "region": "说明材料与论证关系",
+    "paragraphs": [
+      "引用不是把一句话加引号就完成论证。先忠实说明作者主张，再区分你的解释、反驳和延伸；删节不能扭转原意。",
+      "paráfrasis（释义改写）也需要注明来源；“换几个同义词”不等于形成自己的论证。具体格式按学校或出版规范。",
+      "提出不同看法时讨论证据和推理，而非攻击作者身份。可以承认某个论点成立，同时指出其适用范围。"
+    ],
+    "turns": [
+      {
+        "es": "La autora sostiene que el contexto influye en la elección de palabras.",
+        "zh": "作者认为语境影响选词。"
+      },
+      {
+        "es": "Yo no diría que demuestra una regla universal: el estudio analiza solo un grupo.",
+        "zh": "我不认为证明普遍规则，研究只分析一个群体。"
+      },
+      {
+        "es": "¿Lo presentarás como una cita textual o como una paráfrasis?",
+        "zh": "用原文引用还是释义？"
+      },
+      {
+        "es": "Como paráfrasis, con la referencia, y separaré mi comentario.",
+        "zh": "释义并注来源，把我的评论另列。"
+      }
+    ],
+    "questions": [
+      {
+        "prompt": "作者的核心主张是什么？",
+        "answer": "语境影响选词",
+        "options": [
+          "语境影响选词",
+          "所有词完全固定",
+          "语境没有作用"
+        ],
+        "evidence": 0,
+        "explain": "忠实复述先于评价。"
+      },
+      {
+        "prompt": "研究范围有什么限制？",
+        "answer": "一个群体",
+        "options": [
+          "一个群体",
+          "没有材料",
+          "全人类普查"
+        ],
+        "evidence": 1,
+        "explain": "只分析一个群体影响推广范围。"
+      },
+      {
+        "prompt": "释义要引注吗？",
+        "answer": "要",
+        "options": [
+          "要",
+          "不要",
+          "换词后永远不需要"
+        ],
+        "evidence": 3,
+        "explain": "材料来源与自己的评论分开。"
+      }
+    ],
+    "repair": "用“作者说了什么—证据是什么—我如何评价”三步写，避免把自己的判断冒充作者原话。"
+  },
+  {
+    "id": "culture-deep-22",
+    "title": "社交语用：客套与真实承诺",
+    "level": "B2",
+    "region": "逐步确认，而非固定解码表",
+    "paragraphs": [
+      "A ver si nos vemos、Tenemos que quedar 等可表达友好意愿，但不一定已经构成时间地点明确的约定。也不能反过来认定所有这类表达都没有诚意。",
+      "理解要看后续行动、关系和情境，不能发明“某国人说X一定是Y”的秘密翻译表。若需要安排，就提出可回答的具体方案。",
+      "承诺涉及双方确认：日期、地点、参与者和必要条件。没有明确答复时，不把沉默当成自动同意。"
+    ],
+    "turns": [
+      {
+        "es": "A ver si nos vemos pronto.",
+        "zh": "改天见啊。"
+      },
+      {
+        "es": "Me encantaría. ¿Te viene bien el sábado a las cinco en el café del centro?",
+        "zh": "很愿意，周六五点市中心咖啡馆方便吗？"
+      },
+      {
+        "es": "Este sábado no puedo confirmar todavía. Te respondo mañana.",
+        "zh": "周六还不能确定，明天答复。"
+      },
+      {
+        "es": "Perfecto, entonces de momento lo dejamos pendiente.",
+        "zh": "好，那目前先待定。"
+      }
+    ],
+    "questions": [
+      {
+        "prompt": "最后约定已确定吗？",
+        "answer": "尚待确认",
+        "options": [
+          "尚待确认",
+          "已确定周六五点",
+          "已取消所有联系"
+        ],
+        "evidence": 3,
+        "explain": "pendiente 标记未完成确认。"
+      },
+      {
+        "prompt": "友好表达一定是虚假吗？",
+        "answer": "不能这样判断",
+        "options": [
+          "不能这样判断",
+          "一定是",
+          "一定已预约"
+        ],
+        "evidence": 0,
+        "explain": "要看语境和后续，不靠国籍解码。"
+      },
+      {
+        "prompt": "下一步什么时候答复？",
+        "answer": "明天",
+        "options": [
+          "明天",
+          "现在必定答复",
+          "永远不答复"
+        ],
+        "evidence": 2,
+        "explain": "mañana 是对回应时间的承诺。"
+      }
+    ],
+    "repair": "把“听起来答应”与“明确确认”分开，必要时直接问 Entonces, ¿lo confirmamos?。"
+  },
+  {
+    "id": "culture-deep-23",
+    "title": "口语轮次、打断与澄清",
+    "level": "B1",
+    "region": "给彼此完成表达的空间",
+    "paragraphs": [
+      "交谈中的重叠说话有时表示参与，有时让人无法说完；不能用一个文化标签自动解释所有打断。注意对方反应，必要时调整节奏。",
+      "想插入可说 Perdona que te interrumpa, ¿puedo aclarar algo?；想说完可说 Déjame terminar esta idea。表达边界不必等到冲突升级。",
+      "短反馈 Claro、Ya、Entiendo 可能只表示听见或理解，不一定同意结论；重要决定仍需明确确认。"
+    ],
+    "turns": [
+      {
+        "es": "Entiendo lo que dices, pero quisiera terminar esta idea.",
+        "zh": "懂你的话，但想先说完这个想法。"
+      },
+      {
+        "es": "Perdona, adelante. Luego quería hacer una pregunta.",
+        "zh": "抱歉，请继续，之后想问一个问题。"
+      },
+      {
+        "es": "Gracias. Mi propuesta tiene dos partes; todavía falta la segunda.",
+        "zh": "谢谢，建议有两部分，第二部分还没说。"
+      },
+      {
+        "es": "De acuerdo, te escucho y después lo comentamos.",
+        "zh": "好，先听完再讨论。"
+      }
+    ],
+    "questions": [
+      {
+        "prompt": "说话者需要什么？",
+        "answer": "先说完想法",
+        "options": [
+          "先说完想法",
+          "结束所有交流",
+          "立刻改变语言"
+        ],
+        "evidence": 0,
+        "explain": "terminar esta idea 是具体边界。"
+      },
+      {
+        "prompt": "建议有几部分？",
+        "answer": "两部分",
+        "options": [
+          "两部分",
+          "三部分",
+          "只有一句"
+        ],
+        "evidence": 2,
+        "explain": "dos partes 与第二部分未说完配合。"
+      },
+      {
+        "prompt": "Entiendo 一定表示同意吗？",
+        "answer": "不一定",
+        "options": [
+          "不一定",
+          "一定",
+          "永远表示反对"
+        ],
+        "evidence": 0,
+        "explain": "理解与赞同要分开。"
+      }
+    ],
+    "repair": "需要时明确说“先让我说完这一点”，也给对方留出提问机会；不要把每次误会归因为国民性。"
+  }
+]

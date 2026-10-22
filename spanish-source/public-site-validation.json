@@ -1,18 +1,18 @@
 {
   "info": {
-    "headwords": 6984,
-    "entries": 7077,
+    "headwords": 7120,
+    "entries": 7213,
     "sourceHeadwords": 6500,
     "sourceWithChinese": true,
-    "uniqueQuestions": 8868,
-    "questions": 8868,
+    "uniqueQuestions": 10150,
+    "questions": 10150,
     "chapters": 44,
     "lessons": 194,
     "OCR": false,
     "privatePages": 0,
     "core": "类型；种类；家伙；利率"
   },
-  "loadMS": 1549,
+  "loadMS": 2132,
   "checks": [
     "5000+ 独立词头、6500来源词头均有中文同概念释义；无扫描页或私有OCR内容",
     "搜索西语词→打开中文义项与词性→复制链接后新浏览器直达同一词",

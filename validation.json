@@ -1,0 +1,89 @@
+{
+  "version": "2026-10-22-expanded",
+  "verification": "Local Chromium and content checks; hosting result is recorded separately in GitHub Pages Actions.",
+  "reports": {
+    "public-site-validation": {
+      "info": {
+        "headwords": 7120,
+        "entries": 7213,
+        "sourceHeadwords": 6500,
+        "sourceWithChinese": true,
+        "uniqueQuestions": 10150,
+        "questions": 10150,
+        "chapters": 44,
+        "lessons": 194,
+        "OCR": false,
+        "privatePages": 0,
+        "core": "类型；种类；家伙；利率"
+      },
+      "loadMS": 2132,
+      "checks": [
+        "5000+ 独立词头、6500来源词头均有中文同概念释义；无扫描页或私有OCR内容",
+        "搜索西语词→打开中文义项与词性→复制链接后新浏览器直达同一词",
+        "新增词条可使用闪卡并保存到间隔复习队列",
+        "中文搜索语法、展开详解、标记学习；知识点分享链接跨浏览器直接打开且不带私人记录",
+        "题目搜索能够进入真实答题界面，返回保留关键词和筛选",
+        "194小节为可检索课程目录；每节可进入定向练习，PDF为可选本地参考",
+        "实际 iframe 嵌入可搜索，分享的iframe模式在新浏览器可打开，手机无横向溢出",
+        "桌面与手机关键页面无脚本错误、缺失资源或横向溢出"
+      ],
+      "errors": [],
+      "failed": []
+    },
+    "expanded-content-validation": {
+      "checks": [
+        "638动词、20组规则齐全；28个独立语言学用例；虚拟式-se、自复命令、拼写变化及haber存在义边界",
+        "16节拆解基础课、全部40单元中译和扩展课堂、24文化专题；保留原10专题标识与笔记对应",
+        "104个真实MP3文件与脚本对应，232道理解题有证据；合成音频总时长24分钟以上",
+        "全部词条带词性；40+常见多义词有分义示范；15场景120物品；所有题有有效答案、无重复ID或重复选项"
+      ],
+      "counts": {
+        "verbs": 638,
+        "tenseGroups": 20,
+        "independentConjugationCases": 28,
+        "grammar": 354,
+        "foundationLessons": 16,
+        "units": 40,
+        "dialogueTurns": 182,
+        "listening": 104,
+        "listeningQuestions": 232,
+        "audioMinutes": 24.17,
+        "culture": 24,
+        "scenes": 15,
+        "objects": 120,
+        "words": 7213,
+        "reviewedMultiSenseEntries": 45,
+        "questions": 10150
+      }
+    },
+    "expansion-browser-validation": {
+      "checks": [
+        "638动词可查询；-se系列表、规则与真实填写题；新增动态题刷新和逐步返回不丢失",
+        "支持变位反查、自复否定命令；跨浏览器分享直达同一动词和目标形式",
+        "原有5步课堂保留；增中译、基础拆解、完整对话与逐句理由；完整9题能完成并记分",
+        "真实MP3可加载播放、变速；先隐藏文本、后显示中译与解析；听力答题进入复习，分享可直达",
+        "文化课先给背景、边界、示范与中文；有理解题和可选笔记，往返不丢",
+        "词性筛选、多义教学例句可用；新增136个变位词目的词义题不为空",
+        "15场景可切换，新增物品可点击；新场景问答保留参考图并能作答",
+        "新增动词形式、听力及文化进入全站检索，结果能打开正确内容",
+        "新增变位与听力记录可导出并在清空后正确恢复",
+        "新旧主要栏目390px无横向溢出；无脚本异常或缺失音频/资源"
+      ],
+      "audioDurationSeconds": 18.658957,
+      "errors": [],
+      "failed": [],
+      "counts": {
+        "verbs": 638,
+        "headwords": 7120,
+        "entries": 7213,
+        "grammar": 354,
+        "foundations": 16,
+        "units": 40,
+        "listening": 104,
+        "culture": 24,
+        "scenes": 15,
+        "questions": 10150
+      }
+    }
+  }
+}

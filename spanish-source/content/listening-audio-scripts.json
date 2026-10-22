@@ -1,0 +1,418 @@
+[
+  {
+    "id": "listen-base-A1-1",
+    "script": "Hola, me llamo Lucía. Soy de México y vivo en Madrid. Estudio español con mi amiga Lin."
+  },
+  {
+    "id": "listen-base-A1-2",
+    "script": "En mi habitación hay una mesa blanca y dos libros rojos. La mesa es pequeña. Los libros son nuevos."
+  },
+  {
+    "id": "listen-base-A1-3",
+    "script": "Soy estudiante. Mi escuela está cerca de mi casa. En mi clase hay doce estudiantes. Hoy estoy contenta."
+  },
+  {
+    "id": "listen-base-A1-4",
+    "script": "Vivo en Valencia. Trabajo en una tienda y estudio español por la noche. Mis amigos viven cerca y hablamos todos los días."
+  },
+  {
+    "id": "listen-base-A1-5",
+    "script": "Tengo veintidós años. Me gustan los libros y me gusta viajar. Mañana voy a estudiar en casa porque tengo que preparar un examen."
+  },
+  {
+    "id": "listen-base-A1-6",
+    "script": "—Un café, por favor. ¿Cuánto cuesta? —Dos euros. —Perdona, no entiendo. ¿Puedes repetir más despacio? —Dos euros."
+  },
+  {
+    "id": "listen-base-A2-1",
+    "script": "Ayer fui al centro. Compré un libro y comí con mi hermana. Después volvimos a casa en autobús."
+  },
+  {
+    "id": "listen-base-A2-2",
+    "script": "Cuando era niña, vivía cerca del mar. Cada verano iba a la playa. Un día encontré una concha muy grande y la llevé a casa."
+  },
+  {
+    "id": "listen-base-A2-3",
+    "script": "Esta semana he leído dos artículos y he escrito un correo en español. Todavía no he terminado mi libro, pero ya he aprendido varias palabras."
+  },
+  {
+    "id": "listen-base-A2-4",
+    "script": "Ana necesita un libro. Yo lo tengo y se lo doy esta tarde. Ella me escribe un mensaje para darme las gracias."
+  },
+  {
+    "id": "listen-base-A2-5",
+    "script": "La mochila azul cuesta treinta euros y la roja cuesta cuarenta. La azul es más barata, pero la roja tiene más espacio. Elijo la roja porque necesito llevar muchos libros."
+  },
+  {
+    "id": "listen-base-A2-6",
+    "script": "El próximo mes viajaré a Bogotá. Me gustaría visitar un museo. Escribo al hotel: «¿Podrían confirmar mi reserva, por favor?»"
+  },
+  {
+    "id": "listen-base-B1-1",
+    "script": "Cuando llegué a la estación, el tren ya había salido. Llovía y no tenía paraguas. Llamé a mi amiga y al final tomamos un autobús."
+  },
+  {
+    "id": "listen-base-B1-2",
+    "script": "Mi amiga tiene un examen. Le recomiendo que descanse y que prepare un horario. Espero que esté tranquila y que pueda dormir bien."
+  },
+  {
+    "id": "listen-base-B1-3",
+    "script": "Busco un piso que tenga dos habitaciones y que esté cerca del metro. Ayer vi uno que tiene balcón, pero es demasiado caro."
+  },
+  {
+    "id": "listen-base-B1-4",
+    "script": "Para enviar el formulario, escribe tu nombre y revisa los datos. Después pulsa «Enviar». No cierres la página antes de ver la confirmación."
+  },
+  {
+    "id": "listen-base-B1-5",
+    "script": "Creo que aprender en grupo ayuda porque podemos compartir dudas. Sin embargo, también necesito tiempo a solas. Aunque el curso es caro, me resulta útil."
+  },
+  {
+    "id": "listen-base-B1-6",
+    "script": "Si termino el proyecto esta semana, visitaré a mi familia. Si tuviera más vacaciones, viajaría también a Chile. Por ahora necesito organizar mi tiempo."
+  },
+  {
+    "id": "listen-base-B2-1",
+    "script": "El lunes Marta dijo: «Vendré mañana». El martes no llegó y escribió que había perdido el tren. Nos pidió que esperáramos hasta la tarde."
+  },
+  {
+    "id": "listen-base-B2-2",
+    "script": "Perdí una oportunidad porque envié la solicitud tarde. Si hubiera revisado la fecha, habría entregado todo a tiempo. Ahora anoto los plazos en un calendario."
+  },
+  {
+    "id": "listen-base-B2-3",
+    "script": "Aunque mañana llueva, iremos al encuentro. Salimos temprano para que todos puedan llegar a tiempo. Cuando termine la reunión, enviaremos un resumen."
+  },
+  {
+    "id": "listen-base-B2-4",
+    "script": "Estimada señora López: Le escribo para solicitar información sobre el curso. Le agradecería que me enviara el horario y las condiciones de inscripción. Atentamente, Lin."
+  },
+  {
+    "id": "listen-base-B2-5",
+    "script": "Según una encuesta a cincuenta estudiantes de una escuela, el 60 % prefiere estudiar por la mañana. El autor concluye que todas las personas aprenden mejor temprano. La muestra no permite generalizar a toda la población."
+  },
+  {
+    "id": "listen-base-B2-6",
+    "script": "Dos compañeros discrepan sobre una reunión. Lin propone empezar a las nueve; Ana tiene otra cita. Tras aclarar sus horarios, acuerdan reunirse a las diez y enviar los documentos antes."
+  },
+  {
+    "id": "listen-base-A1-7",
+    "script": "La clase empieza el lunes a las nueve y media. Tengo veintiún libros. Estudio todos los días."
+  },
+  {
+    "id": "listen-base-A1-8",
+    "script": "El banco está al lado del museo. La farmacia está detrás del banco. Para llegar, sigue por esta calle."
+  },
+  {
+    "id": "listen-base-A1-9",
+    "script": "Soy Lin y vivo en China. ¿Cuál es tu nombre? Mi amiga Ana no habla chino, pero estudia conmigo."
+  },
+  {
+    "id": "listen-base-A1-10",
+    "script": "Mi país está lejos. María habla español y ayer habló con Ana. ¿Dónde vive Ana?"
+  },
+  {
+    "id": "listen-base-A2-7",
+    "script": "Vivo aquí desde 2020. Ayer estudié durante dos horas y terminé un ejercicio en diez minutos. Gracias por tu ayuda."
+  },
+  {
+    "id": "listen-base-A2-8",
+    "script": "Me levanto a las siete. Ahora estoy leyendo. Ayer dejé de estudiar un rato y después volví a practicar."
+  },
+  {
+    "id": "listen-base-A2-9",
+    "script": "No tengo ningún problema con el curso. Hay algunas preguntas difíciles, pero todos los días practico un poco."
+  },
+  {
+    "id": "listen-base-A2-10",
+    "script": "Ayer hacía frío y había muchas personas en la estación. Hoy hace sol. Necesito comprar un billete."
+  },
+  {
+    "id": "listen-base-B1-7",
+    "script": "Me interesan los idiomas y me duelen los pies después del paseo. Este libro es para ti. ¿Quieres estudiar conmigo?"
+  },
+  {
+    "id": "listen-base-B1-8",
+    "script": "Busco un curso que tenga clases por la tarde. Mi amiga, que trabaja por la mañana, quiere venir. La escuela donde estudiamos está cerca."
+  },
+  {
+    "id": "listen-base-B1-9",
+    "script": "Llevo dos años estudiando español. Tengo que repasar más y sigo leyendo cada día. Mi horario depende del trabajo."
+  },
+  {
+    "id": "listen-base-B1-10",
+    "script": "En esta tienda se venden libros. Se busca a una persona con experiencia. En este barrio se vive bien."
+  },
+  {
+    "id": "listen-base-B2-7",
+    "script": "Las cartas fueron enviadas ayer y ahora están archivadas. Esta mañana se me olvidaron las llaves. Se venden libros en la recepción."
+  },
+  {
+    "id": "listen-base-B2-8",
+    "script": "La autora cuyos libros leo viene mañana. No entiendo lo que dice el anuncio. Lo que necesito es confirmar la hora."
+  },
+  {
+    "id": "listen-base-B2-9",
+    "script": "Ana dice «vos hablás» y Luis dice «tú hablas». Ambos se entienden. Al escribir a una institución, revisan el grado de formalidad."
+  },
+  {
+    "id": "listen-base-B2-10",
+    "script": "Para el viernes habré terminado. Me alegra que hayas venido. Si hubiera revisado antes, habría detectado el error."
+  },
+  {
+    "id": "listen-DL-A1-1",
+    "script": "Hola, soy Ana. ¿Cómo te llamas? Me llamo Lin. Soy de China. Mucho gusto. ¿Vives en Madrid? No, vivo en Sevilla. Estudio español aquí. Yo también estudio español. ¿Hablamos despacio? Sí, por favor. No entiendo todo todavía."
+  },
+  {
+    "id": "listen-DL-A1-2",
+    "script": "Mira, hay una mesa blanca junto a la ventana. Encima hay dos libros rojos y un cuaderno azul. ¿Los libros son nuevos? Sí, pero el cuaderno es viejo. Es de mi hermano. ¿Ponemos las sillas pequeñas aquí? Sí. Ahora la habitación está ordenada."
+  },
+  {
+    "id": "listen-DL-A1-3",
+    "script": "Soy estudiante y mi amiga es profesora. Nuestra escuela está cerca del parque. En mi clase hay doce estudiantes. Hoy estoy cansada, pero estoy contenta. ¿La reunión es en la escuela? Sí, es a las cinco. La profesora ya está allí."
+  },
+  {
+    "id": "listen-DL-A1-4",
+    "script": "Trabajo por la mañana y estudio por la tarde. Mi hermana trabaja en una biblioteca. Nosotros comemos a las dos y vivimos cerca. ¿Estudiáis español todos los días? Sí, pero los domingos descansamos. Yo practico diez minutos antes de dormir."
+  },
+  {
+    "id": "listen-DL-A1-5",
+    "script": "A mí me gusta el café, pero no me gusta el té. A mi amiga le gustan los zumos naturales. ¿Te gusta leer aquí? Sí, y también me gusta hablar con mis amigos. Hoy tenemos hambre. Pedimos dos bocadillos. Para mí, uno sin queso, por favor."
+  },
+  {
+    "id": "listen-DL-A1-6",
+    "script": "Perdona, no entiendo la última palabra. ¿Puedes repetirla más despacio, por favor? Claro. La palabra es biblioteca. ¿Significa un lugar para leer libros? Sí. No es una librería: allí compras libros. Gracias. Ahora lo entiendo. ¿Cómo se escribe?"
+  },
+  {
+    "id": "listen-DL-A1-7",
+    "script": "Buenos días, tengo una cita con la doctora Ruiz. ¿A qué hora es su cita? A las nueve y media. Ahora son las nueve y cuarto. Está bien. La doctora llega a las nueve y veinte. ¿Puedo esperar aquí? Sí. Le llamamos en quince minutos."
+  },
+  {
+    "id": "listen-DL-A1-8",
+    "script": "Disculpe, ¿dónde está la estación de tren? Siga recto y gire a la derecha en el banco. ¿Está lejos? Voy a pie. No, está a diez minutos. Hay una farmacia enfrente. Entonces, recto y después a la derecha, ¿verdad? Exacto. La entrada está al lado de la farmacia."
+  },
+  {
+    "id": "listen-DL-A1-9",
+    "script": "Buenos días, busco una camiseta azul. Tenemos esta, pero no tenemos la talla pequeña. ¿Tiene una mediana? No quiero una grande. Sí, cuesta quince euros. ¿La quiere probar? Sí, gracias. Hoy no compro zapatos. El probador está al fondo, a la izquierda."
+  },
+  {
+    "id": "listen-DL-A1-10",
+    "script": "Mi apellido es García, con tilde en la í. ¿Y su número de teléfono? Es el seis, tres, cinco, cero, ocho, uno, dos, cuatro, nueve. Perdone, ¿el cuarto número es cero u ocho? Es cero. El quinto es ocho. Gracias. Le envío la confirmación por mensaje."
+  },
+  {
+    "id": "listen-DL-A2-1",
+    "script": "Ayer salí de casa a las ocho y tomé el autobús. Llegué al centro a las nueve, pero la oficina abrió a las diez. Entonces desayuné en un café y compré el periódico. Después volví a la oficina y entregué los documentos. ¿Terminaste todo por la mañana? Sí, terminé a las once y regresé a casa."
+  },
+  {
+    "id": "listen-DL-A2-2",
+    "script": "Cuando era niña, vivía en un pueblo y caminaba a la escuela. Mi abuela preparaba la comida mientras nosotros jugábamos. Un verano nos mudamos a la ciudad y cambié de escuela. Al principio estaba nerviosa, pero pronto hice amigos."
+  },
+  {
+    "id": "listen-DL-A2-3",
+    "script": "Esta semana he leído dos artículos y he escrito un resumen. ¿Has enviado el resumen a la profesora? Todavía no. Lo he terminado, pero no lo he revisado. Yo ya lo he revisado. Si quieres, lo vemos juntos."
+  },
+  {
+    "id": "listen-DL-A2-4",
+    "script": "¿Tienes el libro de Ana? Ella lo necesita hoy. Sí, lo tengo aquí. Se lo llevo esta tarde. ¿Puedes dárselo antes de las cinco? Claro. También le enviaré un mensaje para avisarla."
+  },
+  {
+    "id": "listen-DL-A2-5",
+    "script": "Este piso es más pequeño que el otro, pero es más luminoso. El otro está más lejos del trabajo y cuesta cien euros más. La cocina de este es tan grande como la del otro. Entonces prefiero este: es menos caro y tardo menos en llegar."
+  },
+  {
+    "id": "listen-DL-A2-6",
+    "script": "¿Podrías ayudarme a reservar una habitación? Claro. ¿Para qué fechas la necesitas? Del doce al quince de mayo. Me gustaría una habitación tranquila. Llamaré al hotel esta tarde y preguntaré si queda alguna."
+  },
+  {
+    "id": "listen-DL-A2-7",
+    "script": "Vivo aquí desde dos mil veinte y estudio español desde hace seis meses. ¿Y cuándo empezaste a trabajar en esta empresa? Hace dos años. Antes trabajaba en otra ciudad. Entonces ya conoces bien el barrio, ¿no?"
+  },
+  {
+    "id": "listen-DL-A2-8",
+    "script": "¿Puedes hablar ahora? Estoy esperando el autobús. Un momento, estoy leyendo un correo importante. Vale. Mis compañeros están preparando la reunión. Ya he terminado. Te llamo en cinco minutos."
+  },
+  {
+    "id": "listen-DL-A2-9",
+    "script": "¿Hay alguna farmacia abierta cerca de aquí? No hay ninguna en esta calle, pero hay una en la plaza. No tengo ningún problema en caminar hasta allí. Entonces sigue recto. No necesitas tomar ningún autobús."
+  },
+  {
+    "id": "listen-DL-A2-10",
+    "script": "Antes había un mercado aquí, pero ahora hay una biblioteca. ¿Había muchas tiendas en el mercado? Sí, y siempre había mucha gente los sábados. El año pasado hubo una reforma y cambió todo el edificio."
+  },
+  {
+    "id": "listen-DL-B1-1",
+    "script": "Cuando llegué a casa, mi hermana ya había salido y no pude hablar con ella. ¿No habíais quedado en hablar a las ocho? Sí, pero ella había recibido una llamada urgente y tuvo que irse. Después me escribió y acordamos hablar al día siguiente."
+  },
+  {
+    "id": "listen-DL-B1-2",
+    "script": "Espero que el viaje salga bien y que llegues antes de la reunión. Yo quiero llegar temprano, pero necesito que me envíes la dirección. Te la envío ahora. Es importante que lleves el documento original. Perfecto. Si hay algún retraso, te aviso."
+  },
+  {
+    "id": "listen-DL-B1-3",
+    "script": "Busco un piso que tenga balcón y que esté cerca del metro. Conozco un piso que tiene dos balcones, pero está bastante lejos. Prefiero uno que no cueste más de ochocientos euros. Entonces te avisaré cuando encuentre algo que encaje."
+  },
+  {
+    "id": "listen-DL-B1-4",
+    "script": "Abre el archivo y guarda una copia antes de cambiar nada. ¿Puedo borrar esta carpeta? Ya no la necesito. No la borres todavía. Comprueba primero si contiene documentos compartidos. De acuerdo. Cuando termine, te la enseño para que la revises."
+  },
+  {
+    "id": "listen-DL-B1-5",
+    "script": "Creo que la propuesta es útil, aunque necesita algunos cambios. No creo que sea suficiente reducir el precio; también importa la calidad. Entiendo tu punto. Sin embargo, los datos muestran que el coste ha subido. Entonces revisemos ambas cosas antes de tomar una decisión."
+  },
+  {
+    "id": "listen-DL-B1-6",
+    "script": "Si tuviera más tiempo, haría un curso intensivo este verano. Yo iría contigo si no trabajara los fines de semana. ¿Y si estudiáramos juntos una hora cada martes? Eso sí sería posible. Aunque no tengamos todo el verano, podemos avanzar."
+  },
+  {
+    "id": "listen-DL-B1-7",
+    "script": "Desde ayer me duele la garganta y me duelen los oídos. ¿Tiene fiebre? ¿Ha tomado algún medicamento? No tengo fiebre. He tomado agua, pero todavía no he tomado nada para el dolor. Entiendo. Vamos a revisar los síntomas antes de decidir qué hacer."
+  },
+  {
+    "id": "listen-DL-B1-8",
+    "script": "Esta es la ciudad donde viví cuando era estudiante. ¿Es el lugar del que me hablaste ayer? Sí. La profesora con la que estudié todavía trabaja allí. Me gustaría conocerla y visitar la escuela que aparece en tus fotos."
+  },
+  {
+    "id": "listen-DL-B1-9",
+    "script": "Llevo dos años estudiando español, pero empecé a hablarlo con frecuencia hace seis meses. Yo sigo teniendo dificultades con los pasados, aunque ya los entiendo mejor. He vuelto a escuchar la misma entrevista y ahora reconozco más expresiones. Entonces no dejes de practicar: compara lo que puedes hacer ahora con lo de antes."
+  },
+  {
+    "id": "listen-DL-B1-10",
+    "script": "En esta librería se venden libros usados y se reparan mapas antiguos. ¿Se puede pagar con tarjeta o solo se acepta efectivo? Se puede pagar con tarjeta. También se atiende a estudiantes por la tarde. Perfecto. Mi hermano se lava las manos antes de tocar los libros viejos."
+  },
+  {
+    "id": "listen-DL-B2-1",
+    "script": "Ayer Elena me dijo: «Mañana enviaré el informe desde aquí». Hoy seguimos en la misma oficina. Entonces puedes contar que ayer dijo que enviaría el informe hoy desde aquí. ¿Siempre hay que cambiar todos los tiempos y todos los adverbios? No. Hay que reconstruir quién habla, cuándo y dónde, y si la información sigue vigente."
+  },
+  {
+    "id": "listen-DL-B2-2",
+    "script": "Si hubiera salido diez minutos antes, habría alcanzado el tren de las ocho. Pero el tren se retrasó, así que, aunque llegaste tarde a la estación, pudiste subir. Tienes razón. Lo que perdí fue la conexión de las nueve, no el primer tren. Entonces habría sido mejor comprobar todo el itinerario, no solo la salida inicial."
+  },
+  {
+    "id": "listen-DL-B2-3",
+    "script": "Cuando llegue el último documento, podremos cerrar el expediente; hasta entonces debemos esperar. Aunque el plazo termine mañana, no podemos afirmar que todo esté listo sin revisarlo. En cuanto lo recibamos, comprobaré si falta alguna firma. De acuerdo. Si falta algo, avisaremos al equipo antes de enviarlo."
+  },
+  {
+    "id": "listen-DL-B2-4",
+    "script": "Estimada señora López: Le escribo para solicitar información sobre los requisitos de inscripción. Le agradecería que me indicara si es necesario presentar una copia compulsada del título. Asimismo, ¿podría confirmar el plazo y el medio de pago admitido? Quedo a la espera de su respuesta. Muchas gracias por su atención. Atentamente, Lin."
+  },
+  {
+    "id": "listen-DL-B2-5",
+    "script": "La encuesta incluyó a cincuenta alumnos de una sola escuela; treinta prefirieron estudiar por la mañana. El titular dice que estudiar temprano mejora el rendimiento de todo el mundo, pero no midieron resultados. Sería más preciso decir que, en esta muestra, un sesenta por ciento declaró esa preferencia. Además, harían falta otras medidas antes de recomendar el mismo horario a todos."
+  },
+  {
+    "id": "listen-DL-B2-6",
+    "script": "Si he entendido bien, propones reunirnos a las nueve porque después tienes otra cita. Exacto, aunque podría cambiar esa cita si fuera imprescindible. Yo no llegaría antes de las nueve y media. ¿Te parece que enviemos los documentos antes y hablemos a las diez? Me parece bien. Dejemos por escrito la hora para que nadie se confunda."
+  },
+  {
+    "id": "listen-DL-B2-7",
+    "script": "Las cartas fueron enviadas el lunes por la oficina central, según el registro. Sin embargo, dos sobres están abiertos y todavía no sabemos quién los abrió. Se han revisado los números de seguimiento, pero no se ha localizado el paquete. Entonces conviene describir lo comprobado sin atribuir responsabilidades que aún no están claras."
+  },
+  {
+    "id": "listen-DL-B2-8",
+    "script": "La investigadora cuyos artículos leímos dará una conferencia en el centro donde trabajas. ¿Es la autora con la que hablaste después del congreso? Sí. El proyecto sobre el cual escribió acaba de recibir financiación. Me interesa conocer los datos en los que se basa su conclusión."
+  },
+  {
+    "id": "listen-DL-B2-9",
+    "script": "En Buenos Aires, mi amiga suele decir «vos tenés» y «vení» cuando me invita. En Madrid, otro amigo dice «tú tienes» y usa «vosotros tenéis» al hablar con varias personas. Yo aprendí «ustedes tienen» para varias personas, pero entiendo las otras formas. Lo importante es escuchar el contexto y mantener una variedad coherente al hablar."
+  },
+  {
+    "id": "listen-DL-B2-10",
+    "script": "Para el viernes habremos terminado el borrador, pero la revisión completa llevará otra semana. ¿Crees que Marta ya lo habrá leído? No ha respondido al mensaje. Puede que lo haya visto, aunque quizá no haya tenido tiempo de revisarlo. Entonces no demos por hecho que está aprobado; confirmémoslo antes de enviarlo."
+  },
+  {
+    "id": "listen-culture-deep-0",
+    "script": "Soy de México, pero ahora vivo en España. ¿Hablas otras lenguas además del español? Sí, en mi familia también se habla una lengua indígena. Me gustaría aprender cómo se llama, si quieres contármelo."
+  },
+  {
+    "id": "listen-culture-deep-1",
+    "script": "Buenos días, profesora. ¿Cómo prefiere que le llame? Puedes llamarme Ana y hablarme de tú. Gracias, Ana. ¿Podrías explicarme esta palabra? Claro. Y si necesitas usar mi apellido en un formulario, te lo escribo."
+  },
+  {
+    "id": "listen-culture-deep-2",
+    "script": "¿A qué hora abre la cocina? A la una. Ahora solo servimos bebidas. ¿El menú incluye agua y postre? Incluye agua, pero el postre se paga aparte."
+  },
+  {
+    "id": "listen-culture-deep-3",
+    "script": "En mi casa decimos computadora. ¿Aquí se usa ordenador? Sí, aunque entendemos las dos palabras. Y cuando dices carro, ¿te refieres al coche o al carrito de compra? En esta conversación me refiero al coche."
+  },
+  {
+    "id": "listen-culture-deep-4",
+    "script": "¿Te apetece venir a cenar el sábado? Gracias por invitarme, pero este sábado no puedo. No pasa nada. ¿Quieres que busquemos otra fecha? Sí, el domingo me viene mejor. Si a ti te va bien, lo confirmamos."
+  },
+  {
+    "id": "listen-culture-deep-5",
+    "script": "¿Cómo celebráis esta fiesta en tu familia? En mi familia nos reunimos, pero no todos participamos de la misma manera. ¿Puedo hacer fotos de la mesa? Prefiero que preguntes antes a las demás personas."
+  },
+  {
+    "id": "listen-culture-deep-6",
+    "script": "Este museo llama al proceso «encuentro», pero otra exposición habla de «conquista». Conviene preguntar quién usa cada palabra y qué experiencias destaca. Podemos comparar fechas y testimonios sin fingir que todas las interpretaciones son idénticas. Sí, y citar las fuentes para que otros puedan comprobarlas."
+  },
+  {
+    "id": "listen-culture-deep-7",
+    "script": "En la canción dice «me muero de ganas de verte». ¿Habla de morir de verdad? No, en este contexto es una exageración para expresar muchas ganas. ¿Puedo usarla en una solicitud formal? Sería mejor una expresión más neutra, como «me gustaría reunirme con usted»."
+  },
+  {
+    "id": "listen-culture-deep-8",
+    "script": "El titular afirma que los alquileres subieron un veinte por ciento. ¿En qué ciudad, durante qué periodo y con qué tipo de viviendas? La nota solo describe anuncios de una plataforma durante un mes. Entonces no basta para concluir que todos los contratos del país cambiaron igual."
+  },
+  {
+    "id": "listen-culture-deep-9",
+    "script": "En mi familia solemos reunirnos para cenar durante esa fiesta. ¿Todas las familias lo hacen igual? No necesariamente. Depende del lugar y de las preferencias de cada familia. Entiendo. ¿Qué parte es importante para ti personalmente?"
+  },
+  {
+    "id": "listen-culture-deep-10",
+    "script": "Disculpe, ¿nos trae la cuenta, por favor? Aquí la tienen. El servicio está incluido. Veo tres cafés, pero pedimos dos. ¿Podría revisarlo? Tiene razón. Lo corrijo ahora mismo."
+  },
+  {
+    "id": "listen-culture-deep-11",
+    "script": "He quedado contigo a las cinco, pero el tren se ha retrasado. Creo que llegaré diez minutos tarde. ¿Te sigue viniendo bien? Sí, puedo esperar hasta las cinco y veinte. Gracias. Si cambia algo, te aviso enseguida."
+  },
+  {
+    "id": "listen-culture-deep-12",
+    "script": "¿Puedo probarme esta chaqueta en una talla mediana? Sí, el probador está al fondo. Si no me queda bien, ¿puedo cambiarla con el recibo? Puede cambiarla dentro de catorce días si conserva las etiquetas."
+  },
+  {
+    "id": "listen-culture-deep-13",
+    "script": "¿El precio incluye agua, luz e internet? Incluye agua e internet, pero la electricidad se paga aparte. Trabajo de noche. ¿Podemos acordar unas horas de silencio? Sí, dejemos el acuerdo por escrito para evitar malentendidos."
+  },
+  {
+    "id": "listen-culture-deep-14",
+    "script": "Quisiera un billete de ida a Toledo para mañana. El tren sale a las nueve y llega a las nueve y media. ¿Tengo que hacer transbordo? No, es directo. Compruebe el andén en la pantalla antes de subir."
+  },
+  {
+    "id": "listen-culture-deep-15",
+    "script": "Tengo una reserva a nombre de Lin para dos noches. La salida es a las once del último día. En mi habitación no funciona el aire acondicionado. ¿Podrían revisarlo? Sí, enviamos a alguien. Si no se soluciona, buscamos otra habitación."
+  },
+  {
+    "id": "listen-culture-deep-16",
+    "script": "Me duele el oído desde ayer y soy alérgico a un medicamento. ¿Puede decirme cuál es o mostrarme el nombre? Lo tengo escrito aquí. No he entendido la última pregunta. Se la repito más despacio y comprobamos los datos juntos."
+  },
+  {
+    "id": "listen-culture-deep-17",
+    "script": "La fecha es el tres de abril, no el cuatro de marzo. Gracias. ¿El importe es mil quinientos euros? Sí. Y en el código hay un cero, no la letra o. Voy a repetirlo para comprobar que lo he anotado bien."
+  },
+  {
+    "id": "listen-culture-deep-18",
+    "script": "A una amiga le escribiría: «¿Me pasas la dirección cuando puedas?» A la oficina: «Les agradecería que me confirmaran la dirección de la cita». ¿Tengo que añadir muchas frases complicadas? No. Lo esencial es que sepan quién eres y qué respuesta necesitas."
+  },
+  {
+    "id": "listen-culture-deep-19",
+    "script": "Si te he entendido bien, prefieres cambiar la fecha. No exactamente: quiero mantener la fecha y cambiar el lugar. Gracias por aclararlo. Entonces busquemos otro sitio. Sí, eso era lo que quería decir."
+  },
+  {
+    "id": "listen-culture-deep-20",
+    "script": "Propongo enviar el informe el jueves, pero aún no es una decisión. Yo puedo revisar los datos si Marta prepara el borrador. Marta ha confirmado que lo tendrá listo el miércoles. Entonces anotemos responsables y plazo antes de cerrar la reunión."
+  },
+  {
+    "id": "listen-culture-deep-21",
+    "script": "La autora sostiene que el contexto influye en la elección de palabras. Yo no diría que demuestra una regla universal: el estudio analiza solo un grupo. ¿Lo presentarás como una cita textual o como una paráfrasis? Como paráfrasis, con la referencia, y separaré mi comentario."
+  },
+  {
+    "id": "listen-culture-deep-22",
+    "script": "A ver si nos vemos pronto. Me encantaría. ¿Te viene bien el sábado a las cinco en el café del centro? Este sábado no puedo confirmar todavía. Te respondo mañana. Perfecto, entonces de momento lo dejamos pendiente."
+  },
+  {
+    "id": "listen-culture-deep-23",
+    "script": "Entiendo lo que dices, pero quisiera terminar esta idea. Perdona, adelante. Luego quería hacer una pregunta. Gracias. Mi propuesta tiene dos partes; todavía falta la segunda. De acuerdo, te escucho y después lo comentamos."
+  }
+]
