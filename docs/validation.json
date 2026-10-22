@@ -1,5 +1,5 @@
 {
-  "version": "2026-10-22-expanded",
+  "version": "2026-10-23-scaffolded",
   "verification": "Local Chromium and content checks; hosting result is recorded separately in GitHub Pages Actions.",
   "reports": {
     "public-site-validation": {
@@ -33,7 +33,7 @@
     "expanded-content-validation": {
       "checks": [
         "638动词、20组规则齐全；28个独立语言学用例；虚拟式-se、自复命令、拼写变化及haber存在义边界",
-        "16节拆解基础课、全部40单元中译和扩展课堂、24文化专题；保留原10专题标识与笔记对应",
+        "25节基础与过渡课、全部40单元中译和扩展课堂、24文化专题；保留原10专题标识与笔记对应",
         "104个真实MP3文件与脚本对应，232道理解题有证据；合成音频总时长24分钟以上",
         "全部词条带词性；40+常见多义词有分义示范；15场景120物品；所有题有有效答案、无重复ID或重复选项"
       ],
@@ -41,8 +41,8 @@
         "verbs": 638,
         "tenseGroups": 20,
         "independentConjugationCases": 28,
-        "grammar": 354,
-        "foundationLessons": 16,
+        "grammar": 363,
+        "foundationLessons": 25,
         "units": 40,
         "dialogueTurns": 182,
         "listening": 104,
@@ -53,7 +53,7 @@
         "objects": 120,
         "words": 7213,
         "reviewedMultiSenseEntries": 45,
-        "questions": 10180
+        "questions": 10237
       }
     },
     "expansion-browser-validation": {
@@ -76,13 +76,13 @@
         "verbs": 638,
         "headwords": 7120,
         "entries": 7213,
-        "grammar": 354,
-        "foundations": 16,
+        "grammar": 363,
+        "foundations": 25,
         "units": 40,
         "listening": 104,
         "culture": 24,
         "scenes": 15,
-        "questions": 10180
+        "questions": 10237
       }
     },
     "gender-depth-validation": {
@@ -145,8 +145,26 @@
           "日本"
         ]
       ],
-      "deepLessons": 6,
-      "deepQuestions": 48,
+      "deepLessons": 16,
+      "deepQuestions": 108,
+      "errors": []
+    },
+    "bridges-validation": {
+      "checks": [
+        "17步路线与前置关系，9节新课54道题均可定位",
+        "词汇预习与性别缩写、原创场景对话、三层练习",
+        "真实填写与重音错误反馈，刷新不重复计分",
+        "新组句题可操作；词条跳转与退回仍在本课",
+        "9课手机布局、分享跨浏览器直达、18课索引能检索"
+      ],
+      "bridges": 9,
+      "questions": 54,
+      "input": 18,
+      "order": 9,
+      "topics": 18,
+      "missingPrerequisites": [],
+      "routeCycle": false,
+      "wordSlots": 54,
       "errors": []
     }
   }

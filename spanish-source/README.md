@@ -6,7 +6,7 @@
 
 ## 内容结构
 
-src/ 是课程、教学、词库及交互源文件；保留完整数据，构建不需要下载。扩展词典 6500 个独立来源词头，合并后 7120 个去重单词词头、7213 个学习条目。194 小节、354 个知识讲解条目（含16节新增零基础拆解课）、40 个分级单元，题目数量另计。
+src/ 是课程、教学、词库及交互源文件；保留完整数据，构建不需要下载。扩展词典 6500 个独立来源词头，合并后 7120 个去重单词词头、7213 个学习条目。194 小节、363 个知识讲解条目（含25节基础与过渡课）、40 个分级单元，题目数量另计。
 
 不要把词头数称为词根数。开放词典中文释义按同一 synset 关联，尚非逐条教师审校；词性、义项排序及特殊含义需核验。人工修订的常用中文主释义在 content/lexicon-review.txt 和 src/lexicon-review.js；词源许可见 assets/licenses/SOURCES.html。词频不是 CEFR 级别。
 
@@ -42,3 +42,5 @@ public-site-validation.json、classroom-validation.json 和 navigation-validatio
 尚未完成的范围包括：原书全部细则逐字校对、全部词义逐条教师审校、真实多口音语料、系统C1—C2课程序列以及真人口语/写作反馈。数量增加不等于这些项目已经验收。
 
 2026-10-22 教学与名词性别修订：`grammar-depth.js` 为六节基础课提供逐层说明、对比、推理和新增定向练习；不是根据本次尚未能读取的大体积 PDF 编写。`noun-genders.js` 从 Apertium 名词形态标签提取，`noun-gender-teaching.js` 另处理 agua、mano、capital 等教学例外。未匹配词条明确标待核对。生成脚本、压缩完整源词典、许可和作者归属均保留。浏览器核对见 `tests/gender-depth-browser.mjs` 与 `gender-depth-validation.json`。
+
+2026-10-23 教材结构参考修订：已读取压缩的《西班牙语公共课·上册》，阅读与未验证范围见 `textbook-review.md`。新增9节原创过渡课，与既有基础组成17步先修路线；当前基础与过渡课合计25节，语法讲解条目363个，不能把条目数当成全部语法点总数。新课有前置链接、带词性/性别的词汇预习、分步讲解、原创对话与分层练习（54题，其中18填写、9组句）。实际内容在 `textbook-bridges.js`、`bridge-ui.js`，书目和18课主题页码索引在 `textbook-review.js`。原教材PDF/正文/原题均不对外发布。运行 `tests/bridges-browser.mjs` 验证新增流程。
