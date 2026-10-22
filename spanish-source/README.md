@@ -28,7 +28,7 @@ public-site-validation.json、classroom-validation.json 和 navigation-validatio
 
 - 638个变位入口：Fred Jehle 数据库637个原形＋另补haber；包含带代词用法，不称为638个词根。20组语气/时态形式，-ra/-se分别练习；副动词与分词另列。历史/法律形式标为进阶识读。查询支持中文、原形和变位反查。
 - 每组配构成步骤、适用场景、例句拆解、易错点及使用边界；8段基础教学先解释人称、词干、自复代词与haber存在义。原来360道题的ID仍可恢复；其他目标单元格按需生成题目，记录可恢复和备份。
-- 新增16节零基础详解，每节4段解释、逐块示范、纠错与3道题。原有194个小节保留，知识卡默认展开对应基础教学。未宣称已逐字复核原书所有细则。
+- 新增16节零基础详解，每节至少4段解释、逐块示范、纠错与3道题（其中6节本轮进一步扩成完整长课与8道题）。原有194个小节保留，基础课自身默认展开完整教学；其他知识卡可展开相关基础补课。未宣称已逐字复核原书所有细则。
 - 原40个单元均增加完整对话：共182句，逐句中译与语法说明；40段原短文也有中译；每单元由6题扩至9题。口语/写作页先展示老师示范，再进入自己的任务。
 - 104篇听力、232道理解题、104个MP3文件，24.17分钟。合成语音（eSpeak NG es），非真人录音，不模拟多口音。脚本由本站原创，基础短文40篇、新分级对话40篇、文化对话24篇。音频可直接播放及变速，先隐藏文本，后看译文和证据解析。
 - 文化从10个简述扩为24个专题：先讲背景、边界、完整对话、译文与回应方法，再做理解题和可选笔记。原10主题与笔记序号保留。
@@ -40,3 +40,5 @@ public-site-validation.json、classroom-validation.json 和 navigation-validatio
 验证：`node tests/expanded-content.cjs`；`SITE_URL=http://127.0.0.1:8000 node tests/expansion-browser.mjs`。浏览器测试需Playwright、Chromium，安装位置根据机器修改。`expanded-content-validation.json`、`expansion-browser-validation.json`记录本轮结果。音频再生成可使用 `scripts/build-listening-audio.py`；常规构建/发布直接复用已生成MP3。
 
 尚未完成的范围包括：原书全部细则逐字校对、全部词义逐条教师审校、真实多口音语料、系统C1—C2课程序列以及真人口语/写作反馈。数量增加不等于这些项目已经验收。
+
+2026-10-22 教学与名词性别修订：`grammar-depth.js` 为六节基础课提供逐层说明、对比、推理和新增定向练习；不是根据本次尚未能读取的大体积 PDF 编写。`noun-genders.js` 从 Apertium 名词形态标签提取，`noun-gender-teaching.js` 另处理 agua、mano、capital 等教学例外。未匹配词条明确标待核对。生成脚本、压缩完整源词典、许可和作者归属均保留。浏览器核对见 `tests/gender-depth-browser.mjs` 与 `gender-depth-validation.json`。

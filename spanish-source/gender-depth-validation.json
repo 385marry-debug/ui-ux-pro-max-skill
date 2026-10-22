@@ -1,0 +1,64 @@
+{
+  "checks": [
+    "阴性例外、阳性例外、人物通性与按义分性的独立核对",
+    "词库和翻面闪卡可见性别；动词与今天hoy不套名词性别",
+    "长课目录、冠词缩合、解释、8道实题与刷新恢复",
+    "动词构造推理、深层内容搜索、390px无溢出"
+  ],
+  "nounEntries": 4029,
+  "genderLabeled": 3696,
+  "unmatched": 333,
+  "unmatchedCore": [
+    [
+      "España",
+      "西班牙"
+    ],
+    [
+      "México",
+      "墨西哥"
+    ],
+    [
+      "Colombia",
+      "哥伦比亚"
+    ],
+    [
+      "Perú",
+      "秘鲁"
+    ],
+    [
+      "Uruguay",
+      "乌拉圭"
+    ],
+    [
+      "Venezuela",
+      "委内瑞拉"
+    ],
+    [
+      "Bolivia",
+      "玻利维亚"
+    ],
+    [
+      "Guatemala",
+      "危地马拉"
+    ],
+    [
+      "Francia",
+      "法国"
+    ],
+    [
+      "Italia",
+      "意大利"
+    ],
+    [
+      "Portugal",
+      "葡萄牙"
+    ],
+    [
+      "Japón",
+      "日本"
+    ]
+  ],
+  "deepLessons": 6,
+  "deepQuestions": 48,
+  "errors": []
+}
