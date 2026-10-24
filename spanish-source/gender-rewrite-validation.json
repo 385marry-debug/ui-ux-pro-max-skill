@@ -1,0 +1,20 @@
+{
+  "passed": true,
+  "lessons": 3,
+  "questionsSolved": 36,
+  "classificationItems": 38,
+  "checks": [
+    "单独打开讲解，无需读课文；不混入冠词/复数/形容词练习",
+    "分类逐项作答、逐项解析、空答案不计分、错误项反馈",
+    "分类题刷新还原已选值，不重复计分；返回准确规则小节",
+    "所有新题实际作答与反馈、全部三节手机无溢出",
+    "别名入口、知识点与分类题关键词搜索、旧新备份兼容"
+  ],
+  "compatibility": {
+    "newNotes": "我的笔记：estudiante可以同形。",
+    "newCards": 36,
+    "legacy": true,
+    "legacyRead": true
+  },
+  "errors": []
+}

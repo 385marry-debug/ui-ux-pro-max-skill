@@ -2,11 +2,11 @@
   "checks": [
     "阴性例外、阳性例外、人物通性与按义分性的独立核对",
     "词库和翻面闪卡可见性别；动词与今天hoy不套名词性别",
-    "长课目录、冠词缩合、解释、10道实题与刷新恢复",
+    "独立名词性别目录、规则、例外、查证、14道新题与刷新恢复",
     "动词构造推理、深层内容搜索、390px无溢出"
   ],
-  "nounEntries": 4041,
-  "genderLabeled": 3708,
+  "nounEntries": 4151,
+  "genderLabeled": 3816,
   "unmatched": 333,
   "unmatchedCore": [
     [
@@ -58,7 +58,7 @@
       "日本"
     ]
   ],
-  "deepLessons": 38,
-  "deepQuestions": 256,
+  "deepLessons": 40,
+  "deepQuestions": 282,
   "errors": []
 }

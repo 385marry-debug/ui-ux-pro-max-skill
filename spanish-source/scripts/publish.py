@@ -17,7 +17,7 @@ for destination in [repository, repository / 'docs', repository / 'spanish']:
         target.parent.mkdir(parents=True, exist_ok=True)
         shutil.copy2(source / relative, target)
     (destination / '.nojekyll').touch()
-    reports = {name: json.loads((source / (name + '.json')).read_text()) for name in ['public-site-validation', 'expanded-content-validation', 'expansion-browser-validation', 'gender-depth-validation', 'bridges-validation', 'graded-scaffolds-validation', 'textbook-coverage-audit', 'precision-validation', 'book-subrule-audit', 'reading-content-audit', 'reading-browser-report', 'adaptive-browser-report'] if (source / (name + '.json')).exists()}
-    (destination / 'validation.json').write_text(json.dumps({'version':'2026-10-24-daily-reading','verification':'Local Chromium and content checks; hosting result is recorded separately in GitHub Pages Actions.','reports':reports}, ensure_ascii=False, indent=2))
+    reports = {name: json.loads((source / (name + '.json')).read_text()) for name in ['public-site-validation', 'expanded-content-validation', 'expansion-browser-validation', 'gender-depth-validation', 'bridges-validation', 'graded-scaffolds-validation', 'textbook-coverage-audit', 'precision-validation', 'book-subrule-audit', 'reading-content-audit', 'reading-browser-report', 'adaptive-browser-report', 'gender-rewrite-content-audit', 'gender-rewrite-validation'] if (source / (name + '.json')).exists()}
+    (destination / 'validation.json').write_text(json.dumps({'version':'2026-10-24-independent-gender','verification':'Local Chromium and content checks; hosting result is recorded separately in GitHub Pages Actions.','reports':reports}, ensure_ascii=False, indent=2))
     assert (destination / 'index.html').read_bytes() == (source / 'index.html').read_bytes()
     print(f'Synced {destination.relative_to(repository) or "."}')

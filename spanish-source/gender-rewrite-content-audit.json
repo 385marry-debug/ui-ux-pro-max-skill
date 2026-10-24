@@ -1,0 +1,201 @@
+{
+  "scope": "三节独立的名词性别讲解与配套新题；不代表全部语法已重写。",
+  "sources": [
+    {
+      "book": "西班牙语公共课·上册",
+      "pdfPages": [
+        27,
+        28
+      ],
+      "printedPages": [
+        26,
+        27
+      ],
+      "use": "判断规律、例外、分类后再学冠词的分步方式"
+    },
+    {
+      "book": "Gramática básica del estudiante de español",
+      "pdfPages": [
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        272
+      ],
+      "printedPages": [
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        274
+      ],
+      "use": "事物/人物/动物类别、更多词尾、例外、分类/找不同/词形练习与答案核读"
+    }
+  ],
+  "counts": {
+    "independentLessons": 3,
+    "sections": 15,
+    "exerciseQuestions": 36,
+    "classificationQuestions": 7,
+    "classificationItems": 38,
+    "typedInputQuestions": 17,
+    "choiceQuestions": 12,
+    "independentLexicalFacts": 26,
+    "independentMorphologyCases": 13
+  },
+  "lessons": [
+    {
+      "id": "foundation-gender",
+      "title": "名词的性①：事物怎样判断阴阳性",
+      "sections": [
+        "先弄懂：这里的“名词”和“性”是什么",
+        "第一条常见线索：很多-o为阳性，很多-a为阴性",
+        "第二步：把常见例外明确分开，别用词尾硬套",
+        "再细一点：看完整词尾，不只看最后一个字母",
+        "不能可靠猜出来时，怎样查证",
+        "把判断过程走一遍，再自己做"
+      ],
+      "groups": [
+        {
+          "title": "先确认你理解“性别”是什么意思",
+          "section": "meaning",
+          "questions": [
+            "gender-gender-meaning-0",
+            "gender-gender-meaning-1"
+          ]
+        },
+        {
+          "title": "按已给的一般规律分类",
+          "section": "regular",
+          "questions": [
+            "gender-gender-regular-0",
+            "gender-gender-regular-1"
+          ]
+        },
+        {
+          "title": "找不同，再检查你记住的例外",
+          "section": "exceptions",
+          "questions": [
+            "gender-gender-exceptions-0",
+            "gender-gender-exceptions-1",
+            "gender-gender-exceptions-2",
+            "gender-gender-exceptions-3"
+          ]
+        },
+        {
+          "title": "练完整词尾，并分清相似结尾",
+          "section": "suffixes",
+          "questions": [
+            "gender-gender-suffixes-0",
+            "gender-gender-suffixes-1",
+            "gender-gender-suffixes-2"
+          ]
+        },
+        {
+          "title": "学会查证，而不是对陌生词硬猜",
+          "section": "dictionary",
+          "questions": [
+            "gender-gender-dictionary-0",
+            "gender-gender-dictionary-1",
+            "gender-gender-dictionary-2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "foundation-gender-people",
+      "title": "名词的性②：人物词怎样区分与变化",
+      "sections": [
+        "先分问题：事物的性别与人物的形式",
+        "第一类：普通词尾变化，也要看具体词",
+        "第二、三类：特殊形式，或者干脆使用不同的词",
+        "第四类：同一个词形，不等于只有一种性",
+        "再留一个边界：人物的生理性别不总决定名词的语法性"
+      ],
+      "groups": [
+        {
+          "title": "只练已经讲过的普通变化",
+          "section": "regular",
+          "questions": [
+            "gender-gender-people-forms-0",
+            "gender-gender-people-forms-1",
+            "gender-gender-people-forms-2",
+            "gender-gender-people-forms-3"
+          ]
+        },
+        {
+          "title": "特殊形式与不同词分别填",
+          "section": "special",
+          "questions": [
+            "gender-gender-people-special-0",
+            "gender-gender-people-special-1",
+            "gender-gender-people-special-2"
+          ]
+        },
+        {
+          "title": "按变化方式归类，而不是全都套同一条规则",
+          "section": "same",
+          "questions": [
+            "gender-gender-people-types-0",
+            "gender-gender-people-types-1"
+          ]
+        },
+        {
+          "title": "人物生理性别与固定语法性",
+          "section": "fixed",
+          "questions": [
+            "gender-gender-people-fixed-0",
+            "gender-gender-people-fixed-1"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "foundation-gender-animals",
+      "title": "名词的性③：动物名与真实雌雄怎样区分",
+      "sections": [
+        "先分两个问题：词是哪一类？这只动物是雌还是雄？",
+        "有的换词形，有的使用两个不同词",
+        "固定阴性或阳性的动物名，不靠雌雄改语法性",
+        "需要说明雌雄时：macho / hembra补充生物性别"
+      ],
+      "groups": [
+        {
+          "title": "雌雄对应词：先练所学词形",
+          "section": "forms",
+          "questions": [
+            "gender-gender-animals-forms-0",
+            "gender-gender-animals-forms-1",
+            "gender-gender-animals-forms-2",
+            "gender-gender-animals-forms-3",
+            "gender-gender-animals-forms-4"
+          ]
+        },
+        {
+          "title": "按动物名的处理方式分类",
+          "section": "fixed",
+          "questions": [
+            "gender-gender-animals-types-0",
+            "gender-gender-animals-types-1"
+          ]
+        },
+        {
+          "title": "真实雌雄与语法性，分开作答",
+          "section": "sex",
+          "questions": [
+            "gender-gender-animals-sex-0",
+            "gender-gender-animals-sex-1",
+            "gender-gender-animals-sex-2",
+            "gender-gender-animals-sex-3"
+          ]
+        }
+      ]
+    }
+  ],
+  "preservation": "旧题ID及旧学习记录保留；新入门课不再把冠词、复数与形容词混合作为第一轮练习。",
+  "publication": "独立编写中文说明与练习；不发布用户PDF、扫描页或整章原题。"
+}

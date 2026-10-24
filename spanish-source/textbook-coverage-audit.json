@@ -20,16 +20,20 @@
       "guide": "foundation-gender",
       "change": "关联已有详解",
       "questions": [
-        "foundation-gender-q0",
-        "foundation-gender-q1",
-        "foundation-gender-q2",
-        "foundation-gender-depth-0",
-        "foundation-gender-depth-1",
-        "foundation-gender-depth-2",
-        "foundation-gender-depth-3",
-        "foundation-gender-depth-4",
-        "detail-gender-categories-0",
-        "detail-gender-categories-1"
+        "gender-gender-meaning-0",
+        "gender-gender-meaning-1",
+        "gender-gender-regular-0",
+        "gender-gender-regular-1",
+        "gender-gender-exceptions-0",
+        "gender-gender-exceptions-1",
+        "gender-gender-exceptions-2",
+        "gender-gender-exceptions-3",
+        "gender-gender-suffixes-0",
+        "gender-gender-suffixes-1",
+        "gender-gender-suffixes-2",
+        "gender-gender-dictionary-0",
+        "gender-gender-dictionary-1",
+        "gender-gender-dictionary-2"
       ]
     },
     {

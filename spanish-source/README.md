@@ -74,3 +74,17 @@ public-site-validation.json、classroom-validation.json 和 navigation-validatio
 新增40个真实MP3（22篇全文与18课热身），听力总计144篇、294题、53.6分钟。均为eSpeak NG合成音频，非真人配套录音。脚本在`content/listening-audio-scripts.json`，音频构建继续使用`scripts/build-listening-audio.py`。
 
 核验：`node scripts/audit-reading.cjs`、`node tests/expanded-content.cjs`、`node scripts/audit-teaching.cjs`；本地Chromium检查`tests/reading-browser.mjs`、`tests/adaptive-browser.mjs`，报告为`reading-content-audit.json`、`reading-browser-report.json`、`adaptive-browser-report.json`。公开页面可分享`?view=reading&id=sr-01`或`?view=textbook&chapter=8&part=vocab`，嵌入功能沿用原入口。
+
+## 独立语法讲解与练习重写（2026-10-24）
+
+保留系统语法目录、搜索和自由学习，重写原`foundation-gender`为“名词的性①：事物怎样判断阴阳性”；新增独立的“名词的性②：人物词怎样区分与变化”“名词的性③：动物名与真实雌雄怎样区分”。三节共15小节，分别解释定义、常见词尾、明确例外、不能可靠推断时的查证、人物/动物的词形类别与固定语法性。例词提供本节所需中文义，判断过程逐项展开；不再把冠词、复数和形容词一致混在入门第一组练习。相关知识点仍可自由打开。
+
+参考用户两书：Caminante印刷26—27页（上传PDF27—28）；Gramática básica印刷14—19页（上传扫描PDF12—17）及答案印刷274页（PDF272）。资料研究记录保存在独立研读目录，网站只发布重新撰写的中文讲解、语法事实、短例词与自编练习，不分发用户PDF、扫描页或整章原题。
+
+本轮配套36道新题：17道输入、12道辨析、7道多项分类；7道分类共38个作答位置，题目数与分类项目数分别统计。分类用带明确标签的下拉选择逐项作答，全部提交后逐项给依据；整组全对才按一题计分。支持未答项检查、已作答状态刷新还原、逐题返回不重复计分，以及返回该组对应的规则小节。输入与找不同题同样可从原小节进入，答案提交后显示。
+
+“语法知识点”与首页提供直达入口；旧的名词性别索引卡转向相应完整讲解，语法书第1、2章概览也使用相同教学内容。全文规则、例词和分类项目参与搜索；语法题库新增“分类 / 归类”题型筛选。旧题ID及学习记录保留，新基础课使用独立题目，原有课程、阅读、词库、听力、场景功能保留。
+
+新增源码`src/gender-lessons.js`、`src/gender-lessons-ui.js`；新检查`node scripts/audit-gender-rewrite.cjs`以及`node tests/gender-rewrite-browser.mjs`。内容核验包含26个独立性别事实与13个词形用例；浏览器核验覆盖三课所有新题、38分类项、错题反馈、返回/刷新、检索、备份及手机布局。原`tests/gender-depth-browser.mjs`已按新的独立课修订，不再把原先混在一起的冠词一致规则作为本课验收标准。
+
+当前基础/过渡/补充独立课为49节，语法条目387个。这些计数不代表全部西语语法均已审校。本轮只重写上述名词性别专题，不把它宣称为全站所有语法已经重写。
