@@ -4,13 +4,13 @@
   "counts": {
     "chapters": 18,
     "topics": 58,
-    "newSupplementLessons": 17,
-    "supplementQuestions": 102,
+    "newSupplementLessons": 22,
+    "supplementQuestions": 144,
     "gradedUnits": 40,
     "unitMicroSteps": 120,
     "addedUnitInputQuestions": 120,
     "questionsPerUnit": 12,
-    "entries": 7240
+    "entries": 7241
   },
   "rows": [
     {
@@ -27,7 +27,9 @@
         "foundation-gender-depth-1",
         "foundation-gender-depth-2",
         "foundation-gender-depth-3",
-        "foundation-gender-depth-4"
+        "foundation-gender-depth-4",
+        "detail-gender-categories-0",
+        "detail-gender-categories-1"
       ]
     },
     {
@@ -87,7 +89,9 @@
         "foundation-bridge-plural-q2",
         "foundation-bridge-plural-depth-0",
         "foundation-bridge-plural-depth-1",
-        "foundation-bridge-plural-depth-2"
+        "foundation-bridge-plural-depth-2",
+        "detail-plural-boundaries-0",
+        "detail-plural-boundaries-1"
       ]
     },
     {
@@ -110,7 +114,7 @@
       "pdfPage": 39,
       "topic": "指示代词",
       "guide": "foundation-topic-demonstratives",
-      "change": "本轮补专项课",
+      "change": "补充专项课",
       "questions": [
         "foundation-topic-demonstratives-q0",
         "foundation-topic-demonstratives-q1",
@@ -125,7 +129,7 @@
       "pdfPage": 39,
       "topic": "介词 de",
       "guide": "foundation-topic-prepositions",
-      "change": "本轮补专项课",
+      "change": "补充专项课",
       "questions": [
         "foundation-topic-prepositions-q0",
         "foundation-topic-prepositions-q1",
@@ -204,7 +208,7 @@
       "pdfPage": 86,
       "topic": "介词 en",
       "guide": "foundation-topic-prepositions",
-      "change": "本轮补专项课",
+      "change": "补充专项课",
       "questions": [
         "foundation-topic-prepositions-q0",
         "foundation-topic-prepositions-q1",
@@ -249,7 +253,7 @@
       "pdfPage": 107,
       "topic": "ir 现在时",
       "guide": "foundation-topic-core-verbs",
-      "change": "本轮补专项课",
+      "change": "补充专项课",
       "questions": [
         "foundation-topic-core-verbs-q0",
         "foundation-topic-core-verbs-q1",
@@ -264,7 +268,7 @@
       "pdfPage": 107,
       "topic": "介词 a",
       "guide": "foundation-topic-prepositions",
-      "change": "本轮补专项课",
+      "change": "补充专项课",
       "questions": [
         "foundation-topic-prepositions-q0",
         "foundation-topic-prepositions-q1",
@@ -279,7 +283,7 @@
       "pdfPage": 128,
       "topic": "形容词一致",
       "guide": "foundation-topic-agreement",
-      "change": "本轮补专项课",
+      "change": "补充专项课",
       "questions": [
         "foundation-topic-agreement-q0",
         "foundation-topic-agreement-q1",
@@ -294,7 +298,7 @@
       "pdfPage": 128,
       "topic": "tener 现在时",
       "guide": "foundation-topic-core-verbs",
-      "change": "本轮补专项课",
+      "change": "补充专项课",
       "questions": [
         "foundation-topic-core-verbs-q0",
         "foundation-topic-core-verbs-q1",
@@ -324,14 +328,16 @@
       "pdfPage": 128,
       "topic": "非重读物主词",
       "guide": "foundation-topic-possessives",
-      "change": "本轮补专项课",
+      "change": "补充专项课",
       "questions": [
         "foundation-topic-possessives-q0",
         "foundation-topic-possessives-q1",
         "foundation-topic-possessives-q2",
         "foundation-topic-possessives-depth-0",
         "foundation-topic-possessives-depth-1",
-        "foundation-topic-possessives-depth-2"
+        "foundation-topic-possessives-depth-2",
+        "detail-possessive-reference-0",
+        "detail-possessive-reference-1"
       ]
     },
     {
@@ -339,7 +345,7 @@
       "pdfPage": 155,
       "topic": "指示限定词",
       "guide": "foundation-topic-demonstratives",
-      "change": "本轮补专项课",
+      "change": "补充专项课",
       "questions": [
         "foundation-topic-demonstratives-q0",
         "foundation-topic-demonstratives-q1",
@@ -354,14 +360,16 @@
       "pdfPage": 155,
       "topic": "重读物主词",
       "guide": "foundation-topic-possessives",
-      "change": "本轮补专项课",
+      "change": "补充专项课",
       "questions": [
         "foundation-topic-possessives-q0",
         "foundation-topic-possessives-q1",
         "foundation-topic-possessives-q2",
         "foundation-topic-possessives-depth-0",
         "foundation-topic-possessives-depth-1",
-        "foundation-topic-possessives-depth-2"
+        "foundation-topic-possessives-depth-2",
+        "detail-possessive-reference-0",
+        "detail-possessive-reference-1"
       ]
     },
     {
@@ -384,7 +392,7 @@
       "pdfPage": 155,
       "topic": "及物与不及物",
       "guide": "foundation-topic-transitivity",
-      "change": "本轮补专项课",
+      "change": "补充专项课",
       "questions": [
         "foundation-topic-transitivity-q0",
         "foundation-topic-transitivity-q1",
@@ -399,7 +407,7 @@
       "pdfPage": 179,
       "topic": "词干变化 e→ie / o→ue",
       "guide": "foundation-topic-stem-patterns",
-      "change": "本轮补专项课",
+      "change": "补充专项课",
       "questions": [
         "foundation-topic-stem-patterns-q0",
         "foundation-topic-stem-patterns-q1",
@@ -413,17 +421,15 @@
       "chapter": 8,
       "pdfPage": 179,
       "topic": "ser/estar 与形容词",
-      "guide": "foundation-core",
-      "change": "关联已有详解",
+      "guide": "foundation-topic-state-adjectives",
+      "change": "补充专项课",
       "questions": [
-        "foundation-core-q0",
-        "foundation-core-q1",
-        "foundation-core-q2",
-        "foundation-core-depth-0",
-        "foundation-core-depth-1",
-        "foundation-core-depth-2",
-        "foundation-core-depth-3",
-        "foundation-core-depth-4"
+        "foundation-topic-state-adjectives-q0",
+        "foundation-topic-state-adjectives-q1",
+        "foundation-topic-state-adjectives-q2",
+        "foundation-topic-state-adjectives-depth-0",
+        "foundation-topic-state-adjectives-depth-1",
+        "foundation-topic-state-adjectives-depth-2"
       ]
     },
     {
@@ -431,7 +437,7 @@
       "pdfPage": 179,
       "topic": "直接/间接宾语辨认",
       "guide": "foundation-topic-transitivity",
-      "change": "本轮补专项课",
+      "change": "补充专项课",
       "questions": [
         "foundation-topic-transitivity-q0",
         "foundation-topic-transitivity-q1",
@@ -461,7 +467,7 @@
       "pdfPage": 206,
       "topic": "词干变化 e→i",
       "guide": "foundation-topic-stem-patterns",
-      "change": "本轮补专项课",
+      "change": "补充专项课",
       "questions": [
         "foundation-topic-stem-patterns-q0",
         "foundation-topic-stem-patterns-q1",
@@ -506,7 +512,7 @@
       "pdfPage": 206,
       "topic": "现在时用法",
       "guide": "foundation-topic-present-uses",
-      "change": "本轮补专项课",
+      "change": "补充专项课",
       "questions": [
         "foundation-topic-present-uses-q0",
         "foundation-topic-present-uses-q1",
@@ -553,14 +559,16 @@
       "pdfPage": 231,
       "topic": "肯定命令入门",
       "guide": "foundation-topic-commands",
-      "change": "本轮补专项课",
+      "change": "补充专项课",
       "questions": [
         "foundation-topic-commands-q0",
         "foundation-topic-commands-q1",
         "foundation-topic-commands-q2",
         "foundation-topic-commands-depth-0",
         "foundation-topic-commands-depth-1",
-        "foundation-topic-commands-depth-2"
+        "foundation-topic-commands-depth-2",
+        "detail-command-boundaries-0",
+        "detail-command-boundaries-1"
       ]
     },
     {
@@ -568,7 +576,7 @@
       "pdfPage": 231,
       "topic": "介词 de 扩展",
       "guide": "foundation-topic-prepositions",
-      "change": "本轮补专项课",
+      "change": "补充专项课",
       "questions": [
         "foundation-topic-prepositions-q0",
         "foundation-topic-prepositions-q1",
@@ -583,14 +591,16 @@
       "pdfPage": 259,
       "topic": "肯定命令扩展",
       "guide": "foundation-topic-commands",
-      "change": "本轮补专项课",
+      "change": "补充专项课",
       "questions": [
         "foundation-topic-commands-q0",
         "foundation-topic-commands-q1",
         "foundation-topic-commands-q2",
         "foundation-topic-commands-depth-0",
         "foundation-topic-commands-depth-1",
-        "foundation-topic-commands-depth-2"
+        "foundation-topic-commands-depth-2",
+        "detail-command-boundaries-0",
+        "detail-command-boundaries-1"
       ]
     },
     {
@@ -598,14 +608,16 @@
       "pdfPage": 259,
       "topic": "疑问句词序",
       "guide": "foundation-topic-question-order",
-      "change": "本轮补专项课",
+      "change": "补充专项课",
       "questions": [
         "foundation-topic-question-order-q0",
         "foundation-topic-question-order-q1",
         "foundation-topic-question-order-q2",
         "foundation-topic-question-order-depth-0",
         "foundation-topic-question-order-depth-1",
-        "foundation-topic-question-order-depth-2"
+        "foundation-topic-question-order-depth-2",
+        "detail-questions-with-prepositions-0",
+        "detail-questions-with-prepositions-1"
       ]
     },
     {
@@ -613,7 +625,7 @@
       "pdfPage": 259,
       "topic": "句中一致关系",
       "guide": "foundation-topic-agreement",
-      "change": "本轮补专项课",
+      "change": "补充专项课",
       "questions": [
         "foundation-topic-agreement-q0",
         "foundation-topic-agreement-q1",
@@ -628,7 +640,7 @@
       "pdfPage": 259,
       "topic": "介词 con",
       "guide": "foundation-topic-prepositions",
-      "change": "本轮补专项课",
+      "change": "补充专项课",
       "questions": [
         "foundation-topic-prepositions-q0",
         "foundation-topic-prepositions-q1",
@@ -643,14 +655,16 @@
       "pdfPage": 288,
       "topic": "否定命令",
       "guide": "foundation-topic-commands",
-      "change": "本轮补专项课",
+      "change": "补充专项课",
       "questions": [
         "foundation-topic-commands-q0",
         "foundation-topic-commands-q1",
         "foundation-topic-commands-q2",
         "foundation-topic-commands-depth-0",
         "foundation-topic-commands-depth-1",
-        "foundation-topic-commands-depth-2"
+        "foundation-topic-commands-depth-2",
+        "detail-command-boundaries-0",
+        "detail-command-boundaries-1"
       ]
     },
     {
@@ -658,14 +672,16 @@
       "pdfPage": 288,
       "topic": "宾语从句",
       "guide": "foundation-topic-object-clauses",
-      "change": "本轮补专项课",
+      "change": "补充专项课",
       "questions": [
         "foundation-topic-object-clauses-q0",
         "foundation-topic-object-clauses-q1",
         "foundation-topic-object-clauses-q2",
         "foundation-topic-object-clauses-depth-0",
         "foundation-topic-object-clauses-depth-1",
-        "foundation-topic-object-clauses-depth-2"
+        "foundation-topic-object-clauses-depth-2",
+        "detail-clause-roles-0",
+        "detail-clause-roles-1"
       ]
     },
     {
@@ -673,7 +689,7 @@
       "pdfPage": 321,
       "topic": "si 条件句",
       "guide": "foundation-topic-conditions",
-      "change": "本轮补专项课",
+      "change": "补充专项课",
       "questions": [
         "foundation-topic-conditions-q0",
         "foundation-topic-conditions-q1",
@@ -688,7 +704,7 @@
       "pdfPage": 321,
       "topic": "无人称句",
       "guide": "foundation-topic-impersonal",
-      "change": "本轮补专项课",
+      "change": "补充专项课",
       "questions": [
         "foundation-topic-impersonal-q0",
         "foundation-topic-impersonal-q1",
@@ -703,7 +719,7 @@
       "pdfPage": 321,
       "topic": "tener que / hay que",
       "guide": "foundation-topic-core-verbs",
-      "change": "本轮补专项课",
+      "change": "补充专项课",
       "questions": [
         "foundation-topic-core-verbs-q0",
         "foundation-topic-core-verbs-q1",
@@ -730,7 +746,7 @@
       "pdfPage": 344,
       "topic": "感叹句",
       "guide": "foundation-topic-exclamations",
-      "change": "本轮补专项课",
+      "change": "补充专项课",
       "questions": [
         "foundation-topic-exclamations-q0",
         "foundation-topic-exclamations-q1",
@@ -745,7 +761,7 @@
       "pdfPage": 362,
       "topic": "se 被动",
       "guide": "foundation-topic-impersonal",
-      "change": "本轮补专项课",
+      "change": "补充专项课",
       "questions": [
         "foundation-topic-impersonal-q0",
         "foundation-topic-impersonal-q1",
@@ -760,7 +776,7 @@
       "pdfPage": 362,
       "topic": "donde 地点从句",
       "guide": "foundation-topic-relative-time-place",
-      "change": "本轮补专项课",
+      "change": "补充专项课",
       "questions": [
         "foundation-topic-relative-time-place-q0",
         "foundation-topic-relative-time-place-q1",
@@ -774,17 +790,15 @@
       "chapter": 16,
       "pdfPage": 397,
       "topic": "简单过去入门",
-      "guide": "foundation-past",
-      "change": "关联已有详解",
+      "guide": "foundation-topic-past-regular",
+      "change": "补充专项课",
       "questions": [
-        "foundation-past-q0",
-        "foundation-past-q1",
-        "foundation-past-q2",
-        "foundation-past-depth-0",
-        "foundation-past-depth-1",
-        "foundation-past-depth-2",
-        "foundation-past-depth-3",
-        "foundation-past-depth-4"
+        "foundation-topic-past-regular-q0",
+        "foundation-topic-past-regular-q1",
+        "foundation-topic-past-regular-q2",
+        "foundation-topic-past-regular-depth-0",
+        "foundation-topic-past-regular-depth-1",
+        "foundation-topic-past-regular-depth-2"
       ]
     },
     {
@@ -792,7 +806,7 @@
       "pdfPage": 397,
       "topic": "无人称句扩展",
       "guide": "foundation-topic-impersonal",
-      "change": "本轮补专项课",
+      "change": "补充专项课",
       "questions": [
         "foundation-topic-impersonal-q0",
         "foundation-topic-impersonal-q1",
@@ -806,17 +820,15 @@
       "chapter": 17,
       "pdfPage": 422,
       "topic": "简单过去扩展",
-      "guide": "foundation-past",
-      "change": "关联已有详解",
+      "guide": "foundation-topic-past-irregular",
+      "change": "补充专项课",
       "questions": [
-        "foundation-past-q0",
-        "foundation-past-q1",
-        "foundation-past-q2",
-        "foundation-past-depth-0",
-        "foundation-past-depth-1",
-        "foundation-past-depth-2",
-        "foundation-past-depth-3",
-        "foundation-past-depth-4"
+        "foundation-topic-past-irregular-q0",
+        "foundation-topic-past-irregular-q1",
+        "foundation-topic-past-irregular-q2",
+        "foundation-topic-past-irregular-depth-0",
+        "foundation-topic-past-irregular-depth-1",
+        "foundation-topic-past-irregular-depth-2"
       ]
     },
     {
@@ -824,14 +836,16 @@
       "pdfPage": 422,
       "topic": "日期",
       "guide": "foundation-topic-calendar",
-      "change": "本轮补专项课",
+      "change": "补充专项课",
       "questions": [
         "foundation-topic-calendar-q0",
         "foundation-topic-calendar-q1",
         "foundation-topic-calendar-q2",
         "foundation-topic-calendar-depth-0",
         "foundation-topic-calendar-depth-1",
-        "foundation-topic-calendar-depth-2"
+        "foundation-topic-calendar-depth-2",
+        "detail-calendar-register-0",
+        "detail-calendar-register-1"
       ]
     },
     {
@@ -839,14 +853,16 @@
       "pdfPage": 422,
       "topic": "过去分词",
       "guide": "foundation-topic-nonfinite",
-      "change": "本轮补专项课",
+      "change": "补充专项课",
       "questions": [
         "foundation-topic-nonfinite-q0",
         "foundation-topic-nonfinite-q1",
         "foundation-topic-nonfinite-q2",
         "foundation-topic-nonfinite-depth-0",
         "foundation-topic-nonfinite-depth-1",
-        "foundation-topic-nonfinite-depth-2"
+        "foundation-topic-nonfinite-depth-2",
+        "detail-participle-agreement-0",
+        "detail-participle-agreement-1"
       ]
     },
     {
@@ -854,7 +870,7 @@
       "pdfPage": 454,
       "topic": "cuando 时间从句",
       "guide": "foundation-topic-relative-time-place",
-      "change": "本轮补专项课",
+      "change": "补充专项课",
       "questions": [
         "foundation-topic-relative-time-place-q0",
         "foundation-topic-relative-time-place-q1",
@@ -868,17 +884,15 @@
       "chapter": 18,
       "pdfPage": 454,
       "topic": "未完成过去入门",
-      "guide": "foundation-past",
-      "change": "关联已有详解",
+      "guide": "foundation-topic-past-imperfect",
+      "change": "补充专项课",
       "questions": [
-        "foundation-past-q0",
-        "foundation-past-q1",
-        "foundation-past-q2",
-        "foundation-past-depth-0",
-        "foundation-past-depth-1",
-        "foundation-past-depth-2",
-        "foundation-past-depth-3",
-        "foundation-past-depth-4"
+        "foundation-topic-past-imperfect-q0",
+        "foundation-topic-past-imperfect-q1",
+        "foundation-topic-past-imperfect-q2",
+        "foundation-topic-past-imperfect-depth-0",
+        "foundation-topic-past-imperfect-depth-1",
+        "foundation-topic-past-imperfect-depth-2"
       ]
     },
     {
@@ -886,14 +900,16 @@
       "pdfPage": 454,
       "topic": "副动词入门",
       "guide": "foundation-topic-nonfinite",
-      "change": "本轮补专项课",
+      "change": "补充专项课",
       "questions": [
         "foundation-topic-nonfinite-q0",
         "foundation-topic-nonfinite-q1",
         "foundation-topic-nonfinite-q2",
         "foundation-topic-nonfinite-depth-0",
         "foundation-topic-nonfinite-depth-1",
-        "foundation-topic-nonfinite-depth-2"
+        "foundation-topic-nonfinite-depth-2",
+        "detail-participle-agreement-0",
+        "detail-participle-agreement-1"
       ]
     }
   ]

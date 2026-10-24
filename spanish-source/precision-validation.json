@@ -1,0 +1,16 @@
+{
+  "checks": [
+    "5节独立细讲与8组细则对比、46道相关题",
+    "22个独立词形核对：hice/hizo、j词干、gu/gü、-ir第三人称、未完成与代词脱落",
+    "tabúes/tabús均接受；漏重音仍错误；刷新不重复计分",
+    "日期表、estar a、分词细则可实际作答；从分级课程返回原步骤",
+    "可点击时间线解释参照和背景；5课与长表手机无溢出；深层内容可搜索"
+  ],
+  "counts": {
+    "newLessons": 5,
+    "detailGroups": 8,
+    "newQuestions": 46,
+    "morphologyCases": 22
+  },
+  "errors": []
+}

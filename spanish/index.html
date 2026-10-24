@@ -21,6 +21,7 @@ aside{padding-top:25px}nav{margin-top:23px;gap:4px}nav button{padding:11px 13px}
 .beginner-route{margin:24px 0}.beginner-route>p{line-height:1.9;max-width:82ch}.bridge-route-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;margin:22px 0}.bridge-route-grid h3{font-size:19px;line-height:1.6;margin:14px 0}.bridge-word-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}.bridge-stages{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}.bridge-preparation,.bridge-application{margin:28px 0}.bridge-preparation .bottomrow{align-items:flex-start}.bridge-preparation .link{text-align:left;white-space:normal}.bridge-word-grid strong{overflow-wrap:anywhere}.bridge-application .sentence-row p{margin:8px 0}.beginner-route .teacher-foundation{margin-top:24px}@media(max-width:700px){.bridge-route-grid,.bridge-stages{grid-template-columns:1fr}.bridge-word-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
 .unit-preparation{margin:24px 0}.unit-preparation .bottomrow{align-items:flex-start}.unit-preparation .link{text-align:left;white-space:normal}.unit-micro-lessons>p,.unit-micro-step p,.micro-reasoning p{line-height:1.95;max-width:76ch;margin:16px 0}.unit-micro-step{padding:24px 0;border-bottom:1px solid var(--line);scroll-margin-top:90px}.unit-micro-step h3{font-size:21px;line-height:1.65;overflow-wrap:anywhere}.unit-layered-practice{margin:24px 0}.unit-layered-practice .btn,.unit-preparation .btn{white-space:normal}.lesson-content .bridge-word-grid{grid-template-columns:repeat(2,minmax(0,1fr))}@media(max-width:420px){.lesson-content .bridge-word-grid{grid-template-columns:1fr}}
 .course-shortcuts{margin:18px 0 24px}.lesson-grid,.beginner-route,.textbook-crosswalk{scroll-margin-top:85px}
+.precision-rule{padding:22px 0;border-top:1px solid var(--line);scroll-margin-top:90px}.precision-rule h4{font-size:19px;line-height:1.65}.precision-rule p{line-height:1.95;margin:16px 0}.precision-rule .lesson-table{margin:18px 0}.precision-rule>.btn{margin-top:14px}.teaching-time-axis{padding:20px;border:1px solid var(--line);border-radius:14px;margin:24px 0;background:var(--bg)}.time-nodes{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;margin:18px 0}.time-node{font:inherit;text-align:left;padding:16px;border:1px solid var(--line);border-radius:10px;background:var(--paper);color:var(--ink);cursor:pointer}.time-node span{display:block;color:var(--muted);font-size:13px;margin-bottom:10px}.time-node strong{font-size:15px;line-height:1.65;overflow-wrap:anywhere}.time-node[aria-pressed=true]{border-color:var(--green);box-shadow:inset 0 0 0 1px var(--green)}.time-node:focus-visible{outline:3px solid var(--green);outline-offset:3px}.time-insight{line-height:1.9;min-height:3em}.precision-unit-links{margin-top:24px}.precision-unit-links .hintbox{margin:16px 0}@media(max-width:640px){.time-nodes{grid-template-columns:1fr}.teaching-time-axis{padding:15px}}
 </style></head><body><aside><div class="brand">hola<span>.</span></div><div class="tag">西语练习室</div><nav id="nav"></nav><div class="sidefoot">从一句 Hola 开始。<br>每天一点，离世界更近一点。<br><br>入门路线 · A1 基础</div></aside><main><header><span class="eyebrow">UN POCO CADA DÍA · 每天进步一点</span><div class="header-right"><span class="pill">✦ <span id="total">0</span> 次练习</span><span class="avatar">ñ</span></div></header><div id="storage-banner" role="status" hidden>当前浏览器无法保存学习记录。离开前请到“备份与设置”导出备份。</div><div id="app"></div><div class="footer">按自己的节奏学习 · 进度仅保存在当前浏览器</div></main><dialog id="lesson"><div id="lesson-content"></div><button class="btn outline" onclick="document.querySelector('dialog').close()">关闭</button></dialog>
 <script>const grammar=[
 ['g1','冠词与一致','_____ casa es blanca.',['El','La','Los','Un'],'La','casa 是阴性单数名词，因此使用 la。形容词 blanca 也使用阴性单数形式。','La casa es blanca.'],
@@ -1852,6 +1853,197 @@ supplement('transitivity','及物与不及物：看当前句子怎样带补语',
 ],[['Compro el libro. Lo compro.','我买那本书。我买它。','el libro 是直接宾语，可在本结构中用 lo 替换。'],['Vivo en Lima.','我住利马。','en Lima 是地点补语，不当 el libro 式直接宾语处理。'],['Me gusta la música.','我喜欢音乐。','música 为主语，me 是体验者间接宾语。']],['所有动词后的成分都是直接宾语','先看动词框架与成分角色','位置相邻不能代替句法分析。'],[
 bridgeChoice('Vivo en Lima 中 en Lima 是：','地点补语',['地点补语','一定是直接宾语','主语'],'居住框架用 en 引出位置，不按买一本书的直接宾语分析。'),bridgeChoice('及物动词是否每次都必须显式写出宾语？','不一定，需看用法和语境',['不一定，需看用法和语境','永远必须','不及物也都必须'],'Ya he comido 可在语境中不明说食物。'),bridgeInput('Compro el libro→___ compro. 只填第三人称直接宾语代词。','lo','el libro 阳性单数，在买的直接宾语结构中换 lo。'),bridgeInput('依赖某人：Dependo ___ Ana. 只填介词。','de','depender de 为介词补语框架，不把 de Ana 当直接宾语。'),bridgeChoice('Me gusta la música 中 la música 是：','主语',['主语','因为在后面所以一定直接宾语','间接宾语'],'gusta 与喜爱的事物配数；me 是体验者。'),bridgeOrder('组句：我住在利马。',['Vivo','en','Lima'],'vivo 配我，en Lima 给位置。')]);
 
+// Further original instruction based on specific textbook rules, with separate learner-facing tasks.
+const precisionLessons=[];
+Object.assign(supplementObjectives,{
+'past-regular':'先选择过去叙事视角，再构造规则 -ar/-er/-ir 简单过去时；能分清词尾相同而时间不同的形式。',
+'past-irregular':'把简单过去时的不规则形式按词干、拼写和第三人称变化分类，解释差别而非背混合长表。',
+'past-imperfect':'构造未完成过去时，并在习惯、背景、事件与相对时间中选择叙事视角。',
+'state-adjectives':'在同一个形容词前比较 ser/estar 所表达的信息，区分身份属性、表现和状态。',
+'spelling-sounds':'根据后接元音解释 c/qu、g/gu/gü 的拼写，识别 r/rr、b/v 和地区发音差异。'
+});
+function precision(...args){supplement(...args);precisionLessons.push(bookSupplementLessons.at(-1))}
+precision('past-regular','简单过去时Ⅰ：规则词尾、重音与叙事顺序','A2','过去时间系统',['foundation-past','foundation-bridge-present-er-ir'],['ayer','comprar','comer','vivir'],[
+['先选叙事视角，再背词尾',[
+'简单过去时 pretérito perfecto simple，也常称 indefinido，把过去事件作为一个有边界的整体呈现。Ayer estudié dos horas 可以把两小时学习作为整体；并非只容纳短动作。时间词提供线索，叙述视角才解释为什么这样组织。',
+'先用昨天的三个节点练：出门→买东西→回家。你在推进事件，而不是展开当时背景。若接着补“当时在下雨”，就可能转用未完成过去时。一个段落允许用不同形式承担不同任务。']],
+['-ar：先拆原形，再对应六组人称',[
+'hablar→habl-，再加 -é/-aste/-ó/-amos/-asteis/-aron：hablé, hablaste, habló, hablamos, hablasteis, hablaron。先练 yo 和 él/ella：hablé 与 habló 都必须写重音；tú 的 hablaste 则不凭感觉加重音。',
+'做“我们买了”：comprar 去 -ar→compr-；nosotros 的过去词尾 -amos→compramos。这一格与现在时同形，不能只凭拼写就断定时间；Ayer compramos 与 Todos los días compramos 的时间需要上下文。']],
+['-er 与 -ir：这两个类别在规则简单过去时用同套词尾',[
+'-í/-iste/-ió/-imos/-isteis/-ieron，comí/comiste/comió/comimos/comisteis/comieron；viví/viviste/vivió/vivimos/vivisteis/vivieron。现在时 -er 与 -ir 在 nosotros 不同，但本课过去时两类这里都为 -imos。',
+'先保持主语不变，只换动词类别：yo hablé/comí/viví；再保持动词不变，换成 ella habló/comió/vivió。把两个维度分开练，才能定位是类别错、人称错还是漏重音。']],
+['词形同形、不同形，都要回句子判断',[
+'vivimos 可以是我们现在住，也可以是我们过去住过；comemos 与 comimos 则已经不同。不要把“nosotros 过去时都和现在相同”当规律，也不能看见相同形式就说作者没变位。',
+'限定题目要求“按简单过去时”时，要按该表生成；真实阅读则还看时间范围和叙事推进。estudié / estudiaba 的区别也不只是加哪个词尾，而是有没有把事件当整体或展开背景。']],
+['从三个词形到一段可理解的叙事',[
+'Ayer salí, compré pan y volví a casa：每个谓语都要与省略的 yo 对应。第一个动词表示过去，不会自动把后面的原形变成合法过去谓语；也不要求每个动词都来自同一规则组。',
+'先按真实顺序列事件，再补必要的主语转换。原形、代词、地点关系仍按原结构检查。过去时是整句系统的一部分，不是在每个动词后随意加一段“过去词尾”。']]
+],[['Ayer hablamos con Ana.','昨天我们和 Ana 交谈了。','hablamos 在此按 ayer 和叙事语境读为过去整体；词形也可能是现在时。'],['Comí en casa y después escribí una carta.','我在家吃饭，随后写了封信。','两个谓语都配 yo，-er/-ir 的规则过去时同取 -í。'],['Vivió allí diez años.','他/她在那里住过十年。','长时段也能从边界回看为整体，不是只按时长选择未完成。']],['Yo habló ayer','Yo hablé ayer','yo 的 -ar 过去词尾是 -é；habló 为第三人称单数。'],[
+bridgeChoice('规则 -er 和 -ir 的简单过去时词尾：','本课使用同一套人称词尾',['本课使用同一套人称词尾','所有时态都一样','由宾语性别决定'],'当前讨论规则简单过去时，不能扩大到全部时态。'),
+bridgeChoice('Ayer hablamos 中 hablamos：','可按语境表示过去',['可按语境表示过去','词形与现在相同，所以一定错误','只有 tú 才能用'],'-ar 的 nosotros 当前/过去同形，需看语境。'),
+bridgeInput('hablar，简单过去时，yo：','hablé','habl- 加 -é；重音不可漏。'),
+bridgeInput('comer，简单过去时，nosotros：','comimos','规则 -er 过去 nosotros 用 -imos，不是现在时 comemos。'),
+bridgeChoice('“住了十年”能否用简单过去时？','能，若作为有边界的整体经历',['能，若作为有边界的整体经历','不能，十年太长','只能看动词有没有重音'],'时间长度不替代叙述视角。'),
+bridgeOrder('按词块组句：昨天我和 Ana 交谈了。',['Ayer','hablé','con','Ana.'],'hablé 配 yo，con 引出交谈对象。')]);
+precision('past-irregular','简单过去时Ⅱ：不规则分组与拼写变化','A2','过去时间系统',['foundation-topic-past-regular','foundation-topic-spelling-sounds'],['tener','hacer','decir','dormir'],[
+['先把表拆成几种变化，不背混合名单',[
+'ir/ser 共用 fui/fuiste/fue/fuimos/fuisteis/fueron，需要补语和语境区分。dar 的 di/diste/dio/dimos/disteis/dieron 与 ver 的 vi/viste/vio/vimos/visteis/vieron 常用形式也单列。fui、fue、vio、dio 不因表示过去而加书面重音。',
+'再分出强词干变化、为保持读音的拼写变化，以及 -ir 第三人称变化。一个词可能同时涉及多个层面。先标“哪种改变”，比看到不认识的过去形式就重背整表更容易迁移。']],
+['强词干配一套常见词尾，hacer 的 c/z 要看人称',[
+'tener→tuv-，estar→estuv-，poder→pud-，poner→pus-，venir→vin-，saber→sup-，querer→quis-。常见词尾 -e/-iste/-o/-imos/-isteis/-ieron，第一与第三人称单数通常不写规则过去时那种重音：tuve、tuvo。',
+'hacer 有 hice/hiciste/hizo/hicimos/hicisteis/hicieron。不是把词干统一记成 hiz- 就造出 hize；第三人称 hizo 的 z 与其他人称的 c 区别，是拼写和发音配合的结果。']],
+['j 词干的复数尾少一个 i，不是漏字',[
+'decir→dije/dijiste/dijo/dijimos/dijisteis/dijeron；traer→traje…trajeron；conducir→conduje…condujeron。词干已含 j 的这类第三人称复数常用 -eron，不写 dijieron 或 trajieron。',
+'先认词干，再选该组词尾；不能把所有不规则词都改成 -eron。tuvieron、vinieron 仍有 i。把 dij- 与 tuv- 并排对照，能看清分组条件。']],
+['-car/-gar/-zar/-guar 的 yo：用拼写维持词干音',[
+'buscar→busqué，pagar→pagué，empezar→empecé，averiguar→averigüé。这些例子先聚焦 yo 规则过去 -é 前的拼写；不是因为表里出现 qu 就把其他所有人称也改成 busquaste。',
+'gu 在 e/i 前通常让 u 不发音；如果要在 averigüé 保留 u 的发音，使用 ü。地区的 c/z/s 发音可能不同，学习拼写时仍按书面形式核对，不把某种口音当作所有地区唯一标准。']],
+['-ir 第三人称与元音间的 y，范围各不相同',[
+'pedir：pedí/pediste/pidió/pedimos/pedisteis/pidieron；dormir：dormí/dormiste/durmió/dormimos/dormisteis/durmieron。本组变化集中第三人称，不能照搬现在时 pienso 那样的分布。',
+'leer 的 leyó/leyeron 与 oír 的 oyó/oyeron 还体现元音间的 y；其他人称如 leí、oí 仍要保留重音。先分组再查具体动词。某个字母变 y，并不等于所有 -ir 动词第三人称都加 y。']]
+],[['Tuve tiempo, pero no fui.','我当时有时间，但没去。','tuve 为 tener 强词干，fui 在这里由去的语境理解为 ir。'],['Hice la tarea y Ana hizo la cena.','我做了作业，Ana 做了晚饭。','hice / hizo 的 c/z 随具体词形检查，不统一写成 hiz-。'],['Ellos dijeron que durmieron bien.','他们说睡得很好。','dijeron 为 j 词干组；durmieron 是 dormir 的第三人称变化。']],['hize / dijieron','hice / dijeron','hacer 和 j 词干分别检查，不能用同一机械公式。'],[
+bridgeChoice('hacer 的 yo 简单过去时：','hice',['hice','hize','hicí'],'yo 用 hice；第三人称单数才是 hizo。'),
+bridgeChoice('decir 的 ellos 简单过去时：','dijeron',['dijeron','dijieron','decieron'],'j 词干的该组第三人称复数取 -eron。'),
+bridgeInput('buscar，简单过去时，yo：','busqué','-car 在此 yo 的 -é 前用 qu 保持 /k/。'),
+bridgeInput('dormir，简单过去时，ella：','durmió','-ir 的该第三人称过去式 o→u；重音 ó 保留。'),
+bridgeChoice('“我看见了”的常用简单过去形式：','vi',['vi','ví','viyó'],'ver 的 yo 为 vi；不因是过去就增加重音。'),
+bridgeOrder('组句：他们说实话了。',['Ellos','dijeron','la','verdad.'],'dijeron 的 -eron 是 j 词干组的形式。')]);
+precision('past-imperfect','过去未完成时：规则表、三个常用不规则与背景视角','A2','过去时间系统',['foundation-topic-past-regular','foundation-past'],['antes','vivir','ser','ir'],[
+['未完成时不是在宣布动作后来没完成',[
+'A las ocho estudiaba 把镜头放在当时，展开正在学习的背景，并未告诉你之后有没有学完。Ayer estudié dos horas 则从边界看整段学习。不要从中文“未完成”字面推断所有事件都没结尾。',
+'叙事通常让背景、习惯、当时状态与推进事件配合工作。选择时态是在选视角，不是给动词贴固定标签“学习很长所以永远未完成”。']],
+['规则 -ar 与 -er/-ir 分开练，再合并到句子',[
+'hablar：hablaba/hablabas/hablaba/hablábamos/hablabais/hablaban。-er 与 -ir 同用 -ía/-ías/-ía/-íamos/-íais/-ían，如 comía、vivía。后两类的 í 要保留；hablábamos 的 á 同样属于书面词形。',
+'第一、第三人称单数常同形：yo vivía / ella vivía，语境不清时保留主语。不能因为词尾看不出人称，就认为该词没有变位。']],
+['三个常用不规则：ser、ir、ver',[
+'ser：era/eras/era/éramos/erais/eran；ir：iba/ibas/iba/íbamos/ibais/iban；ver：veía/veías/veía/veíamos/veíais/veían。和 fui/estuve 等简单过去形式分别建立索引。',
+'先只换主语练 era→éramos、iba→íbamos，再把身份或去处放回。ver 的 veía 不按常规简单删掉两个字母来处理，按这套高频范式学习更稳妥。另外要逐格核对：tú escribías 有 -s，yo/él escribía 没有；不能把单数同形扩大到 tú。']],
+['习惯、背景与时间长短不是一一对应',[
+'De niña iba a la biblioteca 说童年习惯；El año pasado fui a la biblioteca tres veces 汇总过去一年三次，仍可简单过去。重复不必然未完成，长时间也不必然未完成。',
+'Vivía allí cuando conocí a Ana 展开当时生活背景；Viví allí diez años 把十年作为整体。两种说法可能描述同一人生阶段的不同侧面，解释不能只说一个永远对、另一个永远错。']],
+['把背景和事件各自找出主语，再连接',[
+'Mientras estudiábamos, sonó el teléfono：我们学习是背景，电话响推进画面。estudiábamos 配我们，sonó 配电话，两个动词不仅时态不同，主语也不同。',
+'不是看见 mientras 就自动把全句都改成未完成。先画正在展开的背景，再标进入画面的事件，最后选择形式。若语境允许另一视角，应说明意思变化而不是只按关键词判分。']]
+],[['Éramos estudiantes.','我们那时是学生。','ser 的 nosotros 未完成过去为 éramos。'],['Íbamos a la biblioteca los sábados.','我们以前每周六去图书馆。','ir 的 íbamos 描述过去习惯；并非只因有复数星期就固定时态。'],['Estudiábamos cuando sonó el teléfono.','我们学习时电话响了。','背景 estudiar 与事件 sonar 分别配自己的主语和视角。']],['未完成时=事情后来一定没完成','未完成时可把过去内部展开','语法名称不能替代叙事视角。'],[
+bridgeChoice('estudiaba 能否表示后来完成了的学习背景？','能，形式本身不宣布后来没完成',['能，形式本身不宣布后来没完成','绝对不能','只能用于将来'],'背景视角不等于对现实结尾作否定。'),
+bridgeChoice('把十年居住当完整已结束阶段：','Viví allí diez años.',['Viví allí diez años.','只有 Vivía 永远正确','Vivir allí yo diez años.'],'时段长短不替代整体或内部视角的选择。'),
+bridgeInput('ser，未完成过去时，nosotros：','éramos','常用不规则 ser→éramos，保留重音。'),
+bridgeInput('ir，未完成过去时，nosotros：','íbamos','ir→íbamos，不能造 iríamos 来作本题的未完成过去；iríamos 为条件式。'),
+bridgeChoice('过去一段时期的习惯，按本题从内部回看：','Antes leía mucho.',['Antes leía mucho.','Antes leer yo mucho.','Antes leeré mucho.'],'本题指定过去习惯视角，leer 的未完成为 leía。'),
+bridgeOrder('组句：我们学习时电话响了。',['Estudiábamos','cuando','sonó','el','teléfono.'],'前句背景配 nosotros，电话为 sonó 的单数主语。')]);
+precision('state-adjectives','ser/estar＋形容词：同一词换动词，信息会怎样变？','A1','核心动词用法',['foundation-core','foundation-topic-agreement'],['listo','aburrido','bueno','verde'],[
+['先分“把人或物归为哪类”与“怎样呈现其状态”',[
+'Ana es simpática 说对人的一种描述；Ana está cansada 说她的状态。这是入门主线，但不能把 ser/estar 简化为永久与暂时。Soy joven 会变化，Está muerto 却可能持续。',
+'讨论形容词时还要看词义、习惯搭配及语境；并非每个形容词都能自由配两个动词。先看有意义的对比例句，别为追求对称造不自然句子。']],
+['listo 与 aburrido：换动词经常换的是具体意思',[
+'Es lista 常说聪明；Está lista 常说准备好了。Es aburrida 常描述令人无聊；Está aburrida 常说她感到无聊。中文“是”字不能替你选择动词。',
+'先问是在描述人的特点、给人的效果，还是这个人所处的状态。然后再让形容词与被描述者一致：男性可为 listo/aburrido，女性 lista/aburrida；与谈话者性别无关。']],
+['bueno 与 verde：别把多义词变成一条唯一翻译',[
+'Es bueno 可以评价好、善良、品质等；Está bueno 在食物语境常说好吃，也有其他地区或人物用法。Es verde 可说颜色，Está verde 在水果语境可说未熟；还可能有引申义。',
+'本课把语境写清楚才能判断。不能将“estar bueno=好吃”贴到任何人物上，也不能宣布 verde 每次都是未熟。学的是搭配中的意思，不是换一条更长的中西词表。']],
+['形容词的一致与动词的选择是两步',[
+'Las alumnas están listas：先按准备好的意思选 estar，再按 alumnas 复数取 están，最后按阴性复数取 listas。不是先凭词尾看出 femenino，就推断必须 estar。',
+'El agua está fría 中 agua 仍为阴性，fría 按它配合；el 是特定冠词条件。不同规则会在一句中同时出现，分别判断才不会用“一个例外”解释全部变化。']],
+['用最小对比检验自己是否理解',[
+'只换 ser/estar，先说明两句各在说什么，再换人物性数。比如 Ana es lista / Ana está lista，从聪明转为准备好；变复数 Las alumnas están listas 时，再检查形容词与动词。',
+'实际表达有时两种选择都合语法但意思不同。本课受控题会给出聪明、准备好、感到无聊等意图，避免把另一种有意义的句子笼统判成绝对错误。']]
+],[['Ana es lista. Ana está lista.','Ana 聪明。Ana 准备好了。','同一形容词在不同动词框架中呈现不同意思。'],['La película es aburrida. Ana está aburrida.','电影无聊。Ana 感到无聊。','前句描述效果，后句描述体验者状态。'],['La fruta está verde.','水果还没熟。','本例指定水果成熟状态；verde 也可有颜色等含义。']],['所有长期状态都必须 ser','先看信息、词义与搭配','时间长短不是万能选择条件。'],[
+bridgeChoice('明确表示 Ana 已准备好：','Ana está lista.',['Ana está lista.','Ana es lista（欲表达此处准备好）.','Ana hay lista.'],'estar lista 在此为准备好；ser lista 通常说聪明。'),
+bridgeChoice('谈“电影给人无聊的感觉”：','La película es aburrida.',['La película es aburrida.','La película tiene aburrida.','La película hay aburrida.'],'描述电影的性质或效果，用该 ser+形容词结构。'),
+bridgeInput('明确准备状态：Las alumnas ___ listas.','están','estar 与复数主语配 están；形容词也配阴性复数。'),
+bridgeInput('明确说 Ana 感到无聊：Ana está ___.（aburrido）','aburrida','形容词描述 Ana，为阴性单数；不是描述谈话者。'),
+bridgeChoice('水果语境 La fruta está verde 常可指：','水果未熟',['水果未熟','任何场合都只能指绿颜色','所有 verde 都必须 estar'],'意义来自词与结构、具体语境。'),
+bridgeOrder('组句：Ana 准备好了。',['Ana','está','lista.'],'根据准备状态选 estar，再做人称和性数一致。')]);
+precision('spelling-sounds','拼读细则：c/qu、g/gu/gü、r/rr 与 b/v','A1','发音与书写',['foundation-sound'],['casa','queso','guitarra','vergüenza'],[
+['先听声音，再看它在什么字母环境里出现',[
+'西语拼写与发音联系紧密，但“完全一个字母一个固定音”会误导。c 与 g 的读法受后面元音影响，h 通常不发音，地区差异也真实存在。先把规则范围写清楚，才能用拼写辅助听辨。',
+'设备朗读只是示范渠道，不替代真人听辨与发音反馈。文字讲解可以告诉你哪处需要观察，却不能证明点了播放就已掌握对应发音。']],
+['c/qu/z：先看后面的元音',[
+'c 在 a/o/u 前常表示 /k/，如 casa、cosa、cuna；e/i 前的 /k/ 常用 que/qui，u 通常不发音，如 queso、quince。不要把 que 读成一个额外带 u 的双元音。',
+'c 在 e/i 前与 z 的发音存在地区差异：西班牙许多地区区分 /θ/ 与 s，许多其他地区合为 /s/。拼写仍需按词形记忆，不能把一种地区音直接当另一地区的错误。']],
+['g/gu/gü：保留的是 g 的音，还是还要发 u',[
+'g 在 a/o/u 前与在 e/i 前有不同读法；在 e/i 前保留常见硬 g 音用 gue/gui，u 通常不发音，如 guerra、guitarra。',
+'如果这个 u 也要发音，写 güe/güi，如 vergüenza、pingüino。双点不是重音符号：ü 表示此处 u 发音；é/í 等重音与分音规则承担另一任务，不能混用。']],
+['r/rr：位置和词形共同决定，不是所有 r 都长颤',[
+'元音间 r 与 rr 可区分词义：pero / perro；词首 r 以及某些辅音后的 r 有较强颤音等位置规律，不能看到单写 r 就一律只读轻触。',
+'先练稳定气流、舌尖位置和短长对比，再放回词中。不能把整个发音训练降成中文“得、日”替音，也不要因暂时发不出颤音就放弃学习其他词汇语法。']],
+['b/v、ll/y 与 ñ：分清拼写区别和音系区别',[
+'标准西语 b 与 v 通常不区分成英语 /b/ 与 /v/ 两个音位；实际实现随语音环境变化。发音相近不代表拼写可互换，所以 vivir 仍要按词形写 v。',
+'ll/y 存在 yeísmo 等地区现象，ñ 与 n 则不同。学习时选一个稳定参照，随后增加其他地区输入；地区差异与书面规范应分开判断。']]
+],[['queso','奶酪','que 中 u 通常不发音，组合提供 /k/ 的常见拼写。'],['guitarra / pingüino','吉他 / 企鹅','gui 常不发 u，güi 的双点要求读出 u。'],['pero / perro','但是 / 狗','元音间 r 与 rr 的区别可能改变词义。']],['把所有 v 都读成英语 /v/','先按西语常见 b/v 系统学习','书写有区别，不等于标准西语必须复制英语音位。'],[
+bridgeChoice('queso 中的 u 在常见标准读法里：','通常不发音',['通常不发音','必须单独重读','把 q 改读成 j'],'que 常用于 e 前的 /k/ 拼写，u 通常不发音。'),
+bridgeChoice('pingüino 的双点主要告诉你：','这处 u 要发音',['这处 u 要发音','整词重音一定在 u','u 变成 ñ'],'分音符 ü 与重音符 á/é/í 等任务不同。'),
+bridgeInput('写出“吉他”的常见西语词形：','guitarra','guitarra 使用 gui 组合，元音间 rr 表示相应颤音。'),
+bridgeInput('写出“企鹅”，保留 u 上双点：','pingüino','güi 中的 ü 标示 u 发音，不能随意省略。'),
+bridgeChoice('西语标准 b/v 是否必须像英语 b/v 那样对立？','通常不构成那样的两个音位对立',['通常不构成那样的两个音位对立','必须完全复制英语','书写也因此可任意互换'],'发音系统与拼写记忆需要分开。'),
+bridgeOrder('按词块组成示范名词组：一只狗。',['un','perro'],'本组句帮助保留词形 perro；发音准确度仍需实际听辨反馈。')]);
+
+// A checklist row records an authored subrule, not proof that the book's entire chapter is reviewed.
+const precisionDetails=[];
+function ruleDetail(suffix,key,title,paragraphs,columns,rows,checks,reference){
+ const f=foundationLessons.find(f=>f.id==='foundation-'+suffix),g=grammarGuide.find(g=>g.id===f.id);if(!f?.deep)throw Error('Detail needs an authored lesson: '+suffix);
+ const detail={key,guide:f.id,title,paragraphs,columns,rows,reference,questions:checks.map((raw,i)=>({...raw,id:'detail-'+key+'-'+i,level:f.level,cat:f.domain,guide:f.id}))};
+ for(const q of detail.questions){f.questions.push(q);questionBank.push(q);byId.set(q.id,q)}
+ (f.precisionDetails??=[]).push(detail);g.questions=f.questions;g.lesson.steps.push(...paragraphs,JSON.stringify(rows));precisionDetails.push(detail);
+}
+ruleDetail('bridge-plural','plural-boundaries','复数细则：-s/-x 不总变化，-í/-ú 不只有一种结果',[
+'先读出单数重音，再看结尾。el mes→los meses、el país→los países 在本例中变化；el lunes→los lunes、el análisis→los análisis 的常见单复数同形。不能记成“只要末尾 s 就不变”，也不能一律再加 -es。',
+'重读 -í/-ú 有些名词存在两个规范复数，如 tabú→tabúes/tabús；具体词还涉及常用度与固定形式，不能扩大成任何元音都任意换。查到多个规范形式时，应结合题目范围接受，不能把另一种合法形式当错。'
+],['单数示例','复数示例','判断重点'],[['el mes','los meses','重读单音节 s 结尾，本词加 -es。'],['el análisis','los análisis','本词常见单复数同形；靠冠词等区分。'],['el tabú','los tabúes / los tabús','本题所教两种复数都接受。']],[
+ {...bridgeInput('把 tabú 变复数，只填名词。','tabúes','本题 tabúes 与 tabús 均为可接受形式；两者重音都不能随意省去。'),acceptedAnswers:['tabús']},
+ bridgeChoice('análisis 的常规复数名词组：','los análisis',['los análisis','los análisises','las análisisas'],'本词常见单复数同形；冠词显示复数。')
+],{chapter:2,pdfPages:[39,40],scope:'从名词复数基础继续补充词尾与重读的边界，不表示原页已穷尽所有变体。'});
+ruleDetail('gender','gender-categories','人物名词：通性、固定语法性与按词义分性',[
+'el/la estudiante 通过冠词等配合指称人物，词形可以保持；la persona、la víctima 的语法性则固定阴性，即使指男性。不能把“人物是男性”一律转换成 el，也不能把所有阴性人物称谓都机械换 -o。',
+'el capital（资金）与 la capital（首都）体现词义相关的性别区别；el/la artista 则是另一类人物用法。词库 m. y f. 与 m. / f. 的提示帮助区分，但具体仍以义项和例句为准。'
+],['例子','语法信息','示范'],[['el/la estudiante','同形人物用法','la estudiante nueva / el estudiante nuevo'],['la persona','固定阴性','una persona amable，可指男性。'],['el capital / la capital','不同义项','资金 / 首都，不是任意换冠词。']],[
+ bridgeChoice('persona 指一位男性时，常规名词组仍可为：','una persona amable',['una persona amable','un persona amable','un persono amable'],'persona 语法性固定阴性；自然性别与语法性分开。'),
+ bridgeChoice('el capital 与 la capital 在本课所教用法中：','可因词义不同而区分性别',['可因词义不同而区分性别','永远表示同一个意思','都只是同一艺术家的性别'],'资金与首都属于不同义项，不能任意互换。')
+],{chapter:1,pdfPages:[27,28],scope:'对名词性别概念的教学扩展，帮助解释例外分类。'});
+ruleDetail('topic-possessives','possessive-reference','su/sus 的歧义与“一位我的朋友”',[
+'sus libros 表几本被拥有的书，并不能告诉你拥有者是一个还是多个，也不能判断性别。要澄清可说 los libros de Ana、de ustedes 等；su 在 tú 语境不能自动当作“你的”，那一人称常用 tu/tus。',
+'un amigo mío 常说我的一位朋友，mío 在名词后配 amigo；la casa es nuestra 中 nuestra 作表语。el mío 省去语境可恢复的名词；不应从这一形式推断前置 mi libro 也要写成 el mi libro。'
+],['表达','看什么','不要推断'],[['sus libros','libros 为复数','不能据 sus 推出拥有者一定多人。'],['un amigo mío','amigo 阳性单数','mío 不按拥有者性别选。'],['la casa es nuestra','casa 阴性单数','即使拥有者为男性组也用 nuestra。']],[
+ bridgeChoice('sus libros 中 sus 能确定拥有者有几人吗？','不能，只能据此看出被拥有名词的复数',['不能，只能据此看出被拥有名词的复数','能，一定多人','能，一定女性'],'su/sus 的单复数通常跟被拥有对象；拥有者依语境澄清。'),
+ bridgeInput('我（女性）的一位男性朋友：un amigo ___.','mío','mío 配被拥有的 amigo 阳性单数，不配拥有者性别。')
+],{chapter:7,pdfPages:[156,157],scope:'重读物主词位置、与名词一致及指称歧义。'});
+ruleDetail('topic-commands','command-boundaries','命令式细则：pensemos、durmamos 与代词脱落',[
+'pensar 的 nosotros 肯定建议是 pensemos；dormir 则是 durmamos。-ir 动词在虚拟式相关形式中的词干变化，不能全部照搬现在直陈式 nosotros 不变的印象。先确定语气，再选该动词的人称形式。',
+'levantemos+nos→levantémonos，nosotros 的末尾 -s 在 nos 前脱落；levantad+os→levantaos，肯定 vosotros 的 -d 在该组合通常脱落。irse 的 idos/iros 等有另需核对的特例。规则要带条件，不要记成所有后接代词都删同一个字母。'
+],['来源','目标形式','分步'],[['pensar / dormir','pensemos / durmamos','分别看虚拟式相关词干，不按一条现在时口号生成。'],['levantemos + nos','levantémonos','去末尾 s，连写，再按重音规则标注。'],['levantad + os','levantaos','本词组合去 d，不误推到所有动词与代词。']],[
+ bridgeInput('nosotros，肯定建议“睡吧”：___ bien.（dormir）','durmamos','dormir 的该形式用 durmamos，不是 dormamos 或 duermamos。'),
+ bridgeInput('把 levantemos 与 nos 组合成肯定形式，只填一个词。','levantémonos','去掉动词末尾 s 后接 nos，并保留正确重音。')
+],{chapter:11,pdfPages:[259,260,261],scope:'nosotros/vosotros 的词干与后接代词组合。'});
+ruleDetail('topic-calendar','calendar-register','日期细则：estar a、正式落款、月份年份与年代缩写',[
+'¿A cuántos estamos? 可问今天几号，回答 Estamos a 24 de octubre；¿Qué fecha es hoy? 可用 Hoy es 24 de octubre。这里是两套完整表达，不能把 es 与 estamos 任意替换而不处理介词。',
+'普通叙事可说 Llegó el 24 de octubre；只说月份或年份常用 en octubre、en 2026。正式证书等可遇 a 24 de octubre de 2026 的格式，属于语体约定，不应据此给所有日期都加 a。a. C. / d. C. 是常见年代缩写；年份按普通数字读，不照搬英语分段读法。'
+],['范围/语体','示范','含义或读法'],[['星期','lunes, martes, miércoles, jueves, viernes, sábado, domingo','周一至周日；通常小写。'],['月份（前半）','enero, febrero, marzo, abril, mayo, junio','一至六月；通常小写。'],['月份（后半）','julio, agosto, septiembre, octubre, noviembre, diciembre','七至十二月；通常小写。'],['年份','2026: dos mil veintiséis','作为一个数字读，不拆成英语式两组。'],['问日子','Estamos a 24 de octubre.','estar a 与对应问法配合。'],['正式日期格式','a 24 de octubre de 2026','在特定公文/落款中辨认，非所有状语的万能格式。'],['年代','a. C. / d. C.','公元前 / 公元；先具备阅读识别能力。']],[
+ bridgeInput('按 estar 日期表达：Estamos ___ 24 de octubre.','a','该完整日期框架为 estar a；不是一般住在某处的 en。'),
+ bridgeChoice('只说“在2026年”这一时间状语，常用：','en 2026',['en 2026','a la 2026','los 2026'],'单说年份常用 en；完整日期 el 24 de octubre 与特定公文 a… 是另两类。')
+],{chapter:17,pdfPages:[424,425,426],scope:'日期六部分中的星期、月份、读法、问法、状语与年代表达。'});
+ruleDetail('topic-nonfinite','participle-agreement','同一分词三种结构：haber、estar、ser',[
+'He escrito las cartas 是复合时态，escrito 不随宾语 cartas 改写；Las cartas están escritas 描述写好的状态；Las cartas fueron escritas 以事件被动组织写信过程。看到同一个分词，要先识别它所在的结构。',
+'estar/ser 后与主语做形容词式一致，并不意味着 haber 后也一致；副动词 escribiendo 又不是分词，不写成 escribiendas。先从整句恢复主语、助动结构和信息任务，再处理词尾。'
+],['结构','示例','一致'],[['haber + 分词','He escrito las cartas.','分词不按宾语性数变化。'],['estar + 状态分词','Las cartas están escritas.','描述主语状态，配阴性复数。'],['ser + 被动分词','Las cartas fueron escritas.','事件被动，分词配被动主语。']],[
+ bridgeInput('He ___ las cartas.（escribir，完成结构）','escrito','haber+分词中 escrito 不随宾语改成 escritas。'),
+ bridgeInput('Las cartas fueron ___.（escribir，事件被动）','escritas','ser 被动的分词与阴性复数主语 cartas 一致。')
+],{chapter:17,pdfPages:[427,428],scope:'分词构成与形容词式用法，并对比已学完成结构。'});
+ruleDetail('topic-question-order','questions-with-prepositions','有介词的疑问：de dónde、con quién 与信息范围',[
+'¿De dónde eres? 问来源，de 来自 ser de；¿Con quién hablas? 问交谈对象，con 来自 hablar con alguien。不能为了把疑问词放句首，就把原来需要的介词删掉。',
+'¿Quién viene? 中 quién 是未知主语；¿A quién ves? 中问的是人物直接宾语。提问对象的角色来自完整句，不是看到 quién 就统一叫主语，也不是带 a 就统一叫间接宾语。'
+],['完整结构','提问','问题角色'],[['ser de un lugar','¿De dónde eres?','来源。'],['hablar con alguien','¿Con quién hablas?','交谈对象的介词补语。'],['ver a Ana','¿A quién ves?','人物直接宾语，非因有 a 就成为间接宾语。']],[
+ bridgeInput('按 hablar con alguien 提问：¿___ quién hablas?','con','保留动词框架 hablar con 的 con。'),
+ bridgeChoice('¿A quién ves? 中被询问的人是：','直接宾语',['直接宾语','一定是主语','因为 a 所以必是间接宾语'],'ver 的人物对象是直接宾语，人称 a 不改变这一角色。')
+],{chapter:11,pdfPages:[263,264],scope:'疑问词序需同时保留句子角色与介词关系。'});
+ruleDetail('topic-object-clauses','clause-roles','从句细则：que 不作主语，是否疑问不必加 que',[
+'Creo que Ana viene 中 que 负责连接内容，不自动充当从句主语；Ana 才与 viene 配合。主句 creo 的第一人称也不让从句随之变为 vengo。把两个小句各自的主语与谓语画出来，能发现人称错误。',
+'No sé si viene 表不知道是否来，si 引出间接是非疑问；No sé dónde vive 则引出位置疑问，dónde 带重音。不需要为了“后面有从句”就给它们都加 que。先判断是在陈述内容、询问是否还是询问具体信息。'
+],['意图','示范','连接方式'],[['报告所信内容','Creo que Ana viene.','que + 完整内容从句。'],['不知道是否','No sé si viene.','si 引出间接是非疑问。'],['不知道哪里','No sé dónde vive.','疑问词引出缺口，保留疑问重音。']],[
+ bridgeInput('不知道是否来：No sé ___ viene.','si','si 为是否的间接疑问，不是条件；此处不额外加 que。'),
+ bridgeChoice('Creo que Ana viene 中从句主语是：','Ana',['Ana','que','主句省略的 yo'],'从句各自找主语，que 是连接成分。')
+],{chapter:12,pdfPages:[292,293],scope:'宾语内容、主从句人称与疑问信息的教学辨析。'});
+
 // Topic-level crosswalk. A direct lesson link is not a claim that every exercise or footnote is checked.
 const textbookTopicTargets={
 '名词的性':'gender','单数定冠词':'bridge-articles','大小写':'sound','问号与感叹号':'sound',
@@ -1861,15 +2053,15 @@ const textbookTopicTargets={
 '钟点':'bridge-clock','ir 现在时':'topic-core-verbs','介词 a':'topic-prepositions',
 '形容词一致':'topic-agreement','tener 现在时':'topic-core-verbs','规则 -er 现在时':'bridge-present-er-ir','非重读物主词':'topic-possessives',
 '指示限定词':'topic-demonstratives','重读物主词':'topic-possessives','规则 -ir 现在时':'bridge-present-er-ir','及物与不及物':'topic-transitivity',
-'词干变化 e→ie / o→ue':'topic-stem-patterns','ser/estar 与形容词':'core','直接/间接宾语辨认':'topic-transitivity','直接宾语代词':'bridge-direct',
+'词干变化 e→ie / o→ue':'topic-stem-patterns','ser/estar 与形容词':'topic-state-adjectives','直接/间接宾语辨认':'topic-transitivity','直接宾语代词':'bridge-direct',
 '词干变化 e→i':'topic-stem-patterns','代词式动词':'bridge-reflexive','间接宾语代词':'bridge-indirect','现在时用法':'topic-present-uses',
 '双宾语代词':'pronouns','代词式动词扩展':'bridge-reflexive','肯定命令入门':'topic-commands','介词 de 扩展':'topic-prepositions',
 '肯定命令扩展':'topic-commands','疑问句词序':'topic-question-order','句中一致关系':'topic-agreement','介词 con':'topic-prepositions',
 '否定命令':'topic-commands','宾语从句':'topic-object-clauses','si 条件句':'topic-conditions','无人称句':'topic-impersonal','tener que / hay que':'topic-core-verbs',
 '关系从句与关系词':'relative','感叹句':'topic-exclamations','se 被动':'topic-impersonal','donde 地点从句':'topic-relative-time-place',
-'简单过去入门':'past','无人称句扩展':'topic-impersonal','简单过去扩展':'past','日期':'topic-calendar','过去分词':'topic-nonfinite',
-'cuando 时间从句':'topic-relative-time-place','未完成过去入门':'past','副动词入门':'topic-nonfinite'};
-const textbookCoverage=textbookReview.lessons.flatMap(([chapter,pdfPage,topics])=>topics.map(topic=>{const id='foundation-'+textbookTopicTargets[topic],g=grammarGuide.find(g=>g.id===id);if(!g)throw Error('Missing textbook topic: '+topic);return {chapter,pdfPage,topic,guide:id,change:bookSupplementLessons.some(f=>f.id===id)?'本轮补专项课':'关联已有详解',questions:g.questions.map(q=>q.id)}}));
+'简单过去入门':'topic-past-regular','无人称句扩展':'topic-impersonal','简单过去扩展':'topic-past-irregular','日期':'topic-calendar','过去分词':'topic-nonfinite',
+'cuando 时间从句':'topic-relative-time-place','未完成过去入门':'topic-past-imperfect','副动词入门':'topic-nonfinite'};
+const textbookCoverage=textbookReview.lessons.flatMap(([chapter,pdfPage,topics])=>topics.map(topic=>{const id='foundation-'+textbookTopicTargets[topic],g=grammarGuide.find(g=>g.id===id);if(!g)throw Error('Missing textbook topic: '+topic);return {chapter,pdfPage,topic,guide:id,change:bookSupplementLessons.some(f=>f.id===id)?'补充专项课':'关联已有详解',questions:g.questions.map(q=>q.id)}}));
 
 // Original lessons and listening materials; synthetic audio is labelled separately.
 const listeningLessons=[];
@@ -2053,9 +2245,74 @@ us('B2-10',['foundation-past','foundation-subjunctive','foundation-topic-conditi
 
 // Authored support words discovered while checking that every course preview can open a real word entry.
 const courseWordAdditions=[
+['listo','形容词','','聪明的；准备好的（配合 ser/estar）','Ana está lista para salir.','Ana 准备好出门了。'],
 ['cuánto','疑问／感叹限定词、代词或副词','','多少','¿Cuánto cuesta?','多少钱？'],['no','否定副词','','不','No entiendo.','我不理解。'],['dónde','疑问副词','','哪里','¿Dónde vives?','你住哪里？'],['niñez','名词','f.','童年','Durante mi niñez vivía cerca del mar.','我童年时住海边。'],['todavía','副词','','仍然；还','Todavía no he terminado.','我还没完成。'],['espacio','名词','m.','空间；位置','Necesito más espacio.','我需要更多空间。'],['ayuda','名词','f.','帮助','Gracias por tu ayuda.','谢谢你的帮助。'],['nadie','不定代词','','没有人','No vino nadie.','没有人来。'],['nada','不定代词／副词（依结构）','','没有什么；一点也不','No entiendo nada.','我什么也不懂。'],['ninguno','不定代词／限定词','','没有一个','No hay ningún problema.','没有任何问题。'],['finalmente','副词','','最后；终于','Finalmente llegamos.','我们终于到了。'],['grupo','名词','m.','组；群体','Estudiamos en grupo.','我们小组学习。'],['vacaciones','名词','f. pl.','假期','Tengo dos semanas de vacaciones.','我有两周假期。'],['regalo','名词','m.','礼物','Este regalo es para ti.','这个礼物给你。'],['conmigo','介词与重读代词的融合形式','','和我','¿Quieres venir conmigo?','你想和我一起来吗？'],['siguiente','形容词','','接下来的','Llegó al día siguiente.','他/她次日到了。'],['fecha','名词','f.','日期','Comprueba la fecha.','核对日期。'],['resumen','名词','m.','摘要；总结','Escribo un resumen.','我写摘要。'],['atentamente','副词；书信结尾用语','','专注地；此致（书信语境）','Atentamente, Lin.','此致，Lin。'],['reunirse','代词式动词','','会面；聚集','Nos reunimos mañana.','我们明天见面。'],['archivar','动词','','归档','Voy a archivar las cartas.','我要将信件归档。'],['autora','名词','f.','女作者','La autora presenta su libro.','女作者介绍她的书。'],['obra','名词','f.','作品；工程等（按语境）','Leo sus obras.','我读他/她的作品。'],['cuyo','关系限定词','','其……的','La autora cuyos libros leo viene mañana.','我读其作品的那位女作者明天来。'],['anuncio','名词','m.','公告；广告','Leo el anuncio.','我读公告。'],['vos','人称代词（地区用法）','','你','Vos hablás español.','你说西语。'],['formalidad','名词','f.','正式程度；正式手续等（按语境）','Revisamos el grado de formalidad.','我们检查正式程度。']
 ];
 for(const [head,kind,gender,meaning,example,translation]of courseWordAdditions){if(vocab.some(w=>lexicalHeadword(w.word)===head))continue;const owner=Object.values(gradedScaffolds).find(p=>p.words.some(w=>w.es===head)),level=owner?units.find(u=>u.id===owner.unit).level:'A1';const w={id:'course-word-'+head,word:head,headword:head,level,theme:'课程词汇',kind,meaning,example,translation,sourceType:'graded-course',source:'原创课程词条',contextual:false,teachingSenses:[{meaning,example,translation,note:'这里先解释课程所需义项，不表示收录全部含义；请结合本课语境使用。'}]};if(gender){w.gender=gender;w.genderSource='教学核对';w.genderNote=gender==='f. pl.'?'常见用法为阴性复数名词；本词条按课程中的假期义学习。':'此处标注适用于所教名词义；同形其他词性另查。'}vocab.push(w);const q={id:'vq-'+w.id,wordId:w.id,speak:w.word,level,cat:'词义辨认',kind:'choice',prompt:head+' 在本词条教学义中是？',answer:meaning,options:[meaning,'机场航站楼','星期三早晨'],explain:example+'：'+translation+' 词性：'+kind+(gender?'；名词性别 '+gender:'')};questionBank.push(q);byId.set(q.id,q)}
+
+const listoTeachingEntry=vocab.find(w=>w.word==='listo');if(listoTeachingEntry)listoTeachingEntry.teachingSenses=[{meaning:'聪明的（ser listo/a）',example:'Ana es lista.',translation:'Ana 很聪明。',note:'本例用 ser 描述人的特点；形容词配 Ana 为 lista。'},{meaning:'准备好的（estar listo/a）',example:'Ana está lista para salir.',translation:'Ana 准备好出门。',note:'本例用 estar 描述准备状态；不能按中文是字机械选 ser。'}];
+
+// Targeted links: new reference lessons supplement, rather than replace, a unit's own three steps.
+const precisionUnitPrerequisites={
+'A1-1':['foundation-topic-spelling-sounds','foundation-bridge-people'],
+'A1-3':['foundation-core','foundation-topic-state-adjectives'],
+'A1-10':['foundation-topic-spelling-sounds','foundation-topic-question-order'],
+'A2-1':['foundation-topic-past-regular','foundation-topic-past-irregular'],
+'A2-2':['foundation-topic-past-imperfect','foundation-topic-past-regular'],
+'B1-1':['foundation-topic-past-imperfect','foundation-topic-past-irregular','foundation-past'],
+'B2-1':['foundation-topic-object-clauses','foundation-topic-past-imperfect','foundation-past']
+};
+for(const [unit,ids]of Object.entries(precisionUnitPrerequisites))gradedScaffolds[unit].prerequisites=ids;
+const precisionUnitDetails={
+'A1-2':['gender-categories','plural-boundaries'],
+'A1-7':['calendar-register'],
+'A1-9':['questions-with-prepositions'],
+'A2-3':['participle-agreement'],
+'A2-6':['calendar-register'],
+'B1-4':['command-boundaries'],
+'B1-8':['clause-roles'],
+'B2-1':['clause-roles'],
+'B2-7':['participle-agreement']
+};
+const teachingTimelines={};
+function timeAxis(key,title,events){teachingTimelines[key]={key,title,events}}
+timeAxis('foundation-topic-past-regular','把三个过去事件作为整体推进',[
+['昨天①','出门：salí','把出门作为过去整体节点，并非展开它内部每一秒。'],
+['昨天②','买书：compré','第二个谓语继续配我；过去时间不是只在第一个动词上标一次。'],
+['昨天③','回家：volví','按事件顺序连接；加入当时天气时，可另外用未完成过去时铺背景。']]);
+timeAxis('foundation-topic-past-irregular','先看事件时间，再分类具体词形',[
+['过去时间框架','在过去的一天','语境先把叙述放进过去；并不是所有单词以同样词尾表示过去。'],
+['事件','tuve / hice / dije','分别识别强词干、hacer 的 c/z 与 j 词干组，再按主语选形式。'],
+['现在','回头讲述','不规则拼写不改变叙事任务；形式与视角要分别学会。']]);
+timeAxis('foundation-topic-past-imperfect','背景展开时，一个事件进入画面',[
+['背景','estudiábamos','镜头放在过去某时，我们当时在学习；不宣布后来没有学完。'],
+['进入画面','sonó el teléfono','电话响作为推进事件；它的主语不是我们，动词既换视角也换人称。'],
+['随后','继续叙事','可以再补接电话或回去学习等事件；是否用未完成，仍取决于如何呈现。']]);
+timeAxis('foundation-past','过去参照之前，另一件事已完成',[
+['更早','Ana había salido','出门早于我的到达；用过去完成表达相对先后，不是因为事情很古老。'],
+['过去参照','yo llegué','到达给出比较“更早”的参照节点，简单过去推进叙事。'],
+['现在','讲述这段经过','不能只按句子里哪个动词写在前面，就决定现实中谁先发生。']]);
+timeAxis('unit-A2-1','昨天的叙事顺序',teachingTimelines['foundation-topic-past-regular'].events);
+timeAxis('unit-A2-2','生活背景与某一次发现',[
+['过去阶段','vivía cerca del mar','进入童年生活的内部，把住处当作背景。'],
+['习惯','iba a la playa','描述过去习惯；不等于所有重复事件都必须未完成。'],
+['某一次','encontré una concha','一回发现贝壳推动故事，作为过去整体事件。']]);
+timeAxis('unit-B1-1','先离开，后到达：参照不是词序',[
+['更早','el tren había salido','火车发车发生在我的到达之前，以过去完成说明更早已完成。'],
+['过去参照','llegué a la estación','我的到达成为这个先后关系的参照点。'],
+['背景','llovía / no tenía paraguas','描述到达时的情景；背景可与过去参照同时，不代表一定最后才发生。']]);
+timeAxis('unit-B2-1','转述：原话与转述各有参照点',[
+['周一','原话：Vendré mañana','周一口中的明天是周二。先固定原说话时间。'],
+['周二','转述：vendría al día siguiente','转换叙述位置时，时态、人称与时间词一起核对；不能让承诺误移到周三。'],
+['所指事件','约定的来访：周二','事件日期不会因为转述时间改变就自动改变；引用原话与间接转述分开处理。']]);
+timeAxis('unit-B2-2','反事实先分实际与假设',[
+['实际过去','envié la solicitud tarde','先陈述真实发生的失误，作为反事实分析基准。'],
+['不同条件','si hubiera revisado','想象当时核对了日期；该条件与既定过去不同。'],
+['假设结果','habría entregado a tiempo','描述在这个不同条件下原本会有的结果；不把它误写成真实历史。']]);
+timeAxis('unit-B2-10','将来完成：从未来截止点回看',[
+['现在','作出计划或判断','我现在谈到周五前完成的预期，不是宣布周五才开始。'],
+['截止前','预计已完成：terminado','完成位于所选未来参照点之前；具体完成时刻可以不说。'],
+['周五参照','para el viernes','从该截止点回看“已经完成”，因此用 habré+分词。']]);
 
 'use strict';
 const $=s=>document.querySelector(s),esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
@@ -2095,7 +2352,7 @@ function schedule(store,id,correct){let prev=store[id]||{stage:0,wrong:0,right:0
 function startQuiz(list,meta){quiz={list,index:0,answers:[],meta,answered:false,resultSaved:false};page='quiz';render();window.scrollTo(0,0)}
 function normalized(s){return s.trim().normalize('NFC').toLocaleLowerCase('es').replace(/\s+/g,' ').replace(/[.!?¿¡]+$/g,'')}
 function quizPage(){if(!quiz){go('grammar');return}let q=quiz.list[quiz.index];if(!q){quizSummary();return}quiz.answered=false;$('#app').innerHTML=intro(quiz.meta.label,'先独立作答；提交后查看解析。')+`<div class="practice"><div class="panel"><div class="bottomrow"><span class="badge">${q.level} · ${q.cat}</span><span>${quiz.index+1} / ${quiz.list.length}</span></div><div class="progress"><div style="width:${quiz.index/quiz.list.length*100}%"></div></div>${q.passage?`<blockquote lang="es">${q.passage}</blockquote>`:''}<div class="question" lang="es">${q.prompt}</div>${q.options?`<div class="options">${q.options.map((o,i)=>`<button class="option" data-answer="${i}">${String.fromCharCode(65+i)}. ${o}</button>`).join('')}</div>`:`<form id="answer-form"><label for="answer">${q.tense?tenseNames[q.tense]+' · '+verbs[q.verb][0]:(q.hint||'按题目要求填写')}</label><input id="answer" class="input" style="margin-top:15px" autocomplete="off" autocapitalize="off" spellcheck="false" required placeholder="输入变位形式…"><div class="accents">${['á','é','í','ó','ú','ñ','ü'].map(a=>`<button type="button" data-accent="${a}">${a}</button>`).join('')}</div><button class="btn">提交答案</button></form>`}<div id="quiz-feedback" aria-live="polite"></div><div class="bottomrow" style="margin-top:20px"><button class="link" data-go="${(quiz.meta.type==='unit'||quiz.meta.type==='guided')?'unit':quiz.meta.type==='assessment'?'course':quiz.meta.type==='review'?'review':quiz.meta.type==='verbs'?'verbs':quiz.meta.type==='words'?'words':quiz.meta.type==='guide'?'guide':quiz.meta.type==='scenes'?'scenes':quiz.meta.type==='book'?'book':quiz.meta.type==='listening'?'skills':quiz.meta.type==='culture'?'culture':'grammar'}">退出本轮</button><button class="btn" id="next-q" hidden>下一题 →</button></div></div></div>`;if(q.options)document.querySelectorAll('[data-answer]').forEach(b=>b.onclick=()=>answerQuiz(q.options[+b.dataset.answer]));else $('#answer-form').onsubmit=e=>{e.preventDefault();if($('#answer').value.trim())answerQuiz($('#answer').value)};$('#next-q').onclick=()=>{quiz.index++;quizPage()}}
-function answerQuiz(a){if(quiz.answered)return;quiz.answered=true;let q=quiz.list[quiz.index],right=normalized(a)===normalized(q.answer);quiz.answers.push({id:q.id,right,answer:a});data.attempts++;if(right)data.correct++;markDay();schedule(data.cards,q.id,right);data.history.push({id:q.id,correct:right,date:day()});data.history=data.history.slice(-5000);persist();nav();document.querySelectorAll('[data-answer]').forEach(b=>{b.disabled=true;let v=q.options[+b.dataset.answer];if(v===q.answer)b.classList.add('right');else if(v===a)b.classList.add('wrong')});if($('#answer')){$('#answer').disabled=true;$('#answer-form button:not([type=button])').disabled=true}$('#quiz-feedback').innerHTML=`<div class="feedback ${right?'':'bad'}"><strong>${right?'✓ 回答正确，¡Muy bien!':'正确答案：'+q.answer}</strong><br>${q.explain}<br><small>${right?'已加入间隔复习，之后仍会再次出现。':'已记录为薄弱项；10 分钟后到期，也可以在错题本立即重练。'}</small></div><button class="link" data-say="${esc(q.speak||q.answer)}">◖ 聆听表达</button><div class="status" role="status"></div>`;$('#next-q').hidden=false;$('#next-q').focus()}
+function answerQuiz(a){if(quiz.answered)return;quiz.answered=true;let q=quiz.list[quiz.index],right=[q.answer,...(q.acceptedAnswers||[])].some(candidate=>normalized(a)===normalized(candidate));quiz.answers.push({id:q.id,right,answer:a});data.attempts++;if(right)data.correct++;markDay();schedule(data.cards,q.id,right);data.history.push({id:q.id,correct:right,date:day()});data.history=data.history.slice(-5000);persist();nav();document.querySelectorAll('[data-answer]').forEach(b=>{b.disabled=true;let v=q.options[+b.dataset.answer];if(v===q.answer)b.classList.add('right');else if(v===a)b.classList.add('wrong')});if($('#answer')){$('#answer').disabled=true;$('#answer-form button:not([type=button])').disabled=true}$('#quiz-feedback').innerHTML=`<div class="feedback ${right?'':'bad'}"><strong>${right?'✓ 回答正确，¡Muy bien!':'正确答案：'+q.answer}</strong><br>${q.explain}<br><small>${right?'已加入间隔复习，之后仍会再次出现。':'已记录为薄弱项；10 分钟后到期，也可以在错题本立即重练。'}</small></div><button class="link" data-say="${esc(q.speak||q.answer)}">◖ 聆听表达</button><div class="status" role="status"></div>`;$('#next-q').hidden=false;$('#next-q').focus()}
 function quizSummary(){let total=quiz.list.length,correct=quiz.answers.filter(a=>a.right).length,score=total?Math.round(correct/total*100):0;if(total&&!quiz.resultSaved){quiz.resultSaved=true;if(quiz.meta.type==='unit'){let id=quiz.meta.unit;data.unitProgress[id]={...progress(id),best:Math.max(progress(id).best,score)}}if(quiz.meta.type==='assessment')data.assessment.push({level:quiz.meta.level,score,date:day(),count:total});persist()}
 $('#app').innerHTML=intro(total?'本轮完成，看看下一步。':'当前没有可练习的题目。','复习节奏会根据每次作答调整。')+`<div class="practice panel"><div class="result-number">${score}<small>%</small></div><h2 style="text-align:center">${correct} / ${total} 题正确</h2><p style="margin:20px 0">${quiz.meta.type==='assessment'?'这是本站样本知识题的结果，不是 CEFR 等级评定。结合听说读写任务，再决定是否进入下一阶段。':quiz.meta.type==='unit'?'单元题最佳成绩已更新。还需要阅读讲解并保存表达自查任务，才记为单元完成。':'答错的题已记录；答对的题仍会按 1、3、7、14、30 天间隔复现。'}</p>${quiz.answers.filter(a=>!a.right).map(a=>{let q=byId.get(a.id);return `<div class="hintbox"><strong>${q.prompt}</strong><br>你的答案：${esc(a.answer)}<br>正确：${q.answer}</div>`}).join('')}<div class="bottomrow" style="margin-top:24px"><button class="btn" ${quiz.meta.type==='guide'?`data-open-guide="${quiz.meta.guide}"`:`data-go="${quiz.meta.type==='unit'?'unit':quiz.meta.type==='words'?'words':'review'}"`}>${quiz.meta.type==='unit'?'回到单元':quiz.meta.type==='guide'?'回到知识条目':quiz.meta.type==='words'?'回到词库':'查看复习计划'}</button><button class="btn outline" id="retry">${total?'再练同一组':'返回课程'}</button></div></div>`;$('#retry').onclick=()=>total?startQuiz(shuffle(quiz.list),quiz.meta):go('course')}
 function reviewPage(){let weak=weakCards(),due=dueCards(),known=Object.values(data.cards).filter(c=>c.stage>=3).length;let items=reviewFilter==='weak'?weak:reviewFilter==='all'?Object.keys(data.cards).map(id=>byId.get(id)).filter(Boolean):due;$('#app').innerHTML=intro('今天的复习，是明天的基础。','答错 10 分钟后重现；连续答对按 1、3、7、14、30 天复现，错后重新开始。')+`<div class="stats"><div class="stat"><label>到期题目</label><strong>${due.length}</strong></div><div class="stat"><label>最近答错</label><strong>${weak.length}</strong></div><div class="stat"><label>已纳入复习</label><strong>${Object.keys(data.cards).length}</strong></div><div class="stat"><label>连续答对至少 3 次</label><strong>${known}</strong></div></div><div class="tabs">${[['due','到期复习'],['weak','错题立即重练'],['all','全部已练题']].map(([id,l])=>`<button class="${reviewFilter===id?'selected':''}" data-review-filter="${id}">${l}</button>`).join('')}</div><div class="panel"><div class="bottomrow"><h2>${items.length} 道题</h2><button class="btn" data-review-start="${reviewFilter}" ${items.length?'':'disabled'}>开始本组复习 →</button></div>${items.slice(0,25).map(q=>{let c=data.cards[q.id];return `<div class="path-item"><span class="badge">${q.level}</span><div style="flex:1"><h3>${q.prompt}</h3><small>${q.cat} · 答错 ${c.wrong} 次 · 下次 ${new Date(c.due).toLocaleString('zh-CN')} · 第 ${c.stage} 阶段</small></div></div>`}).join('')}${items.length>25?'<p style="margin-top:15px">列表展示前 25 题；训练会从完整筛选结果随机抽取。</p>':''}${!items.length?'<p style="margin:24px 0">暂时没有这一类题目。可以继续课程，或到“全部已练题”提前巩固。</p>':''}</div><div class="hintbox">提前练习也会重新安排下次时间。词汇卡片使用单独的复习队列，可在“词汇与搭配”中查看。</div>`}
@@ -2242,9 +2499,9 @@ function conjugationList(){const q=searchText(conjugationSearch);return Object.k
 function verbLessonMarkup(key){const l=verbRuleLessons[key];if(!l)return '';const ex=l.example.split('｜');return `<section class="teacher-lesson"><h2>${esc(conjugationTenses.find(t=>t.key===key).name)}：一步一步学</h2><h3>1．什么时候需要它？</h3><p>${esc(l.why)}</p><h3>2．怎样构成？</h3><p>${esc(l.build)}</p><h3>3．老师拆一遍</h3><blockquote lang="es">${esc(ex[0])}</blockquote><p>${esc(ex[1]||'')}</p><div class="feedback">${esc(l.analysis)}</div><h3>4．常见错误与原因</h3><p>${esc(l.error)}</p><h3>5．哪些地方不能机械套规则？</h3><p>${esc(l.usage)}</p></section>`}
 verbPage=function(){const list=conjugationList();if(!list.includes(conjugationSelected))conjugationSelected=list[0]||'';const v=conjugationSelected,e=conjugationData[v],t=conjugationTenses.find(t=>t.key===conjugationTense)||conjugationTenses[0];conjugationTense=t.key;$('#app').innerHTML=intro('638 个动词：查形式，也学会为什么。','637 个来源动词＋另补 haber；20 组语气/时态形式，另列副动词与分词。不是“西语只有638个动词”。')+`<section class="panel"><h2>先掌握变位的基本思路</h2>${verbFoundations.map(([title,text],i)=>`<details class="teacher-foundation" ${i===0?'open':''}><summary>${i+1}．${esc(title)}</summary><p>${esc(text)}</p></details>`).join('')}<a href="assets/licenses/JEHLE-README.md" target="_blank" rel="noopener">Fred Jehle 数据来源、版本与许可 ↗</a></section><section class="panel expansion-gap"><h2>从常用动词开始</h2><div class="topic-chips">${['hablar','comer','vivir','ser','estar','ir','tener','hacer','querer','poder'].map(v=>`<button class="topic-chip" data-conjugation-pick="${v}">${v}</button>`).join('')}</div><form id="conjugation-search-form" class="searchform"><label class="sr-only" for="conjugation-search">搜索动词原形、中文或英文释义</label><input class="input" id="conjugation-search" value="${esc(conjugationSearch)}" placeholder="原形／变位反查：tener、tengo、吃…"><button class="btn">找动词</button></form><div class="filterrow"><label>分组 <select id="conjugation-group" class="input">${['全部','-ar','-er','-ir','自复/代词动词','现在时规则','现在时含变化'].map(x=>`<option ${x===conjugationGroup?'selected':''}>${x}</option>`).join('')}</select></label><label>动词 <select id="conjugation-verb" class="input">${list.map(x=>`<option value="${esc(x)}" ${x===v?'selected':''}>${esc(x)}</option>`).join('')}</select></label><label>语气/时态 <select id="conjugation-tense" class="input">${conjugationTenses.map(x=>`<option value="${x.key}" ${x.key===t.key?'selected':''}>${x.rare?'进阶识读 · ':''}${x.name}</option>`).join('')}</select></label><label>人称参照 <select id="region" class="input">${[['both','显示全部六组人称'],['latam','练习中用 ustedes，不抽 vosotros'],['spain','保留 vosotros']].map(([key,label])=>`<option value="${key}" ${data.region===key?'selected':''}>${label}</option>`).join('')}</select></label></div><p role="status">匹配 ${list.length} 个动词 · 类型标签只判断现在时，不代表其他时态都规则。</p></section>${e?`<section class="panel expansion-gap"><span class="badge">${esc(presentPattern(v))} · ${e.reflexive?'带代词用法':'原形 -'+e.ending}</span><h2 lang="es">${esc(v)}</h2><p>${esc(verbMeaning(v))}</p><p lang="en" class="small">来源词义：${esc(e.en)}</p>${v==='haber'?'<div class="hintbox">下表是助动词 haber。存在句另学 hay/había/hubo；不把助动词表直接套到“有几本书”。本课不训练其罕见命令用法。</div>':''}${v==='soler'?'<div class="hintbox">soler 主要用于现在时和过去未完成时等有限场景；来源的某些完整范式并不代表现代日常都会使用，初学请优先选 presente/imperfecto。</div>':''}${t.rare?'<div class="feedback bad">这是现代日常很少主动使用的历史/法律形式，放在进阶识读。零基础先掌握常用形式。</div>':''}<div class="lesson-table-scroll"><table class="verb-table"><caption>${esc(v)} · ${esc(t.name)}</caption><thead><tr><th scope="col">人称</th><th scope="col">形式</th><th scope="col">怎样读懂这一格</th></tr></thead><tbody>${conjPeople.map((person,i)=>`<tr><th scope="row">${person}</th><td lang="es">${esc(e.forms[t.key][i]||'—')}</td><td>${!e.forms[t.key][i]?'本格不提供形式，不生成练习。':i===2?'包括 usted，使用语法第三人称单数。':i===5?'包括 ustedes，使用语法第三人称复数。':i===4?'主要用于西班牙许多地区；拉美常看 ustedes 那一行。':'把主语与本时态对应人称配起来。'}</td></tr>`).join('')}</tbody></table></div><p>副动词：<strong lang="es">${esc(e.gerund)}</strong> · 过去分词：<strong lang="es">${esc(e.participle)}</strong>。这两项不称为“另外两个时态”。</p><div class="filterrow"><label><input type="checkbox" id="conjugation-mix" ${conjugationMix?'checked':''}> 同时练当前筛选出的其他动词（保持同一时态）</label><button class="btn" id="conjugation-start">练当前形式 →</button></div><div id="conjugation-status" role="status"></div></section>`:'<div class="panel expansion-gap">没有匹配，请缩短关键词或改分组。</div>'}<section class="panel expansion-gap">${verbLessonMarkup(t.key)}<p class="small">数据为开放来源，-se 系列由 -ra 形式按规则补出；未宣称涵盖全部地区变体或全部动词。原有答题记录继续保留。</p></section>`;
 $('#conjugation-search-form').onsubmit=event=>{event.preventDefault();conjugationSearch=$('#conjugation-search').value.trim();verbPage()};$('#conjugation-group').onchange=event=>{conjugationGroup=event.target.value;verbPage()};$('#conjugation-verb').onchange=event=>{conjugationSelected=event.target.value;verbPage()};$('#conjugation-tense').onchange=event=>{conjugationTense=event.target.value;verbPage()};$('#region').onchange=event=>{data.region=event.target.value;persist();verbPage()};if($('#conjugation-mix'))$('#conjugation-mix').onchange=event=>{conjugationMix=event.target.checked};if($('#conjugation-start'))$('#conjugation-start').onclick=()=>{const pool=[];for(const verb of conjugationMix?list:[v])for(let i=0;i<6;i++){if(i===4&&data.region==='latam')continue;const q=byId.get('cx~'+encodeURIComponent(verb)+'~'+t.key+'~'+i);if(q)pool.push(q)}if(!pool.length){$('#conjugation-status').textContent='此动词在当前组合下没有可练形式，请换一组。';return}startQuiz(shuffle(pool).slice(0,12),{type:'verbs',label:v+' · '+t.name})}}
-function foundationMarkup(f,open=false){if(f.deep)return deepLessonMarkup(f,open);return `<details class="teacher-foundation" ${open?'open':''}><summary>先讲基础：${esc(f.title)}</summary><section class="teacher-lesson">${f.paragraphs.map((p,i)=>`<h3>${i+1}．${['先理解它在解决什么问题','再看形式如何变化','回到整句，而不是孤立背词','边界、例外与检查方法'][i]||'继续理解'}</h3><p>${esc(p)}</p>`).join('')}<h3>老师逐块拆开一遍</h3><div class="lesson-table-scroll"><table class="lesson-table"><thead><tr><th>句子片段</th><th>中文意思</th><th>为什么这样说</th></tr></thead><tbody>${f.anatomy.map(([es,zh,why])=>`<tr><td lang="es">${esc(es)}</td><td>${esc(zh)}</td><td>${esc(why)}</td></tr>`).join('')}</tbody></table></div><div class="feedback bad"><strong>常见误区</strong><p>❌ ${esc(f.mistake[0])}</p><p>✓ ${esc(f.mistake[1])}</p><p>${esc(f.mistake[2])}</p></div><button class="btn outline" data-foundation-practice="${f.id}">先做这节基础课的 ${f.questions.length} 道题 →</button></section></details>`}
+function foundationMarkup(f,open=false,contextId=f.id){if(f.deep)return deepLessonMarkup(f,open,contextId);return `<details class="teacher-foundation" ${open?'open':''}><summary>先讲基础：${esc(f.title)}</summary><section class="teacher-lesson">${f.paragraphs.map((p,i)=>`<h3>${i+1}．${['先理解它在解决什么问题','再看形式如何变化','回到整句，而不是孤立背词','边界、例外与检查方法'][i]||'继续理解'}</h3><p>${esc(p)}</p>`).join('')}<h3>老师逐块拆开一遍</h3><div class="lesson-table-scroll"><table class="lesson-table"><thead><tr><th>句子片段</th><th>中文意思</th><th>为什么这样说</th></tr></thead><tbody>${f.anatomy.map(([es,zh,why])=>`<tr><td lang="es">${esc(es)}</td><td>${esc(zh)}</td><td>${esc(why)}</td></tr>`).join('')}</tbody></table></div><div class="feedback bad"><strong>常见误区</strong><p>❌ ${esc(f.mistake[0])}</p><p>✓ ${esc(f.mistake[1])}</p><p>${esc(f.mistake[2])}</p></div><button class="btn outline" data-foundation-practice="${f.id}">先做这节基础课的 ${f.questions.length} 道题 →</button></section></details>`}
 function foundationFor(g){return foundationLessons.find(f=>f.domain===g.domain)||foundationLessons.find(f=>f.id==='foundation-'+({'命令与指令':'verb','未来与假设':'subjunctive','介词与结构':'porpara','篇章与逻辑':'logic','语体与正式表达':'logic','间接引语':'sentence','词汇与语义':'sentence','非人称与被动':'passive'}[g.domain]||'sentence'))}
-const guideBeforeExpansion=guideCard;guideCard=function(g){const f=foundationLessons.find(f=>f.id===g.id)||foundationFor(g);let html=guideBeforeExpansion(g);if(f)html=html.replace('<div class="guide-body">','<div class="guide-body">'+foundationMarkup(f,f.id===g.id));return html};
+const guideBeforeExpansion=guideCard;guideCard=function(g){const f=foundationLessons.find(f=>f.id===g.id)||foundationFor(g);let html=guideBeforeExpansion(g);if(f)html=html.replace('<div class="guide-body">','<div class="guide-body">'+foundationMarkup(f,f.id===g.id,g.id));return html};
 function dialogueMarkup(d,analysis=false){return `<div class="teacher-dialogue">${d.turns.map((t,i)=>`<section class="sentence-row"><span class="badge">${i%2?'B':'A'} · ${i+1}</span><p lang="es"><strong>${esc(t.es)}</strong></p><p>${esc(t.zh)}</p>${t.note?(analysis?`<div class="feedback"><strong>老师怎样分析：</strong>${esc(t.note)}</div>`:`<details class="sentence-note"><summary>这句为什么这样说？</summary><p>${esc(t.note)}</p></details>`):''}</section>`).join('')}</div>`}
 const unitBeforeExpansion=unitPage;
 const unitFoundationIds={A1:['sound','gender','core','verb','gustar','questions','prepositions','prepositions','questions','sound'],A2:['past','past','past','pronouns','adjectives','verb','prepositions','verb','questions','core'],B1:['past','subjunctive','subjunctive','verb','logic','subjunctive','gustar','relative','verb','passive'],B2:['sentence','subjunctive','subjunctive','logic','logic','logic','passive','relative','sentence','past']};
@@ -2267,7 +2524,7 @@ document.addEventListener('click',event=>{const button=event.target.closest('but
 
 for(const f of foundationLessons){const item=siteIndex.find(x=>x.type==='知识点'&&x.id===f.id);if(item){item.text+=' '+f.paragraphs.join(' ')+' '+JSON.stringify(f.anatomy);item.key=searchText(item.text)}}
 
-function deepLessonMarkup(f,open=false){return `<details class="teacher-foundation deep-lesson" ${open?'open':''}><summary>完整基础课：${esc(f.title)}</summary><section class="teacher-lesson"><div class="hintbox"><strong>这节课要学会什么</strong><p>${esc(f.deep.goal)}</p><p>先读讲解与示范，再做辨认、变换和纠错。不会的题按反馈中的步骤回到具体位置。</p></div>${bridgePreparationMarkup(f)}<nav aria-label="本课目录" class="lesson-outline">${f.deep.sections.map(([title],i)=>`<a href="#${f.id}-section-${i}">${i+1}．${esc(title)}</a>`).join('')}</nav>${f.deep.sections.map(([title,paragraphs],i)=>`<section id="${f.id}-section-${i}" class="depth-section"><h3>${i+1}．${esc(title)}</h3>${paragraphs.map(p=>`<p>${esc(p)}</p>`).join('')}${f.bridge&&f.questions[i]?`<div class="bottomrow"><button class="link" data-single-q="${f.questions[i].id}">停一下，检验这一小步 →</button></div>`:''}</section>`).join('')}<h3>老师完整示范：从意义推到形式</h3>${f.deep.examples.map(([es,zh,why])=>`<div class="worked-example"><blockquote lang="es">${esc(es)}</blockquote><p>${esc(zh)}</p><div class="feedback"><strong>推理过程：</strong>${esc(why)}</div></div>`).join('')}${bridgeApplicationMarkup(f)}<h3>先试一遍，再展开看解释</h3>${f.questions.map((q,i)=>`<details class="sentence-note"><summary>${i+1}．${esc(q.prompt)}</summary><p><strong>答案：</strong>${esc(q.answer)}</p><p><strong>怎样判断：</strong>${esc(q.explain)}</p><button class="link" data-single-q="${q.id}">单独作答并加入复习 →</button></details>`).join('')}<div class="bottomrow expansion-gap"><button class="btn" data-foundation-practice="${f.id}">合上答案，做本课 ${f.questions.length} 道练习 →</button></div><div class="hintbox"><strong>迁移任务</strong><p>选两句示范，替换人物、物品或时间；再解释哪些形式要跟着变。开放表达不自动判分，可用本课规则逐项核对。</p></div></section></details>`}
+function deepLessonMarkup(f,open=false,contextId=f.id){const anchor=contextId===f.id?f.id:contextId+'-'+f.id;return `<details class="teacher-foundation deep-lesson" ${open?'open':''}><summary>完整基础课：${esc(f.title)}</summary><section class="teacher-lesson"><div class="hintbox"><strong>这节课要学会什么</strong><p>${esc(f.deep.goal)}</p><p>先读讲解与示范，再做辨认、变换和纠错。不会的题按反馈中的步骤回到具体位置。</p></div>${bridgePreparationMarkup(f)}${timelineMarkup(f.id)}<nav aria-label="本课目录" class="lesson-outline">${f.deep.sections.map(([title],i)=>`<a href="#${anchor}-section-${i}">${i+1}．${esc(title)}</a>`).join('')}</nav>${f.deep.sections.map(([title,paragraphs],i)=>`<section id="${anchor}-section-${i}" class="depth-section"><h3>${i+1}．${esc(title)}</h3>${paragraphs.map(p=>`<p>${esc(p)}</p>`).join('')}${f.bridge&&f.questions[i]?`<div class="bottomrow"><button class="link" data-single-q="${f.questions[i].id}">停一下，检验这一小步 →</button></div>`:''}</section>`).join('')}<h3>老师完整示范：从意义推到形式</h3>${f.deep.examples.map(([es,zh,why])=>`<div class="worked-example"><blockquote lang="es">${esc(es)}</blockquote><p>${esc(zh)}</p><div class="feedback"><strong>推理过程：</strong>${esc(why)}</div></div>`).join('')}${bridgeApplicationMarkup(f)}${precisionVerbLinks(f)}${precisionDetailsMarkup(f,contextId)}<h3>先试一遍，再展开看解释</h3>${f.questions.map((q,i)=>`<details class="sentence-note"><summary>${i+1}．${esc(q.prompt)}</summary><p><strong>答案：</strong>${esc(q.answer)}</p><p><strong>怎样判断：</strong>${esc(q.explain)}</p><button class="link" data-single-q="${q.id}">单独作答并加入复习 →</button></details>`).join('')}<div class="bottomrow expansion-gap"><button class="btn" data-foundation-practice="${f.id}">合上答案，做本课 ${f.questions.length} 道练习 →</button></div><div class="hintbox"><strong>迁移任务</strong><p>选两句示范，替换人物、物品或时间；再解释哪些形式要跟着变。开放表达不自动判分，可用本课规则逐项核对。</p></div></section></details>`}
 function nounGenderMarkup(w){if(!w?.gender)return '';return `<section class="noun-gender"><span class="badge" lang="es">${esc(w.gender)}</span><p>${esc(w.genderNote)}</p><small>${esc(w.genderSource||'数据待补充')} · 标注只适用于名词用法</small></section>`}
 const wordItemBeforeGender=wordItem;wordItem=function(w){return wordItemBeforeGender(w).replace('</h3>','</h3>'+nounGenderMarkup(w))};
 const wordPageBeforeGender=wordPage;wordPage=function(){wordPageBeforeGender();const panel=$('#app .filterrow')?.closest('.panel');if(panel){const legend=document.createElement('p');legend.className='small gender-legend';legend.textContent='名词性别：m. = masculino（阳性）；f. = femenino（阴性）；m. y f. = 常见同形人物用法；m. / f. = 按词义或具体用法区分。待核对不等于无性别。动词等不套名词性别。';panel.append(legend)}if(wordMode==='cards'&&wordOpen){const w=wordBank()[wordIndex];$('#app .flash h2')?.insertAdjacentHTML('afterend',nounGenderMarkup(w))}};
@@ -2303,13 +2560,28 @@ document.addEventListener('click',event=>{const b=event.target.closest('button')
  if(d.unitStudyReturn){const micro=quiz.meta.micro;restoreStudyReturn();go('unit');if(Number.isInteger(micro))requestAnimationFrame(()=>$('#micro-step-'+micro)?.scrollIntoView({block:'start'}))}
  if(d.supplementStage){const f=bookSupplementLessons.find(f=>f.id===d.supplementStage),stage=+d.stage;startQuiz(f.questions.slice(stage*2,stage*2+2),{type:'guide',guide:f.id,label:f.title+' · 第'+(stage+1)+'层'})}
 });
-const courseBeforeTopicCoverage=course;course=function(){courseBeforeTopicCoverage();const section=document.createElement('section');section.className='panel textbook-crosswalk';section.innerHTML=`<h2>教材语法专题：直接进课，直接练</h2><p>按所提供教材18课整理 ${textbookCoverage.length} 个一级语法主题，${bookSupplementLessons.length} 节本轮补充的专项小步课。下方逐项链接到实际讲解和题目；主题对应不等于已核验教材全部子规则、脚注和原题。</p><details><summary>展开逐课对照与补充课程</summary>${textbookReview.lessons.map(([chapter,pdfPage])=>`<section class="coverage-chapter"><h3>第 ${chapter} 课 · PDF 第 ${pdfPage} 页起</h3>${textbookCoverage.filter(r=>r.chapter===chapter).map(r=>`<div class="hintbox"><strong>${esc(r.topic)}</strong><span class="badge">${r.change}</span><div class="bottomrow"><button class="link" data-open-guide="${r.guide}">学习这项 →</button><button class="link" data-web-practice="${r.guide}">${r.questions.length} 道专项练习 →</button>${r.topic.includes('过去')?`<button class="link" data-topic-tense="${r.topic.includes('未完成')?'imperfect':'preterite'}">查构成与完整形式表 →</button>`:''}</div></div>`).join('')}</section>`).join('')}</details>`;$('#app .beginner-route').after(section)};
+const courseBeforeTopicCoverage=course;course=function(){courseBeforeTopicCoverage();const section=document.createElement('section');section.className='panel textbook-crosswalk';section.innerHTML=`<h2>教材语法专题：直接进课，直接练</h2><p>按所提供教材18课整理 ${textbookCoverage.length} 个一级语法主题，${bookSupplementLessons.length} 节补充专项小步课。下方逐项链接到实际讲解和题目；主题对应不等于已核验教材全部子规则、脚注和原题。</p><details><summary>展开逐课对照与补充课程</summary>${textbookReview.lessons.map(([chapter,pdfPage])=>`<section class="coverage-chapter"><h3>第 ${chapter} 课 · PDF 第 ${pdfPage} 页起</h3>${textbookCoverage.filter(r=>r.chapter===chapter).map(r=>`<div class="hintbox"><strong>${esc(r.topic)}</strong><span class="badge">${r.change}</span><div class="bottomrow"><button class="link" data-open-guide="${r.guide}">学习这项 →</button><button class="link" data-web-practice="${r.guide}">${r.questions.length} 道专项练习 →</button>${r.topic.includes('过去')?`<button class="link" data-topic-tense="${r.topic.includes('未完成')?'imperfect':'preterite'}">查构成与完整形式表 →</button>`:''}</div></div>`).join('')}</section>`).join('')}</details>`;$('#app .beginner-route').after(section)};
 for(const item of siteIndex.filter(i=>i.type==='课程')){const packet=gradedScaffolds[item.id];if(packet){item.text+=' '+JSON.stringify(packet);item.key=searchText(item.text)}}
 document.addEventListener('click',e=>{const b=e.target.closest('[data-topic-tense]');if(b){conjugationSelected='hablar';conjugationTense=b.dataset.topicTense;conjugationSearch='';conjugationGroup='全部';go('verbs')}});
 const courseBeforeShortcuts=course;course=function(){courseBeforeShortcuts();const tabs=$('#app>.tabs');if(tabs){$('#app .intro').after(tabs);const shortcuts=document.createElement('div');shortcuts.className='bottomrow course-shortcuts';shortcuts.innerHTML=`<button class="btn outline" data-course-jump="units">直接进入 ${selectedLevel} 单元 ↓</button><button class="link" data-course-jump="prerequisites">看先修路线 ↓</button><button class="link" data-course-jump="textbook">查教材专题 ↓</button>`;tabs.after(shortcuts)}document.querySelectorAll('#app .lesson-grid>article').forEach((card,i)=>{const u=units.filter(u=>u.level===selectedLevel)[i];if(u){const p=document.createElement('p');p.className='small';p.textContent='3个小步详解 · 6个词汇预习项 · '+u.questions.length+'题 · 三层练习';card.querySelector('h2')?.after(p)}})};
 const publicURLBeforeGraded=publicRouteURL;publicRouteURL=function(embed=false){const u=new URL(publicURLBeforeGraded(embed));if(page==='course')u.searchParams.set('level',selectedLevel);return u.href};
 const applyRouteBeforeGraded=applyPublicRoute;applyPublicRoute=function(params){if(params.get('view')==='course'&&['A1','A2','B1','B2'].includes(params.get('level')))selectedLevel=params.get('level');applyRouteBeforeGraded(params)};
 document.addEventListener('click',e=>{const b=e.target.closest('[data-course-jump]');if(!b)return;const selectors={units:'.lesson-grid',prerequisites:'.beginner-route',textbook:'.textbook-crosswalk'},target=$(selectors[b.dataset.courseJump]);target?.scrollIntoView({block:'start'})});
+
+function precisionDetailsMarkup(f,contextId=f.id){if(!f.precisionDetails?.length)return '';return `<section class="precision-rule-list"><h3>再拆开容易混淆的细则</h3>${f.precisionDetails.map(d=>`<section class="precision-rule" id="rule-${contextId===f.id?d.key:contextId+'-'+d.key}"><h4>${esc(d.title)}</h4>${d.paragraphs.map(p=>`<p>${esc(p)}</p>`).join('')}<div class="lesson-table-scroll"><table class="lesson-table"><thead><tr>${d.columns.map(c=>`<th scope="col">${esc(c)}</th>`).join('')}</tr></thead><tbody>${d.rows.map(row=>`<tr>${row.map(c=>`<td>${esc(c)}</td>`).join('')}</tr>`).join('')}</tbody></table></div><button class="btn outline" data-rule-detail-quiz="${d.key}">专练这条细则 · ${d.questions.length} 题 →</button></section>`).join('')}</section>`}
+function timelineMarkup(key){const t=teachingTimelines[key];if(!t)return '';return `<section class="teaching-time-axis"><h3>${esc(t.title)}</h3><p class="small">点击节点，看老师怎样确定参照和关系。图示在解释这组例句，不是所有句子的万能时间公式。</p><div class="time-nodes">${t.events.map(([time,label],i)=>`<button type="button" class="time-node" data-time-context="${key}" data-time-node="${i}" aria-pressed="${i===0?'true':'false'}"><span>${esc(time)}</span><strong>${esc(label)}</strong></button>`).join('')}</div><p class="time-insight" aria-live="polite">${esc(t.events[0][2])}</p></section>`}
+const unitBeforePrecision=unitPage;unitPage=function(){unitBeforePrecision();if(unitTab!=='learn')return;const unit=currentUnit;if(lessonStage===1){const box=$('#app .unit-micro-lessons');box?.querySelector('h2')?.insertAdjacentHTML('afterend',timelineMarkup('unit-'+unit));const details=(precisionUnitDetails[unit]||[]).map(key=>precisionDetails.find(d=>d.key===key));if(details.length){const section=document.createElement('section');section.className='precision-unit-links';section.innerHTML=`<h3>本课这些易错点，继续掰开讲</h3>${details.map(d=>`<div class="hintbox"><strong>${esc(d.title)}</strong><div class="bottomrow"><button class="link" data-open-guide="${d.guide}">看细则与对比表 →</button><button class="btn outline" data-unit-detail-quiz="${d.key}">专练 2 题 →</button></div></div>`).join('')}`;box?.append(section)}}};
+document.addEventListener('click',e=>{const b=e.target.closest('button');if(!b)return;const d=b.dataset;
+ if(d.timeNode!==undefined){const t=teachingTimelines[d.timeContext],i=+d.timeNode,host=b.closest('.teaching-time-axis');if(!t?.events[i]||!host)return;host.querySelectorAll('[data-time-node]').forEach(node=>node.setAttribute('aria-pressed',String(node===b)));host.querySelector('.time-insight').textContent=t.events[i][2]}
+ if(d.ruleDetailQuiz){const detail=precisionDetails.find(x=>x.key===d.ruleDetailQuiz),f=foundationLessons.find(f=>f.id===detail.guide);startQuiz(detail.questions,{type:'guide',guide:f.id,label:detail.title})}
+ if(d.unitDetailQuiz){const detail=precisionDetails.find(x=>x.key===d.unitDetailQuiz);startQuiz(detail.questions,{type:'guided',unit:currentUnit,returnTab:unitTab,returnStage:lessonStage,label:currentUnit+' · '+detail.title})}
+});
+function precisionVerbLinks(f){const rows={
+'foundation-topic-past-regular':['preterite',['hablar','comer','vivir']],
+'foundation-topic-past-irregular':['preterite',['tener','hacer','decir','buscar','dormir','leer']],
+'foundation-topic-past-imperfect':['imperfect',['ser','ir','ver','hablar']]
+},row=rows[f.id];if(!row)return '';return `<section class="precision-verb-links"><h3>把这套规则放到完整变位表里练</h3><p>选一个动词，直接打开本课对应的时态；可查六组人称并开始填写练习。</p><div class="bottomrow">${row[1].map(v=>`<button class="btn outline" data-precision-verb="${v}" data-precision-tense="${row[0]}">${v} →</button>`).join('')}</div></section>`}
+document.addEventListener('click',e=>{const b=e.target.closest('[data-precision-verb]');if(!b)return;conjugationSelected=b.dataset.precisionVerb;conjugationTense=b.dataset.precisionTense;conjugationSearch='';conjugationGroup='全部';go('verbs')});
 
 // Navigation state is independent of learning records. Returning never rolls back learning results.
 const navigationKey='hola-navigation-v1:'+location.pathname;

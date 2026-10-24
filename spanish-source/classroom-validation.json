@@ -3,16 +3,16 @@
     "units": 40,
     "workshops": 40,
     "modules": 29,
-    "grammar": 380,
-    "words": 7240,
-    "questions": 10486,
+    "grammar": 385,
+    "words": 7241,
+    "questions": 10533,
     "input": 160,
     "order": 40,
     "scenes": 15,
     "objects": 120,
     "sceneQuestions": 45,
     "broken": 0,
-    "unique": 10486
+    "unique": 10533
   },
   "checks": [
     "40 个单元均有专属关键句拆解；知识条目可连接共享模块或专属小节讲解；160 填空和 40 词序题",

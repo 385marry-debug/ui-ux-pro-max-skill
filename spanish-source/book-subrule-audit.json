@@ -1,0 +1,220 @@
+{
+  "date": "2026-10-24",
+  "scope": "本轮5节细讲、8组指定细则的教学与规则核对，不代表全书所有细则已验收。",
+  "counts": {
+    "newLessons": 5,
+    "detailGroups": 8,
+    "newQuestions": 46
+  },
+  "lessons": [
+    {
+      "id": "foundation-topic-past-regular",
+      "title": "简单过去时Ⅰ：规则词尾、重音与叙事顺序",
+      "questions": [
+        "foundation-topic-past-regular-q0",
+        "foundation-topic-past-regular-q1",
+        "foundation-topic-past-regular-q2",
+        "foundation-topic-past-regular-depth-0",
+        "foundation-topic-past-regular-depth-1",
+        "foundation-topic-past-regular-depth-2"
+      ]
+    },
+    {
+      "id": "foundation-topic-past-irregular",
+      "title": "简单过去时Ⅱ：不规则分组与拼写变化",
+      "questions": [
+        "foundation-topic-past-irregular-q0",
+        "foundation-topic-past-irregular-q1",
+        "foundation-topic-past-irregular-q2",
+        "foundation-topic-past-irregular-depth-0",
+        "foundation-topic-past-irregular-depth-1",
+        "foundation-topic-past-irregular-depth-2"
+      ]
+    },
+    {
+      "id": "foundation-topic-past-imperfect",
+      "title": "过去未完成时：规则表、三个常用不规则与背景视角",
+      "questions": [
+        "foundation-topic-past-imperfect-q0",
+        "foundation-topic-past-imperfect-q1",
+        "foundation-topic-past-imperfect-q2",
+        "foundation-topic-past-imperfect-depth-0",
+        "foundation-topic-past-imperfect-depth-1",
+        "foundation-topic-past-imperfect-depth-2"
+      ]
+    },
+    {
+      "id": "foundation-topic-state-adjectives",
+      "title": "ser/estar＋形容词：同一词换动词，信息会怎样变？",
+      "questions": [
+        "foundation-topic-state-adjectives-q0",
+        "foundation-topic-state-adjectives-q1",
+        "foundation-topic-state-adjectives-q2",
+        "foundation-topic-state-adjectives-depth-0",
+        "foundation-topic-state-adjectives-depth-1",
+        "foundation-topic-state-adjectives-depth-2"
+      ]
+    },
+    {
+      "id": "foundation-topic-spelling-sounds",
+      "title": "拼读细则：c/qu、g/gu/gü、r/rr 与 b/v",
+      "questions": [
+        "foundation-topic-spelling-sounds-q0",
+        "foundation-topic-spelling-sounds-q1",
+        "foundation-topic-spelling-sounds-q2",
+        "foundation-topic-spelling-sounds-depth-0",
+        "foundation-topic-spelling-sounds-depth-1",
+        "foundation-topic-spelling-sounds-depth-2"
+      ]
+    }
+  ],
+  "details": [
+    {
+      "key": "plural-boundaries",
+      "title": "复数细则：-s/-x 不总变化，-í/-ú 不只有一种结果",
+      "guide": "foundation-bridge-plural",
+      "reference": {
+        "chapter": 2,
+        "pdfPages": [
+          39,
+          40
+        ],
+        "scope": "从名词复数基础继续补充词尾与重读的边界，不表示原页已穷尽所有变体。"
+      },
+      "questions": [
+        "detail-plural-boundaries-0",
+        "detail-plural-boundaries-1"
+      ]
+    },
+    {
+      "key": "gender-categories",
+      "title": "人物名词：通性、固定语法性与按词义分性",
+      "guide": "foundation-gender",
+      "reference": {
+        "chapter": 1,
+        "pdfPages": [
+          27,
+          28
+        ],
+        "scope": "对名词性别概念的教学扩展，帮助解释例外分类。"
+      },
+      "questions": [
+        "detail-gender-categories-0",
+        "detail-gender-categories-1"
+      ]
+    },
+    {
+      "key": "possessive-reference",
+      "title": "su/sus 的歧义与“一位我的朋友”",
+      "guide": "foundation-topic-possessives",
+      "reference": {
+        "chapter": 7,
+        "pdfPages": [
+          156,
+          157
+        ],
+        "scope": "重读物主词位置、与名词一致及指称歧义。"
+      },
+      "questions": [
+        "detail-possessive-reference-0",
+        "detail-possessive-reference-1"
+      ]
+    },
+    {
+      "key": "command-boundaries",
+      "title": "命令式细则：pensemos、durmamos 与代词脱落",
+      "guide": "foundation-topic-commands",
+      "reference": {
+        "chapter": 11,
+        "pdfPages": [
+          259,
+          260,
+          261
+        ],
+        "scope": "nosotros/vosotros 的词干与后接代词组合。"
+      },
+      "questions": [
+        "detail-command-boundaries-0",
+        "detail-command-boundaries-1"
+      ]
+    },
+    {
+      "key": "calendar-register",
+      "title": "日期细则：estar a、正式落款、月份年份与年代缩写",
+      "guide": "foundation-topic-calendar",
+      "reference": {
+        "chapter": 17,
+        "pdfPages": [
+          424,
+          425,
+          426
+        ],
+        "scope": "日期六部分中的星期、月份、读法、问法、状语与年代表达。"
+      },
+      "questions": [
+        "detail-calendar-register-0",
+        "detail-calendar-register-1"
+      ]
+    },
+    {
+      "key": "participle-agreement",
+      "title": "同一分词三种结构：haber、estar、ser",
+      "guide": "foundation-topic-nonfinite",
+      "reference": {
+        "chapter": 17,
+        "pdfPages": [
+          427,
+          428
+        ],
+        "scope": "分词构成与形容词式用法，并对比已学完成结构。"
+      },
+      "questions": [
+        "detail-participle-agreement-0",
+        "detail-participle-agreement-1"
+      ]
+    },
+    {
+      "key": "questions-with-prepositions",
+      "title": "有介词的疑问：de dónde、con quién 与信息范围",
+      "guide": "foundation-topic-question-order",
+      "reference": {
+        "chapter": 11,
+        "pdfPages": [
+          263,
+          264
+        ],
+        "scope": "疑问词序需同时保留句子角色与介词关系。"
+      },
+      "questions": [
+        "detail-questions-with-prepositions-0",
+        "detail-questions-with-prepositions-1"
+      ]
+    },
+    {
+      "key": "clause-roles",
+      "title": "从句细则：que 不作主语，是否疑问不必加 que",
+      "guide": "foundation-topic-object-clauses",
+      "reference": {
+        "chapter": 12,
+        "pdfPages": [
+          292,
+          293
+        ],
+        "scope": "宾语内容、主从句人称与疑问信息的教学辨析。"
+      },
+      "questions": [
+        "detail-clause-roles-0",
+        "detail-clause-roles-1"
+      ]
+    }
+  ],
+  "corrections": [
+    {
+      "pdfPage": 457,
+      "printedPage": 456,
+      "issue": "上传PDF可视表格tú一格疑似漏印-s；网站讲解和原有变位库均使用tú escribías。",
+      "correct": "escribías",
+      "verified": "核看实际PDF版面，并以规则-ías及既有独立变位数据交叉核对。"
+    }
+  ]
+}
