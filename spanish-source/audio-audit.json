@@ -1,6 +1,6 @@
 {
-  "clips": 104,
-  "totalMinutes": 24.17,
+  "clips": 144,
+  "totalMinutes": 53.6,
   "humanRecordings": false,
   "items": [
     {
@@ -729,6 +729,286 @@
       "durationSeconds": 16.51,
       "sha256": "1c2ba7153f87215e058796bb81e89efe49b48619b8dca9cf52440a55fd03c271",
       "bytes": 99282,
+      "engine": "eSpeak NG, Spanish es, 150 wpm, synthetic"
+    },
+    {
+      "id": "read-sr-01",
+      "durationSeconds": 70.24,
+      "sha256": "c498345f5d5a8f9bc23ec92d22fd07840e29be32204bd205b9ea38510ef78b5a",
+      "bytes": 421685,
+      "engine": "eSpeak NG, Spanish es, 150 wpm, synthetic"
+    },
+    {
+      "id": "read-sr-02",
+      "durationSeconds": 68.57,
+      "sha256": "5430956936fc232b918b2fd7085718a9aad1057f99a03fc5c180467c5bf591ff",
+      "bytes": 411654,
+      "engine": "eSpeak NG, Spanish es, 150 wpm, synthetic"
+    },
+    {
+      "id": "read-sr-03",
+      "durationSeconds": 68.75,
+      "sha256": "03e0cf72f3139068c47c8dd4d98e4f15abe25d3415a96c834431ab1b0d7c8f55",
+      "bytes": 412751,
+      "engine": "eSpeak NG, Spanish es, 150 wpm, synthetic"
+    },
+    {
+      "id": "read-sr-04",
+      "durationSeconds": 64.81,
+      "sha256": "fa1cdd72e5a050c2deedd7fc8acf8b80a2b082df5522dd24da2ff787d7fe4f25",
+      "bytes": 389085,
+      "engine": "eSpeak NG, Spanish es, 150 wpm, synthetic"
+    },
+    {
+      "id": "read-sr-05",
+      "durationSeconds": 63.4,
+      "sha256": "f14e259e7bdfe332670c82a26be39e50eeef84f55603177435146e025081287f",
+      "bytes": 380621,
+      "engine": "eSpeak NG, Spanish es, 150 wpm, synthetic"
+    },
+    {
+      "id": "read-sr-06",
+      "durationSeconds": 65.8,
+      "sha256": "bfd558b66144b8113634d9a58c491e5bf88f60fa9e5f1796ddfee6ab9252a37e",
+      "bytes": 395040,
+      "engine": "eSpeak NG, Spanish es, 150 wpm, synthetic"
+    },
+    {
+      "id": "read-sr-07",
+      "durationSeconds": 65.59,
+      "sha256": "73f2d182a337b472f4a599863455a658713082faaa668a0de1b42dddb00184f9",
+      "bytes": 393787,
+      "engine": "eSpeak NG, Spanish es, 150 wpm, synthetic"
+    },
+    {
+      "id": "read-sr-08",
+      "durationSeconds": 65.96,
+      "sha256": "01dd7d1feaa0d3a638585bcf98b7391a3b4cc04f1bd1583eef3431de4adfbb8a",
+      "bytes": 395981,
+      "engine": "eSpeak NG, Spanish es, 150 wpm, synthetic"
+    },
+    {
+      "id": "read-sr-09",
+      "durationSeconds": 64.57,
+      "sha256": "7f4d0ab6d3ca212597ee9540755d2d21d56596ad3830811f7d2b8dbd2f916111",
+      "bytes": 387674,
+      "engine": "eSpeak NG, Spanish es, 150 wpm, synthetic"
+    },
+    {
+      "id": "read-sr-10",
+      "durationSeconds": 66.22,
+      "sha256": "2fec7f5ba6425507d04ab5a18f13233015b436841aed2059bdf1995416a6e7c1",
+      "bytes": 397548,
+      "engine": "eSpeak NG, Spanish es, 150 wpm, synthetic"
+    },
+    {
+      "id": "read-sr-11",
+      "durationSeconds": 69.64,
+      "sha256": "798c216c75ec2d24ed756c05a15cef6ad115911088bf4ca72df43aa65c5d1f1a",
+      "bytes": 418080,
+      "engine": "eSpeak NG, Spanish es, 150 wpm, synthetic"
+    },
+    {
+      "id": "read-sr-12",
+      "durationSeconds": 67.71,
+      "sha256": "4ef4712576a53f64e8659ab58b21750e731532257acbf652d2b70693041eaa79",
+      "bytes": 406482,
+      "engine": "eSpeak NG, Spanish es, 150 wpm, synthetic"
+    },
+    {
+      "id": "read-sr-13",
+      "durationSeconds": 72.86,
+      "sha256": "9a13b018ca02a7a882db643abd40bea0bed0e8e1f0ec0c74d3dc8310ec0b2c92",
+      "bytes": 437359,
+      "engine": "eSpeak NG, Spanish es, 150 wpm, synthetic"
+    },
+    {
+      "id": "read-sr-14",
+      "durationSeconds": 68.81,
+      "sha256": "d074b78ab515942a2d5a47807ac8a15dcc14e4076ee170e27805f77293e54489",
+      "bytes": 413065,
+      "engine": "eSpeak NG, Spanish es, 150 wpm, synthetic"
+    },
+    {
+      "id": "read-sr-15",
+      "durationSeconds": 71.13,
+      "sha256": "45c27f266188a8ae10a91af80d2ee464367703fb70dc26f7009f8fd739b4e5d5",
+      "bytes": 427014,
+      "engine": "eSpeak NG, Spanish es, 150 wpm, synthetic"
+    },
+    {
+      "id": "read-sr-16",
+      "durationSeconds": 64.84,
+      "sha256": "383cdc22b506f58bfd316436adce42025165a0afe283fa753be850e3e0a6d35c",
+      "bytes": 389241,
+      "engine": "eSpeak NG, Spanish es, 150 wpm, synthetic"
+    },
+    {
+      "id": "read-sr-17",
+      "durationSeconds": 69.67,
+      "sha256": "e1a12ca1ce6db53523303a358bab9efa05c5af2f1eb875ea4b2e14f896e2dc0e",
+      "bytes": 418237,
+      "engine": "eSpeak NG, Spanish es, 150 wpm, synthetic"
+    },
+    {
+      "id": "read-sr-18",
+      "durationSeconds": 76.88,
+      "sha256": "ca35e92c419d0883a2f28484ff5a88fb0f4e24c40e322943fb314da785c5b275",
+      "bytes": 461496,
+      "engine": "eSpeak NG, Spanish es, 150 wpm, synthetic"
+    },
+    {
+      "id": "read-sr-19",
+      "durationSeconds": 86.99,
+      "sha256": "f476831cb94a3eb9e5c427c6566a0f51b62d7b6767ccb6b20b3921df19e85b61",
+      "bytes": 522152,
+      "engine": "eSpeak NG, Spanish es, 150 wpm, synthetic"
+    },
+    {
+      "id": "read-sr-20",
+      "durationSeconds": 85.71,
+      "sha256": "adf7466d957b26029ace670511d65dd83ea354de39bf4f098883ccf78d164b45",
+      "bytes": 514472,
+      "engine": "eSpeak NG, Spanish es, 150 wpm, synthetic"
+    },
+    {
+      "id": "read-sr-21",
+      "durationSeconds": 108.43,
+      "sha256": "c78ced2e4dbda05a3a23166929014099159839585839ff8adf9e69f7b9916113",
+      "bytes": 650831,
+      "engine": "eSpeak NG, Spanish es, 150 wpm, synthetic"
+    },
+    {
+      "id": "read-sr-22",
+      "durationSeconds": 101.77,
+      "sha256": "453c63e48fcebbe5ca38b867d3cb4f1e4dbfc1b123a4f46dd4b6dace82af2a40",
+      "bytes": 610864,
+      "engine": "eSpeak NG, Spanish es, 150 wpm, synthetic"
+    },
+    {
+      "id": "sync-warm-1",
+      "durationSeconds": 6.09,
+      "sha256": "9ed10a68270cf21a80aa810e3a4a5fbff79205b881ac226feaf65a0ad3343a5d",
+      "bytes": 36745,
+      "engine": "eSpeak NG, Spanish es, 150 wpm, synthetic"
+    },
+    {
+      "id": "sync-warm-2",
+      "durationSeconds": 5.33,
+      "sha256": "9ea9a0ad5784657a3278888348a721834ea5e6dc9ca689e819437103a1ae2f7d",
+      "bytes": 32200,
+      "engine": "eSpeak NG, Spanish es, 150 wpm, synthetic"
+    },
+    {
+      "id": "sync-warm-3",
+      "durationSeconds": 5.22,
+      "sha256": "38bff526bba6a7906991742873f2dcf24da781bc1dc9d41e75d15bbc939d8ef5",
+      "bytes": 31573,
+      "engine": "eSpeak NG, Spanish es, 150 wpm, synthetic"
+    },
+    {
+      "id": "sync-warm-4",
+      "durationSeconds": 6.84,
+      "sha256": "566db13285223fafb0393d81243113696fec099c083cde576fd60e1586e4dd79",
+      "bytes": 41290,
+      "engine": "eSpeak NG, Spanish es, 150 wpm, synthetic"
+    },
+    {
+      "id": "sync-warm-5",
+      "durationSeconds": 7.99,
+      "sha256": "c514f1f62fb7d9fef7a0116cf9ddc0b7e6ce8444377a5e1bf3c4ad9897b6ff7e",
+      "bytes": 48187,
+      "engine": "eSpeak NG, Spanish es, 150 wpm, synthetic"
+    },
+    {
+      "id": "sync-warm-6",
+      "durationSeconds": 5.25,
+      "sha256": "5ae6288ec52f42e05b5e32e877b9a4daeb42e034048ffcd70bc96d45f1c6eabc",
+      "bytes": 31729,
+      "engine": "eSpeak NG, Spanish es, 150 wpm, synthetic"
+    },
+    {
+      "id": "sync-warm-7",
+      "durationSeconds": 6.66,
+      "sha256": "2547cb27fe714807608a925677bc9048e76368f23a0f143afa808e35237a4318",
+      "bytes": 40193,
+      "engine": "eSpeak NG, Spanish es, 150 wpm, synthetic"
+    },
+    {
+      "id": "sync-warm-8",
+      "durationSeconds": 6.64,
+      "sha256": "0bc0dd0fc4f440e0d25deb7b22126bcb2b2154259fee96f166f162c17479c268",
+      "bytes": 40036,
+      "engine": "eSpeak NG, Spanish es, 150 wpm, synthetic"
+    },
+    {
+      "id": "sync-warm-9",
+      "durationSeconds": 6.06,
+      "sha256": "c454378d093480cc554d954933b9ea9b4012adedb090400d53c73f42dbef6b54",
+      "bytes": 36588,
+      "engine": "eSpeak NG, Spanish es, 150 wpm, synthetic"
+    },
+    {
+      "id": "sync-warm-10",
+      "durationSeconds": 8.62,
+      "sha256": "f3bfb3b8217127b181edba318afc22be4a25ad31a1eb3e5ec9eb8454f9cd30f8",
+      "bytes": 51948,
+      "engine": "eSpeak NG, Spanish es, 150 wpm, synthetic"
+    },
+    {
+      "id": "sync-warm-11",
+      "durationSeconds": 8.7,
+      "sha256": "b915b7057ab45fae1a650920c3ced3ac1b4c9e1b7a27f23be528e7e513ea8c1f",
+      "bytes": 52418,
+      "engine": "eSpeak NG, Spanish es, 150 wpm, synthetic"
+    },
+    {
+      "id": "sync-warm-12",
+      "durationSeconds": 8.75,
+      "sha256": "60564682b3760bfb49660b59bd408a3550a88cc3b2f1c9483e8cf7650308cc5a",
+      "bytes": 52732,
+      "engine": "eSpeak NG, Spanish es, 150 wpm, synthetic"
+    },
+    {
+      "id": "sync-warm-13",
+      "durationSeconds": 11.76,
+      "sha256": "69113b775b32c1297ec72b7dad4107d5a20a939815c313f0d082d975efac3688",
+      "bytes": 70756,
+      "engine": "eSpeak NG, Spanish es, 150 wpm, synthetic"
+    },
+    {
+      "id": "sync-warm-14",
+      "durationSeconds": 14.6,
+      "sha256": "b94e990642823e44040b4538f5c7eab3e1d361526ae21e03b5d998746683ba50",
+      "bytes": 87840,
+      "engine": "eSpeak NG, Spanish es, 150 wpm, synthetic"
+    },
+    {
+      "id": "sync-warm-15",
+      "durationSeconds": 9.06,
+      "sha256": "b4b8e664a15396893d74707d54f4a8ce82f58a2f743b3b6c7c94a9dbe4a53541",
+      "bytes": 54613,
+      "engine": "eSpeak NG, Spanish es, 150 wpm, synthetic"
+    },
+    {
+      "id": "sync-warm-16",
+      "durationSeconds": 13.77,
+      "sha256": "fa7763d07e6cec9f84ee5ef9d64e0c64c93acfcc6bdc7c02d1c3d3d3d5bfbb04",
+      "bytes": 82825,
+      "engine": "eSpeak NG, Spanish es, 150 wpm, synthetic"
+    },
+    {
+      "id": "sync-warm-17",
+      "durationSeconds": 9.59,
+      "sha256": "a65af642e0233ed9f6c567ca255f8827bcc0e66de2e92a77cff17c7b2a3cd689",
+      "bytes": 57747,
+      "engine": "eSpeak NG, Spanish es, 150 wpm, synthetic"
+    },
+    {
+      "id": "sync-warm-18",
+      "durationSeconds": 16.69,
+      "sha256": "13c232fe1c55a58e59b5d0d4bc095f6960672e939dfbb5aaaff1afe1e90e522b",
+      "bytes": 100379,
       "engine": "eSpeak NG, Spanish es, 150 wpm, synthetic"
     }
   ]

@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "chapters": 18,
+  "partsPerChapter": 7,
+  "articles": 22,
+  "questionsPerArticle": 6,
+  "audioLessons": 144,
+  "adaptation": {
+    "up": "A2",
+    "noEvidence": "A1",
+    "stable": true
+  },
+  "errors": []
+}

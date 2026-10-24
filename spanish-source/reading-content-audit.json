@@ -1,0 +1,1326 @@
+{
+  "scope": "原创配套材料与链接的结构完整性、词汇解析和真实文件核验；不是宣称原教材所有原题、脚注、歌曲与录音已逐项验收。",
+  "counts": {
+    "articles": 22,
+    "bilingualParagraphs": 88,
+    "contextualGlosses": 176,
+    "sentenceAnalyses": 44,
+    "readingQuestions": 132,
+    "textbookChapters": 18,
+    "textbookPartReferences": 108,
+    "unitReviews": 6,
+    "textbookWordFacts": 659,
+    "entries": 7423,
+    "listening": 144,
+    "listeningQuestions": 294,
+    "totalStaticQuestions": 10945
+  },
+  "chapters": [
+    {
+      "chapter": 1,
+      "parts": [
+        {
+          "part": 1,
+          "start": 22,
+          "end": 26
+        },
+        {
+          "part": 2,
+          "start": 27,
+          "end": 29
+        },
+        {
+          "part": 3,
+          "start": 30,
+          "end": 30
+        },
+        {
+          "part": 4,
+          "start": 31,
+          "end": 33
+        },
+        {
+          "part": 5,
+          "start": 34,
+          "end": 34
+        },
+        {
+          "part": 6,
+          "start": 35,
+          "end": 35
+        }
+      ],
+      "grammarTopics": [
+        "名词的性",
+        "单数定冠词",
+        "大小写",
+        "问号与感叹号"
+      ],
+      "words": 20,
+      "reading": "sr-01",
+      "questions": [
+        "sr-01-q0",
+        "sr-01-q1",
+        "sr-01-q2",
+        "sr-01-q3",
+        "sr-01-q4",
+        "sr-01-q5",
+        "sync-warm-1-q0",
+        "sync-warm-1-q1",
+        "foundation-gender-q0",
+        "foundation-bridge-articles-q0",
+        "foundation-sound-q0"
+      ]
+    },
+    {
+      "chapter": 2,
+      "parts": [
+        {
+          "part": 1,
+          "start": 36,
+          "end": 38
+        },
+        {
+          "part": 2,
+          "start": 39,
+          "end": 43
+        },
+        {
+          "part": 3,
+          "start": 44,
+          "end": 46
+        },
+        {
+          "part": 4,
+          "start": 47,
+          "end": 49
+        },
+        {
+          "part": 5,
+          "start": 50,
+          "end": 50
+        },
+        {
+          "part": 6,
+          "start": 51,
+          "end": 52
+        }
+      ],
+      "grammarTopics": [
+        "名词复数",
+        "复数定冠词",
+        "指示代词",
+        "介词 de"
+      ],
+      "words": 42,
+      "reading": "sr-02",
+      "questions": [
+        "sr-02-q0",
+        "sr-02-q1",
+        "sr-02-q2",
+        "sr-02-q3",
+        "sr-02-q4",
+        "sr-02-q5",
+        "sync-warm-2-q0",
+        "sync-warm-2-q1",
+        "foundation-bridge-plural-q0",
+        "foundation-bridge-articles-q0",
+        "foundation-topic-demonstratives-q0"
+      ]
+    },
+    {
+      "chapter": 3,
+      "parts": [
+        {
+          "part": 1,
+          "start": 53,
+          "end": 59
+        },
+        {
+          "part": 2,
+          "start": 60,
+          "end": 63
+        },
+        {
+          "part": 3,
+          "start": 64,
+          "end": 66
+        },
+        {
+          "part": 4,
+          "start": 67,
+          "end": 70
+        },
+        {
+          "part": 5,
+          "start": 71,
+          "end": 71
+        },
+        {
+          "part": 6,
+          "start": 72,
+          "end": 74
+        }
+      ],
+      "grammarTopics": [
+        "不定冠词",
+        "主格人称代词",
+        "ser 现在时"
+      ],
+      "words": 45,
+      "reading": "sr-03",
+      "questions": [
+        "sr-03-q0",
+        "sr-03-q1",
+        "sr-03-q2",
+        "sr-03-q3",
+        "sr-03-q4",
+        "sr-03-q5",
+        "sync-warm-3-q0",
+        "sync-warm-3-q1",
+        "foundation-bridge-articles-q0",
+        "foundation-bridge-people-q0",
+        "foundation-core-q0"
+      ]
+    },
+    {
+      "chapter": 4,
+      "parts": [
+        {
+          "part": 1,
+          "start": 80,
+          "end": 85
+        },
+        {
+          "part": 2,
+          "start": 86,
+          "end": 89
+        },
+        {
+          "part": 3,
+          "start": 90,
+          "end": 93
+        },
+        {
+          "part": 4,
+          "start": 94,
+          "end": 96
+        },
+        {
+          "part": 5,
+          "start": 97,
+          "end": 97
+        },
+        {
+          "part": 6,
+          "start": 98,
+          "end": 100
+        }
+      ],
+      "grammarTopics": [
+        "estar 现在时",
+        "介词 en",
+        "规则 -ar 现在时"
+      ],
+      "words": 36,
+      "reading": "sr-04",
+      "questions": [
+        "sr-04-q0",
+        "sr-04-q1",
+        "sr-04-q2",
+        "sr-04-q3",
+        "sr-04-q4",
+        "sr-04-q5",
+        "sync-warm-4-q0",
+        "sync-warm-4-q1",
+        "foundation-core-q0",
+        "foundation-topic-prepositions-q0",
+        "foundation-bridge-present-ar-q0"
+      ]
+    },
+    {
+      "chapter": 5,
+      "parts": [
+        {
+          "part": 1,
+          "start": 101,
+          "end": 106
+        },
+        {
+          "part": 2,
+          "start": 107,
+          "end": 110
+        },
+        {
+          "part": 3,
+          "start": 111,
+          "end": 113
+        },
+        {
+          "part": 4,
+          "start": 114,
+          "end": 118
+        },
+        {
+          "part": 5,
+          "start": 119,
+          "end": 119
+        },
+        {
+          "part": 6,
+          "start": 120,
+          "end": 122
+        }
+      ],
+      "grammarTopics": [
+        "钟点",
+        "ir 现在时",
+        "介词 a"
+      ],
+      "words": 25,
+      "reading": "sr-05",
+      "questions": [
+        "sr-05-q0",
+        "sr-05-q1",
+        "sr-05-q2",
+        "sr-05-q3",
+        "sr-05-q4",
+        "sr-05-q5",
+        "sync-warm-5-q0",
+        "sync-warm-5-q1",
+        "foundation-bridge-clock-q0",
+        "foundation-topic-core-verbs-q0",
+        "foundation-topic-prepositions-q0"
+      ]
+    },
+    {
+      "chapter": 6,
+      "parts": [
+        {
+          "part": 1,
+          "start": 123,
+          "end": 127
+        },
+        {
+          "part": 2,
+          "start": 128,
+          "end": 133
+        },
+        {
+          "part": 3,
+          "start": 134,
+          "end": 136
+        },
+        {
+          "part": 4,
+          "start": 137,
+          "end": 140
+        },
+        {
+          "part": 5,
+          "start": 141,
+          "end": 141
+        },
+        {
+          "part": 6,
+          "start": 142,
+          "end": 145
+        }
+      ],
+      "grammarTopics": [
+        "形容词一致",
+        "tener 现在时",
+        "规则 -er 现在时",
+        "非重读物主词"
+      ],
+      "words": 33,
+      "reading": "sr-06",
+      "questions": [
+        "sr-06-q0",
+        "sr-06-q1",
+        "sr-06-q2",
+        "sr-06-q3",
+        "sr-06-q4",
+        "sr-06-q5",
+        "sync-warm-6-q0",
+        "sync-warm-6-q1",
+        "foundation-topic-agreement-q0",
+        "foundation-topic-core-verbs-q0",
+        "foundation-bridge-present-er-ir-q0"
+      ]
+    },
+    {
+      "chapter": 7,
+      "parts": [
+        {
+          "part": 1,
+          "start": 151,
+          "end": 154
+        },
+        {
+          "part": 2,
+          "start": 155,
+          "end": 160
+        },
+        {
+          "part": 3,
+          "start": 161,
+          "end": 164
+        },
+        {
+          "part": 4,
+          "start": 165,
+          "end": 169
+        },
+        {
+          "part": 5,
+          "start": 170,
+          "end": 170
+        },
+        {
+          "part": 6,
+          "start": 171,
+          "end": 174
+        }
+      ],
+      "grammarTopics": [
+        "指示限定词",
+        "重读物主词",
+        "规则 -ir 现在时",
+        "及物与不及物"
+      ],
+      "words": 66,
+      "reading": "sr-07",
+      "questions": [
+        "sr-07-q0",
+        "sr-07-q1",
+        "sr-07-q2",
+        "sr-07-q3",
+        "sr-07-q4",
+        "sr-07-q5",
+        "sync-warm-7-q0",
+        "sync-warm-7-q1",
+        "foundation-topic-demonstratives-q0",
+        "foundation-topic-possessives-q0",
+        "foundation-bridge-present-er-ir-q0"
+      ]
+    },
+    {
+      "chapter": 8,
+      "parts": [
+        {
+          "part": 1,
+          "start": 175,
+          "end": 178
+        },
+        {
+          "part": 2,
+          "start": 179,
+          "end": 185
+        },
+        {
+          "part": 3,
+          "start": 186,
+          "end": 191
+        },
+        {
+          "part": 4,
+          "start": 192,
+          "end": 197
+        },
+        {
+          "part": 5,
+          "start": 198,
+          "end": 198
+        },
+        {
+          "part": 6,
+          "start": 199,
+          "end": 202
+        }
+      ],
+      "grammarTopics": [
+        "词干变化 e→ie / o→ue",
+        "ser/estar 与形容词",
+        "直接/间接宾语辨认",
+        "直接宾语代词"
+      ],
+      "words": 32,
+      "reading": "sr-08",
+      "questions": [
+        "sr-08-q0",
+        "sr-08-q1",
+        "sr-08-q2",
+        "sr-08-q3",
+        "sr-08-q4",
+        "sr-08-q5",
+        "sync-warm-8-q0",
+        "sync-warm-8-q1",
+        "foundation-topic-stem-patterns-q0",
+        "foundation-topic-state-adjectives-q0",
+        "foundation-topic-transitivity-q0"
+      ]
+    },
+    {
+      "chapter": 9,
+      "parts": [
+        {
+          "part": 1,
+          "start": 203,
+          "end": 205
+        },
+        {
+          "part": 2,
+          "start": 206,
+          "end": 211
+        },
+        {
+          "part": 3,
+          "start": 212,
+          "end": 215
+        },
+        {
+          "part": 4,
+          "start": 216,
+          "end": 218
+        },
+        {
+          "part": 5,
+          "start": 219,
+          "end": 219
+        },
+        {
+          "part": 6,
+          "start": 220,
+          "end": 224
+        }
+      ],
+      "grammarTopics": [
+        "词干变化 e→i",
+        "代词式动词",
+        "间接宾语代词",
+        "现在时用法"
+      ],
+      "words": 38,
+      "reading": "sr-09",
+      "questions": [
+        "sr-09-q0",
+        "sr-09-q1",
+        "sr-09-q2",
+        "sr-09-q3",
+        "sr-09-q4",
+        "sr-09-q5",
+        "sync-warm-9-q0",
+        "sync-warm-9-q1",
+        "foundation-topic-stem-patterns-q0",
+        "foundation-bridge-reflexive-q0",
+        "foundation-bridge-indirect-q0"
+      ]
+    },
+    {
+      "chapter": 10,
+      "parts": [
+        {
+          "part": 1,
+          "start": 229,
+          "end": 230
+        },
+        {
+          "part": 2,
+          "start": 231,
+          "end": 238
+        },
+        {
+          "part": 3,
+          "start": 239,
+          "end": 244
+        },
+        {
+          "part": 4,
+          "start": 245,
+          "end": 250
+        },
+        {
+          "part": 5,
+          "start": 251,
+          "end": 251
+        },
+        {
+          "part": 6,
+          "start": 252,
+          "end": 255
+        }
+      ],
+      "grammarTopics": [
+        "双宾语代词",
+        "代词式动词扩展",
+        "肯定命令入门",
+        "介词 de 扩展"
+      ],
+      "words": 44,
+      "reading": "sr-10",
+      "questions": [
+        "sr-10-q0",
+        "sr-10-q1",
+        "sr-10-q2",
+        "sr-10-q3",
+        "sr-10-q4",
+        "sr-10-q5",
+        "sync-warm-10-q0",
+        "sync-warm-10-q1",
+        "foundation-pronouns-q0",
+        "foundation-bridge-reflexive-q0",
+        "foundation-topic-commands-q0"
+      ]
+    },
+    {
+      "chapter": 11,
+      "parts": [
+        {
+          "part": 1,
+          "start": 256,
+          "end": 258
+        },
+        {
+          "part": 2,
+          "start": 259,
+          "end": 267
+        },
+        {
+          "part": 3,
+          "start": 268,
+          "end": 273
+        },
+        {
+          "part": 4,
+          "start": 274,
+          "end": 279
+        },
+        {
+          "part": 5,
+          "start": 280,
+          "end": 280
+        },
+        {
+          "part": 6,
+          "start": 281,
+          "end": 285
+        }
+      ],
+      "grammarTopics": [
+        "肯定命令扩展",
+        "疑问句词序",
+        "句中一致关系",
+        "介词 con"
+      ],
+      "words": 63,
+      "reading": "sr-11",
+      "questions": [
+        "sr-11-q0",
+        "sr-11-q1",
+        "sr-11-q2",
+        "sr-11-q3",
+        "sr-11-q4",
+        "sr-11-q5",
+        "sync-warm-11-q0",
+        "sync-warm-11-q1",
+        "foundation-topic-commands-q0",
+        "foundation-topic-question-order-q0",
+        "foundation-topic-agreement-q0"
+      ]
+    },
+    {
+      "chapter": 12,
+      "parts": [
+        {
+          "part": 1,
+          "start": 286,
+          "end": 287
+        },
+        {
+          "part": 2,
+          "start": 288,
+          "end": 293
+        },
+        {
+          "part": 3,
+          "start": 294,
+          "end": 298
+        },
+        {
+          "part": 4,
+          "start": 299,
+          "end": 306
+        },
+        {
+          "part": 5,
+          "start": 307,
+          "end": 307
+        },
+        {
+          "part": 6,
+          "start": 308,
+          "end": 311
+        }
+      ],
+      "grammarTopics": [
+        "否定命令",
+        "宾语从句"
+      ],
+      "words": 40,
+      "reading": "sr-12",
+      "questions": [
+        "sr-12-q0",
+        "sr-12-q1",
+        "sr-12-q2",
+        "sr-12-q3",
+        "sr-12-q4",
+        "sr-12-q5",
+        "sync-warm-12-q0",
+        "sync-warm-12-q1",
+        "foundation-topic-commands-q0",
+        "foundation-topic-object-clauses-q0"
+      ]
+    },
+    {
+      "chapter": 13,
+      "parts": [
+        {
+          "part": 1,
+          "start": 318,
+          "end": 320
+        },
+        {
+          "part": 2,
+          "start": 321,
+          "end": 325
+        },
+        {
+          "part": 3,
+          "start": 326,
+          "end": 329
+        },
+        {
+          "part": 4,
+          "start": 330,
+          "end": 334
+        },
+        {
+          "part": 5,
+          "start": 335,
+          "end": 335
+        },
+        {
+          "part": 6,
+          "start": 336,
+          "end": 340
+        }
+      ],
+      "grammarTopics": [
+        "si 条件句",
+        "无人称句",
+        "tener que / hay que"
+      ],
+      "words": 40,
+      "reading": "sr-13",
+      "questions": [
+        "sr-13-q0",
+        "sr-13-q1",
+        "sr-13-q2",
+        "sr-13-q3",
+        "sr-13-q4",
+        "sr-13-q5",
+        "sync-warm-13-q0",
+        "sync-warm-13-q1",
+        "foundation-topic-conditions-q0",
+        "foundation-topic-impersonal-q0",
+        "foundation-topic-core-verbs-q0"
+      ]
+    },
+    {
+      "chapter": 14,
+      "parts": [
+        {
+          "part": 1,
+          "start": 341,
+          "end": 343
+        },
+        {
+          "part": 2,
+          "start": 344,
+          "end": 346
+        },
+        {
+          "part": 3,
+          "start": 347,
+          "end": 350
+        },
+        {
+          "part": 4,
+          "start": 351,
+          "end": 354
+        },
+        {
+          "part": 5,
+          "start": 355,
+          "end": 355
+        },
+        {
+          "part": 6,
+          "start": 356,
+          "end": 358
+        }
+      ],
+      "grammarTopics": [
+        "关系从句与关系词",
+        "感叹句"
+      ],
+      "words": 11,
+      "reading": "sr-14",
+      "questions": [
+        "sr-14-q0",
+        "sr-14-q1",
+        "sr-14-q2",
+        "sr-14-q3",
+        "sr-14-q4",
+        "sr-14-q5",
+        "sync-warm-14-q0",
+        "sync-warm-14-q1",
+        "foundation-relative-q0",
+        "foundation-topic-exclamations-q0"
+      ]
+    },
+    {
+      "chapter": 15,
+      "parts": [
+        {
+          "part": 1,
+          "start": 359,
+          "end": 361
+        },
+        {
+          "part": 2,
+          "start": 362,
+          "end": 367
+        },
+        {
+          "part": 3,
+          "start": 368,
+          "end": 371
+        },
+        {
+          "part": 4,
+          "start": 372,
+          "end": 379
+        },
+        {
+          "part": 5,
+          "start": 380,
+          "end": 380
+        },
+        {
+          "part": 6,
+          "start": 381,
+          "end": 386
+        }
+      ],
+      "grammarTopics": [
+        "se 被动",
+        "donde 地点从句"
+      ],
+      "words": 37,
+      "reading": "sr-15",
+      "questions": [
+        "sr-15-q0",
+        "sr-15-q1",
+        "sr-15-q2",
+        "sr-15-q3",
+        "sr-15-q4",
+        "sr-15-q5",
+        "sync-warm-15-q0",
+        "sync-warm-15-q1",
+        "foundation-topic-impersonal-q0",
+        "foundation-topic-relative-time-place-q0"
+      ]
+    },
+    {
+      "chapter": 16,
+      "parts": [
+        {
+          "part": 1,
+          "start": 394,
+          "end": 396
+        },
+        {
+          "part": 2,
+          "start": 397,
+          "end": 402
+        },
+        {
+          "part": 3,
+          "start": 403,
+          "end": 405
+        },
+        {
+          "part": 4,
+          "start": 406,
+          "end": 412
+        },
+        {
+          "part": 5,
+          "start": 413,
+          "end": 413
+        },
+        {
+          "part": 6,
+          "start": 414,
+          "end": 418
+        }
+      ],
+      "grammarTopics": [
+        "简单过去入门",
+        "无人称句扩展"
+      ],
+      "words": 21,
+      "reading": "sr-16",
+      "questions": [
+        "sr-16-q0",
+        "sr-16-q1",
+        "sr-16-q2",
+        "sr-16-q3",
+        "sr-16-q4",
+        "sr-16-q5",
+        "sync-warm-16-q0",
+        "sync-warm-16-q1",
+        "foundation-topic-past-regular-q0",
+        "foundation-topic-impersonal-q0"
+      ]
+    },
+    {
+      "chapter": 17,
+      "parts": [
+        {
+          "part": 1,
+          "start": 419,
+          "end": 421
+        },
+        {
+          "part": 2,
+          "start": 422,
+          "end": 429
+        },
+        {
+          "part": 3,
+          "start": 430,
+          "end": 434
+        },
+        {
+          "part": 4,
+          "start": 435,
+          "end": 441
+        },
+        {
+          "part": 5,
+          "start": 442,
+          "end": 442
+        },
+        {
+          "part": 6,
+          "start": 443,
+          "end": 450
+        }
+      ],
+      "grammarTopics": [
+        "简单过去扩展",
+        "日期",
+        "过去分词"
+      ],
+      "words": 49,
+      "reading": "sr-17",
+      "questions": [
+        "sr-17-q0",
+        "sr-17-q1",
+        "sr-17-q2",
+        "sr-17-q3",
+        "sr-17-q4",
+        "sr-17-q5",
+        "sync-warm-17-q0",
+        "sync-warm-17-q1",
+        "foundation-topic-past-irregular-q0",
+        "foundation-topic-calendar-q0",
+        "foundation-topic-nonfinite-q0"
+      ]
+    },
+    {
+      "chapter": 18,
+      "parts": [
+        {
+          "part": 1,
+          "start": 451,
+          "end": 453
+        },
+        {
+          "part": 2,
+          "start": 454,
+          "end": 461
+        },
+        {
+          "part": 3,
+          "start": 462,
+          "end": 466
+        },
+        {
+          "part": 4,
+          "start": 467,
+          "end": 472
+        },
+        {
+          "part": 5,
+          "start": 473,
+          "end": 473
+        },
+        {
+          "part": 6,
+          "start": 474,
+          "end": 479
+        }
+      ],
+      "grammarTopics": [
+        "cuando 时间从句",
+        "未完成过去入门",
+        "副动词入门"
+      ],
+      "words": 37,
+      "reading": "sr-18",
+      "questions": [
+        "sr-18-q0",
+        "sr-18-q1",
+        "sr-18-q2",
+        "sr-18-q3",
+        "sr-18-q4",
+        "sr-18-q5",
+        "sync-warm-18-q0",
+        "sync-warm-18-q1",
+        "foundation-topic-relative-time-place-q0",
+        "foundation-topic-past-imperfect-q0",
+        "foundation-topic-nonfinite-q0"
+      ]
+    }
+  ],
+  "reading": [
+    {
+      "id": "sr-01",
+      "title": "到达以后，先把话说清楚",
+      "level": "A1",
+      "wordCount": 165,
+      "questions": [
+        "sr-01-q0",
+        "sr-01-q1",
+        "sr-01-q2",
+        "sr-01-q3",
+        "sr-01-q4",
+        "sr-01-q5"
+      ]
+    },
+    {
+      "id": "sr-02",
+      "title": "介绍朋友，也给对方开口的机会",
+      "level": "A1",
+      "wordCount": 157,
+      "questions": [
+        "sr-02-q0",
+        "sr-02-q1",
+        "sr-02-q2",
+        "sr-02-q3",
+        "sr-02-q4",
+        "sr-02-q5"
+      ]
+    },
+    {
+      "id": "sr-03",
+      "title": "欢迎来访，描述人时多说具体信息",
+      "level": "A1",
+      "wordCount": 162,
+      "questions": [
+        "sr-03-q0",
+        "sr-03-q1",
+        "sr-03-q2",
+        "sr-03-q3",
+        "sr-03-q4",
+        "sr-03-q5"
+      ]
+    },
+    {
+      "id": "sr-04",
+      "title": "先问清楚要找什么，再问在哪里",
+      "level": "A1",
+      "wordCount": 158,
+      "questions": [
+        "sr-04-q0",
+        "sr-04-q1",
+        "sr-04-q2",
+        "sr-04-q3",
+        "sr-04-q4",
+        "sr-04-q5"
+      ]
+    },
+    {
+      "id": "sr-05",
+      "title": "看课表，也听清对方的安排",
+      "level": "A1",
+      "wordCount": 165,
+      "questions": [
+        "sr-05-q0",
+        "sr-05-q1",
+        "sr-05-q2",
+        "sr-05-q3",
+        "sr-05-q4",
+        "sr-05-q5"
+      ]
+    },
+    {
+      "id": "sr-06",
+      "title": "看房间：位置、数量和感受分开说",
+      "level": "A1",
+      "wordCount": 168,
+      "questions": [
+        "sr-06-q0",
+        "sr-06-q1",
+        "sr-06-q2",
+        "sr-06-q3",
+        "sr-06-q4",
+        "sr-06-q5"
+      ]
+    },
+    {
+      "id": "sr-07",
+      "title": "买菜前先问清单位",
+      "level": "A1",
+      "wordCount": 161,
+      "questions": [
+        "sr-07-q0",
+        "sr-07-q1",
+        "sr-07-q2",
+        "sr-07-q3",
+        "sr-07-q4",
+        "sr-07-q5"
+      ]
+    },
+    {
+      "id": "sr-08",
+      "title": "试衣服时，喜欢、偏好和许可各有表达",
+      "level": "A1",
+      "wordCount": 168,
+      "questions": [
+        "sr-08-q0",
+        "sr-08-q1",
+        "sr-08-q2",
+        "sr-08-q3",
+        "sr-08-q4",
+        "sr-08-q5"
+      ]
+    },
+    {
+      "id": "sr-09",
+      "title": "起床、照顾别人和安排一天",
+      "level": "A1",
+      "wordCount": 173,
+      "questions": [
+        "sr-09-q0",
+        "sr-09-q1",
+        "sr-09-q2",
+        "sr-09-q3",
+        "sr-09-q4",
+        "sr-09-q5"
+      ]
+    },
+    {
+      "id": "sr-10",
+      "title": "先确认地点，再把电话里的话说清楚",
+      "level": "A2",
+      "wordCount": 167,
+      "questions": [
+        "sr-10-q0",
+        "sr-10-q1",
+        "sr-10-q2",
+        "sr-10-q3",
+        "sr-10-q4",
+        "sr-10-q5"
+      ]
+    },
+    {
+      "id": "sr-11",
+      "title": "点餐要能说明顺序，也能说明偏好",
+      "level": "A2",
+      "wordCount": 178,
+      "questions": [
+        "sr-11-q0",
+        "sr-11-q1",
+        "sr-11-q2",
+        "sr-11-q3",
+        "sr-11-q4",
+        "sr-11-q5"
+      ]
+    },
+    {
+      "id": "sr-12",
+      "title": "表达意见，也把替代方案说具体",
+      "level": "A2",
+      "wordCount": 163,
+      "questions": [
+        "sr-12-q0",
+        "sr-12-q1",
+        "sr-12-q2",
+        "sr-12-q3",
+        "sr-12-q4",
+        "sr-12-q5"
+      ]
+    },
+    {
+      "id": "sr-13",
+      "title": "准备聚会，也把邀请写清楚",
+      "level": "A2",
+      "wordCount": 170,
+      "questions": [
+        "sr-13-q0",
+        "sr-13-q1",
+        "sr-13-q2",
+        "sr-13-q3",
+        "sr-13-q4",
+        "sr-13-q5"
+      ]
+    },
+    {
+      "id": "sr-14",
+      "title": "久别重逢，感谢也要说出缘由",
+      "level": "A2",
+      "wordCount": 176,
+      "questions": [
+        "sr-14-q0",
+        "sr-14-q1",
+        "sr-14-q2",
+        "sr-14-q3",
+        "sr-14-q4",
+        "sr-14-q5"
+      ]
+    },
+    {
+      "id": "sr-15",
+      "title": "节日问候之后，读懂一份做菜说明",
+      "level": "A2",
+      "wordCount": 175,
+      "questions": [
+        "sr-15-q0",
+        "sr-15-q1",
+        "sr-15-q2",
+        "sr-15-q3",
+        "sr-15-q4",
+        "sr-15-q5"
+      ]
+    },
+    {
+      "id": "sr-16",
+      "title": "照片里的那一天",
+      "level": "A2",
+      "wordCount": 162,
+      "questions": [
+        "sr-16-q0",
+        "sr-16-q1",
+        "sr-16-q2",
+        "sr-16-q3",
+        "sr-16-q4",
+        "sr-16-q5"
+      ]
+    },
+    {
+      "id": "sr-17",
+      "title": "谈婚礼时，先听个人经历",
+      "level": "A2",
+      "wordCount": 170,
+      "questions": [
+        "sr-17-q0",
+        "sr-17-q1",
+        "sr-17-q2",
+        "sr-17-q3",
+        "sr-17-q4",
+        "sr-17-q5"
+      ]
+    },
+    {
+      "id": "sr-18",
+      "title": "从人物生平，读到过去的生活背景",
+      "level": "A2",
+      "wordCount": 183,
+      "questions": [
+        "sr-18-q0",
+        "sr-18-q1",
+        "sr-18-q2",
+        "sr-18-q3",
+        "sr-18-q4",
+        "sr-18-q5"
+      ]
+    },
+    {
+      "id": "sr-19",
+      "title": "Cuando el plan cambia, la información importa",
+      "level": "B1",
+      "wordCount": 211,
+      "questions": [
+        "sr-19-q0",
+        "sr-19-q1",
+        "sr-19-q2",
+        "sr-19-q3",
+        "sr-19-q4",
+        "sr-19-q5"
+      ]
+    },
+    {
+      "id": "sr-20",
+      "title": "Un mensaje para organizarse mejor",
+      "level": "B1",
+      "wordCount": 205,
+      "questions": [
+        "sr-20-q0",
+        "sr-20-q1",
+        "sr-20-q2",
+        "sr-20-q3",
+        "sr-20-q4",
+        "sr-20-q5"
+      ]
+    },
+    {
+      "id": "sr-21",
+      "title": "Lo que una encuesta permite afirmar",
+      "level": "B2",
+      "wordCount": 240,
+      "questions": [
+        "sr-21-q0",
+        "sr-21-q1",
+        "sr-21-q2",
+        "sr-21-q3",
+        "sr-21-q4",
+        "sr-21-q5"
+      ]
+    },
+    {
+      "id": "sr-22",
+      "title": "Una decisión compartida no necesita una voz única",
+      "level": "B2",
+      "wordCount": 222,
+      "questions": [
+        "sr-22-q0",
+        "sr-22-q1",
+        "sr-22-q2",
+        "sr-22-q3",
+        "sr-22-q4",
+        "sr-22-q5"
+      ]
+    }
+  ],
+  "limitations": [
+    "22篇有限首批阅读库；当前难度读完后明确安排复读，不冒充每日自动生成新文章。",
+    "自适应为浏览器本地选篇、调整材料难度与推荐；不是服务器AI重写或专业等级测评。",
+    "开放口语和写作提供范例与自查，没有自动能力评分。",
+    "使用原创内容对应教材学习功能，不复制原书故事、原题全文、歌曲或扫描页。"
+  ]
+}

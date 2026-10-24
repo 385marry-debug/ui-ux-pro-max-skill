@@ -62,3 +62,15 @@ public-site-validation.json、classroom-validation.json 和 navigation-validatio
 已核看上传PDF第457页（印刷页456）的实际版面：tú对应escribir的未完成过去表格疑似漏印-s。网站原变位库及新增讲解采用escribías，并加入独立核对；不以教材单格内容替代语法验证。核对范围与问题记录在book-subrule-audit.json，不把本轮列出的细则宣称为全书逐条验收。
 
 新增源码：precision-lessons.js、precision-details.js、precision-bindings.js、precision-ui.js。验证：tests/precision-browser.mjs，包含22个独立词形案例、规范变体与重音判分、返回/刷新、日期表、时间线键盘与手机布局。正常发布无需新下载或外部接口；仍不发布用户PDF、扫描页或整段原书正文。
+
+## 教材全课入口与每日精读（2026-10-24）
+
+新增“教材同步课”：对照上传版487页教材的18课、108个部分与6次单元复习，提供原创的语音/热身、语法详解入口、两个情景、文化讲解、综合运用，以及本课词汇。659个教材词形和词汇网络事实均解析到真实可搜索词条；原全站词汇保留，现为7423个条目，条目数不等于去重词头数或已掌握单词数。`content/textbook-page-inventory.json`记录页码定位，`caminante-word-facts.json`保存短词汇事实。配套故事、讲解与练习原创，不发布原书扫描、整段课文、原题或歌曲。108个对应入口不代表所有原教材脚注与原题逐条验收。
+
+新增“每日精读”：首批22篇原创文章（A1九篇、A2九篇、B1两篇、B2两篇），共88段中西对照、176个语境词汇位置、44个难句分析、132题。每篇提供逐段翻译、查词收藏、词性/名词性别、生词语境义、用法解读、文化背景、听读音频、答案解析、复述范例与笔记。前18篇与教材学习功能对应，后4篇补充独立交际与论证阅读。内容分级为站内教学编排，非专业CEFR认证。
+
+自适应在本机运行：用户设置材料难度、10/20/30/45分钟和开关；每日按北京时间在该级未读文章中选篇，同日计划稳定。本级文章都读过时明确安排低分文章复读。当前级至少完成两篇、累计12次阅读作答，结合难度反馈与近期正确率（升档≥85%，降档<55%）最多调整一级。学习画像在主要栏目实时生成阅读及相应知识点、听力、文化、词汇建议；用户可一键应用筛选，仍能自由选级。没有后台AI无限生成新文、自动改写全站内容、自动作文/口语评分或云端同步。学习备份保存阅读笔记、难度反馈、计划、完成和成绩，并兼容原version 2记录。
+
+新增40个真实MP3（22篇全文与18课热身），听力总计144篇、294题、53.6分钟。均为eSpeak NG合成音频，非真人配套录音。脚本在`content/listening-audio-scripts.json`，音频构建继续使用`scripts/build-listening-audio.py`。
+
+核验：`node scripts/audit-reading.cjs`、`node tests/expanded-content.cjs`、`node scripts/audit-teaching.cjs`；本地Chromium检查`tests/reading-browser.mjs`、`tests/adaptive-browser.mjs`，报告为`reading-content-audit.json`、`reading-browser-report.json`、`adaptive-browser-report.json`。公开页面可分享`?view=reading&id=sr-01`或`?view=textbook&chapter=8&part=vocab`，嵌入功能沿用原入口。

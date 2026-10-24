@@ -1,0 +1,19 @@
+{
+  "passed": true,
+  "evidence": {
+    "down": "A1",
+    "off": "A1",
+    "notAutomatic": "A1",
+    "exhausted": true,
+    "backup": true
+  },
+  "navigation": "reader/dictionary and textbook section preserved after back and reload",
+  "filters": [
+    "culture",
+    "listening",
+    "words"
+  ],
+  "search": "reading materials indexed",
+  "audio": "Chromium decoded MP3 metadata",
+  "errors": []
+}
