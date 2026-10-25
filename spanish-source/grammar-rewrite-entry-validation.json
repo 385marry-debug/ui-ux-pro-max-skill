@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "aliases": 9,
+  "optionalVocabularyWords": 24,
+  "optionalDialogueTurns": 16,
+  "checks": [
+    "九个基础目录入口统一指向完整新版",
+    "四节原有过渡课的词汇、查词和对话朗读按钮保留；设备语音可用性仍由浏览器决定",
+    "展开口头运用后的390px布局无横向溢出",
+    "历史旧题可查看且明确引导新版规则与练习"
+  ],
+  "errors": []
+}

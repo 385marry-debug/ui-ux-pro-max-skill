@@ -1,5 +1,5 @@
 {
-  "version": "2026-10-24-independent-gender",
+  "version": "2026-10-25-grammar-rewrite",
   "verification": "Local Chromium and content checks; hosting result is recorded separately in GitHub Pages Actions.",
   "reports": {
     "public-site-validation": {
@@ -53,7 +53,7 @@
         "objects": 120,
         "words": 7423,
         "reviewedMultiSenseEntries": 46,
-        "questions": 10981
+        "questions": 11098
       }
     },
     "expansion-browser-validation": {
@@ -82,7 +82,7 @@
         "listening": 144,
         "culture": 24,
         "scenes": 15,
-        "questions": 10981
+        "questions": 11098
       }
     },
     "gender-depth-validation": {
@@ -272,12 +272,26 @@
           "guide": "foundation-bridge-articles",
           "change": "关联已有详解",
           "questions": [
-            "foundation-bridge-articles-q0",
-            "foundation-bridge-articles-q1",
-            "foundation-bridge-articles-q2",
-            "foundation-bridge-articles-depth-0",
-            "foundation-bridge-articles-depth-1",
-            "foundation-bridge-articles-depth-2"
+            "rewrite-bridge-articles-defined-0",
+            "rewrite-bridge-articles-defined-1",
+            "rewrite-bridge-articles-defined-2",
+            "rewrite-bridge-articles-indefinite-0",
+            "rewrite-bridge-articles-indefinite-1",
+            "rewrite-bridge-articles-indefinite-2",
+            "rewrite-bridge-articles-information-0",
+            "rewrite-bridge-articles-information-1",
+            "rewrite-bridge-articles-information-2",
+            "rewrite-bridge-articles-zero-0",
+            "rewrite-bridge-articles-zero-1",
+            "rewrite-bridge-articles-zero-2",
+            "rewrite-bridge-articles-stressed-a-0",
+            "rewrite-bridge-articles-stressed-a-1",
+            "rewrite-bridge-articles-stressed-a-2",
+            "rewrite-bridge-articles-stressed-a-3",
+            "rewrite-bridge-articles-contractions-0",
+            "rewrite-bridge-articles-contractions-1",
+            "rewrite-bridge-articles-contractions-2",
+            "rewrite-bridge-articles-contractions-3"
           ]
         },
         {
@@ -317,14 +331,24 @@
           "guide": "foundation-bridge-plural",
           "change": "关联已有详解",
           "questions": [
-            "foundation-bridge-plural-q0",
-            "foundation-bridge-plural-q1",
-            "foundation-bridge-plural-q2",
-            "foundation-bridge-plural-depth-0",
-            "foundation-bridge-plural-depth-1",
-            "foundation-bridge-plural-depth-2",
-            "detail-plural-boundaries-0",
-            "detail-plural-boundaries-1"
+            "rewrite-bridge-plural-meaning-0",
+            "rewrite-bridge-plural-meaning-1",
+            "rewrite-bridge-plural-vowels-0",
+            "rewrite-bridge-plural-vowels-1",
+            "rewrite-bridge-plural-vowels-2",
+            "rewrite-bridge-plural-consonants-0",
+            "rewrite-bridge-plural-consonants-1",
+            "rewrite-bridge-plural-consonants-2",
+            "rewrite-bridge-plural-consonants-3",
+            "rewrite-bridge-plural-stress-0",
+            "rewrite-bridge-plural-stress-1",
+            "rewrite-bridge-plural-stress-2",
+            "rewrite-bridge-plural-unchanged-0",
+            "rewrite-bridge-plural-unchanged-1",
+            "rewrite-bridge-plural-unchanged-2",
+            "rewrite-bridge-plural-unchanged-3",
+            "rewrite-bridge-plural-method-0",
+            "rewrite-bridge-plural-method-1"
           ]
         },
         {
@@ -334,12 +358,26 @@
           "guide": "foundation-bridge-articles",
           "change": "关联已有详解",
           "questions": [
-            "foundation-bridge-articles-q0",
-            "foundation-bridge-articles-q1",
-            "foundation-bridge-articles-q2",
-            "foundation-bridge-articles-depth-0",
-            "foundation-bridge-articles-depth-1",
-            "foundation-bridge-articles-depth-2"
+            "rewrite-bridge-articles-defined-0",
+            "rewrite-bridge-articles-defined-1",
+            "rewrite-bridge-articles-defined-2",
+            "rewrite-bridge-articles-indefinite-0",
+            "rewrite-bridge-articles-indefinite-1",
+            "rewrite-bridge-articles-indefinite-2",
+            "rewrite-bridge-articles-information-0",
+            "rewrite-bridge-articles-information-1",
+            "rewrite-bridge-articles-information-2",
+            "rewrite-bridge-articles-zero-0",
+            "rewrite-bridge-articles-zero-1",
+            "rewrite-bridge-articles-zero-2",
+            "rewrite-bridge-articles-stressed-a-0",
+            "rewrite-bridge-articles-stressed-a-1",
+            "rewrite-bridge-articles-stressed-a-2",
+            "rewrite-bridge-articles-stressed-a-3",
+            "rewrite-bridge-articles-contractions-0",
+            "rewrite-bridge-articles-contractions-1",
+            "rewrite-bridge-articles-contractions-2",
+            "rewrite-bridge-articles-contractions-3"
           ]
         },
         {
@@ -379,12 +417,26 @@
           "guide": "foundation-bridge-articles",
           "change": "关联已有详解",
           "questions": [
-            "foundation-bridge-articles-q0",
-            "foundation-bridge-articles-q1",
-            "foundation-bridge-articles-q2",
-            "foundation-bridge-articles-depth-0",
-            "foundation-bridge-articles-depth-1",
-            "foundation-bridge-articles-depth-2"
+            "rewrite-bridge-articles-defined-0",
+            "rewrite-bridge-articles-defined-1",
+            "rewrite-bridge-articles-defined-2",
+            "rewrite-bridge-articles-indefinite-0",
+            "rewrite-bridge-articles-indefinite-1",
+            "rewrite-bridge-articles-indefinite-2",
+            "rewrite-bridge-articles-information-0",
+            "rewrite-bridge-articles-information-1",
+            "rewrite-bridge-articles-information-2",
+            "rewrite-bridge-articles-zero-0",
+            "rewrite-bridge-articles-zero-1",
+            "rewrite-bridge-articles-zero-2",
+            "rewrite-bridge-articles-stressed-a-0",
+            "rewrite-bridge-articles-stressed-a-1",
+            "rewrite-bridge-articles-stressed-a-2",
+            "rewrite-bridge-articles-stressed-a-3",
+            "rewrite-bridge-articles-contractions-0",
+            "rewrite-bridge-articles-contractions-1",
+            "rewrite-bridge-articles-contractions-2",
+            "rewrite-bridge-articles-contractions-3"
           ]
         },
         {
@@ -409,14 +461,28 @@
           "guide": "foundation-core",
           "change": "关联已有详解",
           "questions": [
-            "foundation-core-q0",
-            "foundation-core-q1",
-            "foundation-core-q2",
-            "foundation-core-depth-0",
-            "foundation-core-depth-1",
-            "foundation-core-depth-2",
-            "foundation-core-depth-3",
-            "foundation-core-depth-4"
+            "rewrite-core-start-0",
+            "rewrite-core-ser-0",
+            "rewrite-core-ser-1",
+            "rewrite-core-ser-2",
+            "rewrite-core-ser-3",
+            "rewrite-core-ser-4",
+            "rewrite-core-ser-5",
+            "rewrite-core-location-0",
+            "rewrite-core-location-1",
+            "rewrite-core-location-2",
+            "rewrite-core-location-3",
+            "rewrite-core-location-4",
+            "rewrite-core-location-5",
+            "rewrite-core-state-0",
+            "rewrite-core-state-1",
+            "rewrite-core-state-2",
+            "rewrite-core-existence-0",
+            "rewrite-core-existence-1",
+            "rewrite-core-existence-2",
+            "rewrite-core-contrast-0",
+            "rewrite-core-contrast-1",
+            "rewrite-core-contrast-2"
           ]
         },
         {
@@ -426,14 +492,28 @@
           "guide": "foundation-core",
           "change": "关联已有详解",
           "questions": [
-            "foundation-core-q0",
-            "foundation-core-q1",
-            "foundation-core-q2",
-            "foundation-core-depth-0",
-            "foundation-core-depth-1",
-            "foundation-core-depth-2",
-            "foundation-core-depth-3",
-            "foundation-core-depth-4"
+            "rewrite-core-start-0",
+            "rewrite-core-ser-0",
+            "rewrite-core-ser-1",
+            "rewrite-core-ser-2",
+            "rewrite-core-ser-3",
+            "rewrite-core-ser-4",
+            "rewrite-core-ser-5",
+            "rewrite-core-location-0",
+            "rewrite-core-location-1",
+            "rewrite-core-location-2",
+            "rewrite-core-location-3",
+            "rewrite-core-location-4",
+            "rewrite-core-location-5",
+            "rewrite-core-state-0",
+            "rewrite-core-state-1",
+            "rewrite-core-state-2",
+            "rewrite-core-existence-0",
+            "rewrite-core-existence-1",
+            "rewrite-core-existence-2",
+            "rewrite-core-contrast-0",
+            "rewrite-core-contrast-1",
+            "rewrite-core-contrast-2"
           ]
         },
         {
@@ -458,12 +538,24 @@
           "guide": "foundation-bridge-present-ar",
           "change": "关联已有详解",
           "questions": [
-            "foundation-bridge-present-ar-q0",
-            "foundation-bridge-present-ar-q1",
-            "foundation-bridge-present-ar-q2",
-            "foundation-bridge-present-ar-depth-0",
-            "foundation-bridge-present-ar-depth-1",
-            "foundation-bridge-present-ar-depth-2"
+            "rewrite-bridge-present-ar-meaning-0",
+            "rewrite-bridge-present-ar-meaning-1",
+            "rewrite-bridge-present-ar-subjects-0",
+            "rewrite-bridge-present-ar-subjects-1",
+            "rewrite-bridge-present-ar-build-0",
+            "rewrite-bridge-present-ar-build-1",
+            "rewrite-bridge-present-ar-build-2",
+            "rewrite-bridge-present-ar-build-3",
+            "rewrite-bridge-present-ar-build-4",
+            "rewrite-bridge-present-ar-build-5",
+            "rewrite-bridge-present-ar-transfer-0",
+            "rewrite-bridge-present-ar-transfer-1",
+            "rewrite-bridge-present-ar-transfer-2",
+            "rewrite-bridge-present-ar-transfer-3",
+            "rewrite-bridge-present-ar-sentences-0",
+            "rewrite-bridge-present-ar-sentences-1",
+            "rewrite-bridge-present-ar-sentences-2",
+            "rewrite-bridge-present-ar-limits-0"
           ]
         },
         {
@@ -518,12 +610,24 @@
           "guide": "foundation-topic-agreement",
           "change": "补充专项课",
           "questions": [
-            "foundation-topic-agreement-q0",
-            "foundation-topic-agreement-q1",
-            "foundation-topic-agreement-q2",
-            "foundation-topic-agreement-depth-0",
-            "foundation-topic-agreement-depth-1",
-            "foundation-topic-agreement-depth-2"
+            "rewrite-adjectives-meaning-0",
+            "rewrite-adjectives-meaning-1",
+            "rewrite-adjectives-four-0",
+            "rewrite-adjectives-four-1",
+            "rewrite-adjectives-four-2",
+            "rewrite-adjectives-four-3",
+            "rewrite-adjectives-same-0",
+            "rewrite-adjectives-same-1",
+            "rewrite-adjectives-same-2",
+            "rewrite-adjectives-special-0",
+            "rewrite-adjectives-special-1",
+            "rewrite-adjectives-special-2",
+            "rewrite-adjectives-sentence-0",
+            "rewrite-adjectives-sentence-1",
+            "rewrite-adjectives-sentence-2",
+            "rewrite-adjectives-position-0",
+            "rewrite-adjectives-position-1",
+            "rewrite-adjectives-position-2"
           ]
         },
         {
@@ -548,12 +652,27 @@
           "guide": "foundation-bridge-present-er-ir",
           "change": "关联已有详解",
           "questions": [
-            "foundation-bridge-present-er-ir-q0",
-            "foundation-bridge-present-er-ir-q1",
-            "foundation-bridge-present-er-ir-q2",
-            "foundation-bridge-present-er-ir-depth-0",
-            "foundation-bridge-present-er-ir-depth-1",
-            "foundation-bridge-present-er-ir-depth-2"
+            "rewrite-bridge-present-er-ir-start-0",
+            "rewrite-bridge-present-er-ir-start-1",
+            "rewrite-bridge-present-er-ir-er-0",
+            "rewrite-bridge-present-er-ir-er-1",
+            "rewrite-bridge-present-er-ir-er-2",
+            "rewrite-bridge-present-er-ir-er-3",
+            "rewrite-bridge-present-er-ir-er-4",
+            "rewrite-bridge-present-er-ir-er-5",
+            "rewrite-bridge-present-er-ir-ir-0",
+            "rewrite-bridge-present-er-ir-ir-1",
+            "rewrite-bridge-present-er-ir-ir-2",
+            "rewrite-bridge-present-er-ir-ir-3",
+            "rewrite-bridge-present-er-ir-ir-4",
+            "rewrite-bridge-present-er-ir-ir-5",
+            "rewrite-bridge-present-er-ir-compare-0",
+            "rewrite-bridge-present-er-ir-compare-1",
+            "rewrite-bridge-present-er-ir-compare-2",
+            "rewrite-bridge-present-er-ir-compare-3",
+            "rewrite-bridge-present-er-ir-sentences-0",
+            "rewrite-bridge-present-er-ir-sentences-1",
+            "rewrite-bridge-present-er-ir-limits-0"
           ]
         },
         {
@@ -612,12 +731,27 @@
           "guide": "foundation-bridge-present-er-ir",
           "change": "关联已有详解",
           "questions": [
-            "foundation-bridge-present-er-ir-q0",
-            "foundation-bridge-present-er-ir-q1",
-            "foundation-bridge-present-er-ir-q2",
-            "foundation-bridge-present-er-ir-depth-0",
-            "foundation-bridge-present-er-ir-depth-1",
-            "foundation-bridge-present-er-ir-depth-2"
+            "rewrite-bridge-present-er-ir-start-0",
+            "rewrite-bridge-present-er-ir-start-1",
+            "rewrite-bridge-present-er-ir-er-0",
+            "rewrite-bridge-present-er-ir-er-1",
+            "rewrite-bridge-present-er-ir-er-2",
+            "rewrite-bridge-present-er-ir-er-3",
+            "rewrite-bridge-present-er-ir-er-4",
+            "rewrite-bridge-present-er-ir-er-5",
+            "rewrite-bridge-present-er-ir-ir-0",
+            "rewrite-bridge-present-er-ir-ir-1",
+            "rewrite-bridge-present-er-ir-ir-2",
+            "rewrite-bridge-present-er-ir-ir-3",
+            "rewrite-bridge-present-er-ir-ir-4",
+            "rewrite-bridge-present-er-ir-ir-5",
+            "rewrite-bridge-present-er-ir-compare-0",
+            "rewrite-bridge-present-er-ir-compare-1",
+            "rewrite-bridge-present-er-ir-compare-2",
+            "rewrite-bridge-present-er-ir-compare-3",
+            "rewrite-bridge-present-er-ir-sentences-0",
+            "rewrite-bridge-present-er-ir-sentences-1",
+            "rewrite-bridge-present-er-ir-limits-0"
           ]
         },
         {
@@ -860,12 +994,24 @@
           "guide": "foundation-topic-agreement",
           "change": "补充专项课",
           "questions": [
-            "foundation-topic-agreement-q0",
-            "foundation-topic-agreement-q1",
-            "foundation-topic-agreement-q2",
-            "foundation-topic-agreement-depth-0",
-            "foundation-topic-agreement-depth-1",
-            "foundation-topic-agreement-depth-2"
+            "rewrite-adjectives-meaning-0",
+            "rewrite-adjectives-meaning-1",
+            "rewrite-adjectives-four-0",
+            "rewrite-adjectives-four-1",
+            "rewrite-adjectives-four-2",
+            "rewrite-adjectives-four-3",
+            "rewrite-adjectives-same-0",
+            "rewrite-adjectives-same-1",
+            "rewrite-adjectives-same-2",
+            "rewrite-adjectives-special-0",
+            "rewrite-adjectives-special-1",
+            "rewrite-adjectives-special-2",
+            "rewrite-adjectives-sentence-0",
+            "rewrite-adjectives-sentence-1",
+            "rewrite-adjectives-sentence-2",
+            "rewrite-adjectives-position-0",
+            "rewrite-adjectives-position-1",
+            "rewrite-adjectives-position-2"
           ]
         },
         {
@@ -1398,7 +1544,7 @@
         "entries": 7423,
         "listening": 144,
         "listeningQuestions": 294,
-        "totalStaticQuestions": 10981
+        "totalStaticQuestions": 11098
       },
       "chapters": [
         {
@@ -1453,7 +1599,7 @@
             "sync-warm-1-q0",
             "sync-warm-1-q1",
             "gender-gender-meaning-0",
-            "foundation-bridge-articles-q0",
+            "rewrite-bridge-articles-defined-0",
             "foundation-sound-q0"
           ]
         },
@@ -1508,8 +1654,8 @@
             "sr-02-q5",
             "sync-warm-2-q0",
             "sync-warm-2-q1",
-            "foundation-bridge-plural-q0",
-            "foundation-bridge-articles-q0",
+            "rewrite-bridge-plural-meaning-0",
+            "rewrite-bridge-articles-defined-0",
             "foundation-topic-demonstratives-q0"
           ]
         },
@@ -1563,9 +1709,9 @@
             "sr-03-q5",
             "sync-warm-3-q0",
             "sync-warm-3-q1",
-            "foundation-bridge-articles-q0",
+            "rewrite-bridge-articles-defined-0",
             "foundation-bridge-people-q0",
-            "foundation-core-q0"
+            "rewrite-core-start-0"
           ]
         },
         {
@@ -1618,9 +1764,9 @@
             "sr-04-q5",
             "sync-warm-4-q0",
             "sync-warm-4-q1",
-            "foundation-core-q0",
+            "rewrite-core-start-0",
             "foundation-topic-prepositions-q0",
-            "foundation-bridge-present-ar-q0"
+            "rewrite-bridge-present-ar-meaning-0"
           ]
         },
         {
@@ -1729,9 +1875,9 @@
             "sr-06-q5",
             "sync-warm-6-q0",
             "sync-warm-6-q1",
-            "foundation-topic-agreement-q0",
+            "rewrite-adjectives-meaning-0",
             "foundation-topic-core-verbs-q0",
-            "foundation-bridge-present-er-ir-q0"
+            "rewrite-bridge-present-er-ir-start-0"
           ]
         },
         {
@@ -1787,7 +1933,7 @@
             "sync-warm-7-q1",
             "foundation-topic-demonstratives-q0",
             "foundation-topic-possessives-q0",
-            "foundation-bridge-present-er-ir-q0"
+            "rewrite-bridge-present-er-ir-start-0"
           ]
         },
         {
@@ -2011,7 +2157,7 @@
             "sync-warm-11-q1",
             "foundation-topic-commands-q0",
             "foundation-topic-question-order-q0",
-            "foundation-topic-agreement-q0"
+            "rewrite-adjectives-meaning-0"
           ]
         },
         {
@@ -2961,6 +3107,143 @@
         "legacy": true,
         "legacyRead": true
       },
+      "errors": []
+    },
+    "grammar-rewrite-content-audit": {
+      "passed": true,
+      "scope": "另行重写六个基础语法专题及其分项题目，不代表其他所有语法或教材全部细则已重写。",
+      "counts": {
+        "lessons": 6,
+        "sections": 37,
+        "questions": 117,
+        "classificationItems": 12,
+        "fixedAnswerFixtures": 83,
+        "typedInputs": 88,
+        "choices": 26,
+        "classifications": 3
+      },
+      "lessons": [
+        {
+          "id": "foundation-bridge-plural",
+          "title": "名词的数：从一个到多个，逐条学复数规则",
+          "sections": [
+            "“数”是什么？先别和阴阳性混在一起",
+            "第一种：常见元音结尾，加-s",
+            "第二种：本组常见辅音结尾，加-es；遇z先改c",
+            "第三步：重读位置与重音符号分开检查",
+            "有些名词单复数同形，不要再造一个词尾",
+            "最后才做两步检查：先名词，再看它周围的词"
+          ],
+          "questions": 18
+        },
+        {
+          "id": "foundation-bridge-articles",
+          "title": "冠词：先会选形式，再理解为什么用el、un或不加",
+          "sections": [
+            "先弄清冠词是什么，再读el/la/los/las",
+            "再学un/una/unos/unas：另一个形式表",
+            "为什么这里是un，那里是el？看听者能否识别",
+            "有时不加冠词：先学三个明确结构",
+            "一个局部例外：el agua，水依然是阴性",
+            "最后独立学两个缩合：a+el→al，de+el→del"
+          ],
+          "questions": 20
+        },
+        {
+          "id": "foundation-adjectives",
+          "title": "形容词：先找到描述谁，再学性、数与一致",
+          "sections": [
+            "先认出哪个词在描述哪个对象",
+            "第一类：-o/-a及其复数，四格分开看",
+            "第二类：有些形容词不分性，但仍要变数",
+            "别把“辅音结尾”误学成永远不分性",
+            "形容词离开名词，也仍看它描述谁",
+            "位置、短尾另分一类，别和性数混成一条"
+          ],
+          "questions": 18
+        },
+        {
+          "id": "foundation-bridge-present-ar",
+          "title": "规则-ar现在时：先找谁，再一步步造出动词",
+          "sections": [
+            "原形是什么？为什么句中要换一个形式？",
+            "先确定谁做动作：六个变位组",
+            "构造只做两件事：去-ar，再按组加词尾",
+            "换动词时重新切词干，不改人称规则",
+            "放进句子：先找主语，再看是否需要写出它",
+            "什么时候必须停下来查，而不是继续硬套？"
+          ],
+          "questions": 18
+        },
+        {
+          "id": "foundation-bridge-present-er-ir",
+          "title": "规则-er/-ir现在时：两张表逐格学，别混词尾",
+          "sections": [
+            "先确认今天学的是什么，不靠前一课也能查",
+            "先只学-er：comer与beber",
+            "再单学-ir：vivir与abrir",
+            "两张表对照：相同格与不同格分开记",
+            "放回句子：对象变多不等于主语变多",
+            "遇到未教词，确认规则在这个时态是否适用"
+          ],
+          "questions": 21
+        },
+        {
+          "id": "foundation-core",
+          "title": "ser、estar、hay：先分别学会，再比较",
+          "sections": [
+            "先知道在学三套表达，不是三个同义词随便换",
+            "第一步只学ser：说明身份、来源等信息",
+            "第二步只学estar定位：已知的人或物在哪里？",
+            "estar还说状态：先学明确搭配，不靠中文直译",
+            "第三步只学hay：介绍某处有什么",
+            "都学过以后，再用同一场景区分三种问题",
+            "做题时分两次决定，避免把词义和变位混在一起"
+          ],
+          "questions": 22
+        }
+      ],
+      "legacy": "旧ID与记录保留；替换的旧题不再从通用语法题库和全站练习搜索新推荐，历史练习仍可查看。",
+      "pedagogy": [
+        "定义与术语先讲明白，词义及必要性数条件随题提供",
+        "先分项再组合，不用未教知识做隐藏考点",
+        "例外与规则边界明确；不将永久/暂时、辅音不变性等当万能规则",
+        "每题有依据解析，分类逐项作答和逐项解释"
+      ]
+    },
+    "grammar-rewrite-validation": {
+      "passed": true,
+      "lessons": 6,
+      "questionsSolved": 117,
+      "classificationItems": 12,
+      "compatibility": {
+        "newNote": "estudiar只去ar，保留i",
+        "newCards": 117,
+        "oldRecord": true,
+        "archivedNotIndexed": true,
+        "oldAnswer": "Hay dos sillas en la habitación."
+      },
+      "checks": [
+        "六专题单独打开、完整规则和切换示范",
+        "全部117题实际作答；填空、选择与分类均核对反馈",
+        "错误答案、空分类不计分、逐项解释、刷新不重复计分、返回准确规则",
+        "六专题全文检索、题目检索、旧题不再新推荐",
+        "知识点别名、语法书第3—5章入口、旧新备份记录",
+        "六专题390px手机无横向溢出、无页面脚本错误"
+      ],
+      "errors": []
+    },
+    "grammar-rewrite-entry-validation": {
+      "passed": true,
+      "aliases": 9,
+      "optionalVocabularyWords": 24,
+      "optionalDialogueTurns": 16,
+      "checks": [
+        "九个基础目录入口统一指向完整新版",
+        "四节原有过渡课的词汇、查词和对话朗读按钮保留；设备语音可用性仍由浏览器决定",
+        "展开口头运用后的390px布局无横向溢出",
+        "历史旧题可查看且明确引导新版规则与练习"
+      ],
       "errors": []
     }
   }

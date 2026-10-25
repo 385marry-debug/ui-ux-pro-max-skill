@@ -13,7 +13,7 @@
     "entries": 7423,
     "listening": 144,
     "listeningQuestions": 294,
-    "totalStaticQuestions": 10981
+    "totalStaticQuestions": 11098
   },
   "chapters": [
     {
@@ -68,7 +68,7 @@
         "sync-warm-1-q0",
         "sync-warm-1-q1",
         "gender-gender-meaning-0",
-        "foundation-bridge-articles-q0",
+        "rewrite-bridge-articles-defined-0",
         "foundation-sound-q0"
       ]
     },
@@ -123,8 +123,8 @@
         "sr-02-q5",
         "sync-warm-2-q0",
         "sync-warm-2-q1",
-        "foundation-bridge-plural-q0",
-        "foundation-bridge-articles-q0",
+        "rewrite-bridge-plural-meaning-0",
+        "rewrite-bridge-articles-defined-0",
         "foundation-topic-demonstratives-q0"
       ]
     },
@@ -178,9 +178,9 @@
         "sr-03-q5",
         "sync-warm-3-q0",
         "sync-warm-3-q1",
-        "foundation-bridge-articles-q0",
+        "rewrite-bridge-articles-defined-0",
         "foundation-bridge-people-q0",
-        "foundation-core-q0"
+        "rewrite-core-start-0"
       ]
     },
     {
@@ -233,9 +233,9 @@
         "sr-04-q5",
         "sync-warm-4-q0",
         "sync-warm-4-q1",
-        "foundation-core-q0",
+        "rewrite-core-start-0",
         "foundation-topic-prepositions-q0",
-        "foundation-bridge-present-ar-q0"
+        "rewrite-bridge-present-ar-meaning-0"
       ]
     },
     {
@@ -344,9 +344,9 @@
         "sr-06-q5",
         "sync-warm-6-q0",
         "sync-warm-6-q1",
-        "foundation-topic-agreement-q0",
+        "rewrite-adjectives-meaning-0",
         "foundation-topic-core-verbs-q0",
-        "foundation-bridge-present-er-ir-q0"
+        "rewrite-bridge-present-er-ir-start-0"
       ]
     },
     {
@@ -402,7 +402,7 @@
         "sync-warm-7-q1",
         "foundation-topic-demonstratives-q0",
         "foundation-topic-possessives-q0",
-        "foundation-bridge-present-er-ir-q0"
+        "rewrite-bridge-present-er-ir-start-0"
       ]
     },
     {
@@ -626,7 +626,7 @@
         "sync-warm-11-q1",
         "foundation-topic-commands-q0",
         "foundation-topic-question-order-q0",
-        "foundation-topic-agreement-q0"
+        "rewrite-adjectives-meaning-0"
       ]
     },
     {

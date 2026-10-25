@@ -1,0 +1,22 @@
+{
+  "passed": true,
+  "lessons": 6,
+  "questionsSolved": 117,
+  "classificationItems": 12,
+  "compatibility": {
+    "newNote": "estudiar只去ar，保留i",
+    "newCards": 117,
+    "oldRecord": true,
+    "archivedNotIndexed": true,
+    "oldAnswer": "Hay dos sillas en la habitación."
+  },
+  "checks": [
+    "六专题单独打开、完整规则和切换示范",
+    "全部117题实际作答；填空、选择与分类均核对反馈",
+    "错误答案、空分类不计分、逐项解释、刷新不重复计分、返回准确规则",
+    "六专题全文检索、题目检索、旧题不再新推荐",
+    "知识点别名、语法书第3—5章入口、旧新备份记录",
+    "六专题390px手机无横向溢出、无页面脚本错误"
+  ],
+  "errors": []
+}
