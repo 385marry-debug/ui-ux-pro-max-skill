@@ -38,13 +38,13 @@
   ],
   "counts": {
     "independentLessons": 3,
-    "sections": 15,
-    "exerciseQuestions": 36,
-    "classificationQuestions": 7,
-    "classificationItems": 38,
-    "typedInputQuestions": 17,
-    "choiceQuestions": 12,
-    "independentLexicalFacts": 26,
+    "sections": 16,
+    "exerciseQuestions": 41,
+    "classificationQuestions": 8,
+    "classificationItems": 46,
+    "typedInputQuestions": 19,
+    "choiceQuestions": 14,
+    "independentLexicalFacts": 34,
     "independentMorphologyCases": 13
   },
   "lessons": [
@@ -55,6 +55,7 @@
         "先弄懂：这里的“名词”和“性”是什么",
         "第一条常见线索：很多-o为阳性，很多-a为阴性",
         "第二步：把常见例外明确分开，别用词尾硬套",
+        "教材还列了两条：-e、-i结尾的阳性倾向与例外",
         "再细一点：看完整词尾，不只看最后一个字母",
         "不能可靠猜出来时，怎样查证",
         "把判断过程走一遍，再自己做"
@@ -84,6 +85,17 @@
             "gender-gender-exceptions-1",
             "gender-gender-exceptions-2",
             "gender-gender-exceptions-3"
+          ]
+        },
+        {
+          "title": "只练刚补齐的-e、-i与已列例外",
+          "section": "ei",
+          "questions": [
+            "gender-gender-ei-0",
+            "gender-gender-ei-1",
+            "gender-gender-ei-2",
+            "gender-gender-ei-3",
+            "gender-gender-ei-4"
           ]
         },
         {

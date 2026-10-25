@@ -1,0 +1,77 @@
+{
+  "source": "西班牙语公共课·上册，用户上传PDF第27页/印刷第26页",
+  "verified": "重新提取并目视核看原页；六项规则逐项对应到网站规则表、讲解小节及-e/-i专项练习。",
+  "items": [
+    {
+      "textbookItem": 1,
+      "topic": "-o",
+      "words": [
+        "aeropuerto",
+        "monumento"
+      ],
+      "siteRule": "1．-o结尾的事物名词通常为m.",
+      "siteSection": "regular",
+      "verified": true
+    },
+    {
+      "textbookItem": 2,
+      "topic": "-a",
+      "words": [
+        "casa",
+        "plaza"
+      ],
+      "siteRule": "2．-a结尾的事物名词通常为f.",
+      "siteSection": "regular",
+      "verified": true
+    },
+    {
+      "textbookItem": 3,
+      "topic": "例外",
+      "words": [
+        "moto",
+        "sofá"
+      ],
+      "siteRule": "3．规则有例外，须把具体词记清",
+      "siteSection": "exceptions",
+      "verified": true
+    },
+    {
+      "textbookItem": 4,
+      "topic": "-e",
+      "words": [
+        "cine",
+        "coche",
+        "paquete",
+        "torre",
+        "nube",
+        "nieve"
+      ],
+      "siteRule": "4．-e结尾的名词大部分为阳性，阴性例外也很多",
+      "siteSection": "ei",
+      "verified": true
+    },
+    {
+      "textbookItem": 5,
+      "topic": "-i",
+      "words": [
+        "taxi",
+        "safari"
+      ],
+      "siteRule": "5．-i结尾的名词一般为阳性",
+      "siteSection": "ei",
+      "verified": true
+    },
+    {
+      "textbookItem": 6,
+      "topic": "语法性",
+      "words": [
+        "plaza",
+        "aeropuerto"
+      ],
+      "siteRule": "6．事物名词的语法性不由物体或说话者的生理性别决定",
+      "siteSection": "meaning",
+      "verified": true
+    }
+  ],
+  "scope": "只验收该页六项名词性别规则；不冒称两本教材全部逐条核完。"
+}

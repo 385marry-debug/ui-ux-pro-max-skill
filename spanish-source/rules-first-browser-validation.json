@@ -1,0 +1,180 @@
+{
+  "passed": true,
+  "independentLessons": 48,
+  "ruleLinksChecked": 190,
+  "remainingLessons": 39,
+  "questionsSolved": 346,
+  "orderQuestions": 26,
+  "lessonResults": [
+    {
+      "id": "foundation-sentence",
+      "questions": 6
+    },
+    {
+      "id": "foundation-sound",
+      "questions": 9
+    },
+    {
+      "id": "foundation-verb",
+      "questions": 11
+    },
+    {
+      "id": "foundation-questions",
+      "questions": 6
+    },
+    {
+      "id": "foundation-gustar",
+      "questions": 11
+    },
+    {
+      "id": "foundation-pronouns",
+      "questions": 10
+    },
+    {
+      "id": "foundation-past",
+      "questions": 11
+    },
+    {
+      "id": "foundation-prepositions",
+      "questions": 6
+    },
+    {
+      "id": "foundation-porpara",
+      "questions": 6
+    },
+    {
+      "id": "foundation-subjunctive",
+      "questions": 6
+    },
+    {
+      "id": "foundation-relative",
+      "questions": 6
+    },
+    {
+      "id": "foundation-passive",
+      "questions": 6
+    },
+    {
+      "id": "foundation-logic",
+      "questions": 6
+    },
+    {
+      "id": "foundation-bridge-people",
+      "questions": 9
+    },
+    {
+      "id": "foundation-bridge-clock",
+      "questions": 9
+    },
+    {
+      "id": "foundation-bridge-reflexive",
+      "questions": 9
+    },
+    {
+      "id": "foundation-bridge-direct",
+      "questions": 9
+    },
+    {
+      "id": "foundation-bridge-indirect",
+      "questions": 9
+    },
+    {
+      "id": "foundation-topic-demonstratives",
+      "questions": 9
+    },
+    {
+      "id": "foundation-topic-possessives",
+      "questions": 11
+    },
+    {
+      "id": "foundation-topic-core-verbs",
+      "questions": 9
+    },
+    {
+      "id": "foundation-topic-stem-patterns",
+      "questions": 9
+    },
+    {
+      "id": "foundation-topic-present-uses",
+      "questions": 9
+    },
+    {
+      "id": "foundation-topic-prepositions",
+      "questions": 9
+    },
+    {
+      "id": "foundation-topic-commands",
+      "questions": 11
+    },
+    {
+      "id": "foundation-topic-question-order",
+      "questions": 11
+    },
+    {
+      "id": "foundation-topic-object-clauses",
+      "questions": 11
+    },
+    {
+      "id": "foundation-topic-conditions",
+      "questions": 9
+    },
+    {
+      "id": "foundation-topic-exclamations",
+      "questions": 9
+    },
+    {
+      "id": "foundation-topic-relative-time-place",
+      "questions": 9
+    },
+    {
+      "id": "foundation-topic-impersonal",
+      "questions": 9
+    },
+    {
+      "id": "foundation-topic-calendar",
+      "questions": 11
+    },
+    {
+      "id": "foundation-topic-nonfinite",
+      "questions": 11
+    },
+    {
+      "id": "foundation-topic-transitivity",
+      "questions": 9
+    },
+    {
+      "id": "foundation-topic-past-regular",
+      "questions": 9
+    },
+    {
+      "id": "foundation-topic-past-irregular",
+      "questions": 9
+    },
+    {
+      "id": "foundation-topic-past-imperfect",
+      "questions": 9
+    },
+    {
+      "id": "foundation-topic-state-adjectives",
+      "questions": 9
+    },
+    {
+      "id": "foundation-topic-spelling-sounds",
+      "questions": 9
+    }
+  ],
+  "backups": {
+    "oldCard": true,
+    "oldNote": "先分主语与框架",
+    "newCards": 346
+  },
+  "checks": [
+    "名词性别原页第1—6条对应，-e/-i规则及例外排在讲解前",
+    "-e例外故意答错、逐项解释、刷新不重复计分、返回准确小节",
+    "全部48份讲解规则先展示，规则链接均有实际目标",
+    "39节全部346题经实际DOM按钮与提交事件作答，包括词序还原",
+    "B2题保留正确等级，错误填空解析及旧新备份兼容",
+    "48专题390px布局无横向溢出、按等级目录可展开、无脚本异常"
+  ],
+  "errors": []
+}

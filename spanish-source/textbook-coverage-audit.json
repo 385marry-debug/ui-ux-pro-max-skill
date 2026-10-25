@@ -5,7 +5,7 @@
     "chapters": 18,
     "topics": 58,
     "newSupplementLessons": 22,
-    "supplementQuestions": 144,
+    "supplementQuestions": 219,
     "gradedUnits": 40,
     "unitMicroSteps": 120,
     "addedUnitInputQuestions": 120,
@@ -28,6 +28,11 @@
         "gender-gender-exceptions-1",
         "gender-gender-exceptions-2",
         "gender-gender-exceptions-3",
+        "gender-gender-ei-0",
+        "gender-gender-ei-1",
+        "gender-gender-ei-2",
+        "gender-gender-ei-3",
+        "gender-gender-ei-4",
         "gender-gender-suffixes-0",
         "gender-gender-suffixes-1",
         "gender-gender-suffixes-2",
@@ -72,12 +77,15 @@
       "guide": "foundation-sound",
       "change": "关联已有详解",
       "questions": [
-        "foundation-sound-q0",
-        "foundation-sound-q1",
-        "foundation-sound-q2",
-        "foundation-sound-depth-0",
-        "foundation-sound-depth-1",
-        "foundation-sound-depth-2"
+        "continued-sound-starting-0",
+        "continued-sound-starting-1",
+        "continued-sound-starting-2",
+        "continued-sound-applied-rule-2-0",
+        "continued-sound-applied-rule-2-1",
+        "continued-sound-applied-rule-0-0",
+        "continued-sound-applied-rule-3-0",
+        "continued-sound-applied-rule-3-1",
+        "continued-sound-applied-rule-4-0"
       ]
     },
     {
@@ -87,12 +95,15 @@
       "guide": "foundation-sound",
       "change": "关联已有详解",
       "questions": [
-        "foundation-sound-q0",
-        "foundation-sound-q1",
-        "foundation-sound-q2",
-        "foundation-sound-depth-0",
-        "foundation-sound-depth-1",
-        "foundation-sound-depth-2"
+        "continued-sound-starting-0",
+        "continued-sound-starting-1",
+        "continued-sound-starting-2",
+        "continued-sound-applied-rule-2-0",
+        "continued-sound-applied-rule-2-1",
+        "continued-sound-applied-rule-0-0",
+        "continued-sound-applied-rule-3-0",
+        "continued-sound-applied-rule-3-1",
+        "continued-sound-applied-rule-4-0"
       ]
     },
     {
@@ -158,12 +169,15 @@
       "guide": "foundation-topic-demonstratives",
       "change": "补充专项课",
       "questions": [
-        "foundation-topic-demonstratives-q0",
-        "foundation-topic-demonstratives-q1",
-        "foundation-topic-demonstratives-q2",
-        "foundation-topic-demonstratives-depth-0",
-        "foundation-topic-demonstratives-depth-1",
-        "foundation-topic-demonstratives-depth-2"
+        "continued-topic-demonstratives-starting-0",
+        "continued-topic-demonstratives-starting-1",
+        "continued-topic-demonstratives-starting-2",
+        "continued-topic-demonstratives-applied-rule-0-0",
+        "continued-topic-demonstratives-applied-rule-3-0",
+        "continued-topic-demonstratives-applied-rule-1-0",
+        "continued-topic-demonstratives-applied-rule-1-1",
+        "continued-topic-demonstratives-applied-rule-2-0",
+        "continued-topic-demonstratives-applied-rule-4-0"
       ]
     },
     {
@@ -173,12 +187,15 @@
       "guide": "foundation-topic-prepositions",
       "change": "补充专项课",
       "questions": [
-        "foundation-topic-prepositions-q0",
-        "foundation-topic-prepositions-q1",
-        "foundation-topic-prepositions-q2",
-        "foundation-topic-prepositions-depth-0",
-        "foundation-topic-prepositions-depth-1",
-        "foundation-topic-prepositions-depth-2"
+        "continued-topic-prepositions-starting-0",
+        "continued-topic-prepositions-starting-1",
+        "continued-topic-prepositions-starting-2",
+        "continued-topic-prepositions-applied-rule-0-0",
+        "continued-topic-prepositions-applied-rule-1-0",
+        "continued-topic-prepositions-applied-rule-2-0",
+        "continued-topic-prepositions-applied-rule-4-0",
+        "continued-topic-prepositions-applied-rule-3-0",
+        "continued-topic-prepositions-applied-rule-5-0"
       ]
     },
     {
@@ -217,12 +234,15 @@
       "guide": "foundation-bridge-people",
       "change": "关联已有详解",
       "questions": [
-        "foundation-bridge-people-q0",
-        "foundation-bridge-people-q1",
-        "foundation-bridge-people-q2",
-        "foundation-bridge-people-depth-0",
-        "foundation-bridge-people-depth-1",
-        "foundation-bridge-people-depth-2"
+        "continued-bridge-people-starting-0",
+        "continued-bridge-people-starting-1",
+        "continued-bridge-people-starting-2",
+        "continued-bridge-people-applied-rule-1-0",
+        "continued-bridge-people-applied-rule-2-0",
+        "continued-bridge-people-applied-rule-3-0",
+        "continued-bridge-people-applied-rule-3-1",
+        "continued-bridge-people-applied-rule-4-0",
+        "continued-bridge-people-applied-rule-0-0"
       ]
     },
     {
@@ -294,12 +314,15 @@
       "guide": "foundation-topic-prepositions",
       "change": "补充专项课",
       "questions": [
-        "foundation-topic-prepositions-q0",
-        "foundation-topic-prepositions-q1",
-        "foundation-topic-prepositions-q2",
-        "foundation-topic-prepositions-depth-0",
-        "foundation-topic-prepositions-depth-1",
-        "foundation-topic-prepositions-depth-2"
+        "continued-topic-prepositions-starting-0",
+        "continued-topic-prepositions-starting-1",
+        "continued-topic-prepositions-starting-2",
+        "continued-topic-prepositions-applied-rule-0-0",
+        "continued-topic-prepositions-applied-rule-1-0",
+        "continued-topic-prepositions-applied-rule-2-0",
+        "continued-topic-prepositions-applied-rule-4-0",
+        "continued-topic-prepositions-applied-rule-3-0",
+        "continued-topic-prepositions-applied-rule-5-0"
       ]
     },
     {
@@ -336,12 +359,15 @@
       "guide": "foundation-bridge-clock",
       "change": "关联已有详解",
       "questions": [
-        "foundation-bridge-clock-q0",
-        "foundation-bridge-clock-q1",
-        "foundation-bridge-clock-q2",
-        "foundation-bridge-clock-depth-0",
-        "foundation-bridge-clock-depth-1",
-        "foundation-bridge-clock-depth-2"
+        "continued-bridge-clock-starting-0",
+        "continued-bridge-clock-starting-1",
+        "continued-bridge-clock-starting-2",
+        "continued-bridge-clock-applied-rule-0-0",
+        "continued-bridge-clock-applied-rule-1-0",
+        "continued-bridge-clock-applied-rule-2-0",
+        "continued-bridge-clock-applied-rule-2-1",
+        "continued-bridge-clock-applied-rule-3-0",
+        "continued-bridge-clock-applied-rule-3-1"
       ]
     },
     {
@@ -351,12 +377,15 @@
       "guide": "foundation-topic-core-verbs",
       "change": "补充专项课",
       "questions": [
-        "foundation-topic-core-verbs-q0",
-        "foundation-topic-core-verbs-q1",
-        "foundation-topic-core-verbs-q2",
-        "foundation-topic-core-verbs-depth-0",
-        "foundation-topic-core-verbs-depth-1",
-        "foundation-topic-core-verbs-depth-2"
+        "continued-topic-core-verbs-starting-0",
+        "continued-topic-core-verbs-starting-1",
+        "continued-topic-core-verbs-starting-2",
+        "continued-topic-core-verbs-applied-rule-2-0",
+        "continued-topic-core-verbs-applied-rule-3-0",
+        "continued-topic-core-verbs-applied-rule-3-1",
+        "continued-topic-core-verbs-applied-rule-0-0",
+        "continued-topic-core-verbs-applied-rule-1-0",
+        "continued-topic-core-verbs-applied-rule-1-1"
       ]
     },
     {
@@ -366,12 +395,15 @@
       "guide": "foundation-topic-prepositions",
       "change": "补充专项课",
       "questions": [
-        "foundation-topic-prepositions-q0",
-        "foundation-topic-prepositions-q1",
-        "foundation-topic-prepositions-q2",
-        "foundation-topic-prepositions-depth-0",
-        "foundation-topic-prepositions-depth-1",
-        "foundation-topic-prepositions-depth-2"
+        "continued-topic-prepositions-starting-0",
+        "continued-topic-prepositions-starting-1",
+        "continued-topic-prepositions-starting-2",
+        "continued-topic-prepositions-applied-rule-0-0",
+        "continued-topic-prepositions-applied-rule-1-0",
+        "continued-topic-prepositions-applied-rule-2-0",
+        "continued-topic-prepositions-applied-rule-4-0",
+        "continued-topic-prepositions-applied-rule-3-0",
+        "continued-topic-prepositions-applied-rule-5-0"
       ]
     },
     {
@@ -408,12 +440,15 @@
       "guide": "foundation-topic-core-verbs",
       "change": "补充专项课",
       "questions": [
-        "foundation-topic-core-verbs-q0",
-        "foundation-topic-core-verbs-q1",
-        "foundation-topic-core-verbs-q2",
-        "foundation-topic-core-verbs-depth-0",
-        "foundation-topic-core-verbs-depth-1",
-        "foundation-topic-core-verbs-depth-2"
+        "continued-topic-core-verbs-starting-0",
+        "continued-topic-core-verbs-starting-1",
+        "continued-topic-core-verbs-starting-2",
+        "continued-topic-core-verbs-applied-rule-2-0",
+        "continued-topic-core-verbs-applied-rule-3-0",
+        "continued-topic-core-verbs-applied-rule-3-1",
+        "continued-topic-core-verbs-applied-rule-0-0",
+        "continued-topic-core-verbs-applied-rule-1-0",
+        "continued-topic-core-verbs-applied-rule-1-1"
       ]
     },
     {
@@ -453,14 +488,17 @@
       "guide": "foundation-topic-possessives",
       "change": "补充专项课",
       "questions": [
-        "foundation-topic-possessives-q0",
-        "foundation-topic-possessives-q1",
-        "foundation-topic-possessives-q2",
-        "foundation-topic-possessives-depth-0",
-        "foundation-topic-possessives-depth-1",
-        "foundation-topic-possessives-depth-2",
-        "detail-possessive-reference-0",
-        "detail-possessive-reference-1"
+        "continued-topic-possessives-starting-0",
+        "continued-topic-possessives-starting-1",
+        "continued-topic-possessives-starting-2",
+        "continued-topic-possessives-applied-rule-1-0",
+        "continued-topic-possessives-applied-rule-1-1",
+        "continued-topic-possessives-applied-rule-0-0",
+        "continued-topic-possessives-applied-rule-2-0",
+        "continued-topic-possessives-applied-rule-2-1",
+        "continued-topic-possessives-applied-rule-2-2",
+        "continued-topic-possessives-applied-rule-3-0",
+        "continued-topic-possessives-applied-rule-4-0"
       ]
     },
     {
@@ -470,12 +508,15 @@
       "guide": "foundation-topic-demonstratives",
       "change": "补充专项课",
       "questions": [
-        "foundation-topic-demonstratives-q0",
-        "foundation-topic-demonstratives-q1",
-        "foundation-topic-demonstratives-q2",
-        "foundation-topic-demonstratives-depth-0",
-        "foundation-topic-demonstratives-depth-1",
-        "foundation-topic-demonstratives-depth-2"
+        "continued-topic-demonstratives-starting-0",
+        "continued-topic-demonstratives-starting-1",
+        "continued-topic-demonstratives-starting-2",
+        "continued-topic-demonstratives-applied-rule-0-0",
+        "continued-topic-demonstratives-applied-rule-3-0",
+        "continued-topic-demonstratives-applied-rule-1-0",
+        "continued-topic-demonstratives-applied-rule-1-1",
+        "continued-topic-demonstratives-applied-rule-2-0",
+        "continued-topic-demonstratives-applied-rule-4-0"
       ]
     },
     {
@@ -485,14 +526,17 @@
       "guide": "foundation-topic-possessives",
       "change": "补充专项课",
       "questions": [
-        "foundation-topic-possessives-q0",
-        "foundation-topic-possessives-q1",
-        "foundation-topic-possessives-q2",
-        "foundation-topic-possessives-depth-0",
-        "foundation-topic-possessives-depth-1",
-        "foundation-topic-possessives-depth-2",
-        "detail-possessive-reference-0",
-        "detail-possessive-reference-1"
+        "continued-topic-possessives-starting-0",
+        "continued-topic-possessives-starting-1",
+        "continued-topic-possessives-starting-2",
+        "continued-topic-possessives-applied-rule-1-0",
+        "continued-topic-possessives-applied-rule-1-1",
+        "continued-topic-possessives-applied-rule-0-0",
+        "continued-topic-possessives-applied-rule-2-0",
+        "continued-topic-possessives-applied-rule-2-1",
+        "continued-topic-possessives-applied-rule-2-2",
+        "continued-topic-possessives-applied-rule-3-0",
+        "continued-topic-possessives-applied-rule-4-0"
       ]
     },
     {
@@ -532,12 +576,15 @@
       "guide": "foundation-topic-transitivity",
       "change": "补充专项课",
       "questions": [
-        "foundation-topic-transitivity-q0",
-        "foundation-topic-transitivity-q1",
-        "foundation-topic-transitivity-q2",
-        "foundation-topic-transitivity-depth-0",
-        "foundation-topic-transitivity-depth-1",
-        "foundation-topic-transitivity-depth-2"
+        "continued-topic-transitivity-starting-0",
+        "continued-topic-transitivity-starting-1",
+        "continued-topic-transitivity-starting-2",
+        "continued-topic-transitivity-applied-rule-0-0",
+        "continued-topic-transitivity-applied-rule-0-1",
+        "continued-topic-transitivity-applied-rule-1-0",
+        "continued-topic-transitivity-applied-rule-4-0",
+        "continued-topic-transitivity-applied-rule-3-0",
+        "continued-topic-transitivity-applied-rule-2-0"
       ]
     },
     {
@@ -547,12 +594,15 @@
       "guide": "foundation-topic-stem-patterns",
       "change": "补充专项课",
       "questions": [
-        "foundation-topic-stem-patterns-q0",
-        "foundation-topic-stem-patterns-q1",
-        "foundation-topic-stem-patterns-q2",
-        "foundation-topic-stem-patterns-depth-0",
-        "foundation-topic-stem-patterns-depth-1",
-        "foundation-topic-stem-patterns-depth-2"
+        "continued-topic-stem-patterns-starting-0",
+        "continued-topic-stem-patterns-starting-1",
+        "continued-topic-stem-patterns-starting-2",
+        "continued-topic-stem-patterns-applied-rule-1-0",
+        "continued-topic-stem-patterns-applied-rule-1-1",
+        "continued-topic-stem-patterns-applied-rule-3-0",
+        "continued-topic-stem-patterns-applied-rule-2-0",
+        "continued-topic-stem-patterns-applied-rule-0-0",
+        "continued-topic-stem-patterns-applied-rule-4-0"
       ]
     },
     {
@@ -562,12 +612,15 @@
       "guide": "foundation-topic-state-adjectives",
       "change": "补充专项课",
       "questions": [
-        "foundation-topic-state-adjectives-q0",
-        "foundation-topic-state-adjectives-q1",
-        "foundation-topic-state-adjectives-q2",
-        "foundation-topic-state-adjectives-depth-0",
-        "foundation-topic-state-adjectives-depth-1",
-        "foundation-topic-state-adjectives-depth-2"
+        "continued-topic-state-adjectives-starting-0",
+        "continued-topic-state-adjectives-starting-1",
+        "continued-topic-state-adjectives-starting-2",
+        "continued-topic-state-adjectives-applied-rule-1-0",
+        "continued-topic-state-adjectives-applied-rule-1-1",
+        "continued-topic-state-adjectives-applied-rule-3-0",
+        "continued-topic-state-adjectives-applied-rule-3-1",
+        "continued-topic-state-adjectives-applied-rule-2-0",
+        "continued-topic-state-adjectives-applied-rule-4-0"
       ]
     },
     {
@@ -577,12 +630,15 @@
       "guide": "foundation-topic-transitivity",
       "change": "补充专项课",
       "questions": [
-        "foundation-topic-transitivity-q0",
-        "foundation-topic-transitivity-q1",
-        "foundation-topic-transitivity-q2",
-        "foundation-topic-transitivity-depth-0",
-        "foundation-topic-transitivity-depth-1",
-        "foundation-topic-transitivity-depth-2"
+        "continued-topic-transitivity-starting-0",
+        "continued-topic-transitivity-starting-1",
+        "continued-topic-transitivity-starting-2",
+        "continued-topic-transitivity-applied-rule-0-0",
+        "continued-topic-transitivity-applied-rule-0-1",
+        "continued-topic-transitivity-applied-rule-1-0",
+        "continued-topic-transitivity-applied-rule-4-0",
+        "continued-topic-transitivity-applied-rule-3-0",
+        "continued-topic-transitivity-applied-rule-2-0"
       ]
     },
     {
@@ -592,12 +648,15 @@
       "guide": "foundation-bridge-direct",
       "change": "关联已有详解",
       "questions": [
-        "foundation-bridge-direct-q0",
-        "foundation-bridge-direct-q1",
-        "foundation-bridge-direct-q2",
-        "foundation-bridge-direct-depth-0",
-        "foundation-bridge-direct-depth-1",
-        "foundation-bridge-direct-depth-2"
+        "continued-bridge-direct-starting-0",
+        "continued-bridge-direct-starting-1",
+        "continued-bridge-direct-starting-2",
+        "continued-bridge-direct-applied-rule-0-0",
+        "continued-bridge-direct-applied-rule-1-0",
+        "continued-bridge-direct-applied-rule-2-0",
+        "continued-bridge-direct-applied-rule-2-1",
+        "continued-bridge-direct-applied-rule-2-2",
+        "continued-bridge-direct-applied-rule-3-0"
       ]
     },
     {
@@ -607,12 +666,15 @@
       "guide": "foundation-topic-stem-patterns",
       "change": "补充专项课",
       "questions": [
-        "foundation-topic-stem-patterns-q0",
-        "foundation-topic-stem-patterns-q1",
-        "foundation-topic-stem-patterns-q2",
-        "foundation-topic-stem-patterns-depth-0",
-        "foundation-topic-stem-patterns-depth-1",
-        "foundation-topic-stem-patterns-depth-2"
+        "continued-topic-stem-patterns-starting-0",
+        "continued-topic-stem-patterns-starting-1",
+        "continued-topic-stem-patterns-starting-2",
+        "continued-topic-stem-patterns-applied-rule-1-0",
+        "continued-topic-stem-patterns-applied-rule-1-1",
+        "continued-topic-stem-patterns-applied-rule-3-0",
+        "continued-topic-stem-patterns-applied-rule-2-0",
+        "continued-topic-stem-patterns-applied-rule-0-0",
+        "continued-topic-stem-patterns-applied-rule-4-0"
       ]
     },
     {
@@ -622,12 +684,15 @@
       "guide": "foundation-bridge-reflexive",
       "change": "关联已有详解",
       "questions": [
-        "foundation-bridge-reflexive-q0",
-        "foundation-bridge-reflexive-q1",
-        "foundation-bridge-reflexive-q2",
-        "foundation-bridge-reflexive-depth-0",
-        "foundation-bridge-reflexive-depth-1",
-        "foundation-bridge-reflexive-depth-2"
+        "continued-bridge-reflexive-starting-0",
+        "continued-bridge-reflexive-starting-1",
+        "continued-bridge-reflexive-starting-2",
+        "continued-bridge-reflexive-applied-rule-1-0",
+        "continued-bridge-reflexive-applied-rule-1-1",
+        "continued-bridge-reflexive-applied-rule-1-2",
+        "continued-bridge-reflexive-applied-rule-3-0",
+        "continued-bridge-reflexive-applied-rule-2-0",
+        "continued-bridge-reflexive-applied-rule-4-0"
       ]
     },
     {
@@ -637,12 +702,15 @@
       "guide": "foundation-bridge-indirect",
       "change": "关联已有详解",
       "questions": [
-        "foundation-bridge-indirect-q0",
-        "foundation-bridge-indirect-q1",
-        "foundation-bridge-indirect-q2",
-        "foundation-bridge-indirect-depth-0",
-        "foundation-bridge-indirect-depth-1",
-        "foundation-bridge-indirect-depth-2"
+        "continued-bridge-indirect-starting-0",
+        "continued-bridge-indirect-starting-1",
+        "continued-bridge-indirect-starting-2",
+        "continued-bridge-indirect-applied-rule-0-0",
+        "continued-bridge-indirect-applied-rule-1-0",
+        "continued-bridge-indirect-applied-rule-1-1",
+        "continued-bridge-indirect-applied-rule-3-0",
+        "continued-bridge-indirect-applied-rule-3-1",
+        "continued-bridge-indirect-applied-rule-4-0"
       ]
     },
     {
@@ -652,12 +720,15 @@
       "guide": "foundation-topic-present-uses",
       "change": "补充专项课",
       "questions": [
-        "foundation-topic-present-uses-q0",
-        "foundation-topic-present-uses-q1",
-        "foundation-topic-present-uses-q2",
-        "foundation-topic-present-uses-depth-0",
-        "foundation-topic-present-uses-depth-1",
-        "foundation-topic-present-uses-depth-2"
+        "continued-topic-present-uses-starting-0",
+        "continued-topic-present-uses-starting-1",
+        "continued-topic-present-uses-starting-2",
+        "continued-topic-present-uses-applied-rule-0-0",
+        "continued-topic-present-uses-applied-rule-3-0",
+        "continued-topic-present-uses-applied-rule-3-1",
+        "continued-topic-present-uses-applied-rule-1-0",
+        "continued-topic-present-uses-applied-rule-1-1",
+        "continued-topic-present-uses-applied-rule-2-0"
       ]
     },
     {
@@ -667,14 +738,16 @@
       "guide": "foundation-pronouns",
       "change": "关联已有详解",
       "questions": [
-        "foundation-pronouns-q0",
-        "foundation-pronouns-q1",
-        "foundation-pronouns-q2",
-        "foundation-pronouns-depth-0",
-        "foundation-pronouns-depth-1",
-        "foundation-pronouns-depth-2",
-        "foundation-pronouns-depth-3",
-        "foundation-pronouns-depth-4"
+        "continued-pronouns-starting-0",
+        "continued-pronouns-starting-1",
+        "continued-pronouns-starting-2",
+        "continued-pronouns-applied-rule-2-0",
+        "continued-pronouns-applied-rule-2-1",
+        "continued-pronouns-applied-rule-2-2",
+        "continued-pronouns-applied-rule-3-0",
+        "continued-pronouns-applied-rule-3-1",
+        "continued-pronouns-applied-rule-3-2",
+        "continued-pronouns-applied-rule-1-0"
       ]
     },
     {
@@ -684,12 +757,15 @@
       "guide": "foundation-bridge-reflexive",
       "change": "关联已有详解",
       "questions": [
-        "foundation-bridge-reflexive-q0",
-        "foundation-bridge-reflexive-q1",
-        "foundation-bridge-reflexive-q2",
-        "foundation-bridge-reflexive-depth-0",
-        "foundation-bridge-reflexive-depth-1",
-        "foundation-bridge-reflexive-depth-2"
+        "continued-bridge-reflexive-starting-0",
+        "continued-bridge-reflexive-starting-1",
+        "continued-bridge-reflexive-starting-2",
+        "continued-bridge-reflexive-applied-rule-1-0",
+        "continued-bridge-reflexive-applied-rule-1-1",
+        "continued-bridge-reflexive-applied-rule-1-2",
+        "continued-bridge-reflexive-applied-rule-3-0",
+        "continued-bridge-reflexive-applied-rule-2-0",
+        "continued-bridge-reflexive-applied-rule-4-0"
       ]
     },
     {
@@ -699,14 +775,17 @@
       "guide": "foundation-topic-commands",
       "change": "补充专项课",
       "questions": [
-        "foundation-topic-commands-q0",
-        "foundation-topic-commands-q1",
-        "foundation-topic-commands-q2",
-        "foundation-topic-commands-depth-0",
-        "foundation-topic-commands-depth-1",
-        "foundation-topic-commands-depth-2",
-        "detail-command-boundaries-0",
-        "detail-command-boundaries-1"
+        "continued-topic-commands-starting-0",
+        "continued-topic-commands-starting-1",
+        "continued-topic-commands-starting-2",
+        "continued-topic-commands-applied-rule-3-0",
+        "continued-topic-commands-applied-rule-3-1",
+        "continued-topic-commands-applied-rule-4-0",
+        "continued-topic-commands-applied-rule-4-1",
+        "continued-topic-commands-applied-rule-1-0",
+        "continued-topic-commands-applied-rule-5-0",
+        "continued-topic-commands-applied-rule-5-1",
+        "continued-topic-commands-applied-rule-2-0"
       ]
     },
     {
@@ -716,12 +795,15 @@
       "guide": "foundation-topic-prepositions",
       "change": "补充专项课",
       "questions": [
-        "foundation-topic-prepositions-q0",
-        "foundation-topic-prepositions-q1",
-        "foundation-topic-prepositions-q2",
-        "foundation-topic-prepositions-depth-0",
-        "foundation-topic-prepositions-depth-1",
-        "foundation-topic-prepositions-depth-2"
+        "continued-topic-prepositions-starting-0",
+        "continued-topic-prepositions-starting-1",
+        "continued-topic-prepositions-starting-2",
+        "continued-topic-prepositions-applied-rule-0-0",
+        "continued-topic-prepositions-applied-rule-1-0",
+        "continued-topic-prepositions-applied-rule-2-0",
+        "continued-topic-prepositions-applied-rule-4-0",
+        "continued-topic-prepositions-applied-rule-3-0",
+        "continued-topic-prepositions-applied-rule-5-0"
       ]
     },
     {
@@ -731,14 +813,17 @@
       "guide": "foundation-topic-commands",
       "change": "补充专项课",
       "questions": [
-        "foundation-topic-commands-q0",
-        "foundation-topic-commands-q1",
-        "foundation-topic-commands-q2",
-        "foundation-topic-commands-depth-0",
-        "foundation-topic-commands-depth-1",
-        "foundation-topic-commands-depth-2",
-        "detail-command-boundaries-0",
-        "detail-command-boundaries-1"
+        "continued-topic-commands-starting-0",
+        "continued-topic-commands-starting-1",
+        "continued-topic-commands-starting-2",
+        "continued-topic-commands-applied-rule-3-0",
+        "continued-topic-commands-applied-rule-3-1",
+        "continued-topic-commands-applied-rule-4-0",
+        "continued-topic-commands-applied-rule-4-1",
+        "continued-topic-commands-applied-rule-1-0",
+        "continued-topic-commands-applied-rule-5-0",
+        "continued-topic-commands-applied-rule-5-1",
+        "continued-topic-commands-applied-rule-2-0"
       ]
     },
     {
@@ -748,14 +833,17 @@
       "guide": "foundation-topic-question-order",
       "change": "补充专项课",
       "questions": [
-        "foundation-topic-question-order-q0",
-        "foundation-topic-question-order-q1",
-        "foundation-topic-question-order-q2",
-        "foundation-topic-question-order-depth-0",
-        "foundation-topic-question-order-depth-1",
-        "foundation-topic-question-order-depth-2",
-        "detail-questions-with-prepositions-0",
-        "detail-questions-with-prepositions-1"
+        "continued-topic-question-order-starting-0",
+        "continued-topic-question-order-starting-1",
+        "continued-topic-question-order-starting-2",
+        "continued-topic-question-order-applied-rule-0-0",
+        "continued-topic-question-order-applied-rule-1-0",
+        "continued-topic-question-order-applied-rule-3-0",
+        "continued-topic-question-order-applied-rule-4-0",
+        "continued-topic-question-order-applied-rule-2-0",
+        "continued-topic-question-order-applied-rule-2-1",
+        "continued-topic-question-order-applied-rule-2-2",
+        "continued-topic-question-order-applied-rule-2-3"
       ]
     },
     {
@@ -792,12 +880,15 @@
       "guide": "foundation-topic-prepositions",
       "change": "补充专项课",
       "questions": [
-        "foundation-topic-prepositions-q0",
-        "foundation-topic-prepositions-q1",
-        "foundation-topic-prepositions-q2",
-        "foundation-topic-prepositions-depth-0",
-        "foundation-topic-prepositions-depth-1",
-        "foundation-topic-prepositions-depth-2"
+        "continued-topic-prepositions-starting-0",
+        "continued-topic-prepositions-starting-1",
+        "continued-topic-prepositions-starting-2",
+        "continued-topic-prepositions-applied-rule-0-0",
+        "continued-topic-prepositions-applied-rule-1-0",
+        "continued-topic-prepositions-applied-rule-2-0",
+        "continued-topic-prepositions-applied-rule-4-0",
+        "continued-topic-prepositions-applied-rule-3-0",
+        "continued-topic-prepositions-applied-rule-5-0"
       ]
     },
     {
@@ -807,14 +898,17 @@
       "guide": "foundation-topic-commands",
       "change": "补充专项课",
       "questions": [
-        "foundation-topic-commands-q0",
-        "foundation-topic-commands-q1",
-        "foundation-topic-commands-q2",
-        "foundation-topic-commands-depth-0",
-        "foundation-topic-commands-depth-1",
-        "foundation-topic-commands-depth-2",
-        "detail-command-boundaries-0",
-        "detail-command-boundaries-1"
+        "continued-topic-commands-starting-0",
+        "continued-topic-commands-starting-1",
+        "continued-topic-commands-starting-2",
+        "continued-topic-commands-applied-rule-3-0",
+        "continued-topic-commands-applied-rule-3-1",
+        "continued-topic-commands-applied-rule-4-0",
+        "continued-topic-commands-applied-rule-4-1",
+        "continued-topic-commands-applied-rule-1-0",
+        "continued-topic-commands-applied-rule-5-0",
+        "continued-topic-commands-applied-rule-5-1",
+        "continued-topic-commands-applied-rule-2-0"
       ]
     },
     {
@@ -824,14 +918,17 @@
       "guide": "foundation-topic-object-clauses",
       "change": "补充专项课",
       "questions": [
-        "foundation-topic-object-clauses-q0",
-        "foundation-topic-object-clauses-q1",
-        "foundation-topic-object-clauses-q2",
-        "foundation-topic-object-clauses-depth-0",
-        "foundation-topic-object-clauses-depth-1",
-        "foundation-topic-object-clauses-depth-2",
-        "detail-clause-roles-0",
-        "detail-clause-roles-1"
+        "continued-topic-object-clauses-starting-0",
+        "continued-topic-object-clauses-starting-1",
+        "continued-topic-object-clauses-starting-2",
+        "continued-topic-object-clauses-applied-rule-0-0",
+        "continued-topic-object-clauses-applied-rule-3-0",
+        "continued-topic-object-clauses-applied-rule-1-0",
+        "continued-topic-object-clauses-applied-rule-1-1",
+        "continued-topic-object-clauses-applied-rule-4-0",
+        "continued-topic-object-clauses-applied-rule-2-0",
+        "continued-topic-object-clauses-applied-rule-2-1",
+        "continued-topic-object-clauses-applied-rule-2-2"
       ]
     },
     {
@@ -841,12 +938,15 @@
       "guide": "foundation-topic-conditions",
       "change": "补充专项课",
       "questions": [
-        "foundation-topic-conditions-q0",
-        "foundation-topic-conditions-q1",
-        "foundation-topic-conditions-q2",
-        "foundation-topic-conditions-depth-0",
-        "foundation-topic-conditions-depth-1",
-        "foundation-topic-conditions-depth-2"
+        "continued-topic-conditions-starting-0",
+        "continued-topic-conditions-starting-1",
+        "continued-topic-conditions-starting-2",
+        "continued-topic-conditions-applied-rule-1-0",
+        "continued-topic-conditions-applied-rule-1-1",
+        "continued-topic-conditions-applied-rule-2-0",
+        "continued-topic-conditions-applied-rule-2-1",
+        "continued-topic-conditions-applied-rule-0-0",
+        "continued-topic-conditions-applied-rule-4-0"
       ]
     },
     {
@@ -856,12 +956,15 @@
       "guide": "foundation-topic-impersonal",
       "change": "补充专项课",
       "questions": [
-        "foundation-topic-impersonal-q0",
-        "foundation-topic-impersonal-q1",
-        "foundation-topic-impersonal-q2",
-        "foundation-topic-impersonal-depth-0",
-        "foundation-topic-impersonal-depth-1",
-        "foundation-topic-impersonal-depth-2"
+        "continued-topic-impersonal-starting-0",
+        "continued-topic-impersonal-starting-1",
+        "continued-topic-impersonal-starting-2",
+        "continued-topic-impersonal-applied-rule-0-0",
+        "continued-topic-impersonal-applied-rule-1-0",
+        "continued-topic-impersonal-applied-rule-3-0",
+        "continued-topic-impersonal-applied-rule-3-1",
+        "continued-topic-impersonal-applied-rule-2-0",
+        "continued-topic-impersonal-applied-rule-4-0"
       ]
     },
     {
@@ -871,12 +974,15 @@
       "guide": "foundation-topic-core-verbs",
       "change": "补充专项课",
       "questions": [
-        "foundation-topic-core-verbs-q0",
-        "foundation-topic-core-verbs-q1",
-        "foundation-topic-core-verbs-q2",
-        "foundation-topic-core-verbs-depth-0",
-        "foundation-topic-core-verbs-depth-1",
-        "foundation-topic-core-verbs-depth-2"
+        "continued-topic-core-verbs-starting-0",
+        "continued-topic-core-verbs-starting-1",
+        "continued-topic-core-verbs-starting-2",
+        "continued-topic-core-verbs-applied-rule-2-0",
+        "continued-topic-core-verbs-applied-rule-3-0",
+        "continued-topic-core-verbs-applied-rule-3-1",
+        "continued-topic-core-verbs-applied-rule-0-0",
+        "continued-topic-core-verbs-applied-rule-1-0",
+        "continued-topic-core-verbs-applied-rule-1-1"
       ]
     },
     {
@@ -886,9 +992,12 @@
       "guide": "foundation-relative",
       "change": "关联已有详解",
       "questions": [
-        "foundation-relative-q0",
-        "foundation-relative-q1",
-        "foundation-relative-q2"
+        "continued-relative-starting-0",
+        "continued-relative-starting-1",
+        "continued-relative-starting-2",
+        "continued-relative-applied-rule-0-0",
+        "continued-relative-applied-rule-0-1",
+        "continued-relative-applied-rule-0-2"
       ]
     },
     {
@@ -898,12 +1007,15 @@
       "guide": "foundation-topic-exclamations",
       "change": "补充专项课",
       "questions": [
-        "foundation-topic-exclamations-q0",
-        "foundation-topic-exclamations-q1",
-        "foundation-topic-exclamations-q2",
-        "foundation-topic-exclamations-depth-0",
-        "foundation-topic-exclamations-depth-1",
-        "foundation-topic-exclamations-depth-2"
+        "continued-topic-exclamations-starting-0",
+        "continued-topic-exclamations-starting-1",
+        "continued-topic-exclamations-starting-2",
+        "continued-topic-exclamations-applied-rule-1-0",
+        "continued-topic-exclamations-applied-rule-1-1",
+        "continued-topic-exclamations-applied-rule-3-0",
+        "continued-topic-exclamations-applied-rule-3-1",
+        "continued-topic-exclamations-applied-rule-2-0",
+        "continued-topic-exclamations-applied-rule-2-1"
       ]
     },
     {
@@ -913,12 +1025,15 @@
       "guide": "foundation-topic-impersonal",
       "change": "补充专项课",
       "questions": [
-        "foundation-topic-impersonal-q0",
-        "foundation-topic-impersonal-q1",
-        "foundation-topic-impersonal-q2",
-        "foundation-topic-impersonal-depth-0",
-        "foundation-topic-impersonal-depth-1",
-        "foundation-topic-impersonal-depth-2"
+        "continued-topic-impersonal-starting-0",
+        "continued-topic-impersonal-starting-1",
+        "continued-topic-impersonal-starting-2",
+        "continued-topic-impersonal-applied-rule-0-0",
+        "continued-topic-impersonal-applied-rule-1-0",
+        "continued-topic-impersonal-applied-rule-3-0",
+        "continued-topic-impersonal-applied-rule-3-1",
+        "continued-topic-impersonal-applied-rule-2-0",
+        "continued-topic-impersonal-applied-rule-4-0"
       ]
     },
     {
@@ -928,12 +1043,15 @@
       "guide": "foundation-topic-relative-time-place",
       "change": "补充专项课",
       "questions": [
-        "foundation-topic-relative-time-place-q0",
-        "foundation-topic-relative-time-place-q1",
-        "foundation-topic-relative-time-place-q2",
-        "foundation-topic-relative-time-place-depth-0",
-        "foundation-topic-relative-time-place-depth-1",
-        "foundation-topic-relative-time-place-depth-2"
+        "continued-topic-relative-time-place-starting-0",
+        "continued-topic-relative-time-place-starting-1",
+        "continued-topic-relative-time-place-starting-2",
+        "continued-topic-relative-time-place-applied-rule-0-0",
+        "continued-topic-relative-time-place-applied-rule-2-0",
+        "continued-topic-relative-time-place-applied-rule-2-1",
+        "continued-topic-relative-time-place-applied-rule-1-0",
+        "continued-topic-relative-time-place-applied-rule-3-0",
+        "continued-topic-relative-time-place-applied-rule-3-1"
       ]
     },
     {
@@ -943,12 +1061,15 @@
       "guide": "foundation-topic-past-regular",
       "change": "补充专项课",
       "questions": [
-        "foundation-topic-past-regular-q0",
-        "foundation-topic-past-regular-q1",
-        "foundation-topic-past-regular-q2",
-        "foundation-topic-past-regular-depth-0",
-        "foundation-topic-past-regular-depth-1",
-        "foundation-topic-past-regular-depth-2"
+        "continued-topic-past-regular-starting-0",
+        "continued-topic-past-regular-starting-1",
+        "continued-topic-past-regular-starting-2",
+        "continued-topic-past-regular-applied-rule-2-0",
+        "continued-topic-past-regular-applied-rule-2-1",
+        "continued-topic-past-regular-applied-rule-3-0",
+        "continued-topic-past-regular-applied-rule-1-0",
+        "continued-topic-past-regular-applied-rule-0-0",
+        "continued-topic-past-regular-applied-rule-4-0"
       ]
     },
     {
@@ -958,12 +1079,15 @@
       "guide": "foundation-topic-impersonal",
       "change": "补充专项课",
       "questions": [
-        "foundation-topic-impersonal-q0",
-        "foundation-topic-impersonal-q1",
-        "foundation-topic-impersonal-q2",
-        "foundation-topic-impersonal-depth-0",
-        "foundation-topic-impersonal-depth-1",
-        "foundation-topic-impersonal-depth-2"
+        "continued-topic-impersonal-starting-0",
+        "continued-topic-impersonal-starting-1",
+        "continued-topic-impersonal-starting-2",
+        "continued-topic-impersonal-applied-rule-0-0",
+        "continued-topic-impersonal-applied-rule-1-0",
+        "continued-topic-impersonal-applied-rule-3-0",
+        "continued-topic-impersonal-applied-rule-3-1",
+        "continued-topic-impersonal-applied-rule-2-0",
+        "continued-topic-impersonal-applied-rule-4-0"
       ]
     },
     {
@@ -973,12 +1097,15 @@
       "guide": "foundation-topic-past-irregular",
       "change": "补充专项课",
       "questions": [
-        "foundation-topic-past-irregular-q0",
-        "foundation-topic-past-irregular-q1",
-        "foundation-topic-past-irregular-q2",
-        "foundation-topic-past-irregular-depth-0",
-        "foundation-topic-past-irregular-depth-1",
-        "foundation-topic-past-irregular-depth-2"
+        "continued-topic-past-irregular-starting-0",
+        "continued-topic-past-irregular-starting-1",
+        "continued-topic-past-irregular-starting-2",
+        "continued-topic-past-irregular-applied-rule-1-0",
+        "continued-topic-past-irregular-applied-rule-2-0",
+        "continued-topic-past-irregular-applied-rule-2-1",
+        "continued-topic-past-irregular-applied-rule-3-0",
+        "continued-topic-past-irregular-applied-rule-4-0",
+        "continued-topic-past-irregular-applied-rule-0-0"
       ]
     },
     {
@@ -988,14 +1115,17 @@
       "guide": "foundation-topic-calendar",
       "change": "补充专项课",
       "questions": [
-        "foundation-topic-calendar-q0",
-        "foundation-topic-calendar-q1",
-        "foundation-topic-calendar-q2",
-        "foundation-topic-calendar-depth-0",
-        "foundation-topic-calendar-depth-1",
-        "foundation-topic-calendar-depth-2",
-        "detail-calendar-register-0",
-        "detail-calendar-register-1"
+        "continued-topic-calendar-starting-0",
+        "continued-topic-calendar-starting-1",
+        "continued-topic-calendar-starting-2",
+        "continued-topic-calendar-applied-rule-1-0",
+        "continued-topic-calendar-applied-rule-1-1",
+        "continued-topic-calendar-applied-rule-3-0",
+        "continued-topic-calendar-applied-rule-3-1",
+        "continued-topic-calendar-applied-rule-3-2",
+        "continued-topic-calendar-applied-rule-3-3",
+        "continued-topic-calendar-applied-rule-4-0",
+        "continued-topic-calendar-applied-rule-0-0"
       ]
     },
     {
@@ -1005,14 +1135,17 @@
       "guide": "foundation-topic-nonfinite",
       "change": "补充专项课",
       "questions": [
-        "foundation-topic-nonfinite-q0",
-        "foundation-topic-nonfinite-q1",
-        "foundation-topic-nonfinite-q2",
-        "foundation-topic-nonfinite-depth-0",
-        "foundation-topic-nonfinite-depth-1",
-        "foundation-topic-nonfinite-depth-2",
-        "detail-participle-agreement-0",
-        "detail-participle-agreement-1"
+        "continued-topic-nonfinite-starting-0",
+        "continued-topic-nonfinite-starting-1",
+        "continued-topic-nonfinite-starting-2",
+        "continued-topic-nonfinite-applied-rule-4-0",
+        "continued-topic-nonfinite-applied-rule-4-1",
+        "continued-topic-nonfinite-applied-rule-5-0",
+        "continued-topic-nonfinite-applied-rule-5-1",
+        "continued-topic-nonfinite-applied-rule-5-2",
+        "continued-topic-nonfinite-applied-rule-2-0",
+        "continued-topic-nonfinite-applied-rule-3-0",
+        "continued-topic-nonfinite-applied-rule-3-1"
       ]
     },
     {
@@ -1022,12 +1155,15 @@
       "guide": "foundation-topic-relative-time-place",
       "change": "补充专项课",
       "questions": [
-        "foundation-topic-relative-time-place-q0",
-        "foundation-topic-relative-time-place-q1",
-        "foundation-topic-relative-time-place-q2",
-        "foundation-topic-relative-time-place-depth-0",
-        "foundation-topic-relative-time-place-depth-1",
-        "foundation-topic-relative-time-place-depth-2"
+        "continued-topic-relative-time-place-starting-0",
+        "continued-topic-relative-time-place-starting-1",
+        "continued-topic-relative-time-place-starting-2",
+        "continued-topic-relative-time-place-applied-rule-0-0",
+        "continued-topic-relative-time-place-applied-rule-2-0",
+        "continued-topic-relative-time-place-applied-rule-2-1",
+        "continued-topic-relative-time-place-applied-rule-1-0",
+        "continued-topic-relative-time-place-applied-rule-3-0",
+        "continued-topic-relative-time-place-applied-rule-3-1"
       ]
     },
     {
@@ -1037,12 +1173,15 @@
       "guide": "foundation-topic-past-imperfect",
       "change": "补充专项课",
       "questions": [
-        "foundation-topic-past-imperfect-q0",
-        "foundation-topic-past-imperfect-q1",
-        "foundation-topic-past-imperfect-q2",
-        "foundation-topic-past-imperfect-depth-0",
-        "foundation-topic-past-imperfect-depth-1",
-        "foundation-topic-past-imperfect-depth-2"
+        "continued-topic-past-imperfect-starting-0",
+        "continued-topic-past-imperfect-starting-1",
+        "continued-topic-past-imperfect-starting-2",
+        "continued-topic-past-imperfect-applied-rule-0-0",
+        "continued-topic-past-imperfect-applied-rule-4-0",
+        "continued-topic-past-imperfect-applied-rule-4-1",
+        "continued-topic-past-imperfect-applied-rule-2-0",
+        "continued-topic-past-imperfect-applied-rule-2-1",
+        "continued-topic-past-imperfect-applied-rule-3-0"
       ]
     },
     {
@@ -1052,14 +1191,17 @@
       "guide": "foundation-topic-nonfinite",
       "change": "补充专项课",
       "questions": [
-        "foundation-topic-nonfinite-q0",
-        "foundation-topic-nonfinite-q1",
-        "foundation-topic-nonfinite-q2",
-        "foundation-topic-nonfinite-depth-0",
-        "foundation-topic-nonfinite-depth-1",
-        "foundation-topic-nonfinite-depth-2",
-        "detail-participle-agreement-0",
-        "detail-participle-agreement-1"
+        "continued-topic-nonfinite-starting-0",
+        "continued-topic-nonfinite-starting-1",
+        "continued-topic-nonfinite-starting-2",
+        "continued-topic-nonfinite-applied-rule-4-0",
+        "continued-topic-nonfinite-applied-rule-4-1",
+        "continued-topic-nonfinite-applied-rule-5-0",
+        "continued-topic-nonfinite-applied-rule-5-1",
+        "continued-topic-nonfinite-applied-rule-5-2",
+        "continued-topic-nonfinite-applied-rule-2-0",
+        "continued-topic-nonfinite-applied-rule-3-0",
+        "continued-topic-nonfinite-applied-rule-3-1"
       ]
     }
   ]

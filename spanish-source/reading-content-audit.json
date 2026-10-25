@@ -13,7 +13,7 @@
     "entries": 7423,
     "listening": 144,
     "listeningQuestions": 294,
-    "totalStaticQuestions": 11098
+    "totalStaticQuestions": 11449
   },
   "chapters": [
     {
@@ -69,7 +69,7 @@
         "sync-warm-1-q1",
         "gender-gender-meaning-0",
         "rewrite-bridge-articles-defined-0",
-        "foundation-sound-q0"
+        "continued-sound-starting-0"
       ]
     },
     {
@@ -125,7 +125,7 @@
         "sync-warm-2-q1",
         "rewrite-bridge-plural-meaning-0",
         "rewrite-bridge-articles-defined-0",
-        "foundation-topic-demonstratives-q0"
+        "continued-topic-demonstratives-starting-0"
       ]
     },
     {
@@ -179,7 +179,7 @@
         "sync-warm-3-q0",
         "sync-warm-3-q1",
         "rewrite-bridge-articles-defined-0",
-        "foundation-bridge-people-q0",
+        "continued-bridge-people-starting-0",
         "rewrite-core-start-0"
       ]
     },
@@ -234,7 +234,7 @@
         "sync-warm-4-q0",
         "sync-warm-4-q1",
         "rewrite-core-start-0",
-        "foundation-topic-prepositions-q0",
+        "continued-topic-prepositions-starting-0",
         "rewrite-bridge-present-ar-meaning-0"
       ]
     },
@@ -288,9 +288,9 @@
         "sr-05-q5",
         "sync-warm-5-q0",
         "sync-warm-5-q1",
-        "foundation-bridge-clock-q0",
-        "foundation-topic-core-verbs-q0",
-        "foundation-topic-prepositions-q0"
+        "continued-bridge-clock-starting-0",
+        "continued-topic-core-verbs-starting-0",
+        "continued-topic-prepositions-starting-0"
       ]
     },
     {
@@ -345,7 +345,7 @@
         "sync-warm-6-q0",
         "sync-warm-6-q1",
         "rewrite-adjectives-meaning-0",
-        "foundation-topic-core-verbs-q0",
+        "continued-topic-core-verbs-starting-0",
         "rewrite-bridge-present-er-ir-start-0"
       ]
     },
@@ -400,8 +400,8 @@
         "sr-07-q5",
         "sync-warm-7-q0",
         "sync-warm-7-q1",
-        "foundation-topic-demonstratives-q0",
-        "foundation-topic-possessives-q0",
+        "continued-topic-demonstratives-starting-0",
+        "continued-topic-possessives-starting-0",
         "rewrite-bridge-present-er-ir-start-0"
       ]
     },
@@ -456,9 +456,9 @@
         "sr-08-q5",
         "sync-warm-8-q0",
         "sync-warm-8-q1",
-        "foundation-topic-stem-patterns-q0",
-        "foundation-topic-state-adjectives-q0",
-        "foundation-topic-transitivity-q0"
+        "continued-topic-stem-patterns-starting-0",
+        "continued-topic-state-adjectives-starting-0",
+        "continued-topic-transitivity-starting-0"
       ]
     },
     {
@@ -512,9 +512,9 @@
         "sr-09-q5",
         "sync-warm-9-q0",
         "sync-warm-9-q1",
-        "foundation-topic-stem-patterns-q0",
-        "foundation-bridge-reflexive-q0",
-        "foundation-bridge-indirect-q0"
+        "continued-topic-stem-patterns-starting-0",
+        "continued-bridge-reflexive-starting-0",
+        "continued-bridge-indirect-starting-0"
       ]
     },
     {
@@ -568,9 +568,9 @@
         "sr-10-q5",
         "sync-warm-10-q0",
         "sync-warm-10-q1",
-        "foundation-pronouns-q0",
-        "foundation-bridge-reflexive-q0",
-        "foundation-topic-commands-q0"
+        "continued-pronouns-starting-0",
+        "continued-bridge-reflexive-starting-0",
+        "continued-topic-commands-starting-0"
       ]
     },
     {
@@ -624,8 +624,8 @@
         "sr-11-q5",
         "sync-warm-11-q0",
         "sync-warm-11-q1",
-        "foundation-topic-commands-q0",
-        "foundation-topic-question-order-q0",
+        "continued-topic-commands-starting-0",
+        "continued-topic-question-order-starting-0",
         "rewrite-adjectives-meaning-0"
       ]
     },
@@ -678,8 +678,8 @@
         "sr-12-q5",
         "sync-warm-12-q0",
         "sync-warm-12-q1",
-        "foundation-topic-commands-q0",
-        "foundation-topic-object-clauses-q0"
+        "continued-topic-commands-starting-0",
+        "continued-topic-object-clauses-starting-0"
       ]
     },
     {
@@ -732,9 +732,9 @@
         "sr-13-q5",
         "sync-warm-13-q0",
         "sync-warm-13-q1",
-        "foundation-topic-conditions-q0",
-        "foundation-topic-impersonal-q0",
-        "foundation-topic-core-verbs-q0"
+        "continued-topic-conditions-starting-0",
+        "continued-topic-impersonal-starting-0",
+        "continued-topic-core-verbs-starting-0"
       ]
     },
     {
@@ -786,8 +786,8 @@
         "sr-14-q5",
         "sync-warm-14-q0",
         "sync-warm-14-q1",
-        "foundation-relative-q0",
-        "foundation-topic-exclamations-q0"
+        "continued-relative-starting-0",
+        "continued-topic-exclamations-starting-0"
       ]
     },
     {
@@ -839,8 +839,8 @@
         "sr-15-q5",
         "sync-warm-15-q0",
         "sync-warm-15-q1",
-        "foundation-topic-impersonal-q0",
-        "foundation-topic-relative-time-place-q0"
+        "continued-topic-impersonal-starting-0",
+        "continued-topic-relative-time-place-starting-0"
       ]
     },
     {
@@ -892,8 +892,8 @@
         "sr-16-q5",
         "sync-warm-16-q0",
         "sync-warm-16-q1",
-        "foundation-topic-past-regular-q0",
-        "foundation-topic-impersonal-q0"
+        "continued-topic-past-regular-starting-0",
+        "continued-topic-impersonal-starting-0"
       ]
     },
     {
@@ -946,9 +946,9 @@
         "sr-17-q5",
         "sync-warm-17-q0",
         "sync-warm-17-q1",
-        "foundation-topic-past-irregular-q0",
-        "foundation-topic-calendar-q0",
-        "foundation-topic-nonfinite-q0"
+        "continued-topic-past-irregular-starting-0",
+        "continued-topic-calendar-starting-0",
+        "continued-topic-nonfinite-starting-0"
       ]
     },
     {
@@ -1001,9 +1001,9 @@
         "sr-18-q5",
         "sync-warm-18-q0",
         "sync-warm-18-q1",
-        "foundation-topic-relative-time-place-q0",
-        "foundation-topic-past-imperfect-q0",
-        "foundation-topic-nonfinite-q0"
+        "continued-topic-relative-time-place-starting-0",
+        "continued-topic-past-imperfect-starting-0",
+        "continued-topic-nonfinite-starting-0"
       ]
     }
   ],

@@ -1,70 +1,85 @@
 {
-  "date": "2026-10-24",
-  "scope": "本轮5节细讲、8组指定细则的教学与规则核对，不代表全书所有细则已验收。",
+  "date": "2026-10-25",
+  "scope": "原有5节专项课与8组细则保留；专项课现纳入先规则后讲解结构并增加分项题，不代表全书全部细则已验收。",
   "counts": {
     "newLessons": 5,
     "detailGroups": 8,
-    "newQuestions": 46
+    "newQuestions": 61
   },
   "lessons": [
     {
       "id": "foundation-topic-past-regular",
       "title": "简单过去时Ⅰ：规则词尾、重音与叙事顺序",
       "questions": [
-        "foundation-topic-past-regular-q0",
-        "foundation-topic-past-regular-q1",
-        "foundation-topic-past-regular-q2",
-        "foundation-topic-past-regular-depth-0",
-        "foundation-topic-past-regular-depth-1",
-        "foundation-topic-past-regular-depth-2"
+        "continued-topic-past-regular-starting-0",
+        "continued-topic-past-regular-starting-1",
+        "continued-topic-past-regular-starting-2",
+        "continued-topic-past-regular-applied-rule-2-0",
+        "continued-topic-past-regular-applied-rule-2-1",
+        "continued-topic-past-regular-applied-rule-3-0",
+        "continued-topic-past-regular-applied-rule-1-0",
+        "continued-topic-past-regular-applied-rule-0-0",
+        "continued-topic-past-regular-applied-rule-4-0"
       ]
     },
     {
       "id": "foundation-topic-past-irregular",
       "title": "简单过去时Ⅱ：不规则分组与拼写变化",
       "questions": [
-        "foundation-topic-past-irregular-q0",
-        "foundation-topic-past-irregular-q1",
-        "foundation-topic-past-irregular-q2",
-        "foundation-topic-past-irregular-depth-0",
-        "foundation-topic-past-irregular-depth-1",
-        "foundation-topic-past-irregular-depth-2"
+        "continued-topic-past-irregular-starting-0",
+        "continued-topic-past-irregular-starting-1",
+        "continued-topic-past-irregular-starting-2",
+        "continued-topic-past-irregular-applied-rule-1-0",
+        "continued-topic-past-irregular-applied-rule-2-0",
+        "continued-topic-past-irregular-applied-rule-2-1",
+        "continued-topic-past-irregular-applied-rule-3-0",
+        "continued-topic-past-irregular-applied-rule-4-0",
+        "continued-topic-past-irregular-applied-rule-0-0"
       ]
     },
     {
       "id": "foundation-topic-past-imperfect",
       "title": "过去未完成时：规则表、三个常用不规则与背景视角",
       "questions": [
-        "foundation-topic-past-imperfect-q0",
-        "foundation-topic-past-imperfect-q1",
-        "foundation-topic-past-imperfect-q2",
-        "foundation-topic-past-imperfect-depth-0",
-        "foundation-topic-past-imperfect-depth-1",
-        "foundation-topic-past-imperfect-depth-2"
+        "continued-topic-past-imperfect-starting-0",
+        "continued-topic-past-imperfect-starting-1",
+        "continued-topic-past-imperfect-starting-2",
+        "continued-topic-past-imperfect-applied-rule-0-0",
+        "continued-topic-past-imperfect-applied-rule-4-0",
+        "continued-topic-past-imperfect-applied-rule-4-1",
+        "continued-topic-past-imperfect-applied-rule-2-0",
+        "continued-topic-past-imperfect-applied-rule-2-1",
+        "continued-topic-past-imperfect-applied-rule-3-0"
       ]
     },
     {
       "id": "foundation-topic-state-adjectives",
       "title": "ser/estar＋形容词：同一词换动词，信息会怎样变？",
       "questions": [
-        "foundation-topic-state-adjectives-q0",
-        "foundation-topic-state-adjectives-q1",
-        "foundation-topic-state-adjectives-q2",
-        "foundation-topic-state-adjectives-depth-0",
-        "foundation-topic-state-adjectives-depth-1",
-        "foundation-topic-state-adjectives-depth-2"
+        "continued-topic-state-adjectives-starting-0",
+        "continued-topic-state-adjectives-starting-1",
+        "continued-topic-state-adjectives-starting-2",
+        "continued-topic-state-adjectives-applied-rule-1-0",
+        "continued-topic-state-adjectives-applied-rule-1-1",
+        "continued-topic-state-adjectives-applied-rule-3-0",
+        "continued-topic-state-adjectives-applied-rule-3-1",
+        "continued-topic-state-adjectives-applied-rule-2-0",
+        "continued-topic-state-adjectives-applied-rule-4-0"
       ]
     },
     {
       "id": "foundation-topic-spelling-sounds",
       "title": "拼读细则：c/qu、g/gu/gü、r/rr 与 b/v",
       "questions": [
-        "foundation-topic-spelling-sounds-q0",
-        "foundation-topic-spelling-sounds-q1",
-        "foundation-topic-spelling-sounds-q2",
-        "foundation-topic-spelling-sounds-depth-0",
-        "foundation-topic-spelling-sounds-depth-1",
-        "foundation-topic-spelling-sounds-depth-2"
+        "continued-topic-spelling-sounds-starting-0",
+        "continued-topic-spelling-sounds-starting-1",
+        "continued-topic-spelling-sounds-starting-2",
+        "continued-topic-spelling-sounds-applied-rule-1-0",
+        "continued-topic-spelling-sounds-applied-rule-2-0",
+        "continued-topic-spelling-sounds-applied-rule-2-1",
+        "continued-topic-spelling-sounds-applied-rule-2-2",
+        "continued-topic-spelling-sounds-applied-rule-4-0",
+        "continued-topic-spelling-sounds-applied-rule-3-0"
       ]
     }
   ],

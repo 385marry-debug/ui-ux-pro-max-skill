@@ -1,0 +1,24 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "width": 1360,
+      "positions": {
+        "section": 110.015625,
+        "toolbar": 58
+      }
+    },
+    {
+      "width": 390,
+      "positions": {
+        "section": 110.34375,
+        "toolbar": 82
+      }
+    }
+  ],
+  "other": [
+    "最终规则表用简洁明确的-e/-i表述，同时列出例外",
+    "桌面和手机跳转后小节标题不被固定导航遮住",
+    "paquete可搜索并进入名词性别知识点"
+  ]
+}
