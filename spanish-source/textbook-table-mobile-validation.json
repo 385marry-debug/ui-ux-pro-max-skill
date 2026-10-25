@@ -1,0 +1,22 @@
+{
+  "passed": true,
+  "width": 390,
+  "cases": [
+    [
+      "foundation-bridge-direct",
+      "direct-eight"
+    ],
+    [
+      "foundation-topic-commands",
+      "positive-irregular-table"
+    ],
+    [
+      "foundation-topic-past-imperfect",
+      "imperfect-full-table"
+    ]
+  ],
+  "checks": [
+    "表格列保留最小阅读宽度，西语词内不强制拆行",
+    "宽表在容器内滑动，页面无横向溢出"
+  ]
+}

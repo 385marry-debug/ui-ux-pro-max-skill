@@ -4,7 +4,7 @@
   "counts": {
     "systemLessonEntries": 49,
     "independentExplanations": 48,
-    "conciseRules": 190,
+    "conciseRules": 252,
     "remainingLessons": 39,
     "remainingSpecialistSectionsRetained": 167,
     "newStarterQuestions": 117,
@@ -58,9 +58,9 @@
       "id": "foundation-pronouns",
       "title": "从完整名词到 lo/la/le，再到 se lo",
       "level": "A2",
-      "conciseRules": 4,
+      "conciseRules": 6,
       "newStarterQuestions": 3,
-      "questions": 10
+      "questions": 13
     },
     {
       "id": "foundation-past",
@@ -98,9 +98,9 @@
       "id": "foundation-relative",
       "title": "把两个短句接起来，再理解关系词",
       "level": "B1",
-      "conciseRules": 4,
+      "conciseRules": 6,
       "newStarterQuestions": 3,
-      "questions": 6
+      "questions": 9
     },
     {
       "id": "foundation-passive",
@@ -122,9 +122,9 @@
       "id": "foundation-bridge-people",
       "title": "小步课：先找主语，再选 yo/tú/usted",
       "level": "A1",
-      "conciseRules": 4,
+      "conciseRules": 6,
       "newStarterQuestions": 3,
-      "questions": 9
+      "questions": 12
     },
     {
       "id": "foundation-bridge-clock",
@@ -138,41 +138,41 @@
       "id": "foundation-bridge-reflexive",
       "title": "小步课：levantarse 为什么多一个 se？",
       "level": "A1",
-      "conciseRules": 4,
+      "conciseRules": 6,
       "newStarterQuestions": 3,
-      "questions": 9
+      "questions": 12
     },
     {
       "id": "foundation-bridge-direct",
       "title": "小步课：先只换“看见什么、买什么”，学 lo/la/los/las",
       "level": "A1",
-      "conciseRules": 3,
+      "conciseRules": 7,
       "newStarterQuestions": 3,
-      "questions": 9
+      "questions": 15
     },
     {
       "id": "foundation-bridge-indirect",
       "title": "小步课：再换“给谁”，学 le/les 后才组合",
       "level": "A1",
-      "conciseRules": 3,
+      "conciseRules": 6,
       "newStarterQuestions": 3,
-      "questions": 9
+      "questions": 12
     },
     {
       "id": "foundation-topic-demonstratives",
       "title": "指示词：este libro、este 与 esto 分开学",
       "level": "A1",
-      "conciseRules": 4,
+      "conciseRules": 6,
       "newStarterQuestions": 3,
-      "questions": 9
+      "questions": 12
     },
     {
       "id": "foundation-topic-possessives",
       "title": "物主词：mi/mis、nuestro/nuestra 与 mío 的区别",
       "level": "A1",
-      "conciseRules": 4,
+      "conciseRules": 8,
       "newStarterQuestions": 3,
-      "questions": 11
+      "questions": 17
     },
     {
       "id": "foundation-topic-core-verbs",
@@ -202,17 +202,17 @@
       "id": "foundation-topic-prepositions",
       "title": "a、de、en、con：先找关系，再记固定搭配",
       "level": "A1",
-      "conciseRules": 5,
+      "conciseRules": 8,
       "newStarterQuestions": 3,
-      "questions": 9
+      "questions": 12
     },
     {
       "id": "foundation-topic-commands",
       "title": "命令与请求：肯定、否定、人称和代词分别判断",
       "level": "A2",
-      "conciseRules": 4,
+      "conciseRules": 12,
       "newStarterQuestions": 3,
-      "questions": 11
+      "questions": 23
     },
     {
       "id": "foundation-topic-question-order",
@@ -226,9 +226,9 @@
       "id": "foundation-topic-object-clauses",
       "title": "宾语从句：先把“一件事”放进句子，再选语气",
       "level": "A2",
-      "conciseRules": 4,
+      "conciseRules": 7,
       "newStarterQuestions": 3,
-      "questions": 11
+      "questions": 14
     },
     {
       "id": "foundation-topic-conditions",
@@ -242,41 +242,41 @@
       "id": "foundation-topic-exclamations",
       "title": "感叹句：qué、cuánto 与整句的性数",
       "level": "A2",
-      "conciseRules": 4,
+      "conciseRules": 6,
       "newStarterQuestions": 3,
-      "questions": 9
+      "questions": 12
     },
     {
       "id": "foundation-topic-relative-time-place",
       "title": "que、donde、cuando：把重复信息和时间地点接起来",
       "level": "A2",
-      "conciseRules": 3,
+      "conciseRules": 6,
       "newStarterQuestions": 3,
-      "questions": 9
+      "questions": 12
     },
     {
       "id": "foundation-topic-impersonal",
       "title": "没有明确主语的句子：hay、天气与 se；再对比 se 被动",
       "level": "A2",
-      "conciseRules": 4,
+      "conciseRules": 8,
       "newStarterQuestions": 3,
-      "questions": 9
+      "questions": 15
     },
     {
       "id": "foundation-topic-calendar",
       "title": "日期与时间线：星期、月份、年月日与生日",
       "level": "A1",
-      "conciseRules": 4,
+      "conciseRules": 6,
       "newStarterQuestions": 3,
-      "questions": 11
+      "questions": 14
     },
     {
       "id": "foundation-topic-nonfinite",
       "title": "原形、副动词、分词：三个非人称形式别混成“第二个动词”",
       "level": "A2",
-      "conciseRules": 4,
+      "conciseRules": 13,
       "newStarterQuestions": 3,
-      "questions": 11
+      "questions": 23
     },
     {
       "id": "foundation-topic-transitivity",
@@ -298,17 +298,17 @@
       "id": "foundation-topic-past-irregular",
       "title": "简单过去时Ⅱ：不规则分组与拼写变化",
       "level": "A2",
-      "conciseRules": 4,
+      "conciseRules": 6,
       "newStarterQuestions": 3,
-      "questions": 9
+      "questions": 12
     },
     {
       "id": "foundation-topic-past-imperfect",
       "title": "过去未完成时：规则表、三个常用不规则与背景视角",
       "level": "A2",
-      "conciseRules": 4,
+      "conciseRules": 6,
       "newStarterQuestions": 3,
-      "questions": 9
+      "questions": 12
     },
     {
       "id": "foundation-topic-state-adjectives",

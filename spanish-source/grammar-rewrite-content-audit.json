@@ -3,7 +3,7 @@
   "scope": "另行重写六个基础语法专题及其分项题目，不代表其他所有语法或教材全部细则已重写。",
   "counts": {
     "lessons": 6,
-    "sections": 37,
+    "sections": 38,
     "questions": 117,
     "classificationItems": 12,
     "fixedAnswerFixtures": 83,
@@ -47,9 +47,10 @@
         "第二类：有些形容词不分性，但仍要变数",
         "别把“辅音结尾”误学成永远不分性",
         "形容词离开名词，也仍看它描述谁",
-        "位置、短尾另分一类，别和性数混成一条"
+        "位置、短尾另分一类，别和性数混成一条",
+        "主语中包含“我/你”时，动词怎样一致"
       ],
-      "questions": 18
+      "questions": 21
     },
     {
       "id": "foundation-bridge-present-ar",

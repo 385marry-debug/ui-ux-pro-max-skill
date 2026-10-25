@@ -4,7 +4,7 @@
   "counts": {
     "newLessons": 5,
     "detailGroups": 8,
-    "newQuestions": 61
+    "newQuestions": 67
   },
   "lessons": [
     {
@@ -34,7 +34,10 @@
         "continued-topic-past-irregular-applied-rule-2-1",
         "continued-topic-past-irregular-applied-rule-3-0",
         "continued-topic-past-irregular-applied-rule-4-0",
-        "continued-topic-past-irregular-applied-rule-0-0"
+        "continued-topic-past-irregular-applied-rule-0-0",
+        "bookfix-preterite-core-table-0",
+        "bookfix-preterite-core-table-1",
+        "bookfix-preterite-core-table-2"
       ]
     },
     {
@@ -49,7 +52,10 @@
         "continued-topic-past-imperfect-applied-rule-4-1",
         "continued-topic-past-imperfect-applied-rule-2-0",
         "continued-topic-past-imperfect-applied-rule-2-1",
-        "continued-topic-past-imperfect-applied-rule-3-0"
+        "continued-topic-past-imperfect-applied-rule-3-0",
+        "bookfix-imperfect-full-table-0",
+        "bookfix-imperfect-full-table-1",
+        "bookfix-imperfect-full-table-2"
       ]
     },
     {

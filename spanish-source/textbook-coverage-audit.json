@@ -5,7 +5,7 @@
     "chapters": 18,
     "topics": 58,
     "newSupplementLessons": 22,
-    "supplementQuestions": 219,
+    "supplementQuestions": 282,
     "gradedUnits": 40,
     "unitMicroSteps": 120,
     "addedUnitInputQuestions": 120,
@@ -177,7 +177,10 @@
         "continued-topic-demonstratives-applied-rule-1-0",
         "continued-topic-demonstratives-applied-rule-1-1",
         "continued-topic-demonstratives-applied-rule-2-0",
-        "continued-topic-demonstratives-applied-rule-4-0"
+        "continued-topic-demonstratives-applied-rule-4-0",
+        "bookfix-demonstrative-table-0",
+        "bookfix-demonstrative-table-1",
+        "bookfix-demonstrative-table-2"
       ]
     },
     {
@@ -195,7 +198,10 @@
         "continued-topic-prepositions-applied-rule-2-0",
         "continued-topic-prepositions-applied-rule-4-0",
         "continued-topic-prepositions-applied-rule-3-0",
-        "continued-topic-prepositions-applied-rule-5-0"
+        "continued-topic-prepositions-applied-rule-5-0",
+        "bookfix-en-language-0",
+        "bookfix-en-language-1",
+        "bookfix-en-language-2"
       ]
     },
     {
@@ -242,7 +248,10 @@
         "continued-bridge-people-applied-rule-3-0",
         "continued-bridge-people-applied-rule-3-1",
         "continued-bridge-people-applied-rule-4-0",
-        "continued-bridge-people-applied-rule-0-0"
+        "continued-bridge-people-applied-rule-0-0",
+        "bookfix-subject-paradigm-0",
+        "bookfix-subject-paradigm-1",
+        "bookfix-subject-paradigm-2"
       ]
     },
     {
@@ -322,7 +331,10 @@
         "continued-topic-prepositions-applied-rule-2-0",
         "continued-topic-prepositions-applied-rule-4-0",
         "continued-topic-prepositions-applied-rule-3-0",
-        "continued-topic-prepositions-applied-rule-5-0"
+        "continued-topic-prepositions-applied-rule-5-0",
+        "bookfix-en-language-0",
+        "bookfix-en-language-1",
+        "bookfix-en-language-2"
       ]
     },
     {
@@ -403,7 +415,10 @@
         "continued-topic-prepositions-applied-rule-2-0",
         "continued-topic-prepositions-applied-rule-4-0",
         "continued-topic-prepositions-applied-rule-3-0",
-        "continued-topic-prepositions-applied-rule-5-0"
+        "continued-topic-prepositions-applied-rule-5-0",
+        "bookfix-en-language-0",
+        "bookfix-en-language-1",
+        "bookfix-en-language-2"
       ]
     },
     {
@@ -430,7 +445,10 @@
         "rewrite-adjectives-sentence-2",
         "rewrite-adjectives-position-0",
         "rewrite-adjectives-position-1",
-        "rewrite-adjectives-position-2"
+        "rewrite-adjectives-position-2",
+        "bookfix-inclusive-agreement-0",
+        "bookfix-inclusive-agreement-1",
+        "bookfix-inclusive-agreement-2"
       ]
     },
     {
@@ -498,7 +516,13 @@
         "continued-topic-possessives-applied-rule-2-1",
         "continued-topic-possessives-applied-rule-2-2",
         "continued-topic-possessives-applied-rule-3-0",
-        "continued-topic-possessives-applied-rule-4-0"
+        "continued-topic-possessives-applied-rule-4-0",
+        "bookfix-possessive-front-table-0",
+        "bookfix-possessive-front-table-1",
+        "bookfix-possessive-front-table-2",
+        "bookfix-possessive-tonic-table-0",
+        "bookfix-possessive-tonic-table-1",
+        "bookfix-possessive-tonic-table-2"
       ]
     },
     {
@@ -516,7 +540,10 @@
         "continued-topic-demonstratives-applied-rule-1-0",
         "continued-topic-demonstratives-applied-rule-1-1",
         "continued-topic-demonstratives-applied-rule-2-0",
-        "continued-topic-demonstratives-applied-rule-4-0"
+        "continued-topic-demonstratives-applied-rule-4-0",
+        "bookfix-demonstrative-table-0",
+        "bookfix-demonstrative-table-1",
+        "bookfix-demonstrative-table-2"
       ]
     },
     {
@@ -536,7 +563,13 @@
         "continued-topic-possessives-applied-rule-2-1",
         "continued-topic-possessives-applied-rule-2-2",
         "continued-topic-possessives-applied-rule-3-0",
-        "continued-topic-possessives-applied-rule-4-0"
+        "continued-topic-possessives-applied-rule-4-0",
+        "bookfix-possessive-front-table-0",
+        "bookfix-possessive-front-table-1",
+        "bookfix-possessive-front-table-2",
+        "bookfix-possessive-tonic-table-0",
+        "bookfix-possessive-tonic-table-1",
+        "bookfix-possessive-tonic-table-2"
       ]
     },
     {
@@ -656,7 +689,13 @@
         "continued-bridge-direct-applied-rule-2-0",
         "continued-bridge-direct-applied-rule-2-1",
         "continued-bridge-direct-applied-rule-2-2",
-        "continued-bridge-direct-applied-rule-3-0"
+        "continued-bridge-direct-applied-rule-3-0",
+        "bookfix-direct-eight-0",
+        "bookfix-direct-eight-1",
+        "bookfix-direct-eight-2",
+        "bookfix-object-topic-0",
+        "bookfix-object-topic-1",
+        "bookfix-object-topic-2"
       ]
     },
     {
@@ -692,7 +731,10 @@
         "continued-bridge-reflexive-applied-rule-1-2",
         "continued-bridge-reflexive-applied-rule-3-0",
         "continued-bridge-reflexive-applied-rule-2-0",
-        "continued-bridge-reflexive-applied-rule-4-0"
+        "continued-bridge-reflexive-applied-rule-4-0",
+        "bookfix-pronominal-role-0",
+        "bookfix-pronominal-role-1",
+        "bookfix-pronominal-role-2"
       ]
     },
     {
@@ -710,7 +752,10 @@
         "continued-bridge-indirect-applied-rule-1-1",
         "continued-bridge-indirect-applied-rule-3-0",
         "continued-bridge-indirect-applied-rule-3-1",
-        "continued-bridge-indirect-applied-rule-4-0"
+        "continued-bridge-indirect-applied-rule-4-0",
+        "bookfix-indirect-six-0",
+        "bookfix-indirect-six-1",
+        "bookfix-indirect-six-2"
       ]
     },
     {
@@ -747,7 +792,10 @@
         "continued-pronouns-applied-rule-3-0",
         "continued-pronouns-applied-rule-3-1",
         "continued-pronouns-applied-rule-3-2",
-        "continued-pronouns-applied-rule-1-0"
+        "continued-pronouns-applied-rule-1-0",
+        "bookfix-double-pronoun-stress-0",
+        "bookfix-double-pronoun-stress-1",
+        "bookfix-double-pronoun-stress-2"
       ]
     },
     {
@@ -765,7 +813,10 @@
         "continued-bridge-reflexive-applied-rule-1-2",
         "continued-bridge-reflexive-applied-rule-3-0",
         "continued-bridge-reflexive-applied-rule-2-0",
-        "continued-bridge-reflexive-applied-rule-4-0"
+        "continued-bridge-reflexive-applied-rule-4-0",
+        "bookfix-pronominal-role-0",
+        "bookfix-pronominal-role-1",
+        "bookfix-pronominal-role-2"
       ]
     },
     {
@@ -785,7 +836,19 @@
         "continued-topic-commands-applied-rule-1-0",
         "continued-topic-commands-applied-rule-5-0",
         "continued-topic-commands-applied-rule-5-1",
-        "continued-topic-commands-applied-rule-2-0"
+        "continued-topic-commands-applied-rule-2-0",
+        "bookfix-positive-commands-table-0",
+        "bookfix-positive-commands-table-1",
+        "bookfix-positive-commands-table-2",
+        "bookfix-positive-irregular-table-0",
+        "bookfix-positive-irregular-table-1",
+        "bookfix-positive-irregular-table-2",
+        "bookfix-plural-pronominal-command-0",
+        "bookfix-plural-pronominal-command-1",
+        "bookfix-plural-pronominal-command-2",
+        "bookfix-negative-command-table-0",
+        "bookfix-negative-command-table-1",
+        "bookfix-negative-command-table-2"
       ]
     },
     {
@@ -803,7 +866,10 @@
         "continued-topic-prepositions-applied-rule-2-0",
         "continued-topic-prepositions-applied-rule-4-0",
         "continued-topic-prepositions-applied-rule-3-0",
-        "continued-topic-prepositions-applied-rule-5-0"
+        "continued-topic-prepositions-applied-rule-5-0",
+        "bookfix-en-language-0",
+        "bookfix-en-language-1",
+        "bookfix-en-language-2"
       ]
     },
     {
@@ -823,7 +889,19 @@
         "continued-topic-commands-applied-rule-1-0",
         "continued-topic-commands-applied-rule-5-0",
         "continued-topic-commands-applied-rule-5-1",
-        "continued-topic-commands-applied-rule-2-0"
+        "continued-topic-commands-applied-rule-2-0",
+        "bookfix-positive-commands-table-0",
+        "bookfix-positive-commands-table-1",
+        "bookfix-positive-commands-table-2",
+        "bookfix-positive-irregular-table-0",
+        "bookfix-positive-irregular-table-1",
+        "bookfix-positive-irregular-table-2",
+        "bookfix-plural-pronominal-command-0",
+        "bookfix-plural-pronominal-command-1",
+        "bookfix-plural-pronominal-command-2",
+        "bookfix-negative-command-table-0",
+        "bookfix-negative-command-table-1",
+        "bookfix-negative-command-table-2"
       ]
     },
     {
@@ -870,7 +948,10 @@
         "rewrite-adjectives-sentence-2",
         "rewrite-adjectives-position-0",
         "rewrite-adjectives-position-1",
-        "rewrite-adjectives-position-2"
+        "rewrite-adjectives-position-2",
+        "bookfix-inclusive-agreement-0",
+        "bookfix-inclusive-agreement-1",
+        "bookfix-inclusive-agreement-2"
       ]
     },
     {
@@ -888,7 +969,10 @@
         "continued-topic-prepositions-applied-rule-2-0",
         "continued-topic-prepositions-applied-rule-4-0",
         "continued-topic-prepositions-applied-rule-3-0",
-        "continued-topic-prepositions-applied-rule-5-0"
+        "continued-topic-prepositions-applied-rule-5-0",
+        "bookfix-en-language-0",
+        "bookfix-en-language-1",
+        "bookfix-en-language-2"
       ]
     },
     {
@@ -908,7 +992,19 @@
         "continued-topic-commands-applied-rule-1-0",
         "continued-topic-commands-applied-rule-5-0",
         "continued-topic-commands-applied-rule-5-1",
-        "continued-topic-commands-applied-rule-2-0"
+        "continued-topic-commands-applied-rule-2-0",
+        "bookfix-positive-commands-table-0",
+        "bookfix-positive-commands-table-1",
+        "bookfix-positive-commands-table-2",
+        "bookfix-positive-irregular-table-0",
+        "bookfix-positive-irregular-table-1",
+        "bookfix-positive-irregular-table-2",
+        "bookfix-plural-pronominal-command-0",
+        "bookfix-plural-pronominal-command-1",
+        "bookfix-plural-pronominal-command-2",
+        "bookfix-negative-command-table-0",
+        "bookfix-negative-command-table-1",
+        "bookfix-negative-command-table-2"
       ]
     },
     {
@@ -928,7 +1024,10 @@
         "continued-topic-object-clauses-applied-rule-4-0",
         "continued-topic-object-clauses-applied-rule-2-0",
         "continued-topic-object-clauses-applied-rule-2-1",
-        "continued-topic-object-clauses-applied-rule-2-2"
+        "continued-topic-object-clauses-applied-rule-2-2",
+        "bookfix-content-link-three-0",
+        "bookfix-content-link-three-1",
+        "bookfix-content-link-three-2"
       ]
     },
     {
@@ -964,7 +1063,13 @@
         "continued-topic-impersonal-applied-rule-3-0",
         "continued-topic-impersonal-applied-rule-3-1",
         "continued-topic-impersonal-applied-rule-2-0",
-        "continued-topic-impersonal-applied-rule-4-0"
+        "continued-topic-impersonal-applied-rule-4-0",
+        "bookfix-passive-modal-0",
+        "bookfix-passive-modal-1",
+        "bookfix-passive-modal-2",
+        "bookfix-indefinite-third-plural-0",
+        "bookfix-indefinite-third-plural-1",
+        "bookfix-indefinite-third-plural-2"
       ]
     },
     {
@@ -997,7 +1102,10 @@
         "continued-relative-starting-2",
         "continued-relative-applied-rule-0-0",
         "continued-relative-applied-rule-0-1",
-        "continued-relative-applied-rule-0-2"
+        "continued-relative-applied-rule-0-2",
+        "bookfix-relative-roles-0",
+        "bookfix-relative-roles-1",
+        "bookfix-relative-roles-2"
       ]
     },
     {
@@ -1015,7 +1123,10 @@
         "continued-topic-exclamations-applied-rule-3-0",
         "continued-topic-exclamations-applied-rule-3-1",
         "continued-topic-exclamations-applied-rule-2-0",
-        "continued-topic-exclamations-applied-rule-2-1"
+        "continued-topic-exclamations-applied-rule-2-1",
+        "bookfix-exclamation-five-0",
+        "bookfix-exclamation-five-1",
+        "bookfix-exclamation-five-2"
       ]
     },
     {
@@ -1033,7 +1144,13 @@
         "continued-topic-impersonal-applied-rule-3-0",
         "continued-topic-impersonal-applied-rule-3-1",
         "continued-topic-impersonal-applied-rule-2-0",
-        "continued-topic-impersonal-applied-rule-4-0"
+        "continued-topic-impersonal-applied-rule-4-0",
+        "bookfix-passive-modal-0",
+        "bookfix-passive-modal-1",
+        "bookfix-passive-modal-2",
+        "bookfix-indefinite-third-plural-0",
+        "bookfix-indefinite-third-plural-1",
+        "bookfix-indefinite-third-plural-2"
       ]
     },
     {
@@ -1051,7 +1168,10 @@
         "continued-topic-relative-time-place-applied-rule-2-1",
         "continued-topic-relative-time-place-applied-rule-1-0",
         "continued-topic-relative-time-place-applied-rule-3-0",
-        "continued-topic-relative-time-place-applied-rule-3-1"
+        "continued-topic-relative-time-place-applied-rule-3-1",
+        "bookfix-donde-equivalence-0",
+        "bookfix-donde-equivalence-1",
+        "bookfix-donde-equivalence-2"
       ]
     },
     {
@@ -1087,7 +1207,13 @@
         "continued-topic-impersonal-applied-rule-3-0",
         "continued-topic-impersonal-applied-rule-3-1",
         "continued-topic-impersonal-applied-rule-2-0",
-        "continued-topic-impersonal-applied-rule-4-0"
+        "continued-topic-impersonal-applied-rule-4-0",
+        "bookfix-passive-modal-0",
+        "bookfix-passive-modal-1",
+        "bookfix-passive-modal-2",
+        "bookfix-indefinite-third-plural-0",
+        "bookfix-indefinite-third-plural-1",
+        "bookfix-indefinite-third-plural-2"
       ]
     },
     {
@@ -1105,7 +1231,10 @@
         "continued-topic-past-irregular-applied-rule-2-1",
         "continued-topic-past-irregular-applied-rule-3-0",
         "continued-topic-past-irregular-applied-rule-4-0",
-        "continued-topic-past-irregular-applied-rule-0-0"
+        "continued-topic-past-irregular-applied-rule-0-0",
+        "bookfix-preterite-core-table-0",
+        "bookfix-preterite-core-table-1",
+        "bookfix-preterite-core-table-2"
       ]
     },
     {
@@ -1125,7 +1254,10 @@
         "continued-topic-calendar-applied-rule-3-2",
         "continued-topic-calendar-applied-rule-3-3",
         "continued-topic-calendar-applied-rule-4-0",
-        "continued-topic-calendar-applied-rule-0-0"
+        "continued-topic-calendar-applied-rule-0-0",
+        "bookfix-calendar-name-tables-0",
+        "bookfix-calendar-name-tables-1",
+        "bookfix-calendar-name-tables-2"
       ]
     },
     {
@@ -1145,7 +1277,19 @@
         "continued-topic-nonfinite-applied-rule-5-2",
         "continued-topic-nonfinite-applied-rule-2-0",
         "continued-topic-nonfinite-applied-rule-3-0",
-        "continued-topic-nonfinite-applied-rule-3-1"
+        "continued-topic-nonfinite-applied-rule-3-1",
+        "bookfix-participle-forms-complete-0",
+        "bookfix-participle-forms-complete-1",
+        "bookfix-participle-forms-complete-2",
+        "bookfix-participle-three-functions-0",
+        "bookfix-participle-three-functions-1",
+        "bookfix-participle-three-functions-2",
+        "bookfix-gerund-irregular-table-0",
+        "bookfix-gerund-irregular-table-1",
+        "bookfix-gerund-irregular-table-2",
+        "bookfix-gerund-pronouns-0",
+        "bookfix-gerund-pronouns-1",
+        "bookfix-gerund-pronouns-2"
       ]
     },
     {
@@ -1163,7 +1307,10 @@
         "continued-topic-relative-time-place-applied-rule-2-1",
         "continued-topic-relative-time-place-applied-rule-1-0",
         "continued-topic-relative-time-place-applied-rule-3-0",
-        "continued-topic-relative-time-place-applied-rule-3-1"
+        "continued-topic-relative-time-place-applied-rule-3-1",
+        "bookfix-donde-equivalence-0",
+        "bookfix-donde-equivalence-1",
+        "bookfix-donde-equivalence-2"
       ]
     },
     {
@@ -1181,7 +1328,10 @@
         "continued-topic-past-imperfect-applied-rule-4-1",
         "continued-topic-past-imperfect-applied-rule-2-0",
         "continued-topic-past-imperfect-applied-rule-2-1",
-        "continued-topic-past-imperfect-applied-rule-3-0"
+        "continued-topic-past-imperfect-applied-rule-3-0",
+        "bookfix-imperfect-full-table-0",
+        "bookfix-imperfect-full-table-1",
+        "bookfix-imperfect-full-table-2"
       ]
     },
     {
@@ -1201,7 +1351,19 @@
         "continued-topic-nonfinite-applied-rule-5-2",
         "continued-topic-nonfinite-applied-rule-2-0",
         "continued-topic-nonfinite-applied-rule-3-0",
-        "continued-topic-nonfinite-applied-rule-3-1"
+        "continued-topic-nonfinite-applied-rule-3-1",
+        "bookfix-participle-forms-complete-0",
+        "bookfix-participle-forms-complete-1",
+        "bookfix-participle-forms-complete-2",
+        "bookfix-participle-three-functions-0",
+        "bookfix-participle-three-functions-1",
+        "bookfix-participle-three-functions-2",
+        "bookfix-gerund-irregular-table-0",
+        "bookfix-gerund-irregular-table-1",
+        "bookfix-gerund-irregular-table-2",
+        "bookfix-gerund-pronouns-0",
+        "bookfix-gerund-pronouns-1",
+        "bookfix-gerund-pronouns-2"
       ]
     }
   ]

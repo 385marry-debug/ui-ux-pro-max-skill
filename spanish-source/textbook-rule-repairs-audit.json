@@ -1,0 +1,784 @@
+{
+  "passed": true,
+  "scope": "本轮对照《西班牙语公共课·上册》指定语法页，补充28组具体规则与完整表格；不等同于两书全文、全部边栏、原题和录音验收。",
+  "counts": {
+    "repairGroups": 28,
+    "tableRows": 167,
+    "targetedQuestions": 84,
+    "independentAnswerFixtures": 84,
+    "targetLessons": 19
+  },
+  "sourceReading": "对照已提取的第7—18课语法资源；补读PDF428—429页分词整段；第1—6课沿用此前逐项研读与现有已修订规则。公开说明、例句和新题独立组织。",
+  "items": [
+    {
+      "id": "subject-paradigm",
+      "title": "主格人称代词：完整六组与男女形式",
+      "chapters": [
+        3
+      ],
+      "pdfPages": [
+        61,
+        62
+      ],
+      "printedPages": [
+        60,
+        61
+      ],
+      "guide": "foundation-bridge-people",
+      "section": "bookfix-subject-paradigm",
+      "rules": [
+        "主格代词先分人称与单复数，部分形式还区分性",
+        "礼貌称呼与变位组分开"
+      ],
+      "tableRows": 6,
+      "questions": [
+        "bookfix-subject-paradigm-0",
+        "bookfix-subject-paradigm-1",
+        "bookfix-subject-paradigm-2"
+      ]
+    },
+    {
+      "id": "en-language",
+      "title": "en、de、con：位置之外的教材用法",
+      "chapters": [
+        4,
+        10,
+        11
+      ],
+      "pdfPages": [
+        87,
+        238,
+        267
+      ],
+      "printedPages": [
+        86,
+        237,
+        266
+      ],
+      "guide": "foundation-topic-prepositions",
+      "section": "bookfix-en-language",
+      "rules": [
+        "en还可说明语言；de可说明话题、特点等",
+        "con除陪同、工具，还可表示带有某种组成或特点",
+        "归属de后不一概强制加冠词"
+      ],
+      "tableRows": 4,
+      "questions": [
+        "bookfix-en-language-0",
+        "bookfix-en-language-1",
+        "bookfix-en-language-2"
+      ]
+    },
+    {
+      "id": "possessive-front-table",
+      "title": "前置物主词：完整形式表",
+      "chapters": [
+        6
+      ],
+      "pdfPages": [
+        131,
+        132
+      ],
+      "printedPages": [
+        130,
+        131
+      ],
+      "guide": "foundation-topic-possessives",
+      "section": "bookfix-possessive-front-table",
+      "rules": [
+        "mi/tu/su只在本节前置形式中按被拥有名词的数变化",
+        "nuestro/vuestro还配被拥有名词的性和数"
+      ],
+      "tableRows": 6,
+      "questions": [
+        "bookfix-possessive-front-table-0",
+        "bookfix-possessive-front-table-1",
+        "bookfix-possessive-front-table-2"
+      ]
+    },
+    {
+      "id": "possessive-tonic-table",
+      "title": "重读物主形式：mío、tuyo、suyo等完整四格",
+      "chapters": [
+        7
+      ],
+      "pdfPages": [
+        157
+      ],
+      "printedPages": [
+        156
+      ],
+      "guide": "foundation-topic-possessives",
+      "section": "bookfix-possessive-tonic-table",
+      "rules": [
+        "重读物主形式按被拥有对象的性数变化",
+        "本节用于名词后或ser表语；独立指回已知对象时另看结构"
+      ],
+      "tableRows": 6,
+      "questions": [
+        "bookfix-possessive-tonic-table-0",
+        "bookfix-possessive-tonic-table-1",
+        "bookfix-possessive-tonic-table-2"
+      ]
+    },
+    {
+      "id": "demonstrative-table",
+      "title": "三组指示词：完整十二形式与中性系列",
+      "chapters": [
+        2,
+        7
+      ],
+      "pdfPages": [
+        41,
+        42,
+        155,
+        156
+      ],
+      "printedPages": [
+        40,
+        41,
+        154,
+        155
+      ],
+      "guide": "foundation-topic-demonstratives",
+      "section": "bookfix-demonstrative-table",
+      "rules": [
+        "每一距离系列都有阳性单数、阴性单数、阳性复数、阴性复数四格",
+        "限定名词与独立指回对象可用相同四格；中性形式不直接限定名词"
+      ],
+      "tableRows": 3,
+      "questions": [
+        "bookfix-demonstrative-table-0",
+        "bookfix-demonstrative-table-1",
+        "bookfix-demonstrative-table-2"
+      ]
+    },
+    {
+      "id": "direct-eight",
+      "title": "宾格代词不止lo/la：完整八形式",
+      "chapters": [
+        8
+      ],
+      "pdfPages": [
+        183,
+        184
+      ],
+      "printedPages": [
+        182,
+        183
+      ],
+      "guide": "foundation-bridge-direct",
+      "section": "bookfix-direct-eight",
+      "rules": [
+        "第一、二人称直接宾语用me/te/nos/os，第三人称按本节主线用lo/la/los/las",
+        "代词的角色由句子决定，同形me/te等也可能作间接宾语"
+      ],
+      "tableRows": 8,
+      "questions": [
+        "bookfix-direct-eight-0",
+        "bookfix-direct-eight-1",
+        "bookfix-direct-eight-2"
+      ]
+    },
+    {
+      "id": "object-topic",
+      "title": "直接宾语放前面作话题：为什么还有las/la",
+      "chapters": [
+        8
+      ],
+      "pdfPages": [
+        184
+      ],
+      "printedPages": [
+        183
+      ],
+      "guide": "foundation-bridge-direct",
+      "section": "bookfix-object-topic",
+      "rules": [
+        "已知直接对象前置作话题时，常由相应宾语代词复指",
+        "话题前置与特殊对比焦点结构要区分"
+      ],
+      "tableRows": 2,
+      "questions": [
+        "bookfix-object-topic-0",
+        "bookfix-object-topic-1",
+        "bookfix-object-topic-2"
+      ]
+    },
+    {
+      "id": "indirect-six",
+      "title": "与格代词：完整六形式与位置",
+      "chapters": [
+        9
+      ],
+      "pdfPages": [
+        209,
+        210
+      ],
+      "printedPages": [
+        208,
+        209
+      ],
+      "guide": "foundation-bridge-indirect",
+      "section": "bookfix-indirect-six",
+      "rules": [
+        "本节间接宾语六形式是me/te/le/nos/os/les",
+        "常见相关原形结构可代词前置或原形后接，不能插在两动词之间",
+        "前置接收者话题通常由对应与格代词复指"
+      ],
+      "tableRows": 6,
+      "questions": [
+        "bookfix-indirect-six-0",
+        "bookfix-indirect-six-1",
+        "bookfix-indirect-six-2"
+      ]
+    },
+    {
+      "id": "double-pronoun-stress",
+      "title": "双代词保持一组，原形后接时检查重音",
+      "chapters": [
+        10
+      ],
+      "pdfPages": [
+        231
+      ],
+      "printedPages": [
+        230
+      ],
+      "guide": "foundation-pronouns",
+      "section": "bookfix-double-pronoun-stress",
+      "rules": [
+        "两个代词成组移动，常见顺序是间接在前、直接在后",
+        "le/les在lo/la/los/las前变se，附接后按实际读法补重音"
+      ],
+      "tableRows": 3,
+      "questions": [
+        "bookfix-double-pronoun-stress-0",
+        "bookfix-double-pronoun-stress-1",
+        "bookfix-double-pronoun-stress-2"
+      ]
+    },
+    {
+      "id": "pronominal-role",
+      "title": "代词式不全是“自己做自己”：角色要分开",
+      "chapters": [
+        9,
+        10
+      ],
+      "pdfPages": [
+        207,
+        233
+      ],
+      "printedPages": [
+        206,
+        232
+      ],
+      "guide": "foundation-bridge-reflexive",
+      "section": "bookfix-pronominal-role",
+      "rules": [
+        "代词式动词要随本例人物选择me/te/se/nos/os/se，但不都逐字译成自己",
+        "身体部位结构可出现主语与间接受影响者重合"
+      ],
+      "tableRows": 3,
+      "questions": [
+        "bookfix-pronominal-role-0",
+        "bookfix-pronominal-role-1",
+        "bookfix-pronominal-role-2"
+      ]
+    },
+    {
+      "id": "positive-commands-table",
+      "title": "肯定命令：五个常用人称的规则表",
+      "chapters": [
+        10,
+        11
+      ],
+      "pdfPages": [
+        234,
+        235,
+        259,
+        260
+      ],
+      "printedPages": [
+        233,
+        234,
+        258,
+        259
+      ],
+      "guide": "foundation-topic-commands",
+      "section": "bookfix-positive-commands-table",
+      "rules": [
+        "规则tú肯定与现在时第三人称单数形式相同，但表达功能不同",
+        "nosotros肯定常按对应虚拟式；vosotros规则肯定由原形-r换-d"
+      ],
+      "tableRows": 5,
+      "questions": [
+        "bookfix-positive-commands-table-0",
+        "bookfix-positive-commands-table-1",
+        "bookfix-positive-commands-table-2"
+      ]
+    },
+    {
+      "id": "positive-irregular-table",
+      "title": "肯定命令：常用不规则的完整对应",
+      "chapters": [
+        10,
+        11
+      ],
+      "pdfPages": [
+        235,
+        260
+      ],
+      "printedPages": [
+        234,
+        259
+      ],
+      "guide": "foundation-topic-commands",
+      "section": "bookfix-positive-irregular-table",
+      "rules": [
+        "常用tú特殊形式与其他人称分别查表",
+        "词干变化的范围看动词类别与命令人称"
+      ],
+      "tableRows": 10,
+      "questions": [
+        "bookfix-positive-irregular-table-0",
+        "bookfix-positive-irregular-table-1",
+        "bookfix-positive-irregular-table-2"
+      ]
+    },
+    {
+      "id": "plural-pronominal-command",
+      "title": "命令后接nos/os：脱落与重音分步处理",
+      "chapters": [
+        11
+      ],
+      "pdfPages": [
+        259,
+        260
+      ],
+      "printedPages": [
+        258,
+        259
+      ],
+      "guide": "foundation-topic-commands",
+      "section": "bookfix-plural-pronominal-command",
+      "rules": [
+        "nosotros肯定命令后接nos时，常去掉动词末尾-s",
+        "vosotros肯定命令后接os时，常去掉末尾-d"
+      ],
+      "tableRows": 6,
+      "questions": [
+        "bookfix-plural-pronominal-command-0",
+        "bookfix-plural-pronominal-command-1",
+        "bookfix-plural-pronominal-command-2"
+      ]
+    },
+    {
+      "id": "negative-command-table",
+      "title": "否定命令：完整五人称表与代词位置",
+      "chapters": [
+        12
+      ],
+      "pdfPages": [
+        288,
+        289,
+        290
+      ],
+      "printedPages": [
+        287,
+        288,
+        289
+      ],
+      "guide": "foundation-topic-commands",
+      "section": "bookfix-negative-command-table",
+      "rules": [
+        "本节否定指令采用no+相应现在虚拟式形式",
+        "前置代词放在no与变位动词之间"
+      ],
+      "tableRows": 5,
+      "questions": [
+        "bookfix-negative-command-table-0",
+        "bookfix-negative-command-table-1",
+        "bookfix-negative-command-table-2"
+      ]
+    },
+    {
+      "id": "inclusive-agreement",
+      "title": "主语中包含“我/你”时，动词怎样一致",
+      "chapters": [
+        11
+      ],
+      "pdfPages": [
+        264,
+        265
+      ],
+      "printedPages": [
+        263,
+        264
+      ],
+      "guide": "foundation-adjectives",
+      "section": "bookfix-inclusive-agreement",
+      "rules": [
+        "明确由“我+其他人”共同作主语时，用第一人称复数",
+        "群体名词有时用第一人称复数，把说话者包括在群体中",
+        "你与其他人组成的组，形式要结合地区人称系统"
+      ],
+      "tableRows": 4,
+      "questions": [
+        "bookfix-inclusive-agreement-0",
+        "bookfix-inclusive-agreement-1",
+        "bookfix-inclusive-agreement-2"
+      ]
+    },
+    {
+      "id": "content-link-three",
+      "title": "宾语内容三类：que、疑问词、si怎样选",
+      "chapters": [
+        12
+      ],
+      "pdfPages": [
+        292
+      ],
+      "printedPages": [
+        291
+      ],
+      "guide": "foundation-topic-object-clauses",
+      "section": "bookfix-content-link-three",
+      "rules": [
+        "报告陈述内容常用que衔接",
+        "嵌入特殊疑问常直接用相应疑问词，不再强加que",
+        "嵌入一般是否疑问常用si"
+      ],
+      "tableRows": 3,
+      "questions": [
+        "bookfix-content-link-three-0",
+        "bookfix-content-link-three-1",
+        "bookfix-content-link-three-2"
+      ]
+    },
+    {
+      "id": "exclamation-five",
+      "title": "教材五种感叹框架：按结构逐项学",
+      "chapters": [
+        14
+      ],
+      "pdfPages": [
+        346
+      ],
+      "printedPages": [
+        345
+      ],
+      "guide": "foundation-topic-exclamations",
+      "section": "bookfix-exclamation-five",
+      "rules": [
+        "qué可与形容词、名词及más/tan等组成不同感叹框架",
+        "感受可用qué+名词+tener或qué+形容词+estar等框架"
+      ],
+      "tableRows": 5,
+      "questions": [
+        "bookfix-exclamation-five-0",
+        "bookfix-exclamation-five-1",
+        "bookfix-exclamation-five-2"
+      ]
+    },
+    {
+      "id": "relative-roles",
+      "title": "关系que可作主语，也可作宾语",
+      "chapters": [
+        14
+      ],
+      "pdfPages": [
+        346
+      ],
+      "printedPages": [
+        345
+      ],
+      "guide": "foundation-relative",
+      "section": "bookfix-relative-roles",
+      "rules": [
+        "本节普通有限关系从句中，que连接先行对象，不能照英语随意省掉",
+        "关系词形式不变，不代表它在每句里承担同一角色"
+      ],
+      "tableRows": 3,
+      "questions": [
+        "bookfix-relative-roles-0",
+        "bookfix-relative-roles-1",
+        "bookfix-relative-roles-2"
+      ]
+    },
+    {
+      "id": "passive-modal",
+      "title": "被动se加poder：一致与代词位置",
+      "chapters": [
+        15
+      ],
+      "pdfPages": [
+        362,
+        363
+      ],
+      "printedPages": [
+        361,
+        362
+      ],
+      "guide": "foundation-topic-impersonal",
+      "section": "bookfix-passive-modal",
+      "rules": [
+        "被动se与poder等相关动词组合时，变位部分配受事主语的数",
+        "本节相关动词组合中se可前置或附原形后，主要动作仍用原形"
+      ],
+      "tableRows": 2,
+      "questions": [
+        "bookfix-passive-modal-0",
+        "bookfix-passive-modal-1",
+        "bookfix-passive-modal-2"
+      ]
+    },
+    {
+      "id": "donde-equivalence",
+      "title": "有地点先行词时：donde与en el/la/los/las que",
+      "chapters": [
+        15
+      ],
+      "pdfPages": [
+        365,
+        366
+      ],
+      "printedPages": [
+        364,
+        365
+      ],
+      "guide": "foundation-topic-relative-time-place",
+      "section": "bookfix-donde-equivalence",
+      "rules": [
+        "有明确地点名词的本节居住等结构，可用donde或相应en+冠词+que",
+        "替换形式的冠词按前面的地点名词性数",
+        "有地点先行词的关系从句与无名词先行词的地点表达须分开"
+      ],
+      "tableRows": 4,
+      "questions": [
+        "bookfix-donde-equivalence-0",
+        "bookfix-donde-equivalence-1",
+        "bookfix-donde-equivalence-2"
+      ]
+    },
+    {
+      "id": "indefinite-third-plural",
+      "title": "第三人称复数：不指明是谁做的",
+      "chapters": [
+        16
+      ],
+      "pdfPages": [
+        401,
+        402
+      ],
+      "printedPages": [
+        400,
+        401
+      ],
+      "guide": "foundation-topic-impersonal",
+      "section": "bookfix-indefinite-third-plural",
+      "rules": [
+        "施事未知、不重要或不愿点明时，可用不明确指人的第三人称复数",
+        "不是所有第三人称复数句都属于这类不确定用法"
+      ],
+      "tableRows": 3,
+      "questions": [
+        "bookfix-indefinite-third-plural-0",
+        "bookfix-indefinite-third-plural-1",
+        "bookfix-indefinite-third-plural-2"
+      ]
+    },
+    {
+      "id": "calendar-name-tables",
+      "title": "星期与月份：完整名称、重音和日期框架",
+      "chapters": [
+        17
+      ],
+      "pdfPages": [
+        425,
+        426
+      ],
+      "printedPages": [
+        424,
+        425
+      ],
+      "guide": "foundation-topic-calendar",
+      "section": "bookfix-calendar-name-tables",
+      "rules": [
+        "星期、月份名称通常小写；必要重音仍保留",
+        "具体日期、月份年份和estar报日期分用相应结构"
+      ],
+      "tableRows": 19,
+      "questions": [
+        "bookfix-calendar-name-tables-0",
+        "bookfix-calendar-name-tables-1",
+        "bookfix-calendar-name-tables-2"
+      ]
+    },
+    {
+      "id": "participle-forms-complete",
+      "title": "过去分词：规则形式、十个常用特殊形式与重音",
+      "chapters": [
+        17
+      ],
+      "pdfPages": [
+        428
+      ],
+      "printedPages": [
+        427
+      ],
+      "guide": "foundation-topic-nonfinite",
+      "section": "bookfix-participle-forms-complete",
+      "rules": [
+        "规则分词常由-ar换-ado，-er/-ir换-ido",
+        "常用特殊形式需要按词记住，部分元音相邻形式要重音"
+      ],
+      "tableRows": 16,
+      "questions": [
+        "bookfix-participle-forms-complete-0",
+        "bookfix-participle-forms-complete-1",
+        "bookfix-participle-forms-complete-2"
+      ]
+    },
+    {
+      "id": "participle-three-functions",
+      "title": "分词不止完成结构：定语、状态补充与独立结构",
+      "chapters": [
+        17
+      ],
+      "pdfPages": [
+        428,
+        429
+      ],
+      "printedPages": [
+        427,
+        428
+      ],
+      "guide": "foundation-topic-nonfinite",
+      "section": "bookfix-participle-three-functions",
+      "rules": [
+        "分词作名词修饰语时，可按所描述名词的性数配合",
+        "分词作本节随动作出现的状态补充时，按所描述人物配合",
+        "分词独立结构有自己对应的名词，分词与该名词配合"
+      ],
+      "tableRows": 4,
+      "questions": [
+        "bookfix-participle-three-functions-0",
+        "bookfix-participle-three-functions-1",
+        "bookfix-participle-three-functions-2"
+      ]
+    },
+    {
+      "id": "gerund-irregular-table",
+      "title": "副动词：规则表与教材所列常用特殊形式",
+      "chapters": [
+        18
+      ],
+      "pdfPages": [
+        459,
+        460
+      ],
+      "printedPages": [
+        458,
+        459
+      ],
+      "guide": "foundation-topic-nonfinite",
+      "section": "bookfix-gerund-irregular-table",
+      "rules": [
+        "规则副动词常由-ar换-ando，-er/-ir换-iendo",
+        "元音、词干变化与特殊词分别记实际形式"
+      ],
+      "tableRows": 16,
+      "questions": [
+        "bookfix-gerund-irregular-table-0",
+        "bookfix-gerund-irregular-table-1",
+        "bookfix-gerund-irregular-table-2"
+      ]
+    },
+    {
+      "id": "gerund-pronouns",
+      "title": "副动词与代词：附接、前置和重音",
+      "chapters": [
+        18
+      ],
+      "pdfPages": [
+        460
+      ],
+      "printedPages": [
+        459
+      ],
+      "guide": "foundation-topic-nonfinite",
+      "section": "bookfix-gerund-pronouns",
+      "rules": [
+        "副动词附接宾语或相应代词时连写，并核对必要重音",
+        "本节estar进行结构可整组前置或附副动词后"
+      ],
+      "tableRows": 3,
+      "questions": [
+        "bookfix-gerund-pronouns-0",
+        "bookfix-gerund-pronouns-1",
+        "bookfix-gerund-pronouns-2"
+      ]
+    },
+    {
+      "id": "imperfect-full-table",
+      "title": "未完成过去时：规则与三个常用不规则全六组",
+      "chapters": [
+        18
+      ],
+      "pdfPages": [
+        456,
+        457
+      ],
+      "printedPages": [
+        455,
+        456
+      ],
+      "guide": "foundation-topic-past-imperfect",
+      "section": "bookfix-imperfect-full-table",
+      "rules": [
+        "规则-er/-ir的本表各人称保留相应í重音，tú词尾含-s",
+        "ser、ir、ver按本表单独学习"
+      ],
+      "tableRows": 6,
+      "questions": [
+        "bookfix-imperfect-full-table-0",
+        "bookfix-imperfect-full-table-1",
+        "bookfix-imperfect-full-table-2"
+      ]
+    },
+    {
+      "id": "preterite-core-table",
+      "title": "简单过去：ir/ser、ver、dar完整六组",
+      "chapters": [
+        16
+      ],
+      "pdfPages": [
+        398
+      ],
+      "printedPages": [
+        397
+      ],
+      "guide": "foundation-topic-past-irregular",
+      "section": "bookfix-preterite-core-table",
+      "rules": [
+        "ir与ser共用一套本时态形式，靠补语与语境分义",
+        "ver、dar常用本表形式，单音节形式不随意添重音"
+      ],
+      "tableRows": 6,
+      "questions": [
+        "bookfix-preterite-core-table-0",
+        "bookfix-preterite-core-table-1",
+        "bookfix-preterite-core-table-2"
+      ]
+    }
+  ],
+  "boundaries": [
+    "前置话题复指不等于所有对比焦点结构必须相同",
+    "代词式用法不全等同字面的自己",
+    "命令nosotros须按动词类别核对，不能搬现在时不变词干口诀",
+    "de所属不要求专名或所有物主名词组前再强加冠词",
+    "第三人称复数的不明确施事用法与已知具体群体不同",
+    "分词独立结构与haber完成的主语及一致分别分析"
+  ]
+}
