@@ -1,5 +1,5 @@
 {
-  "version": "2026-10-26-sentence-sense-audit",
+  "version": "2026-10-26-practice-correction",
   "verification": "Local Chromium and content checks; hosting result is recorded separately in GitHub Pages Actions.",
   "reports": {
     "public-site-validation": {
@@ -5951,6 +5951,21 @@
       },
       "correctedAudioSeconds": 68.720499,
       "errors": []
+    },
+    "practice-feedback-browser-validation": {
+      "passed": true,
+      "checks": [
+        "accent, ñ and ü diagnosed separately",
+        "unscored correction changes no score, cards, dates, history or course evidence",
+        "accepted variants and NFC retain existing scoring",
+        "safe long-answer rendering at 390px",
+        "character insertion replaces selection",
+        "refresh and back preserve original answer without recounting",
+        "rule return link",
+        "wrong-only retest uses actual failed IDs and normal new attempts without replacing full-course or transfer results",
+        "no page errors"
+      ],
+      "scope": "练习订正交互与判分隔离，不代表所有教材内容已完成审校。"
     }
   }
 }
