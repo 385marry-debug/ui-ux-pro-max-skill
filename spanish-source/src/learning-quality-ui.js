@@ -44,7 +44,7 @@ document.addEventListener('click',e=>{const b=e.target.closest('button');if(!b)r
 const routeBeforeQualityReading=publicRouteURL;publicRouteURL=function(embed=false){const u=new URL(routeBeforeQualityReading(embed));if(page==='reading'&&qualityOriginalReading)u.searchParams.set('version','original');return u.toString()};
 const applyBeforeQualityReading=applyPublicRoute;applyPublicRoute=function(p){qualityOriginalReading=p.get('version')==='original';applyBeforeQualityReading(p)};
 // New glosses open their source-specific sense, including words absent from the old expansion dictionary.
-function activeQualityArticle(){return page==='guide'?[...qualityAdvancedLessons,...professionalTracks].find(r=>r.id===guideId):syncReadings.find(r=>r.id===readingId&&(r.id.startsWith('easy-')||r.id.startsWith('quality-')))}
+function activeQualityArticle(){return activeSourceReading()}
 const wordBeforeQualityContext=readingWord;
 readingWord=function(head){const r=activeQualityArticle(),key=lexicalHeadword(head).toLowerCase(),w=r&&contextNotebook.find(w=>w.source==='reading'&&w.chapters.includes(r.id)&&w.lemma===key);return w?`<button class="topic-chip" data-quality-word="${w.id}" lang="es">${esc(head)}</button>`:wordBeforeQualityContext(head)};
 const textBeforeQualityContext=readingText;

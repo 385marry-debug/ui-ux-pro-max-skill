@@ -1,0 +1,24 @@
+{
+  "passed": true,
+  "scope": "49组明确语境的同形词核对与阅读查词、旧收藏恢复的专项检查，不是全词典逐义审校。",
+  "counts": {
+    "reviewRules": 49,
+    "independentSentenceFixtures": 35,
+    "mergedLegacyWordIds": 13,
+    "reviewedNotebookEntries": 49
+  },
+  "fixed": [
+    "trabajo按句区分名词与trabajar动词，不整篇强行替换",
+    "cuenta在讲述语境中关联contar，cena在una cena anterior中为名词",
+    "pregunta、ayuda、muestra、firma、compras与pasa逐句区分，保留各自正确名词用法",
+    "falta区分faltar动词与hacer falta中的名词",
+    "fui/fue按故事分别关联ir或ser，保留合理其他词条",
+    "tiene mucho trabajo同步更新原文、题目引文、词本与不可变音频地址",
+    "合并词条恢复旧收藏与自评；无法确认的同形词保留候选"
+  ],
+  "remaining": [
+    "这里只对明确列出的句子作语境核对；其他自动词典补充义仍需逐条复核",
+    "听说与写作的长期能力评估仍不足，规则检查不等于教师核阅",
+    "C1/C2仍为专项覆盖，不能称完整课程或全站无遗漏"
+  ]
+}

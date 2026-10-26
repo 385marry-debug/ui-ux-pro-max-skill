@@ -194,3 +194,18 @@ CEFR六个主等级为A1、A2、B1、B2、C1、C2；补充描述中还有A1之�
 实现：content/level-map-reference.json、advanced-rule-lessons.json；level-route-data.js、level-route-ui.js；专业案例并入quality-readings.json，音频可用既有build-quality-audio.py生成。等级页公开参数view=levels&level=C2；专业课仍以view=guide&id=quality-domain-...分享。
 
 验证：audit-level-route.cjs核对六级与Pre-A1、24个独立规则题、8个独立语言／逻辑答案样例、四领域及备份边界；level-route-browser.mjs实际答24个高级分节题和12个带案例证据的分节题，检查手机导航、自评不升级、刷新／备份、专业草稿、按篇词本和分享入口。既有learning-quality-browser.mjs继续实答120迁移题、150个本家族阅读题、75个本家族听力题和12个辨音题；study-path-browser.mjs回归48专题332小步、40课五阶段及380个实际系统／单元答案。
+
+
+## 逐句词性与词义复核（2026-10-26）
+
+本轮检查再次发现自动词形归并会把动词当名词：Trabajo en una tienda里的trabajo、Irene cuenta que里的cuenta、si falta alguna firma里的falta，以及部分pregunta、ayuda、muestra、firma、compras、pasa。context-sense-reviews.json记录49组明确语境的复核与保留说明，包括名词正确用法；该数量不冒充49个不同语法点或词典全量审定。
+
+同一篇的mucho trabajo为名词，而trabajo aquí是trabajar的动词；hacer falta中的falta与faltar的falta也分开。fui/fue结合故事归到ir或ser，cena anterior回到名词cena。原文Sara responde que lleva mucho trabajo改为更自然的tiene mucho trabajo，原有题目引文和词形关联同步更新。新音频文件read-sr-14-sense-reviewed.mp3避免浏览器缓存旧声音；旧文件保留供既有外部链接使用，当前文稿引用新文件。
+
+context-sense-review-data.js以逐句审定记录覆写旧词形索引，保留其来源；35个独立句例同时检查应改为动词与应继续保留名词的负例。不做全局字符串替换。原始索引的人工补词ID可能没有主词典ID，覆盖审计通过明确的旧词条或旧原形与词形追踪到新记录。13个合并的旧词本ID有显式收藏／自评迁移，旧单元成绩保持。
+
+阅读与高级案例的点击查词按当前文章和所在句子查询。无法确认时保留候选，不把词典补充义当已审定本句义。教材页面不借用之前打开的阅读文章语境。收藏保持在来源词本，不改变扩展词库收藏；关闭查词回原句，保持正在输入的阅读笔记。源词形索引在加载时建立，不为每个单词扫描全词本。
+
+验证：audit-context-senses.cjs为49组语境、35个独立语言句例与旧收藏恢复提供检查；context-sense-browser.mjs实际点击验证同形词两种词性、名词／动词对照、ir/ser、来源收藏、返回原句、旧备份和新音频解码。旧reading-browser、learning-quality-browser与study-path-browser回归继续通过。
+
+界限：这次只对列出的片段作明确语境复核。7423项扩展词库的所有义项、全部教材原题与附录仍未完成教师式逐项终审；C1/C2仍为专项，真实多口音听力及持续口语／写作反馈也需补强。字段齐全、程序通过与学习者真正学会是不同的证据。

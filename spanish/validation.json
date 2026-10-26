@@ -1,5 +1,5 @@
 {
-  "version": "2026-10-26-level-boundaries-and-professional-routes",
+  "version": "2026-10-26-sentence-sense-audit",
   "verification": "Local Chromium and content checks; hosting result is recorded separately in GitHub Pages Actions.",
   "reports": {
     "public-site-validation": {
@@ -3536,15 +3536,15 @@
       "partsPerChapter": 7,
       "articles": 47,
       "questionsPerArticle": 6,
+      "originalArticleAnswers": 6,
+      "scope": "目录库存计数；实际回归原sr-01作答及18课各分部，新材料全题另见learning-quality-browser-validation",
       "audioLessons": 169,
       "adaptation": {
         "up": "A2",
         "noEvidence": "A1",
         "stable": true
       },
-      "errors": [],
-      "originalArticleAnswers": 6,
-      "scope": "目录库存计数；实际回归原sr-01作答及18课各分部，新材料全题另见learning-quality-browser-validation"
+      "errors": []
     },
     "adaptive-browser-report": {
       "passed": true,
@@ -5428,8 +5428,8 @@
         "systemCourses": 48,
         "notebook": {
           "textbook": 1231,
-          "course": 1784,
-          "reading": 3874
+          "course": 1782,
+          "reading": 3869
         },
         "sourceOccurrenceGroups": 6634,
         "newCanonicalQuestions": 2,
@@ -5495,7 +5495,7 @@
         "phonicsQuestions": 12,
         "newAudioFiles": 47,
         "newAudioMinutes": 15.99,
-        "sourceNotebookPositions": 1570,
+        "sourceNotebookPositions": 1568,
         "totalQuestions": 12028,
         "totalReadings": 47
       },
@@ -5904,6 +5904,52 @@
         "4个领域案例12个分节题提供原文证据并真实DOM作答",
         "领域草稿备份恢复、按篇单词本、直接分享链接和390px宽度验证"
       ],
+      "errors": []
+    },
+    "context-sense-content-validation": {
+      "passed": true,
+      "scope": "49组明确语境的同形词核对与阅读查词、旧收藏恢复的专项检查，不是全词典逐义审校。",
+      "counts": {
+        "reviewRules": 49,
+        "independentSentenceFixtures": 35,
+        "mergedLegacyWordIds": 13,
+        "reviewedNotebookEntries": 49
+      },
+      "fixed": [
+        "trabajo按句区分名词与trabajar动词，不整篇强行替换",
+        "cuenta在讲述语境中关联contar，cena在una cena anterior中为名词",
+        "pregunta、ayuda、muestra、firma、compras与pasa逐句区分，保留各自正确名词用法",
+        "falta区分faltar动词与hacer falta中的名词",
+        "fui/fue按故事分别关联ir或ser，保留合理其他词条",
+        "tiene mucho trabajo同步更新原文、题目引文、词本与不可变音频地址",
+        "合并词条恢复旧收藏与自评；无法确认的同形词保留候选"
+      ],
+      "remaining": [
+        "这里只对明确列出的句子作语境核对；其他自动词典补充义仍需逐条复核",
+        "听说与写作的长期能力评估仍不足，规则检查不等于教师核阅",
+        "C1/C2仍为专项覆盖，不能称完整课程或全站无遗漏"
+      ]
+    },
+    "context-sense-browser-validation": {
+      "passed": true,
+      "checks": [
+        "实际点击区分trabajo名词/动词与falta名词短语/动词",
+        "cuenta对应contar、cena为名词、fue按故事分别来自ir与ser",
+        "课内与原始/短句阅读词本按词形查询正确，显示修正说明",
+        "按篇收藏不污染扩展词库，关闭查词回原句并保留正在输入的阅读笔记",
+        "旧收藏与自评迁移，旧单元成绩保持",
+        "修正文稿与独立新文件名的音频相符并可解码",
+        "先读文章后进入教材，不借用上一篇文章的词汇语境"
+      ],
+      "migration": {
+        "favorite": true,
+        "card": {
+          "status": "known",
+          "due": 123
+        },
+        "oldScore": 83
+      },
+      "correctedAudioSeconds": 68.720499,
       "errors": []
     }
   }
