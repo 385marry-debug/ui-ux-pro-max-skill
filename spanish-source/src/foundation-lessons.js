@@ -44,7 +44,7 @@ fd('pronouns','代词与宾语','从完整名词到 lo/la/le，再到 se lo','A2
 '先恢复完整句：Doy el libro a Ana。我给出什么？el libro，是直接宾语；给谁？a Ana，是接收者。在这个结构里书可换 lo，Ana 可换 le：Le doy el libro；Lo doy a Ana。',
 '两者同时换时，本来的 le lo 改成 se lo：Se lo doy。se 在这里只是 le/les 在 lo/la/los/las 前的形式变化，不自动表示自己。上下文仍要帮助确认接收者是谁。',
 '一般变位动词前：Se lo doy；原形可后接：Voy a dárselo，也常能 Voy a dárselo/Se lo voy a dar；肯定命令后接：Dáselo；否定命令前置：No se lo des。重音随组合检查。',
-'名词前有人称 a 不保证它就是间接宾语：Veo a Ana 中 Ana 是直接宾语。代词选择还存在地区规范变体，本站先教清晰的 lo/la 直接宾语与 le 间接宾语主线，不把所有口语变体一律判错。'],[['Se','给她/他/您等','本句由 le 在 lo 前变来，需语境确定对象。'],['lo','那本书','阳性单数直接宾语。'],['doy','我给','dar 的 yo 形式。']],['Le lo doy','Se lo doy','双代词组合中 le/les 在 lo 系前改成 se。'],[['“给 Ana 那本书”双代词化：','Se lo doy.',['Se lo doy.','Le lo doy.','Lo le doy.'],'人先物后，le→se。'],['肯定 tú 命令“给她”：','Dáselo.',['Dáselo.','Se lo da tú.','No se lo da.'],'肯定命令后接代词并检查重音。'],['Veo a Ana 中 a Ana 是：','直接宾语',['直接宾语','一定是间接宾语','主语'],'人称 a 与间接宾语不能混为一谈。']]);
+'名词前有人称 a 不保证它就是间接宾语：Veo a Ana 中 Ana 是直接宾语。代词选择还存在地区规范变体，本站先教清晰的 lo/la 直接宾语与 le 间接宾语主线，不把所有口语变体一律判错。'],[['Se','给她/他/您等','本句由 le 在 lo 前变来，需语境确定对象。'],['lo','那本书','阳性单数直接宾语。'],['doy','我给','dar 的 yo 形式。']],['Le lo doy','Se lo doy','双代词组合中 le/les 在 lo 系前改成 se。'],[['“给 Ana 那本书”双代词化：','Se lo doy.',['Se lo doy.','Le lo doy.','Lo le doy.'],'间接宾语在前、直接宾语在后，le→se。'],['肯定 tú 命令“把它给她”：','Dáselo.',['Dáselo.','Se lo da tú.','No se lo da.'],'肯定命令后接代词并检查重音。'],['Veo a Ana 中 a Ana 是：','直接宾语',['直接宾语','一定是间接宾语','主语'],'人称 a 与间接宾语不能混为一谈。']]);
 fd('past','过去时间系统','过去时先看参照和视角，再看词尾','A2',[
 '时间关系与叙事视角要分开。Llegué（我到了）把事件作为整体；Cuando llegué, Ana estudiaba 中 estudiaba 展开到达时的背景。不能用“长动作/短动作”替代所有区别。',
 '过去习惯与背景常用未完成：De niña vivía allí；有边界的整体经历可用简单过去：Viví allí diez años。即使十年很长，也可以从终点回看成完整整体。',

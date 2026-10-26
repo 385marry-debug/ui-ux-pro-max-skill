@@ -1,5 +1,5 @@
 {
-  "version": "2026-10-26-practice-correction",
+  "version": "2026-10-26-pronoun-rules-review",
   "verification": "Local Chromium and content checks; hosting result is recorded separately in GitHub Pages Actions.",
   "reports": {
     "public-site-validation": {
@@ -3942,11 +3942,12 @@
       "counts": {
         "systemLessonEntries": 49,
         "independentExplanations": 48,
-        "conciseRules": 252,
+        "conciseRules": 258,
         "remainingLessons": 39,
         "remainingSpecialistSectionsRetained": 167,
         "newStarterQuestions": 117,
-        "currentRemainingPracticeQuestions": 346,
+        "currentRemainingPracticeQuestions": 370,
+        "newReviewedPronounQuestions": 24,
         "reorganizedPreviousQuestions": 229,
         "independentAnswerFixtures": 117,
         "verifiedTextbookGenderItems": 6
@@ -3996,9 +3997,9 @@
           "id": "foundation-pronouns",
           "title": "从完整名词到 lo/la/le，再到 se lo",
           "level": "A2",
-          "conciseRules": 6,
+          "conciseRules": 7,
           "newStarterQuestions": 3,
-          "questions": 13
+          "questions": 21
         },
         {
           "id": "foundation-past",
@@ -4084,17 +4085,17 @@
           "id": "foundation-bridge-direct",
           "title": "小步课：先只换“看见什么、买什么”，学 lo/la/los/las",
           "level": "A1",
-          "conciseRules": 7,
+          "conciseRules": 9,
           "newStarterQuestions": 3,
-          "questions": 15
+          "questions": 23
         },
         {
           "id": "foundation-bridge-indirect",
           "title": "小步课：再换“给谁”，学 le/les 后才组合",
           "level": "A1",
-          "conciseRules": 6,
+          "conciseRules": 9,
           "newStarterQuestions": 3,
-          "questions": 12
+          "questions": 20
         },
         {
           "id": "foundation-topic-demonstratives",
@@ -5966,6 +5967,44 @@
         "no page errors"
       ],
       "scope": "练习订正交互与判分隔离，不代表所有教材内容已完成审校。"
+    },
+    "pronoun-review-content-validation": {
+      "passed": true,
+      "date": "2026-10-26",
+      "scope": "仅审校并补强现有三个宾语代词专题；未声称两本教材已经逐页完整验收。",
+      "lessons": 3,
+      "newQuestions": 24,
+      "independentAnswerFixtures": 24,
+      "totalQuestionPositions": 12052,
+      "changes": [
+        "把三个旧来源层的“人先物后”改成句法角色顺序",
+        "直接对象可以指人；me/te/nos/os也可作直接对象",
+        "人称a、重读对象复指与有界的leísmo说明",
+        "间接对象可以指事物，le/les数量与直接对象分开",
+        "le/les变se的条件，me/te/nos/os不变",
+        "单数直接对象不因复数接收者而改复数",
+        "同步规则摘要、细讲、表格、逐步示例与24题；48专题和已有章节/题目ID保留"
+      ],
+      "limits": [
+        "这是独立语法审校，未在本轮重新逐页核对上传的两本书",
+        "leísmo及各地代词重复体系仅解释基础主线和部分边界，不作全面方言描写",
+        "客观题通过不等于口语交际或整体语言等级认证"
+      ]
+    },
+    "pronoun-review-browser-validation": {
+      "passed": true,
+      "actualAnswers": 24,
+      "lessons": 3,
+      "checks": [
+        "三课规则和表格实际显示，390px无整页横向溢出",
+        "24个独立标准答案通过真实选择/输入界面提交",
+        "错误te→se被拒绝并显示解析，可返回准确小规则",
+        "刷新保留小步、旧笔记和旧题记录",
+        "新讲解和新题可以分别通过知识点和练习搜索打开",
+        "小步课程与整篇语法查阅共享相同修订",
+        "无页面脚本异常"
+      ],
+      "scope": "仅三个宾语代词专题及24道新增题；不代表全书、全站或所有方言规则验收。"
     }
   }
 }

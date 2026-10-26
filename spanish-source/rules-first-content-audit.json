@@ -4,11 +4,12 @@
   "counts": {
     "systemLessonEntries": 49,
     "independentExplanations": 48,
-    "conciseRules": 252,
+    "conciseRules": 258,
     "remainingLessons": 39,
     "remainingSpecialistSectionsRetained": 167,
     "newStarterQuestions": 117,
-    "currentRemainingPracticeQuestions": 346,
+    "currentRemainingPracticeQuestions": 370,
+    "newReviewedPronounQuestions": 24,
     "reorganizedPreviousQuestions": 229,
     "independentAnswerFixtures": 117,
     "verifiedTextbookGenderItems": 6
@@ -58,9 +59,9 @@
       "id": "foundation-pronouns",
       "title": "从完整名词到 lo/la/le，再到 se lo",
       "level": "A2",
-      "conciseRules": 6,
+      "conciseRules": 7,
       "newStarterQuestions": 3,
-      "questions": 13
+      "questions": 21
     },
     {
       "id": "foundation-past",
@@ -146,17 +147,17 @@
       "id": "foundation-bridge-direct",
       "title": "小步课：先只换“看见什么、买什么”，学 lo/la/los/las",
       "level": "A1",
-      "conciseRules": 7,
+      "conciseRules": 9,
       "newStarterQuestions": 3,
-      "questions": 15
+      "questions": 23
     },
     {
       "id": "foundation-bridge-indirect",
       "title": "小步课：再换“给谁”，学 le/les 后才组合",
       "level": "A1",
-      "conciseRules": 6,
+      "conciseRules": 9,
       "newStarterQuestions": 3,
-      "questions": 12
+      "questions": 20
     },
     {
       "id": "foundation-topic-demonstratives",

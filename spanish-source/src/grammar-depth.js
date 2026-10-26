@@ -91,7 +91,7 @@ depth('pronouns','恢复完整句，区分给什么与给谁，完成单代词�
 'me/te/nos/os 也可作第一、二人称直接宾语：Ana me ve。一个代词的功能必须看动词结构，不能把 me 永远叫“自己”或永远叫间接宾语。地区中存在受规范认可的部分 leísmo 等变体，本课先建立 lo/la 主线，不将所有地区口语统一判错。']],
 ['间接宾语先找接收者，再学两个代词同时出现',[
 'Doy el libro a Ana → Le doy el libro：le 替换给谁；Doy los libros a mis amigos → Les doy los libros：les 指复数接收者。le/les 看接收者的数，不看书的数；不分 Ana 是女性还是 Luis 是男性。',
-'两个都替换，按“人先物后”：le + lo 本来会相邻，西语要改成 se lo：Se lo doy。les + los 也改 se los。这个 se 不再显示接收者单复数，也不是“给自己”；可以补 a Ana / a mis amigos 消除歧义。']],
+'两个都替换，按“间接宾语在前、直接宾语在后”：le + lo 本来会相邻，西语要改成 se lo：Se lo doy。les + los 也改 se los。这个 se 不再显示接收者单复数，也不是“给自己”；可以补 a Ana / a mis amigos 消除歧义。']],
 ['代词放前还是放后，先看动词是什么形式',[
 '普通变位谓语前置：Lo compro；Se lo doy。否定 no 在代词前：No se lo doy。原形可后接：Quiero comprarlo；允许代词上移的这类结构也常说 Lo quiero comprar，但不把两种位置拆成 Lo quiero comprarlo 重复标同一宾语。',
 '肯定命令后接：Dáselo（给她/他吧）；否定命令前置：No se lo des。后接时是一个书写词，可能需要重音符号，如 dar + se + lo → dárselo。先选正确的动词形式，再按位置规则组合，不能靠把空格删掉完成全部变化。']],
@@ -99,7 +99,7 @@ depth('pronouns','恢复完整句，区分给什么与给谁，完成单代词�
 '题目：“不要把那些花给 Ana”，代词化。①完整结构：No des las flores a Ana。②las flores 是阴性复数直接宾语 → las；a Ana 是单数间接宾语 → le。③le + las 变 se las。④否定命令代词前置 → No se las des。',
 '检查不是只看选对 las：se 与 las 次序、le→se、no 的位置、des 的否定命令形式都要对。错题反馈要定位是哪一步，而不是笼统说“代词错了”。主动说话前能恢复完整名词，有助于听者确认代词指代谁。']]
 ],[['Doy la carta a Ana. → Se la doy.','我把那封信给 Ana。→ 我给她。','la carta → la；a Ana → le；le 在 la 前变 se。'],['Quiero comprarlo. / Lo quiero comprar.','我想买它。','本例结构允许两种位置；选其一，不在两处重复 lo。'],['No se las des.','别把它们给她/他等。','阴性复数物品用 las；否定命令前置 se las，接收者由上下文明确。']],
-[['Doy las llaves a Ana，双代词化：','Se las doy.',['Se las doy.','Le las doy.','Se lo doy.'],'las llaves 阴性复数 → las；a Ana → le；le 在 las 前变 se，所以 se las。'],['Veo a Ana 中 a Ana 是：','直接宾语',['直接宾语','因为有 a 所以一定是间接宾语','控制 veo 的主语'],'动词 ver 的看见对象是 Ana；人称 a 不等于间接宾语标志。'],['No des las flores a Ana，代词化：','No se las des.',['No se las des.','No déselas.','No las se des.'],'否定命令前置代词，人先物后，le+las→se las；不是肯定命令的后接方式。'],['Se lo doy 中 se 能告诉接收者有几人吗？','不能，可能来自 le 或 les',['不能，可能来自 le 或 les','一定一个人','一定多人'],'le 与 les 在 lo/la/los/las 前都变 se；靠上下文或补 a… 消除歧义。'],['“我想买它”的本课正确表达：','Lo quiero comprar.',['Lo quiero comprar.','Lo quiero comprarlo.','Quiero lo comprar.'],'本结构可代词上移；也可 Quiero comprarlo，但不重复同一代词。']]);
+[['Doy las llaves a Ana，双代词化：','Se las doy.',['Se las doy.','Le las doy.','Se lo doy.'],'las llaves 阴性复数 → las；a Ana → le；le 在 las 前变 se，所以 se las。'],['Veo a Ana 中 a Ana 是：','直接宾语',['直接宾语','因为有 a 所以一定是间接宾语','控制 veo 的主语'],'动词 ver 的看见对象是 Ana；人称 a 不等于间接宾语标志。'],['No des las flores a Ana，代词化：','No se las des.',['No se las des.','No déselas.','No las se des.'],'否定命令前置代词，间接宾语在前、直接宾语在后，le+las→se las；不是肯定命令的后接方式。'],['Se lo doy 中 se 能告诉接收者有几人吗？','不能，可能来自 le 或 les',['不能，可能来自 le 或 les','一定一个人','一定多人'],'le 与 les 在 lo/la/los/las 前都变 se；靠上下文或补 a… 消除歧义。'],['“我想买它”的本课正确表达：','Lo quiero comprar.',['Lo quiero comprar.','Lo quiero comprarlo.','Quiero lo comprar.'],'本结构可代词上移；也可 Quiero comprarlo，但不重复同一代词。']]);
 depth('past','不靠“动作长短”猜过去时，能区别整体事件、展开背景和更早已完成的事件。',[
 ['“发生在过去”还不够：我要从哪个角度讲？',[
 'Ayer estudié dos horas 把昨天的两小时学习作为一个有边界的整体叙述，使用简单过去 pretérito perfecto simple，也常叫 indefinido。A las ocho estudiaba 把镜头放在八点，展开那时正在学习的背景，使用未完成过去 imperfecto。两句都可以是真的，只是视角不同。',

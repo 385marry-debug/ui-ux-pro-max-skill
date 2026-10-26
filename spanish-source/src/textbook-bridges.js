@@ -228,7 +228,7 @@ bridge('indirect','小步课：再换“给谁”，学 le/les 后才组合','�
 ['用一次完整对话检验，而不是只背 se lo',[
 '问“你给 Laura 发什么？”答 Le envío un mensaje：le 表给她，mensaje 是发送内容。如果接着问“那条消息呢？”就可以 Se lo envío：lo 替换 el mensaje，le→se。',
 '每次都能还原物品与接收者，才算读懂。如果只看到 se 就翻成自己，或者按接收者性别选 la，都要回到角色辨认步骤重练。']]
-],[['Le doy dos regalos a Laura.','我给 Laura 两件礼物。','一个接收者→le；礼物复数不决定 les。'],['Les doy un regalo a mis vecinos.','我给邻居们一件礼物。','多个接收者→les；礼物单数不决定 le。'],['Le envío el mensaje.→Se lo envío.','我给她/他发那条消息。→我发给她/他。','el mensaje→lo；le 在 lo 前→se。']],['Le lo envío','Se lo envío','le/les 在 lo/la/los/las 前改 se；人先物后。'],[
+],[['Le doy dos regalos a Laura.','我给 Laura 两件礼物。','一个接收者→le；礼物复数不决定 les。'],['Les doy un regalo a mis vecinos.','我给邻居们一件礼物。','多个接收者→les；礼物单数不决定 le。'],['Le envío el mensaje.→Se lo envío.','我给她/他发那条消息。→我发给她/他。','el mensaje→lo；le 在 lo 前→se。']],['Le lo envío','Se lo envío','le/les 在 lo/la/los/las 前改 se；间接宾语在前、直接宾语在后。'],[
  bridgeChoice('Doy un regalo a Laura 中间接宾语是：','a Laura',['a Laura','un regalo','省略的 yo'],'Laura 是接收者，regalo 是给出的物品，yo 是主语。'),
  bridgeChoice('给一个人送很多件礼物，应选：','le',['le','les','由礼物数量决定 le/les'],'le/les 看接收者的数，不由礼物数量决定。'),
  bridgeInput('给多位邻居：___ doy un regalo a mis vecinos. 只填间接宾语代词。','les','接收者 mis vecinos 为复数，故 les；un regalo 单数不改变这一选择。'),
