@@ -1,0 +1,101 @@
+{
+  "scope": "当前审查确认的词形误配与中文核心义修订，不是全部词典逐义审定证明。",
+  "excludedNameForms": [
+    "Ana",
+    "Lucía",
+    "María",
+    "Lina",
+    "Allen",
+    "Ríos",
+    "Tercero",
+    "Maya",
+    "Paloma"
+  ],
+  "remappings": [
+    {
+      "source": "course",
+      "chapters": [
+        "A1-1",
+        "A1-4",
+        "A1-7",
+        "A2-7"
+      ],
+      "forms": [
+        "Estudio",
+        "estudio"
+      ],
+      "entry": {
+        "entryId": "lex-cee30802",
+        "lemma": "estudiar",
+        "head": "estudiar",
+        "meaning": "学习；研究",
+        "pos": "动词"
+      }
+    },
+    {
+      "source": "reading",
+      "chapters": [
+        "sr-01",
+        "sr-04",
+        "sr-14",
+        "sr-16"
+      ],
+      "forms": [
+        "ve",
+        "Ve"
+      ],
+      "entry": {
+        "entryId": "lex-82306882",
+        "lemma": "ver",
+        "head": "ver",
+        "meaning": "看见；观看",
+        "pos": "动词"
+      }
+    },
+    {
+      "source": "course",
+      "chapters": [
+        "A2-2"
+      ],
+      "forms": [
+        "comida"
+      ],
+      "entry": {
+        "entryId": "context-lemma-comida",
+        "lemma": "comida",
+        "head": "comida",
+        "meaning": "食物；一餐；饭菜",
+        "pos": "n. f."
+      }
+    },
+    {
+      "source": "reading",
+      "chapters": [
+        "sr-07",
+        "sr-11",
+        "sr-13",
+        "sr-15",
+        "sr-17"
+      ],
+      "forms": [
+        "comida"
+      ],
+      "entry": {
+        "entryId": "context-lemma-comida",
+        "lemma": "comida",
+        "head": "comida",
+        "meaning": "食物；一餐；饭菜",
+        "pos": "n. f."
+      }
+    }
+  ],
+  "coreMeanings": {
+    "alguno": "某个；一些；有的（形式随性数和结构变化）",
+    "enorme": "巨大的；极大的",
+    "cárcel": "监狱；监禁",
+    "personaje": "人物；角色",
+    "grueso": "厚的；粗的；肥大的；作名词还可指主体或主要部分",
+    "mañana": "早晨、上午（n. f.）；明天（adv.）",
+    "tarde": "下午、傍晚（n. f.）；晚、迟（adv.）"
+  }
+}

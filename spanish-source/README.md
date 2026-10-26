@@ -151,3 +151,10 @@ public-site-validation.json、classroom-validation.json 和 navigation-validatio
 核心文件：study-path-data.js、study-path-ui.js、context-notebook-ui.js；事实数据content/context-word-occurrences.json与人工补充content/context-word-supplements.tsv。常规构建只使用已整理的事实数据，不需要用户PDF或云端接口；不将教师说明自动伪装为实时AI反馈。
 
 验证：scripts/audit-study-path.cjs检查50步主线、40套规则与240个小测位置、48专题和6669组课文词形连接，并有24个独立的规则/练习对应案例。tests/study-path-browser.mjs遍历40课五步页面，实际作答240道课堂小测，遍历48专题332小步并实际作答140道系统练习，检查错题解析、准确返回、表达保存、分来源收藏/查词、前后退、刷新、旧新备份和390px布局。旧教材来源入口继续由tests/book-source-browser.mjs在layout=reference视图回归验证。
+
+
+## 内容自审修订（2026-10-26）
+
+本轮发现：人名词形被普通词错误归并35处、16个已明确语境的词形需调整词条归属（Estudio español→estudiar、ve a Diego→ver、la comida→comida），以及7个核心中文释义需修正。content/context-lexical-repairs.json保存审定范围；scripts/repair-context-occurrences.py可重复运行，不需要PDF，不重复添加词条。当前词形分组6634，教材词本1231项、课程1784位置、精读2304位置；与上一轮的差额是去除错误关联，不是删掉正确词汇。scripts/audit-lexical-repairs.cjs含14个独立语境/词义样例。
+
+尚存教学限制：课堂的120个示范直接使用紧随练习的题干；自查完成不等于教师批改或能力达标；48专题有332个小步，但当前主线只到B2、固定精读22篇（A1/A2各9，B1/B2各2）。教材目录和来源规则首轮映射不等于印刷习题、附录和音频全覆盖或语言学逐项终审。应优先补独立迁移题、掌握证据与错因反馈，再补更多高级材料。

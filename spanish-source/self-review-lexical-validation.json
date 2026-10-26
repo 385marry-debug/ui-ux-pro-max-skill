@@ -1,0 +1,26 @@
+{
+  "passed": true,
+  "scope": "独立语境样例检查，不能视为全部词典或课程完成质量证明",
+  "checks": {
+    "namesAreNotAnatomy": true,
+    "luciaIsNotVerb": true,
+    "linaIsNotLinen": true,
+    "studyIsVerb": true,
+    "seeIsVer": true,
+    "mealIsNoun": true,
+    "enorme": "巨大的；极大的",
+    "alguno": "某个；一些；有的（形式随性数和结构变化）",
+    "readings": 22,
+    "levels": [
+      "A0",
+      "A1",
+      "A2",
+      "B1",
+      "B2"
+    ],
+    "workedPracticeDuplicates": 120,
+    "understoodNeedsNoAnswer": true,
+    "nonsensePassesSelfcheck": true,
+    "errors": []
+  }
+}

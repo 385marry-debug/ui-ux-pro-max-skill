@@ -1,5 +1,5 @@
 {
-  "version": "2026-10-26-guided-course-and-notebooks",
+  "version": "2026-10-26-lexical-self-review",
   "verification": "Local Chromium and content checks; hosting result is recorded separately in GitHub Pages Actions.",
   "reports": {
     "public-site-validation": {
@@ -5075,11 +5075,11 @@
         "courseCheckPositions": 240,
         "systemCourses": 48,
         "notebook": {
-          "textbook": 1236,
-          "course": 1794,
-          "reading": 2320
+          "textbook": 1231,
+          "course": 1784,
+          "reading": 2304
         },
-        "sourceOccurrenceGroups": 6669,
+        "sourceOccurrenceGroups": 6634,
         "newCanonicalQuestions": 2,
         "independentRulePracticeLinks": 24
       },
@@ -5127,6 +5127,32 @@
         "current mobile course footer and page fit 390px"
       ],
       "errors": []
+    },
+    "self-review-lexical-validation": {
+      "passed": true,
+      "scope": "独立语境样例检查，不能视为全部词典或课程完成质量证明",
+      "checks": {
+        "namesAreNotAnatomy": true,
+        "luciaIsNotVerb": true,
+        "linaIsNotLinen": true,
+        "studyIsVerb": true,
+        "seeIsVer": true,
+        "mealIsNoun": true,
+        "enorme": "巨大的；极大的",
+        "alguno": "某个；一些；有的（形式随性数和结构变化）",
+        "readings": 22,
+        "levels": [
+          "A0",
+          "A1",
+          "A2",
+          "B1",
+          "B2"
+        ],
+        "workedPracticeDuplicates": 120,
+        "understoodNeedsNoAnswer": true,
+        "nonsensePassesSelfcheck": true,
+        "errors": []
+      }
     }
   }
 }
