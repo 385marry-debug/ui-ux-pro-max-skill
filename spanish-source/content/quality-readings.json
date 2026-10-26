@@ -1,0 +1,2506 @@
+[
+  {
+    "id": "easy-sr-01",
+    "level": "A1",
+    "title": "初次见面 · 零基础短句版",
+    "paragraphs": [
+      {
+        "es": "Hola. Me llamo Lina. Soy de China. Ahora vivo en Madrid.",
+        "zh": "你好。我叫Lina。我来自中国。现在我住在马德里。"
+      },
+      {
+        "es": "Diego es mi amigo. Está en el aeropuerto. Yo estoy cansada, pero estoy contenta.",
+        "zh": "Diego是我的朋友。他在机场。我累，但很高兴。"
+      },
+      {
+        "es": "Mi mochila es pequeña y azul. En mi mochila hay un libro.",
+        "zh": "我的背包小而且是蓝色的。我的背包里有一本书。"
+      },
+      {
+        "es": "No entiendo todo. Hablo despacio. Digo: «Gracias, Diego».",
+        "zh": "我不是全都听懂。我慢慢说。我说：“谢谢你，Diego。”"
+      }
+    ],
+    "glosses": [
+      {
+        "head": "amigo",
+        "abbr": "n. m.",
+        "meaning": "男性朋友"
+      },
+      {
+        "head": "aeropuerto",
+        "abbr": "n. m.",
+        "meaning": "机场"
+      },
+      {
+        "head": "cansada",
+        "abbr": "adj. f.",
+        "meaning": "累的，女性单数形式"
+      },
+      {
+        "head": "mochila",
+        "abbr": "n. f.",
+        "meaning": "背包"
+      },
+      {
+        "head": "pequeña",
+        "abbr": "adj. f.",
+        "meaning": "小的"
+      },
+      {
+        "head": "despacio",
+        "abbr": "adv.",
+        "meaning": "慢慢地"
+      }
+    ],
+    "hard": [
+      [
+        "Soy de China.",
+        "我来自中国。",
+        "soy来自ser，表达来源时接de。这里先学会整个结构，不要求先分析所有用法。"
+      ],
+      [
+        "En mi mochila hay un libro.",
+        "我的背包里有一本书。",
+        "En mi mochila先说范围；hay再说这里有什么；un libro是新介绍的物品。"
+      ]
+    ],
+    "questions": [
+      {
+        "prompt": "Lina现在住在哪里？",
+        "options": [
+          "马德里",
+          "北京",
+          "利马"
+        ],
+        "answer": "马德里",
+        "explain": "第一段明确说Ahora vivo en Madrid。"
+      },
+      {
+        "prompt": "Diego在哪里？",
+        "options": [
+          "机场",
+          "学校",
+          "医院"
+        ],
+        "answer": "机场",
+        "explain": "Está en el aeropuerto直接给出位置。"
+      },
+      {
+        "prompt": "背包里有什么？",
+        "options": [
+          "一本书",
+          "一只猫",
+          "两瓶水"
+        ],
+        "answer": "一本书",
+        "explain": "第三段说hay un libro。"
+      },
+      {
+        "prompt": "说我来自中国：___ de China.（ser，现在时）",
+        "options": null,
+        "answer": "soy",
+        "explain": "第一人称用soy；这里不填es。"
+      },
+      {
+        "prompt": "给朋友定位：Diego ___ en el aeropuerto.（estar）",
+        "options": null,
+        "answer": "está",
+        "explain": "已明确的人物在哪里用estar，Diego对应está，保留重音。"
+      },
+      {
+        "prompt": "说明包里有书：En mi mochila ___ un libro.（现在存在式）",
+        "options": null,
+        "answer": "hay",
+        "explain": "先说明某处有什么，用hay，不需要随后面的数量变复数。"
+      }
+    ],
+    "rules": [],
+    "task": "不看原文，复述两条信息，再解释你用哪句话作为依据。",
+    "originalId": "sr-01"
+  },
+  {
+    "id": "easy-sr-02",
+    "level": "A1",
+    "title": "大学里的朋友 · 零基础短句版",
+    "paragraphs": [
+      {
+        "es": "Soy Lina. Estudio español en la universidad. Mi clase es pequeña.",
+        "zh": "我是Lina。我在大学学西语。我的班很小。"
+      },
+      {
+        "es": "Irene es mi amiga. Es de Sevilla. Pablo es mi amigo y es de Madrid.",
+        "zh": "Irene是我的女性朋友。她来自塞维利亚。Pablo是我的男性朋友，他来自马德里。"
+      },
+      {
+        "es": "Irene estudia por la mañana. Pablo trabaja por la tarde. Los dos hablan español.",
+        "zh": "Irene上午学习。Pablo下午工作。他们两人都说西语。"
+      },
+      {
+        "es": "Tenemos una profesora. Se llama Marta. Es amable y habla despacio.",
+        "zh": "我们有一位女老师。她叫Marta。她很友善，说得很慢。"
+      }
+    ],
+    "glosses": [
+      {
+        "head": "universidad",
+        "abbr": "n. f.",
+        "meaning": "大学"
+      },
+      {
+        "head": "clase",
+        "abbr": "n. f.",
+        "meaning": "课；班级"
+      },
+      {
+        "head": "mañana",
+        "abbr": "n. f.",
+        "meaning": "早晨；上午"
+      },
+      {
+        "head": "tarde",
+        "abbr": "n. f.",
+        "meaning": "下午；傍晚"
+      },
+      {
+        "head": "profesora",
+        "abbr": "n. f.",
+        "meaning": "女教师"
+      },
+      {
+        "head": "amable",
+        "abbr": "adj.",
+        "meaning": "友善的"
+      }
+    ],
+    "hard": [
+      [
+        "Irene estudia por la mañana.",
+        "Irene上午学习。",
+        "主语Irene是她，estudiar用estudia；por la mañana作为上午这个时段整体记忆。"
+      ],
+      [
+        "Los dos hablan español.",
+        "他们两人都说西语。",
+        "Los dos指两个人，所以hablar用hablan。语言名称español通常小写。"
+      ]
+    ],
+    "questions": [
+      {
+        "prompt": "Lina在哪里学习？",
+        "options": [
+          "大学",
+          "银行",
+          "机场"
+        ],
+        "answer": "大学",
+        "explain": "第一段说en la universidad。"
+      },
+      {
+        "prompt": "谁下午工作？",
+        "options": [
+          "Pablo",
+          "Irene",
+          "Marta"
+        ],
+        "answer": "Pablo",
+        "explain": "第三段明确说Pablo trabaja por la tarde。"
+      },
+      {
+        "prompt": "女教师叫什么？",
+        "options": [
+          "Marta",
+          "Lina",
+          "Ana"
+        ],
+        "answer": "Marta",
+        "explain": "最后一段Se llama Marta。"
+      },
+      {
+        "prompt": "Irene ___ español.（estudiar，现在时）",
+        "options": null,
+        "answer": "estudia",
+        "explain": "第三人称单数去-ar加-a。"
+      },
+      {
+        "prompt": "Los dos ___ español.（hablar，现在时）",
+        "options": null,
+        "answer": "hablan",
+        "explain": "复数第三人称词尾-an。"
+      },
+      {
+        "prompt": "一位女教师：una ___.（profesor的女性形式）",
+        "options": null,
+        "answer": "profesora",
+        "explain": "profesor对应profesora；这里只要求已学过的这一对词，不推广到所有职业。"
+      }
+    ],
+    "rules": [],
+    "task": "不看原文，复述两条信息，再解释你用哪句话作为依据。",
+    "originalId": "sr-02"
+  },
+  {
+    "id": "easy-sr-03",
+    "level": "A1",
+    "title": "教室里的东西 · 零基础短句版",
+    "paragraphs": [
+      {
+        "es": "Esta es mi clase. Hay una mesa blanca y seis sillas rojas.",
+        "zh": "这是我的教室。有一张白桌子和六把红椅子。"
+      },
+      {
+        "es": "La mesa es pequeña. Las sillas son nuevas. La ventana está abierta.",
+        "zh": "桌子小。椅子是新的。窗户开着。"
+      },
+      {
+        "es": "Mi libro está en la mesa. Mis cuadernos están en la mochila.",
+        "zh": "我的书在桌上。我的笔记本在背包里。"
+      },
+      {
+        "es": "La profesora habla. Nosotros escuchamos y escribimos palabras.",
+        "zh": "老师说话。我们听，并写单词。"
+      }
+    ],
+    "glosses": [
+      {
+        "head": "mesa",
+        "abbr": "n. f.",
+        "meaning": "桌子"
+      },
+      {
+        "head": "silla",
+        "abbr": "n. f.",
+        "meaning": "椅子"
+      },
+      {
+        "head": "ventana",
+        "abbr": "n. f.",
+        "meaning": "窗户"
+      },
+      {
+        "head": "cuaderno",
+        "abbr": "n. m.",
+        "meaning": "笔记本"
+      },
+      {
+        "head": "palabra",
+        "abbr": "n. f.",
+        "meaning": "单词；话语"
+      },
+      {
+        "head": "escuchar",
+        "abbr": "v.",
+        "meaning": "听"
+      }
+    ],
+    "hard": [
+      [
+        "seis sillas rojas",
+        "六把红色椅子",
+        "silla为f.；六把是复数，形容词用rojas，同时带阴性和复数。"
+      ],
+      [
+        "Mis cuadernos están en la mochila.",
+        "我的笔记本在背包里。",
+        "明确的复数物品作主语，用están定位；不是说包里首次出现了什么。"
+      ]
+    ],
+    "questions": [
+      {
+        "prompt": "有几把椅子？",
+        "options": [
+          "六把",
+          "一把",
+          "八把"
+        ],
+        "answer": "六把",
+        "explain": "第一段seis sillas。"
+      },
+      {
+        "prompt": "书在哪里？",
+        "options": [
+          "桌上",
+          "窗外",
+          "地上"
+        ],
+        "answer": "桌上",
+        "explain": "Mi libro está en la mesa。"
+      },
+      {
+        "prompt": "学生们做什么？",
+        "options": [
+          "听并写单词",
+          "做饭",
+          "买票"
+        ],
+        "answer": "听并写单词",
+        "explain": "最后一段escuchamos y escribimos palabras。"
+      },
+      {
+        "prompt": "阴性复数颜色：sillas ___.（rojo）",
+        "options": null,
+        "answer": "rojas",
+        "explain": "sillas是阴性复数，rojo变rojas。"
+      },
+      {
+        "prompt": "复数物品位置：Los cuadernos ___ en la mochila.（estar）",
+        "options": null,
+        "answer": "están",
+        "explain": "复数第三人称位置用están。"
+      },
+      {
+        "prompt": "我们写：Nosotros ___ palabras.（escribir，现在时）",
+        "options": null,
+        "answer": "escribimos",
+        "explain": "-ir动词对应nosotros用-imos。"
+      }
+    ],
+    "rules": [],
+    "task": "不看原文，复述两条信息，再解释你用哪句话作为依据。",
+    "originalId": "sr-03"
+  },
+  {
+    "id": "easy-sr-04",
+    "level": "A1",
+    "title": "寻找办公室 · 零基础短句版",
+    "paragraphs": [
+      {
+        "es": "Estoy en la universidad. Busco la oficina. No sé dónde está.",
+        "zh": "我在大学。我找办公室。我不知道它在哪里。"
+      },
+      {
+        "es": "Una estudiante está aquí. Pregunto: «Perdona, ¿dónde está la oficina?».",
+        "zh": "一位学生在这里。我问：“打扰一下，办公室在哪里？”"
+      },
+      {
+        "es": "Ella dice: «Está al lado de la biblioteca». La biblioteca es grande.",
+        "zh": "她说：“在图书馆旁边。”图书馆很大。"
+      },
+      {
+        "es": "Camino hasta la oficina. La puerta está abierta. Digo: «Gracias».",
+        "zh": "我走到办公室。门开着。我说：“谢谢。”"
+      }
+    ],
+    "glosses": [
+      {
+        "head": "oficina",
+        "abbr": "n. f.",
+        "meaning": "办公室"
+      },
+      {
+        "head": "biblioteca",
+        "abbr": "n. f.",
+        "meaning": "图书馆"
+      },
+      {
+        "head": "estudiante",
+        "abbr": "n. m./f.",
+        "meaning": "学生，同形人物名词"
+      },
+      {
+        "head": "lado",
+        "abbr": "n. m.",
+        "meaning": "旁边；侧面"
+      },
+      {
+        "head": "puerta",
+        "abbr": "n. f.",
+        "meaning": "门"
+      },
+      {
+        "head": "abierta",
+        "abbr": "adj. f.",
+        "meaning": "开着的，阴性单数"
+      }
+    ],
+    "hard": [
+      [
+        "¿Dónde está la oficina?",
+        "办公室在哪里？",
+        "dónde是询问地点，写重音；estar为已知办公室定位。"
+      ],
+      [
+        "al lado de la biblioteca",
+        "在图书馆旁边",
+        "先将al lado de作为方位短语学习，de后面再接地点；不要省去de。"
+      ]
+    ],
+    "questions": [
+      {
+        "prompt": "“我”找什么？",
+        "options": [
+          "办公室",
+          "机场",
+          "餐厅"
+        ],
+        "answer": "办公室",
+        "explain": "Busco la oficina。"
+      },
+      {
+        "prompt": "办公室在哪里？",
+        "options": [
+          "图书馆旁边",
+          "教室里面",
+          "火车站对面"
+        ],
+        "answer": "图书馆旁边",
+        "explain": "Está al lado de la biblioteca。"
+      },
+      {
+        "prompt": "门的状态如何？",
+        "options": [
+          "开着",
+          "锁着",
+          "文中没说"
+        ],
+        "answer": "开着",
+        "explain": "La puerta está abierta。"
+      },
+      {
+        "prompt": "问地点：¿___ está la oficina?（哪里）",
+        "options": null,
+        "answer": "dónde",
+        "explain": "直接疑问词dónde带重音。"
+      },
+      {
+        "prompt": "方位组合：al lado ___ la biblioteca.",
+        "options": null,
+        "answer": "de",
+        "explain": "al lado de是本课给出的完整方位组合。"
+      },
+      {
+        "prompt": "一位学生，女性仍用同形词：una ___.（estudiante）",
+        "options": null,
+        "answer": "estudiante",
+        "explain": "estudiante的常用人物形式不因为阴性而随意换成estudianta。"
+      }
+    ],
+    "rules": [],
+    "task": "不看原文，复述两条信息，再解释你用哪句话作为依据。",
+    "originalId": "sr-04"
+  },
+  {
+    "id": "easy-sr-05",
+    "level": "A1",
+    "title": "周末去公园 · 零基础短句版",
+    "paragraphs": [
+      {
+        "es": "Hoy es sábado. Lina no trabaja. Tiene tiempo por la tarde.",
+        "zh": "今天周六。Lina不工作。她下午有空。"
+      },
+      {
+        "es": "Lina y Diego van al parque. El parque está cerca de casa.",
+        "zh": "Lina和Diego去公园。公园离家近。"
+      },
+      {
+        "es": "Hay muchos árboles y un lago. Lina camina. Diego lee un libro.",
+        "zh": "有很多树和一个湖。Lina散步。Diego读书。"
+      },
+      {
+        "es": "A las seis vuelven a casa. Están contentos.",
+        "zh": "六点他们回家。他们很高兴。"
+      }
+    ],
+    "glosses": [
+      {
+        "head": "sábado",
+        "abbr": "n. m.",
+        "meaning": "星期六"
+      },
+      {
+        "head": "parque",
+        "abbr": "n. m.",
+        "meaning": "公园"
+      },
+      {
+        "head": "árbol",
+        "abbr": "n. m.",
+        "meaning": "树"
+      },
+      {
+        "head": "lago",
+        "abbr": "n. m.",
+        "meaning": "湖"
+      },
+      {
+        "head": "cerca",
+        "abbr": "adv.",
+        "meaning": "近；在附近"
+      },
+      {
+        "head": "volver",
+        "abbr": "v.",
+        "meaning": "返回"
+      }
+    ],
+    "hard": [
+      [
+        "Lina y Diego van al parque.",
+        "Lina和Diego去公园。",
+        "两个人对应ellos，ir用van；a与el在parque前合为al。"
+      ],
+      [
+        "A las seis vuelven a casa.",
+        "六点他们回家。",
+        "a las seis表示动作时刻，不是现在几点；volver的ellos现在时为vuelven。"
+      ]
+    ],
+    "questions": [
+      {
+        "prompt": "故事发生在星期几？",
+        "options": [
+          "星期六",
+          "星期一",
+          "星期三"
+        ],
+        "answer": "星期六",
+        "explain": "Hoy es sábado。"
+      },
+      {
+        "prompt": "Diego在公园做什么？",
+        "options": [
+          "读书",
+          "踢足球",
+          "做饭"
+        ],
+        "answer": "读书",
+        "explain": "Diego lee un libro。"
+      },
+      {
+        "prompt": "他们几点回家？",
+        "options": [
+          "六点",
+          "两点",
+          "九点"
+        ],
+        "answer": "六点",
+        "explain": "A las seis vuelven a casa。"
+      },
+      {
+        "prompt": "去公园，a+el合写：van ___ parque.",
+        "options": null,
+        "answer": "al",
+        "explain": "a与el通常缩合为al。"
+      },
+      {
+        "prompt": "说明动作时刻：___ las seis vuelven.（填介词）",
+        "options": null,
+        "answer": "a",
+        "explain": "事件时间用a las seis。"
+      },
+      {
+        "prompt": "两个人的位置：Lina y Diego ___ en el parque.（estar）",
+        "options": null,
+        "answer": "están",
+        "explain": "复数主语配están。"
+      }
+    ],
+    "rules": [],
+    "task": "不看原文，复述两条信息，再解释你用哪句话作为依据。",
+    "originalId": "sr-05"
+  },
+  {
+    "id": "easy-sr-06",
+    "level": "A1",
+    "title": "我的一天 · 零基础短句版",
+    "paragraphs": [
+      {
+        "es": "Me llamo Diego. Vivo con mi hermana. Trabajo en una tienda.",
+        "zh": "我叫Diego。我和姐姐／妹妹住一起。我在一家商店工作。"
+      },
+      {
+        "es": "Por la mañana tomo café y estudio español. La clase empieza a las nueve.",
+        "zh": "上午我喝咖啡、学西语。课九点开始。"
+      },
+      {
+        "es": "Trabajo por la tarde. Mi hermana trabaja por la mañana.",
+        "zh": "我下午工作。我姐姐／妹妹上午工作。"
+      },
+      {
+        "es": "Por la noche cenamos juntos. Después leo un libro.",
+        "zh": "晚上我们一起吃晚饭。之后我读书。"
+      }
+    ],
+    "glosses": [
+      {
+        "head": "hermana",
+        "abbr": "n. f.",
+        "meaning": "姐姐；妹妹"
+      },
+      {
+        "head": "tienda",
+        "abbr": "n. f.",
+        "meaning": "商店"
+      },
+      {
+        "head": "café",
+        "abbr": "n. m.",
+        "meaning": "咖啡"
+      },
+      {
+        "head": "noche",
+        "abbr": "n. f.",
+        "meaning": "晚上；夜间"
+      },
+      {
+        "head": "juntos",
+        "abbr": "adj. m. pl.",
+        "meaning": "一起的；此处指两人共同"
+      },
+      {
+        "head": "después",
+        "abbr": "adv.",
+        "meaning": "之后"
+      }
+    ],
+    "hard": [
+      [
+        "Trabajo en una tienda.",
+        "我在一家商店工作。",
+        "trabajo在此是动词trabajar的我形式；不能只因词典有名词trabajo就误认成名词。"
+      ],
+      [
+        "Mi hermana trabaja por la mañana.",
+        "我姐姐／妹妹上午工作。",
+        "mi不让动词变第一人称，主语是mi hermana，所以用trabaja。"
+      ]
+    ],
+    "questions": [
+      {
+        "prompt": "Diego在哪里工作？",
+        "options": [
+          "商店",
+          "机场",
+          "医院"
+        ],
+        "answer": "商店",
+        "explain": "Trabajo en una tienda。"
+      },
+      {
+        "prompt": "课几点开始？",
+        "options": [
+          "九点",
+          "八点",
+          "十点"
+        ],
+        "answer": "九点",
+        "explain": "La clase empieza a las nueve。"
+      },
+      {
+        "prompt": "谁上午工作？",
+        "options": [
+          "Diego的姐姐／妹妹",
+          "Diego",
+          "两人都不是"
+        ],
+        "answer": "Diego的姐姐／妹妹",
+        "explain": "第三段给出Mi hermana trabaja por la mañana。"
+      },
+      {
+        "prompt": "我工作：Yo ___ en una tienda.（trabajar，现在时）",
+        "options": null,
+        "answer": "trabajo",
+        "explain": "-ar动词yo词尾-o。"
+      },
+      {
+        "prompt": "她工作：Mi hermana ___ aquí.（trabajar，现在时）",
+        "options": null,
+        "answer": "trabaja",
+        "explain": "主语是她，用-a。"
+      },
+      {
+        "prompt": "我们吃晚饭：Nosotros ___ juntos.（cenar，现在时）",
+        "options": null,
+        "answer": "cenamos",
+        "explain": "规则-ar动词nosotros用-amos。"
+      }
+    ],
+    "rules": [],
+    "task": "不看原文，复述两条信息，再解释你用哪句话作为依据。",
+    "originalId": "sr-06"
+  },
+  {
+    "id": "easy-sr-07",
+    "level": "A1",
+    "title": "一起准备午饭 · 零基础短句版",
+    "paragraphs": [
+      {
+        "es": "Hoy comemos en casa. Somos cuatro amigos. Tenemos pan, arroz y tomates.",
+        "zh": "今天我们在家吃饭。我们是四个朋友。我们有面包、米饭和番茄。"
+      },
+      {
+        "es": "Lina lava los tomates. Pablo prepara el arroz. Irene pone la mesa.",
+        "zh": "Lina洗番茄。Pablo准备米饭。Irene摆餐桌。"
+      },
+      {
+        "es": "Yo compro agua. No compro vino. Después vuelvo a casa.",
+        "zh": "我买水。我不买葡萄酒。之后我回家。"
+      },
+      {
+        "es": "La comida está lista a las dos. Comemos y hablamos.",
+        "zh": "两点饭做好了。我们吃饭、聊天。"
+      }
+    ],
+    "glosses": [
+      {
+        "head": "pan",
+        "abbr": "n. m.",
+        "meaning": "面包"
+      },
+      {
+        "head": "arroz",
+        "abbr": "n. m.",
+        "meaning": "米饭；大米"
+      },
+      {
+        "head": "tomate",
+        "abbr": "n. m.",
+        "meaning": "番茄"
+      },
+      {
+        "head": "agua",
+        "abbr": "n. f.",
+        "meaning": "水；单数常用el agua"
+      },
+      {
+        "head": "comida",
+        "abbr": "n. f.",
+        "meaning": "饭菜；食物；一餐"
+      },
+      {
+        "head": "listo",
+        "abbr": "adj.",
+        "meaning": "准备好的；机灵的，依语境"
+      }
+    ],
+    "hard": [
+      [
+        "La comida está lista.",
+        "饭菜准备好了。",
+        "comida在这里是阴性名词；lista与它一致，estar描述当前状态。"
+      ],
+      [
+        "No compro vino.",
+        "我不买葡萄酒。",
+        "no放在变位动词compro前；本句不需要英语式助动词。"
+      ]
+    ],
+    "questions": [
+      {
+        "prompt": "一共几个朋友？",
+        "options": [
+          "四个",
+          "两个",
+          "六个"
+        ],
+        "answer": "四个",
+        "explain": "Somos cuatro amigos。"
+      },
+      {
+        "prompt": "谁准备米饭？",
+        "options": [
+          "Pablo",
+          "Lina",
+          "Irene"
+        ],
+        "answer": "Pablo",
+        "explain": "Pablo prepara el arroz。"
+      },
+      {
+        "prompt": "饭几点准备好？",
+        "options": [
+          "两点",
+          "十二点",
+          "六点"
+        ],
+        "answer": "两点",
+        "explain": "a las dos。"
+      },
+      {
+        "prompt": "否定我买葡萄酒：___ compro vino.",
+        "options": null,
+        "answer": "no",
+        "explain": "直接在变位动词前放no。"
+      },
+      {
+        "prompt": "饭菜是阴性：La comida está ___.（listo）",
+        "options": null,
+        "answer": "lista",
+        "explain": "lista与阴性单数comida一致。"
+      },
+      {
+        "prompt": "我们吃饭：Nosotros ___ en casa.（comer，现在时）",
+        "options": null,
+        "answer": "comemos",
+        "explain": "规则-er动词nosotros用-emos。"
+      }
+    ],
+    "rules": [],
+    "task": "不看原文，复述两条信息，再解释你用哪句话作为依据。",
+    "originalId": "sr-07"
+  },
+  {
+    "id": "easy-sr-08",
+    "level": "A1",
+    "title": "桌上的物品 · 零基础短句版",
+    "paragraphs": [
+      {
+        "es": "Hay dos mesas en la clase. En una mesa hay libros. En la otra hay cuadernos.",
+        "zh": "教室有两张桌子。一张桌子上有书。另一张上有笔记本。"
+      },
+      {
+        "es": "Mi libro es azul. Está en la mesa pequeña. Es un libro nuevo.",
+        "zh": "我的书是蓝色的。它在小桌上。它是一本新书。"
+      },
+      {
+        "es": "Tus cuadernos son rojos. Están en la mesa grande.",
+        "zh": "你的笔记本是红色的。它们在大桌上。"
+      },
+      {
+        "es": "La profesora pregunta: «¿Dónde está mi libro?». Nosotros decimos: «Está aquí».",
+        "zh": "老师问：“我的书在哪里？”我们说：“在这里。”"
+      }
+    ],
+    "glosses": [
+      {
+        "head": "otro",
+        "abbr": "adj./pron.",
+        "meaning": "另一个；其他的"
+      },
+      {
+        "head": "nuevo",
+        "abbr": "adj.",
+        "meaning": "新的"
+      },
+      {
+        "head": "rojo",
+        "abbr": "adj.",
+        "meaning": "红色的"
+      },
+      {
+        "head": "grande",
+        "abbr": "adj.",
+        "meaning": "大的"
+      },
+      {
+        "head": "aquí",
+        "abbr": "adv.",
+        "meaning": "这里"
+      },
+      {
+        "head": "preguntar",
+        "abbr": "v.",
+        "meaning": "问"
+      }
+    ],
+    "hard": [
+      [
+        "Mi libro es azul. Está en la mesa pequeña.",
+        "我的书是蓝色的。它在小桌上。",
+        "es说书的颜色特征；está为这本已经明确的书定位。"
+      ],
+      [
+        "Tus cuadernos son rojos.",
+        "你的笔记本是红色的。",
+        "cuadernos是阳性复数，ser用son，rojo用rojos。"
+      ]
+    ],
+    "questions": [
+      {
+        "prompt": "有几张桌子？",
+        "options": [
+          "两张",
+          "三张",
+          "一张"
+        ],
+        "answer": "两张",
+        "explain": "Hay dos mesas。"
+      },
+      {
+        "prompt": "蓝色的书在哪里？",
+        "options": [
+          "小桌上",
+          "大桌上",
+          "背包里"
+        ],
+        "answer": "小桌上",
+        "explain": "第二段说Está en la mesa pequeña。"
+      },
+      {
+        "prompt": "笔记本是什么颜色？",
+        "options": [
+          "红色",
+          "蓝色",
+          "白色"
+        ],
+        "answer": "红色",
+        "explain": "Tus cuadernos son rojos。"
+      },
+      {
+        "prompt": "颜色特征：El libro ___ azul.（ser）",
+        "options": null,
+        "answer": "es",
+        "explain": "介绍特征用ser，本句第三人称单数为es。"
+      },
+      {
+        "prompt": "位置：Los cuadernos ___ aquí.（estar）",
+        "options": null,
+        "answer": "están",
+        "explain": "给明确复数物品定位，使用están。"
+      },
+      {
+        "prompt": "阴性单数大小：una mesa ___.（pequeño）",
+        "options": null,
+        "answer": "pequeña",
+        "explain": "mesa是阴性单数，pequeño变pequeña。"
+      }
+    ],
+    "rules": [],
+    "task": "不看原文，复述两条信息，再解释你用哪句话作为依据。",
+    "originalId": "sr-08"
+  },
+  {
+    "id": "easy-sr-09",
+    "level": "A1",
+    "title": "什么时候见面 · 零基础短句版",
+    "paragraphs": [
+      {
+        "es": "Hoy es lunes. Tengo clase a las diez. Mi amiga Irene tiene clase a las nueve.",
+        "zh": "今天周一。我十点有课。我的朋友Irene九点有课。"
+      },
+      {
+        "es": "Los martes estudiamos juntos. La biblioteca abre a las ocho.",
+        "zh": "每周二我们一起学习。图书馆八点开门。"
+      },
+      {
+        "es": "Esta semana nos vemos el viernes. La cita es a la una.",
+        "zh": "这周我们周五见面。约定的时间是一点。"
+      },
+      {
+        "es": "Escribo la hora en mi cuaderno. Así no olvido la cita.",
+        "zh": "我把时间写在笔记本里。这样我就不会忘记约定。"
+      }
+    ],
+    "glosses": [
+      {
+        "head": "lunes",
+        "abbr": "n. m.",
+        "meaning": "星期一"
+      },
+      {
+        "head": "martes",
+        "abbr": "n. m.",
+        "meaning": "星期二"
+      },
+      {
+        "head": "viernes",
+        "abbr": "n. m.",
+        "meaning": "星期五"
+      },
+      {
+        "head": "cita",
+        "abbr": "n. f.",
+        "meaning": "约定；预约"
+      },
+      {
+        "head": "hora",
+        "abbr": "n. f.",
+        "meaning": "钟点；小时"
+      },
+      {
+        "head": "olvidar",
+        "abbr": "v.",
+        "meaning": "忘记"
+      }
+    ],
+    "hard": [
+      [
+        "Los martes estudiamos juntos.",
+        "每周二我们一起学习。",
+        "los martes表示反复的周二；与指某一次的el viernes区分。"
+      ],
+      [
+        "La cita es a la una.",
+        "约定的时间是一点。",
+        "表示一点这个事件时刻用a la una，不照其他时刻一律写a las。"
+      ]
+    ],
+    "questions": [
+      {
+        "prompt": "“我”今天几点有课？",
+        "options": [
+          "十点",
+          "九点",
+          "八点"
+        ],
+        "answer": "十点",
+        "explain": "第一段Tengo clase a las diez。"
+      },
+      {
+        "prompt": "图书馆几点开门？",
+        "options": [
+          "八点",
+          "十点",
+          "一点"
+        ],
+        "answer": "八点",
+        "explain": "abre a las ocho。"
+      },
+      {
+        "prompt": "这周约在星期几？",
+        "options": [
+          "星期五",
+          "星期二",
+          "星期一"
+        ],
+        "answer": "星期五",
+        "explain": "Esta semana nos vemos el viernes。"
+      },
+      {
+        "prompt": "每周二：___ martes estudiamos.（填定冠词）",
+        "options": null,
+        "answer": "los",
+        "explain": "复数冠词加星期名，表达规律。"
+      },
+      {
+        "prompt": "事件时刻一点：a ___ una.（填冠词）",
+        "options": null,
+        "answer": "la",
+        "explain": "una为单数，使用a la una。"
+      },
+      {
+        "prompt": "我们学习：Nosotros ___ juntos.（estudiar，现在时）",
+        "options": null,
+        "answer": "estudiamos",
+        "explain": "nosotros对应estudiamos。"
+      }
+    ],
+    "rules": [],
+    "task": "不看原文，复述两条信息，再解释你用哪句话作为依据。",
+    "originalId": "sr-09"
+  },
+  {
+    "id": "quality-B1-01",
+    "level": "B1",
+    "title": "改约：先说明事实，再提出办法",
+    "paragraphs": [
+      {
+        "es": "Ayer llamé al centro de salud porque necesitaba cambiar una cita. Ya había comprado los billetes para un viaje cuando recibí el recordatorio. La consulta coincidía con la salida del tren.",
+        "zh": "昨天我给医疗中心打电话，因为我需要改约。我收到提醒时已经买好了旅行的车票。就诊时间与火车发车时间冲突。"
+      },
+      {
+        "es": "La recepcionista me preguntó si podía ir el jueves. Le expliqué que ese día seguía fuera de la ciudad y le pedí otra fecha. No bastaba con decir que la hora no me venía bien: tenía que indicar cuándo estaría disponible.",
+        "zh": "接待员问我周四能不能去。我解释那天仍不在城里，并请她换个日期。只说时间不合适还不够：我必须说明何时有空。"
+      },
+      {
+        "es": "Finalmente acordamos una cita para el lunes siguiente. Antes de colgar, repetí el día y la hora. Así comprobamos que los dos habíamos entendido lo mismo.",
+        "zh": "最后我们约在下周一。挂电话前，我重复了日期和时间。这样我们确认双方理解一致。"
+      }
+    ],
+    "glosses": [
+      {
+        "head": "cita",
+        "abbr": "n. f.",
+        "meaning": "预约"
+      },
+      {
+        "head": "recordatorio",
+        "abbr": "n. m.",
+        "meaning": "提醒"
+      },
+      {
+        "head": "consulta",
+        "abbr": "n. f.",
+        "meaning": "就诊；咨询"
+      },
+      {
+        "head": "coincidir",
+        "abbr": "v.",
+        "meaning": "时间重合；一致"
+      },
+      {
+        "head": "disponible",
+        "abbr": "adj.",
+        "meaning": "有空的；可用的"
+      },
+      {
+        "head": "colgar",
+        "abbr": "v.",
+        "meaning": "挂断；悬挂"
+      }
+    ],
+    "hard": [
+      [
+        "Ya había comprado los billetes cuando recibí el recordatorio.",
+        "我收到提醒时已经买好了票。",
+        "买票早于收到提醒这一过去点，用过去完成había comprado；参照事件用recibí。"
+      ],
+      [
+        "Le pedí otra fecha.",
+        "我请她换个日期。",
+        "le是接待员这个请求对象，otra fecha是提出的事项；不是把fecha替换成le。"
+      ]
+    ],
+    "questions": [
+      {
+        "prompt": "为什么需要改约？",
+        "options": [
+          "预约与火车出发时间冲突",
+          "接待员忘了预约",
+          "车票尚未买好"
+        ],
+        "answer": "预约与火车出发时间冲突",
+        "explain": "首段明确说consulta coincidía con la salida del tren。"
+      },
+      {
+        "prompt": "为什么周四不合适？",
+        "options": [
+          "那天仍在外地",
+          "诊所周四关门",
+          "没有解释原因"
+        ],
+        "answer": "那天仍在外地",
+        "explain": "第二段ese día seguía fuera de la ciudad。"
+      },
+      {
+        "prompt": "重复日期和时间主要做什么？",
+        "options": [
+          "核对双方理解",
+          "证明自己没有迟到",
+          "要求更便宜车票"
+        ],
+        "answer": "核对双方理解",
+        "explain": "末段明确说明核对habíamos entendido lo mismo。"
+      },
+      {
+        "prompt": "早于收到提醒的买票：Ya ___ comprado los billetes.（haber，yo，过去完成）",
+        "options": null,
+        "answer": "había",
+        "explain": "haber的未完成形式había加分词，标记更早过去。"
+      },
+      {
+        "prompt": "过去已发生的电话：Ayer ___ al centro.（llamar，yo，简单过去）",
+        "options": null,
+        "answer": "llamé",
+        "explain": "昨天那次电话是完整事件，用llamé。"
+      },
+      {
+        "prompt": "挂电话前，介词后用原形：Antes de ___, repetí la hora.（colgar）",
+        "options": null,
+        "answer": "colgar",
+        "explain": "de为介词，后接原形。"
+      }
+    ],
+    "rules": [],
+    "task": "不看原文，复述两条信息，再解释你用哪句话作为依据。",
+    "originalId": null
+  },
+  {
+    "id": "quality-B1-02",
+    "level": "B1",
+    "title": "招募志愿者：已知条件与未知人选",
+    "paragraphs": [
+      {
+        "es": "El barrio prepara una biblioteca de intercambio. Buscamos a alguien que pueda venir los sábados y que sepa organizar libros. No es necesario que tenga experiencia profesional, pero sí que cumpla los horarios.",
+        "zh": "社区正筹备一处图书交换点。我们在找周六能来、懂得整理书的人。不必有职业经验，但必须遵守时间。"
+      },
+      {
+        "es": "Marta, que trabaja en una librería, ya se ha ofrecido. Ella conoce a varios vecinos que quieren ayudar. Sin embargo, todavía no sabemos quién abrirá el local cada semana.",
+        "zh": "Marta在书店工作，已经主动报名。她认识几位愿意帮忙的邻居。不过我们还不知道每周谁来开门。"
+      },
+      {
+        "es": "Si te interesa el proyecto, escribe un mensaje con tu disponibilidad. Antes de confirmar los turnos, hablaremos con todas las personas. Preferimos preguntar a tiempo a cambiar el plan a última hora.",
+        "zh": "如果你对这个项目感兴趣，请写信说明可参与的时间。确认轮班前，我们会与每位参与者沟通。我们宁可及时询问，也不愿临时改变计划。"
+      }
+    ],
+    "glosses": [
+      {
+        "head": "intercambio",
+        "abbr": "n. m.",
+        "meaning": "交换"
+      },
+      {
+        "head": "cumplir",
+        "abbr": "v.",
+        "meaning": "遵守；完成"
+      },
+      {
+        "head": "librería",
+        "abbr": "n. f.",
+        "meaning": "书店"
+      },
+      {
+        "head": "ofrecerse",
+        "abbr": "v. prnl.",
+        "meaning": "主动提出"
+      },
+      {
+        "head": "disponibilidad",
+        "abbr": "n. f.",
+        "meaning": "可参与时间；可用性"
+      },
+      {
+        "head": "turno",
+        "abbr": "n. m.",
+        "meaning": "轮班；轮次"
+      }
+    ],
+    "hard": [
+      [
+        "Buscamos a alguien que pueda venir.",
+        "我们想找能来的人。",
+        "人选尚未确定，将能来作为筛选要求，用虚拟式pueda。"
+      ],
+      [
+        "Marta, que trabaja en una librería, ya se ha ofrecido.",
+        "Marta在书店工作，已经主动报名。",
+        "逗号内补充已知人物的事实，用直陈式trabaja，而不是筛选未知人选。"
+      ]
+    ],
+    "questions": [
+      {
+        "prompt": "申请者一定要有职业经验吗？",
+        "options": [
+          "不一定",
+          "一定",
+          "文中只招专业馆员"
+        ],
+        "answer": "不一定",
+        "explain": "No es necesario que tenga experiencia profesional。"
+      },
+      {
+        "prompt": "已经报名的是谁？",
+        "options": [
+          "Marta",
+          "全体邻居",
+          "作者的老师"
+        ],
+        "answer": "Marta",
+        "explain": "第二段ya se ha ofrecido指Marta。"
+      },
+      {
+        "prompt": "为什么先问可参与时间？",
+        "options": [
+          "避免临时改计划",
+          "保证所有人每天都来",
+          "排除住得远的人"
+        ],
+        "answer": "避免临时改计划",
+        "explain": "最后一句表达宁可及时问，避免最后一刻调整。"
+      },
+      {
+        "prompt": "未知人选的条件：Buscamos a alguien que ___ venir.（poder，现在虚拟式）",
+        "options": null,
+        "answer": "pueda",
+        "explain": "相对从句筛选尚未确定的人选，用pueda。"
+      },
+      {
+        "prompt": "补充已知事实：Marta, que ___ en una librería…（trabajar，现在直陈式）",
+        "options": null,
+        "answer": "trabaja",
+        "explain": "已知人物的附加事实用trabaja。"
+      },
+      {
+        "prompt": "开放条件：Si te ___ el proyecto, escribe.（interesar，现在时）",
+        "options": null,
+        "answer": "interesa",
+        "explain": "引起兴趣的是单数el proyecto，所以interesa。"
+      }
+    ],
+    "rules": [],
+    "task": "不看原文，复述两条信息，再解释你用哪句话作为依据。",
+    "originalId": null
+  },
+  {
+    "id": "quality-B2-01",
+    "level": "B2",
+    "title": "调查标题：比例不等于所有人",
+    "paragraphs": [
+      {
+        "es": "Un titular afirma que el sesenta por ciento prefiere estudiar por la mañana. El informe, sin embargo, recoge respuestas de ochenta personas de una sola academia. Además, todas contestaron a través del mismo grupo de mensajería.",
+        "zh": "标题声称百分之六十的人更喜欢上午学习。然而，报告收集的只是同一家培训机构八十人的回答，而且所有人都通过同一个聊天群作答。"
+      },
+      {
+        "es": "El dato puede describir a quienes participaron, pero no permite concluir qué prefiere toda la ciudad. Tampoco sabemos cuántas personas recibieron la encuesta y no respondieron. Esa ausencia importa porque podría cambiar la interpretación.",
+        "zh": "数字可以描述参与者，却不足以推断整座城市的偏好。我们也不知道多少人收到问卷却没有回复。这一缺失很重要，因为它可能改变解读。"
+      },
+      {
+        "es": "Una versión más precisa del titular mencionaría la muestra y la fecha. Limitar el alcance no significa negar los resultados: significa evitar una afirmación que los datos no sostienen.",
+        "zh": "更准确的标题会说明样本和日期。限制结论的范围不等于否定结果，而是避免做出数据不支持的断言。"
+      }
+    ],
+    "glosses": [
+      {
+        "head": "titular",
+        "abbr": "n. m.",
+        "meaning": "新闻标题"
+      },
+      {
+        "head": "muestra",
+        "abbr": "n. f.",
+        "meaning": "样本"
+      },
+      {
+        "head": "encuesta",
+        "abbr": "n. f.",
+        "meaning": "问卷调查"
+      },
+      {
+        "head": "alcance",
+        "abbr": "n. m.",
+        "meaning": "范围；影响力"
+      },
+      {
+        "head": "sostener",
+        "abbr": "v.",
+        "meaning": "支持；维持"
+      },
+      {
+        "head": "recoger",
+        "abbr": "v.",
+        "meaning": "收集；记录"
+      }
+    ],
+    "hard": [
+      [
+        "El dato puede describir a quienes participaron.",
+        "数字可以描述参与调查的人。",
+        "quienes参与者为复数人物；这句限定结论对象，不是在泛指全城。"
+      ],
+      [
+        "Limitar el alcance no significa negar los resultados.",
+        "限制范围不等于否定结果。",
+        "句首原形短语作为整体主语，significa用单数。两件不同的事不能混为一谈。"
+      ]
+    ],
+    "questions": [
+      {
+        "prompt": "数据来自哪里？",
+        "options": [
+          "一家机构的八十人",
+          "全城随机抽样",
+          "全国统计"
+        ],
+        "answer": "一家机构的八十人",
+        "explain": "首段明确给出ochenta personas de una sola academia。"
+      },
+      {
+        "prompt": "哪项信息仍然缺失？",
+        "options": [
+          "收到但未回复问卷的人数",
+          "参与者是否都住在地球",
+          "文章使用的语言"
+        ],
+        "answer": "收到但未回复问卷的人数",
+        "explain": "第二段cuántas personas recibieron… y no respondieron。"
+      },
+      {
+        "prompt": "作者主要反对什么？",
+        "options": [
+          "把局部结果推成全体偏好",
+          "进行任何问卷",
+          "报告真实数字"
+        ],
+        "answer": "把局部结果推成全体偏好",
+        "explain": "末段强调避免数据不支持的断言。"
+      },
+      {
+        "prompt": "限制推论：Los datos no permiten ___.（generalizar，填原形）",
+        "options": null,
+        "answer": "generalizar",
+        "explain": "permitir后接动作原形，语义是不能泛化。"
+      },
+      {
+        "prompt": "更准确的标题会提及样本：Un titular más preciso ___ la muestra.（mencionar，条件式）",
+        "options": null,
+        "answer": "mencionaría",
+        "explain": "条件式在此表达假想改进后的标题，不是已发生事实。"
+      },
+      {
+        "prompt": "原形短语作整体主语：Limitar el alcance no ___ negar el resultado.（significar，现在时）",
+        "options": null,
+        "answer": "significa",
+        "explain": "整个原形短语按单数整体处理。"
+      }
+    ],
+    "rules": [],
+    "task": "不看原文，复述两条信息，再解释你用哪句话作为依据。",
+    "originalId": null
+  },
+  {
+    "id": "quality-B2-02",
+    "level": "B2",
+    "title": "协商截止日期：让步不等于承诺",
+    "paragraphs": [
+      {
+        "es": "El equipo quiere entregar el informe el viernes. Aunque mañana falten algunos datos, prepararemos una versión provisional. La fecha final dependerá de cuándo recibamos las cifras del laboratorio.",
+        "zh": "团队想周五交报告。即使明天还缺一些数据，我们也会准备一份暂定版。最终日期将取决于何时收到实验室的数据。"
+      },
+      {
+        "es": "Para que nadie confunda las dos versiones, la provisional llevará una etiqueta visible. Cuando llegue la información pendiente, revisaremos las conclusiones. No prometeremos resultados antes de comprobar las fuentes.",
+        "zh": "为了避免混淆两个版本，暂定版会有显眼标签。待补信息到了以后，我们会修订结论。核对来源之前，我们不会承诺结果。"
+      },
+      {
+        "es": "La responsable acepta el plan, siempre que el cliente conozca sus límites. Así, el acuerdo distingue una entrega posible de una garantía que el equipo todavía no puede ofrecer.",
+        "zh": "负责人接受这个方案，条件是客户知道它的限制。这样协议就区分了可交付的版本和团队目前无法提供的保证。"
+      }
+    ],
+    "glosses": [
+      {
+        "head": "provisional",
+        "abbr": "adj.",
+        "meaning": "暂定的；临时的"
+      },
+      {
+        "head": "cifra",
+        "abbr": "n. f.",
+        "meaning": "数字；数据"
+      },
+      {
+        "head": "etiqueta",
+        "abbr": "n. f.",
+        "meaning": "标签"
+      },
+      {
+        "head": "pendiente",
+        "abbr": "adj.",
+        "meaning": "待处理的；尚未完成的"
+      },
+      {
+        "head": "garantía",
+        "abbr": "n. f.",
+        "meaning": "保证"
+      },
+      {
+        "head": "límite",
+        "abbr": "n. m.",
+        "meaning": "界限；限制"
+      }
+    ],
+    "hard": [
+      [
+        "Aunque mañana falten algunos datos, prepararemos una versión provisional.",
+        "即使明天缺一些数据，我们也会准备暂定版。",
+        "把未来障碍作为可能情况，不断言它必定发生，用虚拟式falten。"
+      ],
+      [
+        "Cuando llegue la información pendiente, revisaremos las conclusiones.",
+        "待补信息到达后，我们会修订结论。",
+        "从现在看尚未发生的到达，cuando后用现在虚拟式llegue。"
+      ]
+    ],
+    "questions": [
+      {
+        "prompt": "周五先准备什么？",
+        "options": [
+          "暂定版",
+          "经全部数据核验的最终保证",
+          "空白文件"
+        ],
+        "answer": "暂定版",
+        "explain": "首段承诺的是versión provisional。"
+      },
+      {
+        "prompt": "标签的作用是什么？",
+        "options": [
+          "防止混淆版本",
+          "保证数据永远正确",
+          "代替引用来源"
+        ],
+        "answer": "防止混淆版本",
+        "explain": "Para que nadie confunda las dos versiones明确目的。"
+      },
+      {
+        "prompt": "负责人的接受条件是什么？",
+        "options": [
+          "客户了解方案限制",
+          "客户不看任何说明",
+          "实验室已交全部数字"
+        ],
+        "answer": "客户了解方案限制",
+        "explain": "siempre que el cliente conozca sus límites。"
+      },
+      {
+        "prompt": "未来时间从句：Cuando ___ la información…（llegar，现在虚拟式）",
+        "options": null,
+        "answer": "llegue",
+        "explain": "尚未实现的未来时间界限用llegue。"
+      },
+      {
+        "prompt": "目的从句：Para que nadie ___ las versiones…（confundir，现在虚拟式）",
+        "options": null,
+        "answer": "confunda",
+        "explain": "para que后表达目的，用confunda。"
+      },
+      {
+        "prompt": "条件连接：Acepta, siempre ___ el cliente conozca los límites.（填缺词）",
+        "options": null,
+        "answer": "que",
+        "explain": "siempre que在此引出条件，后面的conozca是虚拟式。"
+      }
+    ],
+    "rules": [],
+    "task": "不看原文，复述两条信息，再解释你用哪句话作为依据。",
+    "originalId": null
+  },
+  {
+    "id": "quality-C1-01",
+    "level": "C1",
+    "title": "学术表达：证据不足时怎样下判断",
+    "paragraphs": [
+      {
+        "es": "El estudio observa una asociación entre dos hábitos, pero no demuestra que uno cause el otro. Tampoco consta que los grupos fueran equivalentes al comienzo. Presentar el resultado como una prueba definitiva borraría esas limitaciones.",
+        "zh": "研究观察到两种习惯之间存在关联，却未证明其中一种导致另一种。也没有确凿记录表明两组起初等同。把结果表述成最终证明会抹掉这些限制。"
+      },
+      {
+        "es": "No se trata de renunciar a una conclusión, sino de ajustar su fuerza a la evidencia disponible. Una formulación como «los datos sugieren» deja abierta una revisión; «ha quedado demostrado», en cambio, exige un respaldo más sólido.",
+        "zh": "问题不是放弃结论，而是使断言强度与现有证据相称。“数据提示”给修订留出空间；相反，“已经证实”需要更坚实的支持。"
+      },
+      {
+        "es": "Antes de resumir el artículo, conviene separar lo observado, lo inferido y lo que aún se desconoce. Esa distinción permite discrepar con precisión sin atribuir a los autores afirmaciones que no hicieron.",
+        "zh": "概括文章前，应区分观察结果、推论和未知部分。这种区分让人能够准确提出异议，而不把作者没说过的话强加给作者。"
+      }
+    ],
+    "glosses": [
+      {
+        "head": "asociación",
+        "abbr": "n. f.",
+        "meaning": "关联；协会"
+      },
+      {
+        "head": "equivalente",
+        "abbr": "adj.",
+        "meaning": "等同的"
+      },
+      {
+        "head": "evidencia",
+        "abbr": "n. f.",
+        "meaning": "证据"
+      },
+      {
+        "head": "respaldo",
+        "abbr": "n. m.",
+        "meaning": "支持；依据"
+      },
+      {
+        "head": "inferir",
+        "abbr": "v.",
+        "meaning": "推断"
+      },
+      {
+        "head": "atribuir",
+        "abbr": "v.",
+        "meaning": "归于；归因于"
+      }
+    ],
+    "hard": [
+      [
+        "No demuestra que uno cause el otro.",
+        "这并未证明一种导致另一种。",
+        "否定证实把因果命题保留为未确证内容，cause为虚拟式；不能由关联直接跳到因果。"
+      ],
+      [
+        "No se trata de renunciar…, sino de ajustar…",
+        "不是放弃……，而是调整……。",
+        "sino de纠正前面被否定的理解；两处de加原形保持结构平行。"
+      ]
+    ],
+    "questions": [
+      {
+        "prompt": "研究直接观察到什么？",
+        "options": [
+          "习惯之间的关联",
+          "严格的因果证明",
+          "所有人都会有同样结果"
+        ],
+        "answer": "习惯之间的关联",
+        "explain": "首句明确区分asociación与demostrar causalidad。"
+      },
+      {
+        "prompt": "为什么不能说“已最终证实”？",
+        "options": [
+          "现有研究仍有未排除限制",
+          "因为学术文章不能下结论",
+          "因为两组一定完全相反"
+        ],
+        "answer": "现有研究仍有未排除限制",
+        "explain": "作者要求强断言有更强依据，没有断言两组必然不同。"
+      },
+      {
+        "prompt": "“los datos sugieren”在这里的作用是什么？",
+        "options": [
+          "限制断言力度并保留修订空间",
+          "隐藏数据造假",
+          "声明已经确定因果"
+        ],
+        "answer": "限制断言力度并保留修订空间",
+        "explain": "第二段直接说明deja abierta una revisión。"
+      },
+      {
+        "prompt": "否定证实：No demuestra que uno ___ el otro.（causar，现在虚拟式）",
+        "options": null,
+        "answer": "cause",
+        "explain": "causar的现在虚拟式第三人称单数cause。"
+      },
+      {
+        "prompt": "纠正被否定的理解：No se trata de negar, ___ de precisar.",
+        "options": null,
+        "answer": "sino",
+        "explain": "否定A并纠正为B，用sino，不是仅补充转折pero。"
+      },
+      {
+        "prompt": "保持平行：sino de ___ la afirmación.（ajustar，填原形）",
+        "options": null,
+        "answer": "ajustar",
+        "explain": "介词de后接原形，与de renunciar平行。"
+      }
+    ],
+    "rules": [
+      "区分事实、推断和断言力度。",
+      "否定证实与非确证内容：先判断说话者是否承诺其真实性。",
+      "no…sino…纠正理解；保持介词与结构平行。"
+    ],
+    "task": "把一条“研究证明所有人都……”改写为有样本、限制和证据来源的三句摘要。",
+    "originalId": null
+  },
+  {
+    "id": "quality-C1-02",
+    "level": "C1",
+    "title": "新闻转述：条件式与消息来源",
+    "paragraphs": [
+      {
+        "es": "Según dos fuentes consultadas, la empresa habría aplazado la apertura. El comunicado oficial solo confirma que se está revisando el calendario. Por ahora no se ha publicado una fecha nueva.",
+        "zh": "据两位受访消息人士称，公司可能已推迟开业。官方公告仅确认正在重新审查日程。目前还没有发布新日期。"
+      },
+      {
+        "es": "El condicional compuesto permite presentar aquí una información no confirmada por el redactor. No convierte el rumor en un hecho, ni sustituye la identificación de la fuente. Además, «habría aplazado» no tiene en este contexto el mismo valor que en una condición irreal del pasado.",
+        "zh": "复合条件式在这里使撰稿人可以呈现尚未确认的信息。它不会把传闻变成事实，也不能代替注明来源。此外，这里的habría aplazado不同于过去非现实条件句中的用法。"
+      },
+      {
+        "es": "Al resumir, conviene conservar la atribución y distinguirla de lo que sí consta en el comunicado. Quitar «según las fuentes» produciría una certeza que la noticia original no ofrece.",
+        "zh": "概括时应保留归属，并与公告确实确认的内容分开。删掉“据消息人士称”会制造原报道未提供的确定性。"
+      }
+    ],
+    "glosses": [
+      {
+        "head": "fuente",
+        "abbr": "n. f.",
+        "meaning": "消息来源；来源；泉水"
+      },
+      {
+        "head": "aplazar",
+        "abbr": "v.",
+        "meaning": "推迟"
+      },
+      {
+        "head": "apertura",
+        "abbr": "n. f.",
+        "meaning": "开业；开放"
+      },
+      {
+        "head": "comunicado",
+        "abbr": "n. m.",
+        "meaning": "公告"
+      },
+      {
+        "head": "redactor",
+        "abbr": "n. m.",
+        "meaning": "撰稿人"
+      },
+      {
+        "head": "atribución",
+        "abbr": "n. f.",
+        "meaning": "归属；引语来源说明"
+      }
+    ],
+    "hard": [
+      [
+        "La empresa habría aplazado la apertura.",
+        "据报道公司可能已经推迟开业。",
+        "此处条件完成的功能是转述未确认消息；应与上下文来源标记一起理解，不能当已核实事实。"
+      ],
+      [
+        "Quitar «según las fuentes» produciría una certeza…",
+        "删去“据消息人士称”会制造一种确定性……。",
+        "原形quitar短语作整体主语；produciría表达假想改写带来的后果。"
+      ]
+    ],
+    "questions": [
+      {
+        "prompt": "官方公告确认了什么？",
+        "options": [
+          "正在重审日程",
+          "必定已取消开业",
+          "具体新日期"
+        ],
+        "answer": "正在重审日程",
+        "explain": "首段只确认se está revisando el calendario。"
+      },
+      {
+        "prompt": "这里habría aplazado主要表达什么？",
+        "options": [
+          "未经撰稿人确认的转述消息",
+          "确定发生的事实",
+          "唯一可能的过去反事实结果"
+        ],
+        "answer": "未经撰稿人确认的转述消息",
+        "explain": "第二段显式排除把本句直接当过去反事实条件结果。"
+      },
+      {
+        "prompt": "摘要应保留什么？",
+        "options": [
+          "来源归属与不确定性",
+          "只保留延期当事实",
+          "编造发布日期"
+        ],
+        "answer": "来源归属与不确定性",
+        "explain": "第三段要求conservar la atribución。"
+      },
+      {
+        "prompt": "新闻转述的条件完成：La empresa ___ aplazado la apertura.（haber，单数条件式）",
+        "options": null,
+        "answer": "habría",
+        "explain": "haber条件式habría加分词；解释须结合来源。"
+      },
+      {
+        "prompt": "来源标记：___ las fuentes consultadas…（根据，填一词）",
+        "options": null,
+        "answer": "según",
+        "explain": "según引出消息来源，重音必须保留。"
+      },
+      {
+        "prompt": "假想改写的后果：Quitar la atribución ___ una falsa certeza.（producir，条件式）",
+        "options": null,
+        "answer": "produciría",
+        "explain": "原形短语整体单数，用produciría。"
+      }
+    ],
+    "rules": [
+      "明确谁说的、谁核验过，保留信息归属。",
+      "条件完成可以用于未确认转述，也可用于反事实结果；看语境区分。",
+      "摘要不能通过删除限定词提高原文的确定性。"
+    ],
+    "task": "分别用“官方确认”和“据消息人士称”写两句摘要，说明它们承诺真实性的差别。",
+    "originalId": null
+  },
+  {
+    "id": "quality-C1-03",
+    "level": "C1",
+    "title": "让步：承认事实与悬置障碍",
+    "paragraphs": [
+      {
+        "es": "Por más que lo intento, no consigo abrir el archivo. Esa frase reconoce intentos reales y repetidos. Si digo «por más que lo intentes mañana, necesitarás la clave», presento en cambio una situación futura cuya realización no afirmo ahora.",
+        "zh": "“尽管我反复尝试，仍打不开文件”承认真实且反复的尝试。若说“即使你明天再怎么试，也需要密码”，呈现的则是尚未被断言发生的未来情境。"
+      },
+      {
+        "es": "La elección entre indicativo y subjuntivo no depende solo de encontrar la locución por más que. Importa cómo se presenta la información y qué se da por establecido. También hay usos discursivos en los que el hablante conoce un hecho y aun así lo relega al fondo.",
+        "zh": "直陈式和虚拟式的选择不只取决于发现por más que这个短语。还要看信息如何被呈现、什么被当作既定事实。某些话语用法中，说话者知道事实，仍可将其放在背景位置。"
+      },
+      {
+        "es": "Por eso, una corrección útil debe explicar la interpretación concreta y no tachar automáticamente una forma sin leer el contexto. Al practicar, conviene comparar dos versiones y describir qué cambia en el compromiso del hablante.",
+        "zh": "因此，有用的纠正必须解释具体解读，不能不看上下文就自动划掉某种形式。练习时宜比较两个版本，并说明说话者的事实承诺发生了什么变化。"
+      }
+    ],
+    "glosses": [
+      {
+        "head": "locución",
+        "abbr": "n. f.",
+        "meaning": "固定短语"
+      },
+      {
+        "head": "realización",
+        "abbr": "n. f.",
+        "meaning": "实现；发生"
+      },
+      {
+        "head": "relegar",
+        "abbr": "v.",
+        "meaning": "置于次要位置"
+      },
+      {
+        "head": "compromiso",
+        "abbr": "n. m.",
+        "meaning": "承诺；此处指对真实性的承诺"
+      },
+      {
+        "head": "establecido",
+        "abbr": "adj.",
+        "meaning": "既定的"
+      },
+      {
+        "head": "interpretación",
+        "abbr": "n. f.",
+        "meaning": "解读"
+      }
+    ],
+    "hard": [
+      [
+        "Por más que lo intento, no consigo abrirlo.",
+        "尽管我反复尝试，还是打不开。",
+        "本例明确把尝试当实际发生的反复行为，使用直陈式intento。"
+      ],
+      [
+        "Por más que lo intentes mañana, necesitarás la clave.",
+        "即使你明天再怎么试，也需要密码。",
+        "此例悬置未来尝试，使用现在虚拟式intentes，不能据此推成所有让步只能用虚拟式。"
+      ]
+    ],
+    "questions": [
+      {
+        "prompt": "第一句的尝试如何被呈现？",
+        "options": [
+          "真实且反复发生",
+          "明确未曾尝试",
+          "已经成功打开"
+        ],
+        "answer": "真实且反复发生",
+        "explain": "文章第一段明确说明intentos reales y repetidos。"
+      },
+      {
+        "prompt": "作者反对哪种批改？",
+        "options": [
+          "不读语境就机械判某种语气错误",
+          "对不同解读作解释",
+          "比较两种形式"
+        ],
+        "answer": "不读语境就机械判某种语气错误",
+        "explain": "末段反对automáticamente… sin leer el contexto。"
+      },
+      {
+        "prompt": "知道某事实就一定不能用虚拟式吗？",
+        "options": [
+          "不一定，还取决于话语呈现",
+          "一定不能",
+          "文中说两种语气完全同义"
+        ],
+        "answer": "不一定，还取决于话语呈现",
+        "explain": "第二段给出已知事实仍可放到背景的话语用法。"
+      },
+      {
+        "prompt": "本题明确实际反复尝试：Por más que lo ___, no consigo abrirlo.（intentar，yo，直陈式）",
+        "options": null,
+        "answer": "intento",
+        "explain": "题干限定为实际反复行为，选intento。"
+      },
+      {
+        "prompt": "本题限定未来悬置情况：Por más que lo ___ mañana…（intentar，tú，虚拟式）",
+        "options": null,
+        "answer": "intentes",
+        "explain": "限定未来悬置解读，选intentes。"
+      },
+      {
+        "prompt": "无需变位，介词后：sin ___ el contexto.（leer）",
+        "options": null,
+        "answer": "leer",
+        "explain": "sin作为介词后接原形。"
+      }
+    ],
+    "rules": [
+      "让步语气要结合信息呈现，而非只认连接词。",
+      "同一连接短语可构成事实让步或悬置情况。",
+      "解释差别时说清实际语境，承认合理的多种解读。"
+    ],
+    "task": "写一对含por más que的句子：一条承认实际努力，一条悬置未来努力，并用中文说明差别。",
+    "originalId": null
+  },
+  {
+    "id": "quality-C1-04",
+    "level": "C1",
+    "title": "论证连接：结论究竟从哪里来",
+    "paragraphs": [
+      {
+        "es": "El autobús dejó de pasar por el barrio y no se ofreció una alternativa. De ahí que muchos vecinos hayan empezado a usar el coche. La asociación pide que se estudie otra ruta antes de ampliar el aparcamiento.",
+        "zh": "公交车不再经过社区，也未提供替代方案。因此许多居民开始开车。居民协会要求在扩建停车场前研究另一条线路。"
+      },
+      {
+        "es": "El texto vincula una medida con una consecuencia, pero no demuestra que explique todos los desplazamientos. De hecho, algunos vecinos ya utilizaban el coche antes del cambio. Un argumento más sólido distinguiría la tendencia previa del efecto de la nueva medida.",
+        "zh": "文本把某项措施与一个后果联系起来，但未证明它能解释所有出行。实际上，有些居民在调整前已经开车。更严密的论证应区分原有趋势和新措施的影响。"
+      },
+      {
+        "es": "Por consiguiente, proponer una ruta puede ser razonable sin atribuirle una solución universal. Revisar el argumento exige mantener tanto la necesidad de transporte como los límites de la explicación causal.",
+        "zh": "因此，提出新线路可以是合理的，但不必把它说成万能方案。审视论证需要同时保留交通需求和因果解释的限制。"
+      }
+    ],
+    "glosses": [
+      {
+        "head": "alternativa",
+        "abbr": "n. f.",
+        "meaning": "替代方案"
+      },
+      {
+        "head": "ruta",
+        "abbr": "n. f.",
+        "meaning": "线路"
+      },
+      {
+        "head": "aparcamiento",
+        "abbr": "n. m.",
+        "meaning": "停车场；停车"
+      },
+      {
+        "head": "desplazamiento",
+        "abbr": "n. m.",
+        "meaning": "出行；移动"
+      },
+      {
+        "head": "tendencia",
+        "abbr": "n. f.",
+        "meaning": "趋势"
+      },
+      {
+        "head": "causal",
+        "abbr": "adj.",
+        "meaning": "因果的"
+      }
+    ],
+    "hard": [
+      [
+        "De ahí que muchos vecinos hayan empezado…",
+        "因此许多居民已经开始……。",
+        "de ahí que常引出虚拟式结果从句；hayan empezado将开始置于当前评述之前。"
+      ],
+      [
+        "Algunos vecinos ya utilizaban el coche antes del cambio.",
+        "有些居民在调整前就已开车。",
+        "未完成过去utilizaban呈现先前习惯，它限制了“全由新措施引起”的推论。"
+      ]
+    ],
+    "questions": [
+      {
+        "prompt": "协会要求先做什么？",
+        "options": [
+          "研究另一条公交线路",
+          "立即禁止所有汽车",
+          "只扩建停车场"
+        ],
+        "answer": "研究另一条公交线路",
+        "explain": "首段pide que se estudie otra ruta antes de ampliar…"
+      },
+      {
+        "prompt": "原有开车习惯说明什么？",
+        "options": [
+          "不能把全部汽车出行归于新措施",
+          "公交调整没有任何影响",
+          "所有居民都反对公交"
+        ],
+        "answer": "不能把全部汽车出行归于新措施",
+        "explain": "作者区分既有趋势和新增影响，没有完全否定影响。"
+      },
+      {
+        "prompt": "作者认为合理的建议必须是什么？",
+        "options": [
+          "承认解释范围和方案限制",
+          "承诺解决所有问题",
+          "完全不作因果分析"
+        ],
+        "answer": "承认解释范围和方案限制",
+        "explain": "末段强调必要性与解释边界并存。"
+      },
+      {
+        "prompt": "结果从句：De ahí que muchos ___ empezado a conducir.（haber，ellos，完成虚拟）",
+        "options": null,
+        "answer": "hayan",
+        "explain": "de ahí que后用虚拟式，此处为hayan加分词。"
+      },
+      {
+        "prompt": "要求另查线路：La asociación pide que se ___ otra ruta.（estudiar，现在虚拟式）",
+        "options": null,
+        "answer": "estudie",
+        "explain": "要求结构pide que与单数otra ruta的se被动结构配estudie。"
+      },
+      {
+        "prompt": "过去习惯：Antes muchos ya ___ el coche.（utilizar，未完成过去）",
+        "options": null,
+        "answer": "utilizaban",
+        "explain": "过去反复习惯用未完成过去第三人称复数。"
+      }
+    ],
+    "rules": [
+      "区分论证连接词与事实证据。",
+      "de ahí que与虚拟式结果从句结合。",
+      "保留因果推论的范围，不把相关或局部影响写成全部原因。"
+    ],
+    "task": "用de ahí que提出一个局部结论，再用sin embargo补一条限制，最后给出可执行建议。",
+    "originalId": null
+  },
+  {
+    "id": "quality-C2-01",
+    "level": "C2",
+    "title": "细读否定范围：并非所有都等于全部不",
+    "paragraphs": [
+      {
+        "es": "No todos los informes descartan la hipótesis. Esta frase no equivale a decir que ninguno la descarta, ni asegura que la mayoría la apoye. Solo niega que el rechazo sea universal. El alcance de la negación cambia el compromiso lógico del enunciado.",
+        "zh": "“并非所有报告都排除该假设”不等于“没有一份排除”，也不保证多数支持它。它仅否定排除行为具有全称性。否定范围改变了陈述的逻辑承诺。"
+      },
+      {
+        "es": "En una discusión, pasar de «no está probado que sea falso» a «está probado que es verdadero» añade una conclusión que no se sigue de la premisa. La falta de refutación puede justificar investigar más; por sí sola no constituye una demostración.",
+        "zh": "讨论中，从“未证明为假”跳到“已证明为真”，添加了前提无法推出的结论。未能驳倒或许值得继续研究，但本身并不构成证明。"
+      },
+      {
+        "es": "Al reformular, hay que conservar los cuantificadores, la fuente y la modalidad. Una paráfrasis elegante deja de ser fiel si elimina esas restricciones, por mucho que mantenga las mismas palabras temáticas.",
+        "zh": "改述时须保留量词、来源和模态。即使沿用同样的主题词，优美的转述若删掉限制，也会失去忠实性。"
+      }
+    ],
+    "glosses": [
+      {
+        "head": "alcance",
+        "abbr": "n. m.",
+        "meaning": "作用范围"
+      },
+      {
+        "head": "cuantificador",
+        "abbr": "n. m.",
+        "meaning": "量词"
+      },
+      {
+        "head": "premisa",
+        "abbr": "n. f.",
+        "meaning": "前提"
+      },
+      {
+        "head": "refutación",
+        "abbr": "n. f.",
+        "meaning": "反驳；证伪"
+      },
+      {
+        "head": "modalidad",
+        "abbr": "n. f.",
+        "meaning": "模态；方式"
+      },
+      {
+        "head": "paráfrasis",
+        "abbr": "n. f.",
+        "meaning": "释义改述，单复数同形"
+      }
+    ],
+    "hard": [
+      [
+        "No todos los informes descartan la hipótesis.",
+        "并非所有报告都排除该假设。",
+        "no作用于全称todos：否定所有都排除，不是断言所有都不排除。"
+      ],
+      [
+        "No está probado que sea falso.",
+        "尚未证明它为假。",
+        "否定的是证明状态；sea falso的真假没有因此被反向证实。"
+      ]
+    ],
+    "questions": [
+      {
+        "prompt": "“No todos…”最稳妥的含义是什么？",
+        "options": [
+          "否定全体都排除",
+          "没有任何报告排除",
+          "多数都支持"
+        ],
+        "answer": "否定全体都排除",
+        "explain": "首段明确限定为否定拒绝的全称性。"
+      },
+      {
+        "prompt": "缺少反驳是否本身构成证明？",
+        "options": [
+          "不构成",
+          "一定构成",
+          "等于多数支持"
+        ],
+        "answer": "不构成",
+        "explain": "第二段指出por sí sola no constituye una demostración。"
+      },
+      {
+        "prompt": "忠实改述必须保留什么？",
+        "options": [
+          "量词、来源与模态限制",
+          "只保留主题词",
+          "只追求句子优美"
+        ],
+        "answer": "量词、来源与模态限制",
+        "explain": "末段明列cuantificadores, fuente y modalidad。"
+      },
+      {
+        "prompt": "未被证实的从句：No está probado que ___ falso.（ser，现在虚拟式）",
+        "options": null,
+        "answer": "sea",
+        "explain": "这里否定证明，以虚拟式sea呈现未确证命题。"
+      },
+      {
+        "prompt": "否定全称：No ___ los informes la descartan.（所有，填一词）",
+        "options": null,
+        "answer": "todos",
+        "explain": "要保持“并非所有”，用no todos，不能改成ninguno。"
+      },
+      {
+        "prompt": "无论多么保留主题词：por mucho ___ mantenga las palabras…",
+        "options": null,
+        "answer": "que",
+        "explain": "por mucho que为完整让步框架。"
+      }
+    ],
+    "rules": [
+      "辨别否定作用在量词、谓语还是证据状态上。",
+      "未证伪不等于已证真，改写不得添加逻辑承诺。",
+      "释义保留量词、信息来源与模态，而非只保留同义词。"
+    ],
+    "task": "分别解释no todos、ninguno、no se ha probado que的逻辑范围，再写一段不增添原文承诺的摘要。",
+    "originalId": null
+  },
+  {
+    "id": "quality-C2-02",
+    "level": "C2",
+    "title": "修辞与反讽：字面赞美为何可能是批评",
+    "paragraphs": [
+      {
+        "es": "La reunión empezó cuarenta minutos tarde y nadie había enviado los documentos. Al salir, una participante comentó: «¡Menuda organización!». Sin el contexto, podría parecer un elogio; dentro de esa escena, es razonable interpretarlo como una crítica irónica.",
+        "zh": "会议迟到四十分钟才开始，也没人发材料。离开时，一位参与者说：“这组织得可真行！”离开语境可能像称赞；放在该场景下，合理的解读是反讽批评。"
+      },
+      {
+        "es": "La interpretación no depende de una palabra aislada. La entonación, las expectativas compartidas y la relación entre los participantes también cuentan. No basta con invertir automáticamente el significado de cualquier exclamación para detectar ironía.",
+        "zh": "解读不依赖孤立词语。语调、共享预期和参与者之间的关系也重要。不能把所有感叹的意思自动反转来识别反讽。"
+      },
+      {
+        "es": "Si quien escucha no comparte la información, conviene explicitar la crítica en vez de aumentar la ambigüedad. Reformular «faltaron documentos y empezamos tarde» permite discutir hechos concretos sin presuponer que todos reconocerán el tono.",
+        "zh": "如果听者不共享信息，就宜明确批评内容，而非增加歧义。改说“材料缺失，而且开始得晚”，就能讨论具体事实，不预设所有人都会识别语气。"
+      }
+    ],
+    "glosses": [
+      {
+        "head": "elogio",
+        "abbr": "n. m.",
+        "meaning": "称赞"
+      },
+      {
+        "head": "ironía",
+        "abbr": "n. f.",
+        "meaning": "反讽"
+      },
+      {
+        "head": "entonación",
+        "abbr": "n. f.",
+        "meaning": "语调"
+      },
+      {
+        "head": "expectativa",
+        "abbr": "n. f.",
+        "meaning": "预期"
+      },
+      {
+        "head": "ambigüedad",
+        "abbr": "n. f.",
+        "meaning": "歧义"
+      },
+      {
+        "head": "presuponer",
+        "abbr": "v.",
+        "meaning": "预设"
+      }
+    ],
+    "hard": [
+      [
+        "¡Menuda organización!",
+        "这组织得可真行！",
+        "字面形式不足以单独判定褒贬，本例迟到和缺材料为批评解读提供依据；没有音频，不能声称已听到特定语调。"
+      ],
+      [
+        "Si quien escucha no comparte la información…",
+        "如果听者不共享这些信息……。",
+        "quien escucha整体指听者；条件是信息不共享，不是听者语言能力一定差。"
+      ]
+    ],
+    "questions": [
+      {
+        "prompt": "本场景支持怎样的解读？",
+        "options": [
+          "反讽地批评组织",
+          "必然是真心称赞",
+          "完全与组织无关"
+        ],
+        "answer": "反讽地批评组织",
+        "explain": "迟到与缺材料为反讽解读提供依据。"
+      },
+      {
+        "prompt": "脱离语境能唯一确定反讽吗？",
+        "options": [
+          "不能",
+          "任何感叹都是反讽",
+          "menuda永远表示批评"
+        ],
+        "answer": "不能",
+        "explain": "第二段明确反对机械反转所有感叹。"
+      },
+      {
+        "prompt": "解释给不知情的人时宜怎样做？",
+        "options": [
+          "说出迟到与缺材料的事实",
+          "继续叠加含糊赞美",
+          "断言对方一定不懂西语"
+        ],
+        "answer": "说出迟到与缺材料的事实",
+        "explain": "末段给出具体事实的明确改述。"
+      },
+      {
+        "prompt": "感叹中与阴性单数organización一致：¡___ organización!（menudo）",
+        "options": null,
+        "answer": "menuda",
+        "explain": "menudo在此与organización配阴性单数menuda。"
+      },
+      {
+        "prompt": "介词后说明替代做法：en vez de ___ la ambigüedad.（aumentar）",
+        "options": null,
+        "answer": "aumentar",
+        "explain": "de后接原形aumentar。"
+      },
+      {
+        "prompt": "过去更早未完成的准备：Nadie ___ enviado los documentos.（haber，过去完成）",
+        "options": null,
+        "answer": "había",
+        "explain": "发材料本应早于会议，用过去完成había enviado。"
+      }
+    ],
+    "rules": [
+      "将反讽判断锚定语境证据，不给词语永久贴褒贬标签。",
+      "区分文字可支持的解释与需要音频的语调判断。",
+      "把含蓄评价改写为可讨论事实，照顾听者共享信息。"
+    ],
+    "task": "给“¡Qué puntual!”写出真诚与反讽两段不同上下文，再说明缺少音频时哪些判断只能保留为可能。",
+    "originalId": null
+  },
+  {
+    "id": "quality-C2-03",
+    "level": "C2",
+    "title": "正式文本改写：保留条件与责任边界",
+    "paragraphs": [
+      {
+        "es": "La solicitud se tendrá por presentada cuando conste su recepción, sin perjuicio de que se requiera documentación adicional. La primera parte fija un momento administrativo; la segunda conserva una posibilidad posterior. Ninguna garantiza por sí misma que la solicitud vaya a ser aprobada.",
+        "zh": "“申请在确认收到时视为已提交，但仍可能要求补交材料。”前半段规定行政上的时点，后半段保留后续可能性。两者本身均不保证申请获批。"
+      },
+      {
+        "es": "Una explicación clara puede dividir el enunciado: «La recepción deja constancia de la presentación. Después podrían pedir más documentos». Sin embargo, añadir «su solicitud ya está aceptada» alteraría el contenido, porque confunde registrar con resolver favorablemente.",
+        "zh": "清楚的解释可以拆开：“收到记录表明已经提交，之后仍可能要求更多材料。”但若加上“您的申请已经获准”，便改变了内容，因为它把登记与作出有利决定混淆了。"
+      },
+      {
+        "es": "Al simplificar un texto especializado, la claridad no autoriza a borrar condiciones, excepciones o sujetos responsables. La revisión debe comprobar qué derecho, obligación o posibilidad expresa cada segmento antes de cambiar el registro.",
+        "zh": "简化专业文本时，清晰不意味着可以删掉条件、例外或责任主体。改换语体前，应检查每一部分表达何种权利、义务或可能性。"
+      }
+    ],
+    "glosses": [
+      {
+        "head": "recepción",
+        "abbr": "n. f.",
+        "meaning": "收到；接待"
+      },
+      {
+        "head": "constancia",
+        "abbr": "n. f.",
+        "meaning": "记录；证明；恒心"
+      },
+      {
+        "head": "documentación",
+        "abbr": "n. f.",
+        "meaning": "文件材料"
+      },
+      {
+        "head": "segmento",
+        "abbr": "n. m.",
+        "meaning": "片段"
+      },
+      {
+        "head": "registro",
+        "abbr": "n. m.",
+        "meaning": "登记；语体"
+      },
+      {
+        "head": "obligación",
+        "abbr": "n. f.",
+        "meaning": "义务"
+      }
+    ],
+    "hard": [
+      [
+        "sin perjuicio de que se requiera documentación adicional",
+        "但不妨碍后续可能要求更多材料",
+        "固定表达在此保留后续要求的可能性；requiera为虚拟式，不能把它改述成确定已要求补件。"
+      ],
+      [
+        "La solicitud se tendrá por presentada cuando conste su recepción.",
+        "确认收到后，申请视为已提交。",
+        "tener por加补足语表示视作；未来条件相关的cuando从句用conste，而非一概套过去时间规则。"
+      ]
+    ],
+    "questions": [
+      {
+        "prompt": "“presentada”在本例等于什么？",
+        "options": [
+          "登记为已提交",
+          "保证获批",
+          "拒绝申请"
+        ],
+        "answer": "登记为已提交",
+        "explain": "正文刻意区分registrar与resolver favorablemente。"
+      },
+      {
+        "prompt": "补交材料的要求是什么状态？",
+        "options": [
+          "保留后续可能性",
+          "一定已经发生",
+          "已被永久排除"
+        ],
+        "answer": "保留后续可能性",
+        "explain": "首段说conserva una posibilidad posterior。"
+      },
+      {
+        "prompt": "简单明白的改写能否删条件？",
+        "options": [
+          "不能为了简化而改变条件与责任",
+          "可以任意删",
+          "只要字数少就可以"
+        ],
+        "answer": "不能为了简化而改变条件与责任",
+        "explain": "末段要求保留条件、例外和责任主体。"
+      },
+      {
+        "prompt": "本例未来时点：cuando ___ su recepción.（constar，现在虚拟式）",
+        "options": null,
+        "answer": "conste",
+        "explain": "conste符合尚待确立时点的cuando从句。"
+      },
+      {
+        "prompt": "保留可能性：sin perjuicio de que se ___ más documentos.（requerir，现在虚拟式）",
+        "options": null,
+        "answer": "requieran",
+        "explain": "此变式主语más documentos为复数，se被动配requieran。"
+      },
+      {
+        "prompt": "视为已提交，与阴性solicitud一致：se tendrá por ___.（presentar，分词）",
+        "options": null,
+        "answer": "presentada",
+        "explain": "predicativo与solicitud配阴性单数presentada。"
+      }
+    ],
+    "rules": [
+      "区分登记状态、获批结果与后续可能性。",
+      "解释固定正式表达时保留条件、时点与责任。",
+      "通俗改写改变语体，不改变原文法律或事实承诺。"
+    ],
+    "task": "把本篇正式句改成面向申请者的三句说明，逐项标注已确认事项、可能补件和仍未知的审批结果。",
+    "originalId": null
+  },
+  {
+    "id": "quality-C2-04",
+    "level": "C2",
+    "title": "综合评述：承认局部成立而拒绝过度推论",
+    "paragraphs": [
+      {
+        "es": "No deja de ser cierto que la medida redujo el tiempo de espera en dos centros. Ahora bien, de ello no se sigue que vaya a funcionar igual en todos. El informe no compara plantillas, demanda ni recursos disponibles.",
+        "zh": "这项措施缩短了两家中心的等待时间，这一点确实成立。不过，由此不能推出它在所有中心都同样有效。报告没有比较人员、需求和可用资源。"
+      },
+      {
+        "es": "La objeción no invalida el resultado observado; limita su transferencia. Tampoco se trata de exigir certeza absoluta antes de actuar. Se trata de formular una decisión revisable y de señalar qué datos permitirían mantenerla o corregirla.",
+        "zh": "这一异议不否定已观察到的结果，而是限制它的迁移适用。它也不是要求采取行动前必须绝对确定，而是要形成可修订的决定，并指出何种数据可以支持维持或修正它。"
+      },
+      {
+        "es": "Una síntesis responsable conserva ambas ideas: hay una mejora documentada y sigue abierta la cuestión de su alcance. Si elimina cualquiera de ellas, convierte una evaluación matizada en propaganda favorable o en rechazo indiscriminado.",
+        "zh": "负责任的综合保留两点：改善有记录依据，但适用范围仍有待讨论。删去任何一点，都会把有分寸的评估变成单方宣传或不加区分的否定。"
+      }
+    ],
+    "glosses": [
+      {
+        "head": "plantilla",
+        "abbr": "n. f.",
+        "meaning": "职员编制；模板"
+      },
+      {
+        "head": "demanda",
+        "abbr": "n. f.",
+        "meaning": "需求；诉求"
+      },
+      {
+        "head": "transferencia",
+        "abbr": "n. f.",
+        "meaning": "迁移；转移"
+      },
+      {
+        "head": "revisable",
+        "abbr": "adj.",
+        "meaning": "可修订的"
+      },
+      {
+        "head": "matizado",
+        "abbr": "adj.",
+        "meaning": "有分寸的；有细致区分的"
+      },
+      {
+        "head": "indiscriminado",
+        "abbr": "adj.",
+        "meaning": "不加区分的"
+      }
+    ],
+    "hard": [
+      [
+        "No deja de ser cierto que la medida redujo el tiempo de espera.",
+        "该措施缩短等待时间，这一点仍然成立。",
+        "no deja de ser cierto在这里承认事实，不应看见no就自动把que后换虚拟式。"
+      ],
+      [
+        "De ello no se sigue que vaya a funcionar igual en todos.",
+        "由此推不出它在所有地方都同样有效。",
+        "否定的是推论的成立，vaya为虚拟式；并未断言它一定无效。"
+      ]
+    ],
+    "questions": [
+      {
+        "prompt": "作者承认什么？",
+        "options": [
+          "两家中心有记录的改善",
+          "所有中心一定有效",
+          "没有观察到任何改善"
+        ],
+        "answer": "两家中心有记录的改善",
+        "explain": "首段保留局部观察结果。"
+      },
+      {
+        "prompt": "作者限制什么？",
+        "options": [
+          "将局部结果无条件迁移到所有中心",
+          "任何可修订行动",
+          "观察结果的存在"
+        ],
+        "answer": "将局部结果无条件迁移到所有中心",
+        "explain": "第二段明确limita su transferencia。"
+      },
+      {
+        "prompt": "哪种摘要最忠实？",
+        "options": [
+          "有改善证据，但范围仍待检验",
+          "全面成功，无需再查",
+          "完全失败，不应采取行动"
+        ],
+        "answer": "有改善证据，但范围仍待检验",
+        "explain": "末段要求保留局部改善与范围未定两点。"
+      },
+      {
+        "prompt": "承认过去事实：No deja de ser cierto que la medida ___ el tiempo.（reducir，简单过去）",
+        "options": null,
+        "answer": "redujo",
+        "explain": "该结构在此肯定所述事实，使用直陈式redujo。"
+      },
+      {
+        "prompt": "否定推论：No se sigue que ___ a funcionar en todos.（ir，现在虚拟式）",
+        "options": null,
+        "answer": "vaya",
+        "explain": "未得到支持的推论用vaya呈现，不是直接断言其为假。"
+      },
+      {
+        "prompt": "保持介词结构：Se trata de ___ una decisión revisable.（formular）",
+        "options": null,
+        "answer": "formular",
+        "explain": "de后接原形formular。"
+      }
+    ],
+    "rules": [
+      "否定词的表面出现不自动触发虚拟式。",
+      "承认局部事实与限制普遍推论可以同时成立。",
+      "综合评述应保留证据、范围和可修订条件。"
+    ],
+    "task": "写一段120词评述：先承认局部证据，再指出迁移条件，最后提出可检验的下一步；自查是否把“未证明有效”偷换成“已证明无效”。",
+    "originalId": null
+  }
+]

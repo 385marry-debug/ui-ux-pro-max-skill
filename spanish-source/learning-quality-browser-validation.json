@@ -1,0 +1,21 @@
+{
+  "passed": true,
+  "workedExamples": 120,
+  "actualTransferAnswers": 120,
+  "actualNewReadingAnswers": 126,
+  "actualNewListeningAnswers": 63,
+  "actualPhonicsAnswers": 12,
+  "decodedAudioSamples": 3,
+  "checks": [
+    "桌面与手机导航可展开/收起，刷新保存偏好，Escape后焦点返回",
+    "全部40课的120处示范与当前练习题干不同",
+    "120道迁移题实际DOM作答，同日不能获得延后达标",
+    "乱码被拒，已知主谓问题有提示，两版表达保留，提交不自动判掌握",
+    "24小时证据边界用时间数据夹具验证，未假称实际等待一天",
+    "A1短句/原文切换及分享参数，推荐不会困在同一原文",
+    "21篇新增文章126题实际作答，8个高级专题可保存表达草稿",
+    "21篇新增听力63题及12道音频辨词题实际DOM作答",
+    "查词后准确返回课内步骤，备份/刷新保留表达，两端无整页横向溢出"
+  ],
+  "errors": []
+}

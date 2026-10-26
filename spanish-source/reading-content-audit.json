@@ -1,19 +1,19 @@
 {
   "scope": "原创配套材料与链接的结构完整性、词汇解析和真实文件核验；不是宣称原教材所有原题、脚注、歌曲与录音已逐项验收。",
   "counts": {
-    "articles": 22,
-    "bilingualParagraphs": 88,
-    "contextualGlosses": 176,
-    "sentenceAnalyses": 44,
-    "readingQuestions": 132,
+    "articles": 43,
+    "bilingualParagraphs": 160,
+    "contextualGlosses": 302,
+    "sentenceAnalyses": 86,
+    "readingQuestions": 258,
     "textbookChapters": 18,
     "textbookPartReferences": 108,
     "unitReviews": 6,
     "textbookWordFacts": 659,
     "entries": 7423,
-    "listening": 144,
-    "listeningQuestions": 294,
-    "totalStaticQuestions": 11647
+    "listening": 165,
+    "listeningQuestions": 357,
+    "totalStaticQuestions": 11968
   },
   "chapters": [
     {
@@ -1315,12 +1315,306 @@
         "sr-22-q4",
         "sr-22-q5"
       ]
+    },
+    {
+      "id": "easy-sr-01",
+      "title": "初次见面 · 零基础短句版",
+      "level": "A1",
+      "wordCount": 45,
+      "questions": [
+        "easy-sr-01-q0",
+        "easy-sr-01-q1",
+        "easy-sr-01-q2",
+        "easy-sr-01-q3",
+        "easy-sr-01-q4",
+        "easy-sr-01-q5"
+      ]
+    },
+    {
+      "id": "easy-sr-02",
+      "title": "大学里的朋友 · 零基础短句版",
+      "level": "A1",
+      "wordCount": 51,
+      "questions": [
+        "easy-sr-02-q0",
+        "easy-sr-02-q1",
+        "easy-sr-02-q2",
+        "easy-sr-02-q3",
+        "easy-sr-02-q4",
+        "easy-sr-02-q5"
+      ]
+    },
+    {
+      "id": "easy-sr-03",
+      "title": "教室里的东西 · 零基础短句版",
+      "level": "A1",
+      "wordCount": 44,
+      "questions": [
+        "easy-sr-03-q0",
+        "easy-sr-03-q1",
+        "easy-sr-03-q2",
+        "easy-sr-03-q3",
+        "easy-sr-03-q4",
+        "easy-sr-03-q5"
+      ]
+    },
+    {
+      "id": "easy-sr-04",
+      "title": "寻找办公室 · 零基础短句版",
+      "level": "A1",
+      "wordCount": 43,
+      "questions": [
+        "easy-sr-04-q0",
+        "easy-sr-04-q1",
+        "easy-sr-04-q2",
+        "easy-sr-04-q3",
+        "easy-sr-04-q4",
+        "easy-sr-04-q5"
+      ]
+    },
+    {
+      "id": "easy-sr-05",
+      "title": "周末去公园 · 零基础短句版",
+      "level": "A1",
+      "wordCount": 43,
+      "questions": [
+        "easy-sr-05-q0",
+        "easy-sr-05-q1",
+        "easy-sr-05-q2",
+        "easy-sr-05-q3",
+        "easy-sr-05-q4",
+        "easy-sr-05-q5"
+      ]
+    },
+    {
+      "id": "easy-sr-06",
+      "title": "我的一天 · 零基础短句版",
+      "level": "A1",
+      "wordCount": 44,
+      "questions": [
+        "easy-sr-06-q0",
+        "easy-sr-06-q1",
+        "easy-sr-06-q2",
+        "easy-sr-06-q3",
+        "easy-sr-06-q4",
+        "easy-sr-06-q5"
+      ]
+    },
+    {
+      "id": "easy-sr-07",
+      "title": "一起准备午饭 · 零基础短句版",
+      "level": "A1",
+      "wordCount": 44,
+      "questions": [
+        "easy-sr-07-q0",
+        "easy-sr-07-q1",
+        "easy-sr-07-q2",
+        "easy-sr-07-q3",
+        "easy-sr-07-q4",
+        "easy-sr-07-q5"
+      ]
+    },
+    {
+      "id": "easy-sr-08",
+      "title": "桌上的物品 · 零基础短句版",
+      "level": "A1",
+      "wordCount": 49,
+      "questions": [
+        "easy-sr-08-q0",
+        "easy-sr-08-q1",
+        "easy-sr-08-q2",
+        "easy-sr-08-q3",
+        "easy-sr-08-q4",
+        "easy-sr-08-q5"
+      ]
+    },
+    {
+      "id": "easy-sr-09",
+      "title": "什么时候见面 · 零基础短句版",
+      "level": "A1",
+      "wordCount": 49,
+      "questions": [
+        "easy-sr-09-q0",
+        "easy-sr-09-q1",
+        "easy-sr-09-q2",
+        "easy-sr-09-q3",
+        "easy-sr-09-q4",
+        "easy-sr-09-q5"
+      ]
+    },
+    {
+      "id": "quality-B1-01",
+      "title": "改约：先说明事实，再提出办法",
+      "level": "B1",
+      "wordCount": 98,
+      "questions": [
+        "quality-B1-01-q0",
+        "quality-B1-01-q1",
+        "quality-B1-01-q2",
+        "quality-B1-01-q3",
+        "quality-B1-01-q4",
+        "quality-B1-01-q5"
+      ]
+    },
+    {
+      "id": "quality-B1-02",
+      "title": "招募志愿者：已知条件与未知人选",
+      "level": "B1",
+      "wordCount": 94,
+      "questions": [
+        "quality-B1-02-q0",
+        "quality-B1-02-q1",
+        "quality-B1-02-q2",
+        "quality-B1-02-q3",
+        "quality-B1-02-q4",
+        "quality-B1-02-q5"
+      ]
+    },
+    {
+      "id": "quality-B2-01",
+      "title": "调查标题：比例不等于所有人",
+      "level": "B2",
+      "wordCount": 99,
+      "questions": [
+        "quality-B2-01-q0",
+        "quality-B2-01-q1",
+        "quality-B2-01-q2",
+        "quality-B2-01-q3",
+        "quality-B2-01-q4",
+        "quality-B2-01-q5"
+      ]
+    },
+    {
+      "id": "quality-B2-02",
+      "title": "协商截止日期：让步不等于承诺",
+      "level": "B2",
+      "wordCount": 86,
+      "questions": [
+        "quality-B2-02-q0",
+        "quality-B2-02-q1",
+        "quality-B2-02-q2",
+        "quality-B2-02-q3",
+        "quality-B2-02-q4",
+        "quality-B2-02-q5"
+      ]
+    },
+    {
+      "id": "quality-C1-01",
+      "title": "学术表达：证据不足时怎样下判断",
+      "level": "C1",
+      "wordCount": 104,
+      "questions": [
+        "quality-C1-01-q0",
+        "quality-C1-01-q1",
+        "quality-C1-01-q2",
+        "quality-C1-01-q3",
+        "quality-C1-01-q4",
+        "quality-C1-01-q5"
+      ]
+    },
+    {
+      "id": "quality-C1-02",
+      "title": "新闻转述：条件式与消息来源",
+      "level": "C1",
+      "wordCount": 104,
+      "questions": [
+        "quality-C1-02-q0",
+        "quality-C1-02-q1",
+        "quality-C1-02-q2",
+        "quality-C1-02-q3",
+        "quality-C1-02-q4",
+        "quality-C1-02-q5"
+      ]
+    },
+    {
+      "id": "quality-C1-03",
+      "title": "让步：承认事实与悬置障碍",
+      "level": "C1",
+      "wordCount": 121,
+      "questions": [
+        "quality-C1-03-q0",
+        "quality-C1-03-q1",
+        "quality-C1-03-q2",
+        "quality-C1-03-q3",
+        "quality-C1-03-q4",
+        "quality-C1-03-q5"
+      ]
+    },
+    {
+      "id": "quality-C1-04",
+      "title": "论证连接：结论究竟从哪里来",
+      "level": "C1",
+      "wordCount": 109,
+      "questions": [
+        "quality-C1-04-q0",
+        "quality-C1-04-q1",
+        "quality-C1-04-q2",
+        "quality-C1-04-q3",
+        "quality-C1-04-q4",
+        "quality-C1-04-q5"
+      ]
+    },
+    {
+      "id": "quality-C2-01",
+      "title": "细读否定范围：并非所有都等于全部不",
+      "level": "C2",
+      "wordCount": 115,
+      "questions": [
+        "quality-C2-01-q0",
+        "quality-C2-01-q1",
+        "quality-C2-01-q2",
+        "quality-C2-01-q3",
+        "quality-C2-01-q4",
+        "quality-C2-01-q5"
+      ]
+    },
+    {
+      "id": "quality-C2-02",
+      "title": "修辞与反讽：字面赞美为何可能是批评",
+      "level": "C2",
+      "wordCount": 105,
+      "questions": [
+        "quality-C2-02-q0",
+        "quality-C2-02-q1",
+        "quality-C2-02-q2",
+        "quality-C2-02-q3",
+        "quality-C2-02-q4",
+        "quality-C2-02-q5"
+      ]
+    },
+    {
+      "id": "quality-C2-03",
+      "title": "正式文本改写：保留条件与责任边界",
+      "level": "C2",
+      "wordCount": 112,
+      "questions": [
+        "quality-C2-03-q0",
+        "quality-C2-03-q1",
+        "quality-C2-03-q2",
+        "quality-C2-03-q3",
+        "quality-C2-03-q4",
+        "quality-C2-03-q5"
+      ]
+    },
+    {
+      "id": "quality-C2-04",
+      "title": "综合评述：承认局部成立而拒绝过度推论",
+      "level": "C2",
+      "wordCount": 109,
+      "questions": [
+        "quality-C2-04-q0",
+        "quality-C2-04-q1",
+        "quality-C2-04-q2",
+        "quality-C2-04-q3",
+        "quality-C2-04-q4",
+        "quality-C2-04-q5"
+      ]
     }
   ],
   "limitations": [
-    "22篇有限首批阅读库；当前难度读完后明确安排复读，不冒充每日自动生成新文章。",
+    "43篇有限已发布阅读库；当前难度读完后明确安排复读，不冒充每日自动生成新文章。",
     "自适应为浏览器本地选篇、调整材料难度与推荐；不是服务器AI重写或专业等级测评。",
-    "开放口语和写作提供范例与自查，没有自动能力评分。",
+    "开放口语和写作提供范例与自查，只有有限规则检查，没有自动专业能力评分。",
     "使用原创内容对应教材学习功能，不复制原书故事、原题全文、歌曲或扫描页。"
   ]
 }

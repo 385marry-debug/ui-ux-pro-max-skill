@@ -1,5 +1,5 @@
 {
-  "version": "2026-10-26-lexical-self-review",
+  "version": "2026-10-26-learning-quality-and-folding-navigation",
   "verification": "Local Chromium and content checks; hosting result is recorded separately in GitHub Pages Actions.",
   "reports": {
     "public-site-validation": {
@@ -34,26 +34,26 @@
       "checks": [
         "638动词、20组规则齐全；28个独立语言学用例；虚拟式-se、自复命令、拼写变化及haber存在义边界",
         "49节基础、过渡与补充课、全部40单元中译和扩展课堂、24文化专题；保留原10专题标识与笔记对应",
-        "144个真实MP3文件与脚本对应，294道理解题；合成音频总时长53分钟以上",
+        "165篇听力材料与357道理解题；新增音频另有43段文件核验",
         "全部词条带词性；40+常见多义词有分义示范；15场景120物品；所有题有有效答案、无重复ID或重复选项"
       ],
       "counts": {
         "verbs": 638,
         "tenseGroups": 20,
         "independentConjugationCases": 28,
-        "grammar": 405,
+        "grammar": 413,
         "foundationLessons": 49,
         "units": 40,
         "dialogueTurns": 182,
-        "listening": 144,
-        "listeningQuestions": 294,
-        "audioMinutes": 53.6,
+        "listening": 165,
+        "listeningQuestions": 357,
+        "audioMinutes": 65.88,
         "culture": 24,
         "scenes": 15,
         "objects": 120,
         "words": 7423,
         "reviewedMultiSenseEntries": 46,
-        "questions": 11647
+        "questions": 11968
       }
     },
     "expansion-browser-validation": {
@@ -1857,19 +1857,19 @@
     "reading-content-audit": {
       "scope": "原创配套材料与链接的结构完整性、词汇解析和真实文件核验；不是宣称原教材所有原题、脚注、歌曲与录音已逐项验收。",
       "counts": {
-        "articles": 22,
-        "bilingualParagraphs": 88,
-        "contextualGlosses": 176,
-        "sentenceAnalyses": 44,
-        "readingQuestions": 132,
+        "articles": 43,
+        "bilingualParagraphs": 160,
+        "contextualGlosses": 302,
+        "sentenceAnalyses": 86,
+        "readingQuestions": 258,
         "textbookChapters": 18,
         "textbookPartReferences": 108,
         "unitReviews": 6,
         "textbookWordFacts": 659,
         "entries": 7423,
-        "listening": 144,
-        "listeningQuestions": 294,
-        "totalStaticQuestions": 11647
+        "listening": 165,
+        "listeningQuestions": 357,
+        "totalStaticQuestions": 11968
       },
       "chapters": [
         {
@@ -3171,12 +3171,306 @@
             "sr-22-q4",
             "sr-22-q5"
           ]
+        },
+        {
+          "id": "easy-sr-01",
+          "title": "初次见面 · 零基础短句版",
+          "level": "A1",
+          "wordCount": 45,
+          "questions": [
+            "easy-sr-01-q0",
+            "easy-sr-01-q1",
+            "easy-sr-01-q2",
+            "easy-sr-01-q3",
+            "easy-sr-01-q4",
+            "easy-sr-01-q5"
+          ]
+        },
+        {
+          "id": "easy-sr-02",
+          "title": "大学里的朋友 · 零基础短句版",
+          "level": "A1",
+          "wordCount": 51,
+          "questions": [
+            "easy-sr-02-q0",
+            "easy-sr-02-q1",
+            "easy-sr-02-q2",
+            "easy-sr-02-q3",
+            "easy-sr-02-q4",
+            "easy-sr-02-q5"
+          ]
+        },
+        {
+          "id": "easy-sr-03",
+          "title": "教室里的东西 · 零基础短句版",
+          "level": "A1",
+          "wordCount": 44,
+          "questions": [
+            "easy-sr-03-q0",
+            "easy-sr-03-q1",
+            "easy-sr-03-q2",
+            "easy-sr-03-q3",
+            "easy-sr-03-q4",
+            "easy-sr-03-q5"
+          ]
+        },
+        {
+          "id": "easy-sr-04",
+          "title": "寻找办公室 · 零基础短句版",
+          "level": "A1",
+          "wordCount": 43,
+          "questions": [
+            "easy-sr-04-q0",
+            "easy-sr-04-q1",
+            "easy-sr-04-q2",
+            "easy-sr-04-q3",
+            "easy-sr-04-q4",
+            "easy-sr-04-q5"
+          ]
+        },
+        {
+          "id": "easy-sr-05",
+          "title": "周末去公园 · 零基础短句版",
+          "level": "A1",
+          "wordCount": 43,
+          "questions": [
+            "easy-sr-05-q0",
+            "easy-sr-05-q1",
+            "easy-sr-05-q2",
+            "easy-sr-05-q3",
+            "easy-sr-05-q4",
+            "easy-sr-05-q5"
+          ]
+        },
+        {
+          "id": "easy-sr-06",
+          "title": "我的一天 · 零基础短句版",
+          "level": "A1",
+          "wordCount": 44,
+          "questions": [
+            "easy-sr-06-q0",
+            "easy-sr-06-q1",
+            "easy-sr-06-q2",
+            "easy-sr-06-q3",
+            "easy-sr-06-q4",
+            "easy-sr-06-q5"
+          ]
+        },
+        {
+          "id": "easy-sr-07",
+          "title": "一起准备午饭 · 零基础短句版",
+          "level": "A1",
+          "wordCount": 44,
+          "questions": [
+            "easy-sr-07-q0",
+            "easy-sr-07-q1",
+            "easy-sr-07-q2",
+            "easy-sr-07-q3",
+            "easy-sr-07-q4",
+            "easy-sr-07-q5"
+          ]
+        },
+        {
+          "id": "easy-sr-08",
+          "title": "桌上的物品 · 零基础短句版",
+          "level": "A1",
+          "wordCount": 49,
+          "questions": [
+            "easy-sr-08-q0",
+            "easy-sr-08-q1",
+            "easy-sr-08-q2",
+            "easy-sr-08-q3",
+            "easy-sr-08-q4",
+            "easy-sr-08-q5"
+          ]
+        },
+        {
+          "id": "easy-sr-09",
+          "title": "什么时候见面 · 零基础短句版",
+          "level": "A1",
+          "wordCount": 49,
+          "questions": [
+            "easy-sr-09-q0",
+            "easy-sr-09-q1",
+            "easy-sr-09-q2",
+            "easy-sr-09-q3",
+            "easy-sr-09-q4",
+            "easy-sr-09-q5"
+          ]
+        },
+        {
+          "id": "quality-B1-01",
+          "title": "改约：先说明事实，再提出办法",
+          "level": "B1",
+          "wordCount": 98,
+          "questions": [
+            "quality-B1-01-q0",
+            "quality-B1-01-q1",
+            "quality-B1-01-q2",
+            "quality-B1-01-q3",
+            "quality-B1-01-q4",
+            "quality-B1-01-q5"
+          ]
+        },
+        {
+          "id": "quality-B1-02",
+          "title": "招募志愿者：已知条件与未知人选",
+          "level": "B1",
+          "wordCount": 94,
+          "questions": [
+            "quality-B1-02-q0",
+            "quality-B1-02-q1",
+            "quality-B1-02-q2",
+            "quality-B1-02-q3",
+            "quality-B1-02-q4",
+            "quality-B1-02-q5"
+          ]
+        },
+        {
+          "id": "quality-B2-01",
+          "title": "调查标题：比例不等于所有人",
+          "level": "B2",
+          "wordCount": 99,
+          "questions": [
+            "quality-B2-01-q0",
+            "quality-B2-01-q1",
+            "quality-B2-01-q2",
+            "quality-B2-01-q3",
+            "quality-B2-01-q4",
+            "quality-B2-01-q5"
+          ]
+        },
+        {
+          "id": "quality-B2-02",
+          "title": "协商截止日期：让步不等于承诺",
+          "level": "B2",
+          "wordCount": 86,
+          "questions": [
+            "quality-B2-02-q0",
+            "quality-B2-02-q1",
+            "quality-B2-02-q2",
+            "quality-B2-02-q3",
+            "quality-B2-02-q4",
+            "quality-B2-02-q5"
+          ]
+        },
+        {
+          "id": "quality-C1-01",
+          "title": "学术表达：证据不足时怎样下判断",
+          "level": "C1",
+          "wordCount": 104,
+          "questions": [
+            "quality-C1-01-q0",
+            "quality-C1-01-q1",
+            "quality-C1-01-q2",
+            "quality-C1-01-q3",
+            "quality-C1-01-q4",
+            "quality-C1-01-q5"
+          ]
+        },
+        {
+          "id": "quality-C1-02",
+          "title": "新闻转述：条件式与消息来源",
+          "level": "C1",
+          "wordCount": 104,
+          "questions": [
+            "quality-C1-02-q0",
+            "quality-C1-02-q1",
+            "quality-C1-02-q2",
+            "quality-C1-02-q3",
+            "quality-C1-02-q4",
+            "quality-C1-02-q5"
+          ]
+        },
+        {
+          "id": "quality-C1-03",
+          "title": "让步：承认事实与悬置障碍",
+          "level": "C1",
+          "wordCount": 121,
+          "questions": [
+            "quality-C1-03-q0",
+            "quality-C1-03-q1",
+            "quality-C1-03-q2",
+            "quality-C1-03-q3",
+            "quality-C1-03-q4",
+            "quality-C1-03-q5"
+          ]
+        },
+        {
+          "id": "quality-C1-04",
+          "title": "论证连接：结论究竟从哪里来",
+          "level": "C1",
+          "wordCount": 109,
+          "questions": [
+            "quality-C1-04-q0",
+            "quality-C1-04-q1",
+            "quality-C1-04-q2",
+            "quality-C1-04-q3",
+            "quality-C1-04-q4",
+            "quality-C1-04-q5"
+          ]
+        },
+        {
+          "id": "quality-C2-01",
+          "title": "细读否定范围：并非所有都等于全部不",
+          "level": "C2",
+          "wordCount": 115,
+          "questions": [
+            "quality-C2-01-q0",
+            "quality-C2-01-q1",
+            "quality-C2-01-q2",
+            "quality-C2-01-q3",
+            "quality-C2-01-q4",
+            "quality-C2-01-q5"
+          ]
+        },
+        {
+          "id": "quality-C2-02",
+          "title": "修辞与反讽：字面赞美为何可能是批评",
+          "level": "C2",
+          "wordCount": 105,
+          "questions": [
+            "quality-C2-02-q0",
+            "quality-C2-02-q1",
+            "quality-C2-02-q2",
+            "quality-C2-02-q3",
+            "quality-C2-02-q4",
+            "quality-C2-02-q5"
+          ]
+        },
+        {
+          "id": "quality-C2-03",
+          "title": "正式文本改写：保留条件与责任边界",
+          "level": "C2",
+          "wordCount": 112,
+          "questions": [
+            "quality-C2-03-q0",
+            "quality-C2-03-q1",
+            "quality-C2-03-q2",
+            "quality-C2-03-q3",
+            "quality-C2-03-q4",
+            "quality-C2-03-q5"
+          ]
+        },
+        {
+          "id": "quality-C2-04",
+          "title": "综合评述：承认局部成立而拒绝过度推论",
+          "level": "C2",
+          "wordCount": 109,
+          "questions": [
+            "quality-C2-04-q0",
+            "quality-C2-04-q1",
+            "quality-C2-04-q2",
+            "quality-C2-04-q3",
+            "quality-C2-04-q4",
+            "quality-C2-04-q5"
+          ]
         }
       ],
       "limitations": [
-        "22篇有限首批阅读库；当前难度读完后明确安排复读，不冒充每日自动生成新文章。",
+        "43篇有限已发布阅读库；当前难度读完后明确安排复读，不冒充每日自动生成新文章。",
         "自适应为浏览器本地选篇、调整材料难度与推荐；不是服务器AI重写或专业等级测评。",
-        "开放口语和写作提供范例与自查，没有自动能力评分。",
+        "开放口语和写作提供范例与自查，只有有限规则检查，没有自动专业能力评分。",
         "使用原创内容对应教材学习功能，不复制原书故事、原题全文、歌曲或扫描页。"
       ]
     },
@@ -5036,8 +5330,8 @@
         "independentAnswerFixtures": 31,
         "appendixModels": 40,
         "modelFixtures": 10,
-        "grammarEntries": 405,
-        "totalQuestions": 11647
+        "grammarEntries": 413,
+        "totalQuestions": 11968
       },
       "checks": [
         "每个原有字母小节有直接网页正文，不再只有宽泛别名跳转",
@@ -5077,7 +5371,7 @@
         "notebook": {
           "textbook": 1231,
           "course": 1784,
-          "reading": 2304
+          "reading": 3500
         },
         "sourceOccurrenceGroups": 6634,
         "newCanonicalQuestions": 2,
@@ -5128,31 +5422,360 @@
       ],
       "errors": []
     },
-    "self-review-lexical-validation": {
+    "learning-quality-content-validation": {
       "passed": true,
-      "scope": "独立语境样例检查，不能视为全部词典或课程完成质量证明",
-      "checks": {
-        "namesAreNotAnatomy": true,
-        "luciaIsNotVerb": true,
-        "linaIsNotLinen": true,
-        "studyIsVerb": true,
-        "seeIsVer": true,
-        "mealIsNoun": true,
-        "enorme": "巨大的；极大的",
-        "alguno": "某个；一些；有的（形式随性数和结构变化）",
-        "readings": 22,
-        "levels": [
-          "A0",
-          "A1",
-          "A2",
-          "B1",
-          "B2"
-        ],
-        "workedPracticeDuplicates": 120,
-        "understoodNeedsNoAnswer": true,
-        "nonsensePassesSelfcheck": true,
-        "errors": []
-      }
+      "scope": "独立示范、迁移题、分级材料、词形覆盖与音频文件的结构及独立语言样例检查；不是全词典语义终审或等级认证。",
+      "counts": {
+        "workedExamples": 120,
+        "transferQuestions": 120,
+        "independentLinguisticFixtures": 18,
+        "controlledReadings": 9,
+        "newB1B2Readings": 4,
+        "advancedTopics": 8,
+        "newReadingQuestions": 126,
+        "newListeningQuestions": 63,
+        "phonicsQuestions": 12,
+        "newAudioFiles": 43,
+        "newAudioMinutes": 12.28,
+        "sourceNotebookPositions": 1196,
+        "totalQuestions": 11968,
+        "totalReadings": 43
+      },
+      "limits": [
+        "C1/C2是8个专项训练，不冒充完整等级课程",
+        "21篇新增听力使用同一批原创阅读脚本和各自前3道理解题；学习记录分开，场景不重复冒充新增",
+        "43段新增音频为eSpeak NG合成音，不是真人或多口音音源",
+        "词形覆盖与性别标签齐全不证明每个多义义项均经教师逐项终审"
+      ]
+    },
+    "learning-quality-browser-validation": {
+      "passed": true,
+      "workedExamples": 120,
+      "actualTransferAnswers": 120,
+      "actualNewReadingAnswers": 126,
+      "actualNewListeningAnswers": 63,
+      "actualPhonicsAnswers": 12,
+      "decodedAudioSamples": 3,
+      "checks": [
+        "桌面与手机导航可展开/收起，刷新保存偏好，Escape后焦点返回",
+        "全部40课的120处示范与当前练习题干不同",
+        "120道迁移题实际DOM作答，同日不能获得延后达标",
+        "乱码被拒，已知主谓问题有提示，两版表达保留，提交不自动判掌握",
+        "24小时证据边界用时间数据夹具验证，未假称实际等待一天",
+        "A1短句/原文切换及分享参数，推荐不会困在同一原文",
+        "21篇新增文章126题实际作答，8个高级专题可保存表达草稿",
+        "21篇新增听力63题及12道音频辨词题实际DOM作答",
+        "查词后准确返回课内步骤，备份/刷新保留表达，两端无整页横向溢出"
+      ],
+      "errors": []
+    },
+    "quality-audio-audit": {
+      "clips": 43,
+      "totalMinutes": 12.28,
+      "humanRecordings": false,
+      "items": [
+        {
+          "id": "easy-sr-01",
+          "durationSeconds": 19.85,
+          "sha256": "7e1e80031aa16f8adf38ba0e722adb6c9edf751c55e22d466fca5a0042a60a0a",
+          "bytes": 119344,
+          "engine": "eSpeak NG, Spanish es, 150 wpm, synthetic"
+        },
+        {
+          "id": "easy-sr-02",
+          "durationSeconds": 21.55,
+          "sha256": "7c61deca6cde90c493e47151c83b7e88f379b1b22d13af40235e1cc2ae159a29",
+          "bytes": 129532,
+          "engine": "eSpeak NG, Spanish es, 150 wpm, synthetic"
+        },
+        {
+          "id": "easy-sr-03",
+          "durationSeconds": 18.29,
+          "sha256": "892d28e8e04156a2489964b837c365fb893bd9648ce6bfe08580c503ea6b909c",
+          "bytes": 109940,
+          "engine": "eSpeak NG, Spanish es, 150 wpm, synthetic"
+        },
+        {
+          "id": "easy-sr-04",
+          "durationSeconds": 21.21,
+          "sha256": "bb8cad6d21836370d81ab6cee48437873a200b7ef9decf53efb5ba24fc70bba8",
+          "bytes": 127494,
+          "engine": "eSpeak NG, Spanish es, 150 wpm, synthetic"
+        },
+        {
+          "id": "easy-sr-05",
+          "durationSeconds": 16.98,
+          "sha256": "ace8f452c718a387710bf22b5776f6b31847be540810c7b1141563db1b5563af",
+          "bytes": 102103,
+          "engine": "eSpeak NG, Spanish es, 150 wpm, synthetic"
+        },
+        {
+          "id": "easy-sr-06",
+          "durationSeconds": 17.35,
+          "sha256": "2fe1b3bc56ac03e323fe5e29dd2e0353e85fbc70ae317fcde957ee77e87990a6",
+          "bytes": 104298,
+          "engine": "eSpeak NG, Spanish es, 150 wpm, synthetic"
+        },
+        {
+          "id": "easy-sr-07",
+          "durationSeconds": 19.2,
+          "sha256": "79427664d4182517c0563e481886a7ac071ced82760b2e2dcebfa79ff27388f7",
+          "bytes": 115426,
+          "engine": "eSpeak NG, Spanish es, 150 wpm, synthetic"
+        },
+        {
+          "id": "easy-sr-08",
+          "durationSeconds": 20.19,
+          "sha256": "6210d1d779ee4886cf459a95be22ce1c70372031001eef28039e745671c27a01",
+          "bytes": 121382,
+          "engine": "eSpeak NG, Spanish es, 150 wpm, synthetic"
+        },
+        {
+          "id": "easy-sr-09",
+          "durationSeconds": 17.95,
+          "sha256": "11070ca3a675a5dd4518e5a055c6daf4e9a056db5cb06fe36d49735c9b61045a",
+          "bytes": 107902,
+          "engine": "eSpeak NG, Spanish es, 150 wpm, synthetic"
+        },
+        {
+          "id": "quality-B1-01",
+          "durationSeconds": 37.96,
+          "sha256": "f8b0cae4cffacf64cdfc4fba7f78888dc37ecedb50bf3e074416b09f0bffc4e6",
+          "bytes": 227961,
+          "engine": "eSpeak NG, Spanish es, 150 wpm, synthetic"
+        },
+        {
+          "id": "quality-B1-02",
+          "durationSeconds": 39.34,
+          "sha256": "71e60147201aaf66ba2555b1ebe53e25f92bd95c954b44b91a05b946af136d19",
+          "bytes": 236268,
+          "engine": "eSpeak NG, Spanish es, 150 wpm, synthetic"
+        },
+        {
+          "id": "quality-B2-01",
+          "durationSeconds": 44.25,
+          "sha256": "21e00ef8ca3f6fdcfe949a4454c9ac80a65bea7bd7cde5840d603d34fd7f01b0",
+          "bytes": 265734,
+          "engine": "eSpeak NG, Spanish es, 150 wpm, synthetic"
+        },
+        {
+          "id": "quality-B2-02",
+          "durationSeconds": 39.86,
+          "sha256": "2ecafdf3f194002f2fabe3c0926448329610da0b7347656915002914ae1583b7",
+          "bytes": 239403,
+          "engine": "eSpeak NG, Spanish es, 150 wpm, synthetic"
+        },
+        {
+          "id": "quality-C1-01",
+          "durationSeconds": 45.56,
+          "sha256": "ab89cdce624c709e0154de3af5d6bf11ce1a8ab8f4cb2fcdb8fd271e60ba3f38",
+          "bytes": 273571,
+          "engine": "eSpeak NG, Spanish es, 150 wpm, synthetic"
+        },
+        {
+          "id": "quality-C1-02",
+          "durationSeconds": 44.33,
+          "sha256": "6453fac0a801127dee7582c0266a62299bb5986c910a5c05758a9dc35cc5be08",
+          "bytes": 266205,
+          "engine": "eSpeak NG, Spanish es, 150 wpm, synthetic"
+        },
+        {
+          "id": "quality-C1-03",
+          "durationSeconds": 48.35,
+          "sha256": "75b60b0de54886cb343d742994560d099a3892ce05003f97a3216e5227bc9da8",
+          "bytes": 290342,
+          "engine": "eSpeak NG, Spanish es, 150 wpm, synthetic"
+        },
+        {
+          "id": "quality-C1-04",
+          "durationSeconds": 45.14,
+          "sha256": "d907a5c846cb0d1f18d16f2a5674ddbe395a9514364ff43184a835aa79d8edb1",
+          "bytes": 271063,
+          "engine": "eSpeak NG, Spanish es, 150 wpm, synthetic"
+        },
+        {
+          "id": "quality-C2-01",
+          "durationSeconds": 47.93,
+          "sha256": "768f2c92a46940d867c941bb4b4c82fde705311cd0cd5f5abaf1b5884f2edbcc",
+          "bytes": 287834,
+          "engine": "eSpeak NG, Spanish es, 150 wpm, synthetic"
+        },
+        {
+          "id": "quality-C2-02",
+          "durationSeconds": 51.64,
+          "sha256": "7e6b4b37aad3f94687d3e9d1259e99c04b82b4a20c00c453d667439e07eff9f8",
+          "bytes": 310090,
+          "engine": "eSpeak NG, Spanish es, 150 wpm, synthetic"
+        },
+        {
+          "id": "quality-C2-03",
+          "durationSeconds": 55.75,
+          "sha256": "584a987c80cccf83b9cabf952f42598fcbfc5c04b2d603be5292125c5a42d6bd",
+          "bytes": 334698,
+          "engine": "eSpeak NG, Spanish es, 150 wpm, synthetic"
+        },
+        {
+          "id": "quality-C2-04",
+          "durationSeconds": 47.15,
+          "sha256": "b9fe5e4728b95fa93d3325e667885150f020e8b0b99fe5aacb113067b4496f0e",
+          "bytes": 283132,
+          "engine": "eSpeak NG, Spanish es, 150 wpm, synthetic"
+        },
+        {
+          "id": "quality-sound-a",
+          "durationSeconds": 0.91,
+          "sha256": "2066eae5d8731baa0fc5cfbdf181f60833e78af452a185ad6c605d3154b173c6",
+          "bytes": 5711,
+          "engine": "eSpeak NG, Spanish es, 150 wpm, synthetic"
+        },
+        {
+          "id": "quality-sound-e",
+          "durationSeconds": 0.89,
+          "sha256": "2715cfed957d6ed330b6636a700a169f4d753a37f9476715a2b9d6678e9ade13",
+          "bytes": 5555,
+          "engine": "eSpeak NG, Spanish es, 150 wpm, synthetic"
+        },
+        {
+          "id": "quality-sound-i",
+          "durationSeconds": 0.91,
+          "sha256": "1e43b759d385176720d4141dd812d1d81a6464299d8dec328dfd1f1efc17aae8",
+          "bytes": 5711,
+          "engine": "eSpeak NG, Spanish es, 150 wpm, synthetic"
+        },
+        {
+          "id": "quality-sound-o",
+          "durationSeconds": 0.86,
+          "sha256": "15558e86ec7efb4a1e25256306dd11c1f281b01c2338bcca40d3d1a488c542a0",
+          "bytes": 5398,
+          "engine": "eSpeak NG, Spanish es, 150 wpm, synthetic"
+        },
+        {
+          "id": "quality-sound-u",
+          "durationSeconds": 0.81,
+          "sha256": "da0847749b30f718a0f9ba17f760d80083efbbb1ca890a478d7b05d15c7ba676",
+          "bytes": 5085,
+          "engine": "eSpeak NG, Spanish es, 150 wpm, synthetic"
+        },
+        {
+          "id": "quality-sound-r-rr",
+          "durationSeconds": 1.38,
+          "sha256": "1586da6fcfba1698fa76abf5025679d59f2f409fe1595ddc8fef025d95f7c1c6",
+          "bytes": 8533,
+          "engine": "eSpeak NG, Spanish es, 150 wpm, synthetic"
+        },
+        {
+          "id": "quality-sound-n-enye",
+          "durationSeconds": 1.12,
+          "sha256": "af45fbdae87ee6359781cf8efbdf16b26a375bd10f588bc8c0c5f72cdabaf7fe",
+          "bytes": 6965,
+          "engine": "eSpeak NG, Spanish es, 150 wpm, synthetic"
+        },
+        {
+          "id": "quality-sound-c-qu-z",
+          "durationSeconds": 1.2,
+          "sha256": "45738f8b62e4c20fdd2bdd5defac2aa3591d78a820af826e1ea7981ead5424ba",
+          "bytes": 7436,
+          "engine": "eSpeak NG, Spanish es, 150 wpm, synthetic"
+        },
+        {
+          "id": "quality-sound-g-gu-gue",
+          "durationSeconds": 1.49,
+          "sha256": "787819fda3befe9bbd6d9d35de1f8fecd40fc1ff93265844d256b97e7e6d8b73",
+          "bytes": 9160,
+          "engine": "eSpeak NG, Spanish es, 150 wpm, synthetic"
+        },
+        {
+          "id": "quality-sound-stress",
+          "durationSeconds": 1.46,
+          "sha256": "3105b3e79fec373e26b8a3e733f0351a342133f7880d4d1d8ba359ae2f751dce",
+          "bytes": 9003,
+          "engine": "eSpeak NG, Spanish es, 150 wpm, synthetic"
+        },
+        {
+          "id": "quality-ear-0",
+          "durationSeconds": 0.52,
+          "sha256": "6b4d7248bce57697c2c883a3955cb267130ee64ef62811e1acd4cdafd720a21c",
+          "bytes": 3360,
+          "engine": "eSpeak NG, Spanish es, 150 wpm, synthetic"
+        },
+        {
+          "id": "quality-ear-1",
+          "durationSeconds": 0.5,
+          "sha256": "02f2af536d2e2fcad8a42bf2a7d62aced451a360980c399e78bac9010872d71a",
+          "bytes": 3204,
+          "engine": "eSpeak NG, Spanish es, 150 wpm, synthetic"
+        },
+        {
+          "id": "quality-ear-2",
+          "durationSeconds": 0.5,
+          "sha256": "ea3d70d6515367824018fd6c0ce2b0144a1d1940a18814529c3d362aef434416",
+          "bytes": 3204,
+          "engine": "eSpeak NG, Spanish es, 150 wpm, synthetic"
+        },
+        {
+          "id": "quality-ear-3",
+          "durationSeconds": 0.5,
+          "sha256": "28578b38817640646e0c2e4dda8ab9880945de26a80d0871531546180a6dc46f",
+          "bytes": 3204,
+          "engine": "eSpeak NG, Spanish es, 150 wpm, synthetic"
+        },
+        {
+          "id": "quality-ear-4",
+          "durationSeconds": 0.44,
+          "sha256": "11e824d886247a76f689118c8e6564d12b6b0ce93a29181c94f25f788b0c02ac",
+          "bytes": 2890,
+          "engine": "eSpeak NG, Spanish es, 150 wpm, synthetic"
+        },
+        {
+          "id": "quality-ear-5",
+          "durationSeconds": 0.42,
+          "sha256": "37df6b4322053a689647851ccd621f28b41dbbb5b99d77a117fed1eaf74de6b2",
+          "bytes": 2734,
+          "engine": "eSpeak NG, Spanish es, 150 wpm, synthetic"
+        },
+        {
+          "id": "quality-ear-6",
+          "durationSeconds": 0.5,
+          "sha256": "6ef6992c41f88e07ffea017187ff180f0fd8e244fc5dfa59fdff575d45f756ac",
+          "bytes": 3204,
+          "engine": "eSpeak NG, Spanish es, 150 wpm, synthetic"
+        },
+        {
+          "id": "quality-ear-7",
+          "durationSeconds": 0.44,
+          "sha256": "4ef60561de3c0cfe2f53f0f436c1320400f123f1913885de7eb694cfa2b8ffab",
+          "bytes": 2890,
+          "engine": "eSpeak NG, Spanish es, 150 wpm, synthetic"
+        },
+        {
+          "id": "quality-ear-8",
+          "durationSeconds": 0.5,
+          "sha256": "efc8ee1b330dd303c822f98cad846769aef4d1eaf6338076d1d31b6e5a609f9b",
+          "bytes": 3204,
+          "engine": "eSpeak NG, Spanish es, 150 wpm, synthetic"
+        },
+        {
+          "id": "quality-ear-9",
+          "durationSeconds": 0.44,
+          "sha256": "633a842f740b1173cafb720762250fe56b1026bd15082c540bcb4f318d80d21e",
+          "bytes": 2890,
+          "engine": "eSpeak NG, Spanish es, 150 wpm, synthetic"
+        },
+        {
+          "id": "quality-ear-10",
+          "durationSeconds": 0.52,
+          "sha256": "d81c56de1bce793036e1f5ff0ffeaf81ccf30f9dc4c39f1951ee2b1954980a61",
+          "bytes": 3360,
+          "engine": "eSpeak NG, Spanish es, 150 wpm, synthetic"
+        },
+        {
+          "id": "quality-ear-11",
+          "durationSeconds": 0.5,
+          "sha256": "812f9a64242944a3dbbc99cf800628cd56b48f51e5731ed111b33d5c3c25f0d8",
+          "bytes": 3204,
+          "engine": "eSpeak NG, Spanish es, 150 wpm, synthetic"
+        }
+      ]
     }
   }
 }

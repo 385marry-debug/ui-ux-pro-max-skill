@@ -1,0 +1,266 @@
+{
+  "items": [
+    {
+      "id": "quality-sound-a",
+      "title": "a；casa；mapa",
+      "script": "a. casa. mapa.",
+      "mouth": "口自然张开，舌位偏低，不在末尾添滑音。",
+      "note": "casa读ca-sa，两处a保持清楚；不是字母名称串读。",
+      "audio": "assets/audio/quality-sound-a.mp3"
+    },
+    {
+      "id": "quality-sound-e",
+      "title": "e；mesa；peso",
+      "script": "e. mesa. peso.",
+      "mouth": "舌位在口腔前部，嘴唇不圆；保持单一元音，不读成英语字母A的滑音。",
+      "note": "mesa的e与peso的e同属本课五元音练习；不要求模仿中文“诶”的完整滑动。",
+      "audio": "assets/audio/quality-sound-e.mp3"
+    },
+    {
+      "id": "quality-sound-i",
+      "title": "i；vino；piso",
+      "script": "i. vino. piso.",
+      "mouth": "舌位高且靠前，嘴唇不圆；声音短而清楚，不额外加一个辅音。",
+      "note": "piso与peso对比i和e；先听区别，再慢慢跟读。",
+      "audio": "assets/audio/quality-sound-i.mp3"
+    },
+    {
+      "id": "quality-sound-o",
+      "title": "o；lobo；copa",
+      "script": "o. lobo. copa.",
+      "mouth": "嘴唇适度圆，舌位偏后；不要从o一路滑成u。",
+      "note": "copa与capa只换一个元音；对照听后再说。",
+      "audio": "assets/audio/quality-sound-o.mp3"
+    },
+    {
+      "id": "quality-sound-u",
+      "title": "u；luna；puro",
+      "script": "u. luna. puro.",
+      "mouth": "嘴唇圆，舌位高且偏后；与o保持可听出的区别。",
+      "note": "puro与poro练u/o；不要因为英语拼写习惯而省掉元音。",
+      "audio": "assets/audio/quality-sound-u.mp3"
+    },
+    {
+      "id": "quality-sound-r-rr",
+      "title": "pero / perro；caro / carro",
+      "script": "pero. perro. caro. carro.",
+      "mouth": "词中单r常为一次短促舌尖接触；rr常为颤音。先辨听，不必用力挤喉咙。",
+      "note": "pero（但是）/perro（狗）区别能改变意思；词首r通常也用强音，不能只数r字母。",
+      "audio": "assets/audio/quality-sound-r-rr.mp3"
+    },
+    {
+      "id": "quality-sound-n-enye",
+      "title": "cana / caña；año",
+      "script": "cana. caña. año.",
+      "mouth": "ñ是独立字母。舌面前部靠近硬腭发鼻音；不能把它写成普通n。",
+      "note": "cana（白发）/caña（芦苇；也有一杯啤酒等义）用于辨音，词义依场景选。",
+      "audio": "assets/audio/quality-sound-n-enye.mp3"
+    },
+    {
+      "id": "quality-sound-c-qu-z",
+      "title": "casa；queso；cena",
+      "script": "casa. queso. cena.",
+      "mouth": "c在a/o/u前通常是/k/；qu在e/i前通常保留/k/且u不发音。c在e/i前及z的读法有地区差异。",
+      "note": "本合成音采用西班牙es声音；拉美及部分西班牙地区把相关字母读/s/也是规范变体。",
+      "audio": "assets/audio/quality-sound-c-qu-z.mp3"
+    },
+    {
+      "id": "quality-sound-g-gu-gue",
+      "title": "gato；guitarra；pingüino",
+      "script": "gato. guitarra. pingüino.",
+      "mouth": "g在a/o/u前与在e/i前要分开；gue/gui里的u通常不发音，güe/güi里的ü提示u也发音。",
+      "note": "guitarra与pingüino不能都把u省去；先看有没有两点。",
+      "audio": "assets/audio/quality-sound-g-gu-gue.mp3"
+    },
+    {
+      "id": "quality-sound-stress",
+      "title": "papa / papá；hablo / habló",
+      "script": "papa. papá. hablo. habló.",
+      "mouth": "先把单词分音节，再听哪一节突出。重读不等于每次都写符号。",
+      "note": "papa重读第一节，papá重读最后一节；这里是声音和拼写训练，不要求先学过去时。",
+      "audio": "assets/audio/quality-sound-stress.mp3"
+    }
+  ],
+  "questions": [
+    {
+      "id": "quality-ear-0",
+      "level": "A1",
+      "cat": "语音听辨",
+      "kind": "choice",
+      "prompt": "先播放音频，选择你听到的单词。",
+      "options": [
+        "cosa",
+        "casa"
+      ],
+      "answer": "casa",
+      "explain": "这里主要辨a/o；目标词casa。",
+      "soundAudio": "assets/audio/quality-ear-0.mp3",
+      "script": "casa"
+    },
+    {
+      "id": "quality-ear-1",
+      "level": "A1",
+      "cat": "语音听辨",
+      "kind": "choice",
+      "prompt": "先播放音频，选择你听到的单词。",
+      "options": [
+        "peso",
+        "piso"
+      ],
+      "answer": "peso",
+      "explain": "这里主要辨e/i；目标词peso。",
+      "soundAudio": "assets/audio/quality-ear-1.mp3",
+      "script": "peso"
+    },
+    {
+      "id": "quality-ear-2",
+      "level": "A1",
+      "cat": "语音听辨",
+      "kind": "choice",
+      "prompt": "先播放音频，选择你听到的单词。",
+      "options": [
+        "peso",
+        "piso"
+      ],
+      "answer": "piso",
+      "explain": "这里主要辨i/e；目标词piso。",
+      "soundAudio": "assets/audio/quality-ear-2.mp3",
+      "script": "piso"
+    },
+    {
+      "id": "quality-ear-3",
+      "level": "A1",
+      "cat": "语音听辨",
+      "kind": "choice",
+      "prompt": "先播放音频，选择你听到的单词。",
+      "options": [
+        "copa",
+        "capa"
+      ],
+      "answer": "copa",
+      "explain": "这里主要辨o/a；目标词copa。",
+      "soundAudio": "assets/audio/quality-ear-3.mp3",
+      "script": "copa"
+    },
+    {
+      "id": "quality-ear-4",
+      "level": "A1",
+      "cat": "语音听辨",
+      "kind": "choice",
+      "prompt": "先播放音频，选择你听到的单词。",
+      "options": [
+        "poro",
+        "puro"
+      ],
+      "answer": "puro",
+      "explain": "这里主要辨u/o；目标词puro。",
+      "soundAudio": "assets/audio/quality-ear-4.mp3",
+      "script": "puro"
+    },
+    {
+      "id": "quality-ear-5",
+      "level": "A1",
+      "cat": "语音听辨",
+      "kind": "choice",
+      "prompt": "先播放音频，选择你听到的单词。",
+      "options": [
+        "pero",
+        "perro"
+      ],
+      "answer": "pero",
+      "explain": "pero词中r为短促接触，不同于perro的强音。",
+      "soundAudio": "assets/audio/quality-ear-5.mp3",
+      "script": "pero"
+    },
+    {
+      "id": "quality-ear-6",
+      "level": "A1",
+      "cat": "语音听辨",
+      "kind": "choice",
+      "prompt": "先播放音频，选择你听到的单词。",
+      "options": [
+        "pero",
+        "perro"
+      ],
+      "answer": "perro",
+      "explain": "perro中的rr为强音，与pero构成区别。",
+      "soundAudio": "assets/audio/quality-ear-6.mp3",
+      "script": "perro"
+    },
+    {
+      "id": "quality-ear-7",
+      "level": "A1",
+      "cat": "语音听辨",
+      "kind": "choice",
+      "prompt": "先播放音频，选择你听到的单词。",
+      "options": [
+        "caro",
+        "carro"
+      ],
+      "answer": "caro",
+      "explain": "caro的单r与carro的rr不同。",
+      "soundAudio": "assets/audio/quality-ear-7.mp3",
+      "script": "caro"
+    },
+    {
+      "id": "quality-ear-8",
+      "level": "A1",
+      "cat": "语音听辨",
+      "kind": "choice",
+      "prompt": "先播放音频，选择你听到的单词。",
+      "options": [
+        "caro",
+        "carro"
+      ],
+      "answer": "carro",
+      "explain": "carro用rr，不与caro混写。",
+      "soundAudio": "assets/audio/quality-ear-8.mp3",
+      "script": "carro"
+    },
+    {
+      "id": "quality-ear-9",
+      "level": "A1",
+      "cat": "语音听辨",
+      "kind": "choice",
+      "prompt": "先播放音频，选择你听到的单词。",
+      "options": [
+        "cana",
+        "caña"
+      ],
+      "answer": "cana",
+      "explain": "目标词有n，不是ñ。",
+      "soundAudio": "assets/audio/quality-ear-9.mp3",
+      "script": "cana"
+    },
+    {
+      "id": "quality-ear-10",
+      "level": "A1",
+      "cat": "语音听辨",
+      "kind": "choice",
+      "prompt": "先播放音频，选择你听到的单词。",
+      "options": [
+        "cana",
+        "caña"
+      ],
+      "answer": "caña",
+      "explain": "目标词有ñ，拼写不能省去波浪号。",
+      "soundAudio": "assets/audio/quality-ear-10.mp3",
+      "script": "caña"
+    },
+    {
+      "id": "quality-ear-11",
+      "level": "A1",
+      "cat": "语音听辨",
+      "kind": "choice",
+      "prompt": "先播放音频，选择你听到的单词。",
+      "options": [
+        "papá",
+        "papa"
+      ],
+      "answer": "papá",
+      "explain": "本题最后一节重读，对应papá。",
+      "soundAudio": "assets/audio/quality-ear-11.mp3",
+      "script": "papá"
+    }
+  ]
+}
