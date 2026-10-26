@@ -1,0 +1,25 @@
+{
+  "passed": true,
+  "systemCourses": 48,
+  "systemSections": 332,
+  "systemAnswers": 140,
+  "gradedCourses": 40,
+  "courseStages": 200,
+  "unitAnswers": 240,
+  "backup": {
+    "sourceSaved": true,
+    "notebookCard": true,
+    "unitStage": 1,
+    "oldNote": "旧笔记"
+  },
+  "checks": [
+    "首页单一起点并进入第1课",
+    "48个系统专题每个小步讲解实际显示，配套题作答并返回准确小步",
+    "40个分级课程五步流程全部显示，240道小测实际DOM作答",
+    "错题理由与准确返回、表达保存及课程完成条件",
+    "教材/课程/精读/扩展分栏，收藏与扩展词库分开，词形反查",
+    "教材与精读直达本篇词本，前后退及刷新保留课程位置",
+    "旧备份、新课程进度及单词状态恢复，390px无整页横向溢出"
+  ],
+  "errors": []
+}

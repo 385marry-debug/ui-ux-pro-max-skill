@@ -16,7 +16,7 @@
     "appendixModels": 40,
     "modelFixtures": 10,
     "grammarEntries": 405,
-    "totalQuestions": 11645
+    "totalQuestions": 11647
   },
   "checks": [
     "每个原有字母小节有直接网页正文，不再只有宽泛别名跳转",

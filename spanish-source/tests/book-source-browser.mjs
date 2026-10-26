@@ -1,5 +1,5 @@
 import {chromium} from '/workspace/ui-ux-pro-max-skill/cli/node_modules/@playwright/test/index.mjs';import assert from 'node:assert/strict';import {writeFile} from 'node:fs/promises';
-const browser=await chromium.launch({executablePath:'/usr/bin/chromium'}),p=await browser.newPage({viewport:{width:1360,height:1000}}),errors=[];p.on('pageerror',e=>errors.push(e.message));await p.goto((process.env.SITE_URL||'http://127.0.0.1:4193')+'/?view=guide');await p.evaluate(()=>{localStorage.clear();sessionStorage.clear()});await p.reload();assert.equal(await p.locator('[data-source-row]').count(),212);
+const browser=await chromium.launch({executablePath:'/usr/bin/chromium'}),p=await browser.newPage({viewport:{width:1360,height:1000}}),errors=[];p.on('pageerror',e=>errors.push(e.message));await p.goto((process.env.SITE_URL||'http://127.0.0.1:4193')+'/?view=guide&layout=reference');await p.evaluate(()=>{localStorage.clear();sessionStorage.clear()});await p.reload();assert.equal(await p.locator('[data-source-row]').count(),212);
 const sourceIds=await p.evaluate(()=>bookSourceLessons.map(l=>({id:l.id,part:l.sourcePart,questions:l.questions.length})));let solved=0;
 for(let i=0;i<sourceIds.length;i++){
  const record=sourceIds[i];

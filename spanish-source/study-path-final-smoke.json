@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "checks": [
+    "fresh-home explicit start",
+    "first grammar lesson advances to noun gender",
+    "source word opens original owned-text paragraph and translation",
+    "word notebook returns to course reading stage",
+    "current mobile course footer and page fit 390px"
+  ],
+  "errors": []
+}

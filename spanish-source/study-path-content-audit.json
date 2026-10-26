@@ -1,0 +1,28 @@
+{
+  "passed": true,
+  "scope": "明确学习顺序、40个课堂的120条规则与对应练习、48个系统语法课的小步入口，以及课文词形与分来源单词本的连接；不把词汇位置数称为不同词根或已掌握词数。",
+  "counts": {
+    "mainPath": 50,
+    "preparation": 10,
+    "gradedCourses": 40,
+    "revisedRules": 120,
+    "courseCheckPositions": 240,
+    "systemCourses": 48,
+    "notebook": {
+      "textbook": 1236,
+      "course": 1794,
+      "reading": 2320
+    },
+    "sourceOccurrenceGroups": 6669,
+    "newCanonicalQuestions": 2,
+    "independentRulePracticeLinks": 24
+  },
+  "checks": [
+    "50步主线按10准备课、A1至B2各10课排序，首页起点固定",
+    "40课规则、示范理由、先修、目标和检查齐全",
+    "A1拼写课不要求生成过去时；旧题保留历史",
+    "教材原书、本站课程、每日精读分来源，所有词有词性标注、出处与释义",
+    "全文词形补充覆盖原先六词预习之外的词；词形关联保留并可反查",
+    "教材词汇记录按当前实数统计，课程和精读同词跨篇保留各自位置，扩展词库不复制"
+  ]
+}

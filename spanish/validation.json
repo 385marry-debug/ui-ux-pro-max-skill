@@ -1,5 +1,5 @@
 {
-  "version": "2026-10-26-two-book-source-pass",
+  "version": "2026-10-26-guided-course-and-notebooks",
   "verification": "Local Chromium and content checks; hosting result is recorded separately in GitHub Pages Actions.",
   "reports": {
     "public-site-validation": {
@@ -53,7 +53,7 @@
         "objects": 120,
         "words": 7423,
         "reviewedMultiSenseEntries": 46,
-        "questions": 11645
+        "questions": 11647
       }
     },
     "expansion-browser-validation": {
@@ -1869,7 +1869,7 @@
         "entries": 7423,
         "listening": 144,
         "listeningQuestions": 294,
-        "totalStaticQuestions": 11645
+        "totalStaticQuestions": 11647
       },
       "chapters": [
         {
@@ -5037,7 +5037,7 @@
         "appendixModels": 40,
         "modelFixtures": 10,
         "grammarEntries": 405,
-        "totalQuestions": 11645
+        "totalQuestions": 11647
       },
       "checks": [
         "每个原有字母小节有直接网页正文，不再只有宽泛别名跳转",
@@ -5061,6 +5061,70 @@
         "规则与题目关键词检索、全站来源内容检索",
         "故意错答、刷新不重复计分、返回原小节",
         "新旧题目备份兼容及390px表格/内容无整页横向溢出"
+      ],
+      "errors": []
+    },
+    "study-path-content-audit": {
+      "passed": true,
+      "scope": "明确学习顺序、40个课堂的120条规则与对应练习、48个系统语法课的小步入口，以及课文词形与分来源单词本的连接；不把词汇位置数称为不同词根或已掌握词数。",
+      "counts": {
+        "mainPath": 50,
+        "preparation": 10,
+        "gradedCourses": 40,
+        "revisedRules": 120,
+        "courseCheckPositions": 240,
+        "systemCourses": 48,
+        "notebook": {
+          "textbook": 1236,
+          "course": 1794,
+          "reading": 2320
+        },
+        "sourceOccurrenceGroups": 6669,
+        "newCanonicalQuestions": 2,
+        "independentRulePracticeLinks": 24
+      },
+      "checks": [
+        "50步主线按10准备课、A1至B2各10课排序，首页起点固定",
+        "40课规则、示范理由、先修、目标和检查齐全",
+        "A1拼写课不要求生成过去时；旧题保留历史",
+        "教材原书、本站课程、每日精读分来源，所有词有词性标注、出处与释义",
+        "全文词形补充覆盖原先六词预习之外的词；词形关联保留并可反查",
+        "教材词汇记录按当前实数统计，课程和精读同词跨篇保留各自位置，扩展词库不复制"
+      ]
+    },
+    "study-path-browser-validation": {
+      "passed": true,
+      "systemCourses": 48,
+      "systemSections": 332,
+      "systemAnswers": 140,
+      "gradedCourses": 40,
+      "courseStages": 200,
+      "unitAnswers": 240,
+      "backup": {
+        "sourceSaved": true,
+        "notebookCard": true,
+        "unitStage": 1,
+        "oldNote": "旧笔记"
+      },
+      "checks": [
+        "首页单一起点并进入第1课",
+        "48个系统专题每个小步讲解实际显示，配套题作答并返回准确小步",
+        "40个分级课程五步流程全部显示，240道小测实际DOM作答",
+        "错题理由与准确返回、表达保存及课程完成条件",
+        "教材/课程/精读/扩展分栏，收藏与扩展词库分开，词形反查",
+        "教材与精读直达本篇词本，前后退及刷新保留课程位置",
+        "旧备份、新课程进度及单词状态恢复，390px无整页横向溢出"
+      ],
+      "errors": []
+    },
+    "study-path-final-smoke": {
+      "passed": true,
+      "checks": [
+        "fresh-home explicit start",
+        "first grammar lesson advances to noun gender",
+        "source word opens original owned-text paragraph and translation",
+        "word notebook returns to course reading stage",
+        "current mobile course footer and page fit 390px"
       ],
       "errors": []
     }
