@@ -15,8 +15,8 @@
     "independentAnswerFixtures": 31,
     "appendixModels": 40,
     "modelFixtures": 10,
-    "grammarEntries": 413,
-    "totalQuestions": 11968
+    "grammarEntries": 417,
+    "totalQuestions": 12028
   },
   "checks": [
     "每个原有字母小节有直接网页正文，不再只有宽泛别名跳转",

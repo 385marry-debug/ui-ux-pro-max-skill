@@ -2502,5 +2502,709 @@
     ],
     "task": "写一段120词评述：先承认局部证据，再指出迁移条件，最后提出可检验的下一步；自查是否把“未证明有效”偷换成“已证明无效”。",
     "originalId": null
+  },
+  {
+    "id": "quality-domain-academic",
+    "level": "C1",
+    "title": "学术领域：把研究写成可信摘要",
+    "paragraphs": [
+      {
+        "es": "Un equipo comparó los hábitos de lectura de treinta voluntarios durante dos semanas. Quienes leían antes de dormir dijeron sentirse más tranquilos. No hubo asignación aleatoria ni un grupo de control, y la tranquilidad se midió mediante un cuestionario, no con una prueba clínica.",
+        "zh": "团队比较了三十名志愿者两周内的阅读习惯。睡前阅读者自述更平静。研究没有随机分组或对照组，平静感通过问卷测量，而非临床试验。"
+      },
+      {
+        "es": "La coordinadora propone una conclusión limitada: en esta muestra se observó una relación entre lectura y bienestar declarado. Otra versión del resumen afirma que leer cura la ansiedad. Esa afirmación cambia tanto la población como el resultado medido y convierte una observación en una promesa terapéutica.",
+        "zh": "协调者建议有限结论：该样本中观察到阅读与自报幸福感的关联。另一版摘要说阅读能治愈焦虑。这同时改变了适用人群和测量结果，并把观察写成治疗承诺。"
+      },
+      {
+        "es": "Antes de enviar el texto, el equipo vuelve a las notas originales. Sustituye la promesa por una descripción de la muestra, el método y las limitaciones. La revisión no elimina el hallazgo: permite que el lector entienda qué se sabe y qué todavía no puede concluirse.",
+        "zh": "发送文本前，团队回到原始笔记，以样本、方法和局限的说明替代承诺。这并未取消发现，而是让读者理解已知与尚不能得出的结论。"
+      }
+    ],
+    "glosses": [
+      {
+        "head": "voluntario",
+        "abbr": "n. m. (f. voluntaria)",
+        "meaning": "志愿参与者"
+      },
+      {
+        "head": "asignación",
+        "abbr": "n. f.",
+        "meaning": "分配；分组"
+      },
+      {
+        "head": "aleatorio",
+        "abbr": "adj.",
+        "meaning": "随机的"
+      },
+      {
+        "head": "cuestionario",
+        "abbr": "n. m.",
+        "meaning": "问卷"
+      },
+      {
+        "head": "bienestar",
+        "abbr": "n. m.",
+        "meaning": "幸福感；身心状态良好"
+      },
+      {
+        "head": "hallazgo",
+        "abbr": "n. m.",
+        "meaning": "发现"
+      }
+    ],
+    "hard": [
+      [
+        "bienestar declarado",
+        "自报幸福感",
+        "declarado说明这是参与者报告的状态，不能自动改成经临床证实的效果。"
+      ],
+      [
+        "La revisión no elimina el hallazgo.",
+        "修订并未抹掉研究发现。",
+        "限制范围和否定发现不同；这里保留观察，同时降低过度承诺。"
+      ]
+    ],
+    "questions": [
+      {
+        "prompt": "研究直接测量了什么？",
+        "options": [
+          "问卷自报的平静感",
+          "临床治愈率",
+          "全国人口的焦虑水平"
+        ],
+        "answer": "问卷自报的平静感",
+        "explain": "首段明确说明问卷与非临床测量。"
+      },
+      {
+        "prompt": "“阅读治愈焦虑”改变了什么？",
+        "options": [
+          "把有限观察变为治疗承诺",
+          "只改了标点",
+          "只是保留原结论"
+        ],
+        "answer": "把有限观察变为治疗承诺",
+        "explain": "第二段指出人群、结果与断言性质均被扩大。"
+      },
+      {
+        "prompt": "怎样的摘要更忠实？",
+        "options": [
+          "说明样本、方法与限制",
+          "只保留最强承诺",
+          "删掉所有发现"
+        ],
+        "answer": "说明样本、方法与限制",
+        "explain": "末段要求保留发现并交代范围。"
+      },
+      {
+        "prompt": "过去观察：En esta muestra se ___ una relación.（observar，简单过去，单数）",
+        "options": null,
+        "answer": "observó",
+        "explain": "se被动中的una relación为单数，简单过去为observó。"
+      },
+      {
+        "prompt": "指明方法：La tranquilidad se midió ___ un cuestionario.（通过，本题用mediante）",
+        "options": null,
+        "answer": "mediante",
+        "explain": "mediante说明手段，不能凭空换成临床试验。"
+      },
+      {
+        "prompt": "否定强推论：No permite ___ que leer cure la ansiedad.（concluir，原形）",
+        "options": null,
+        "answer": "concluir",
+        "explain": "permite后接原形concluir；从有限观察到临床结论仍缺证据。"
+      }
+    ],
+    "rules": [
+      "先核对研究实际测量的结果。",
+      "保留样本、方法与断言边界。",
+      "把强承诺改写成忠实的摘要。"
+    ],
+    "task": "写一个80—120词西语摘要，明确样本、时长、测量方式和限制；再用中文指出为什么不能写成治疗保证。",
+    "originalId": null,
+    "professional": true,
+    "domain": "学术研究与摘要",
+    "goal": "在摘要里区分结果、解释和证据限制。",
+    "ruleLessons": [
+      {
+        "key": "domain-1",
+        "title": "先核对研究实际测量的结果。",
+        "explanation": [
+          "先写出测量对象：本例是问卷自报感受，而不是疾病治愈率。",
+          "改写时若更换结果变量，即使句法正确，也改变了研究内容。"
+        ],
+        "example": "Se midió el bienestar declarado.",
+        "translation": "测量的是自报幸福感。",
+        "analysis": "declarado限制证据类型，不是可有可无的修饰。",
+        "contrast": {
+          "before": "Se midió una cura clínica.",
+          "after": "Se recogieron respuestas a un cuestionario.",
+          "why": "不能把问卷回答改成并未开展的临床测量。"
+        },
+        "practiceIndex": 0
+      },
+      {
+        "key": "domain-2",
+        "title": "保留样本、方法与断言边界。",
+        "explanation": [
+          "把样本范围和方法写在读者能看到的位置，不只藏在附注里。",
+          "有限样本可以提供线索，但不能单凭人数或连接词转成普遍因果。"
+        ],
+        "example": "En treinta participantes se observó una asociación.",
+        "translation": "在三十名参与者中观察到关联。",
+        "analysis": "保留参与者范围及关联性质。",
+        "contrast": {
+          "before": "La lectura cura a toda la población.",
+          "after": "En esta muestra se observó una asociación.",
+          "why": "局部关联不支持全人群治疗承诺。"
+        },
+        "practiceIndex": 1
+      },
+      {
+        "key": "domain-3",
+        "title": "把强承诺改写成忠实的摘要。",
+        "explanation": [
+          "忠实摘要可以删去背景细节，但保留测量、样本与局限。",
+          "先对照原记录，再检查每一项新增承诺是否有证据。"
+        ],
+        "example": "El resultado sugiere una relación que requiere más estudio.",
+        "translation": "结果提示一种仍需研究的关系。",
+        "analysis": "sugiere与requiere más estudio共同限制结论力度。",
+        "contrast": {
+          "before": "El éxito está garantizado.",
+          "after": "Los resultados deben interpretarse dentro de sus límites.",
+          "why": "摘要应交代证据边界，而非替研究提供保证。"
+        },
+        "practiceIndex": 2
+      }
+    ]
+  },
+  {
+    "id": "quality-domain-business",
+    "level": "C1",
+    "title": "商务领域：报价、期限与条件",
+    "paragraphs": [
+      {
+        "es": "La oferta incluye veinte horas de revisión por mil euros, sin impuestos. No cubre la traducción de documentos nuevos ni las entregas urgentes. El cliente pide añadir diez páginas y mantener el precio y la fecha iniciales.",
+        "zh": "报价包含二十小时审校，费用一千欧元，未含税。新文件翻译和紧急交付不在范围内。客户要求增加十页，同时维持原价和原日期。"
+      },
+      {
+        "es": "La responsable evita responder con una aceptación ambigua. Explica qué estaba incluido y propone dos opciones: mantener el presupuesto con el alcance original o preparar un suplemento con un plazo distinto. Solicita confirmación escrita antes de empezar el trabajo adicional.",
+        "zh": "负责人避免含糊接受。她说明原范围，提出两种选择：按原范围维持预算，或为新增工作编制补充报价并调整期限。在开展额外工作前，她要求书面确认。"
+      },
+      {
+        "es": "El acuerdo final distingue el precio base, los impuestos, las tareas y la fecha de entrega. También indica quién aprobará cualquier cambio. Una fórmula amable no sustituye esos datos; la cortesía ayuda a negociar, pero no debe ocultar un compromiso que todavía no existe.",
+        "zh": "最终协议区分基础价格、税费、任务和交付日期，并说明由谁批准改动。礼貌话不能替代这些信息：礼貌有助协商，却不应隐藏尚未达成的承诺。"
+      }
+    ],
+    "glosses": [
+      {
+        "head": "presupuesto",
+        "abbr": "n. m.",
+        "meaning": "预算；报价"
+      },
+      {
+        "head": "alcance",
+        "abbr": "n. m.",
+        "meaning": "工作范围"
+      },
+      {
+        "head": "impuesto",
+        "abbr": "n. m.",
+        "meaning": "税"
+      },
+      {
+        "head": "suplemento",
+        "abbr": "n. m.",
+        "meaning": "补充报价；附加部分"
+      },
+      {
+        "head": "plazo",
+        "abbr": "n. m.",
+        "meaning": "期限"
+      },
+      {
+        "head": "compromiso",
+        "abbr": "n. m.",
+        "meaning": "承诺；约定"
+      }
+    ],
+    "hard": [
+      [
+        "sin impuestos",
+        "未含税",
+        "这描述报价口径，不能在确认信中改成税费已包含。"
+      ],
+      [
+        "Solicita confirmación escrita antes de empezar el trabajo adicional.",
+        "她要求开展额外工作前得到书面确认。",
+        "这里给出的是开展动作前的条件，并非已经得到确认；请求确认和确认已发生要分开。"
+      ]
+    ],
+    "questions": [
+      {
+        "prompt": "原报价不包括什么？",
+        "options": [
+          "新文件翻译和紧急交付",
+          "二十小时审校",
+          "基础费用"
+        ],
+        "answer": "新文件翻译和紧急交付",
+        "explain": "首段明确说明两项排除范围。"
+      },
+      {
+        "prompt": "哪种答复最符合负责人提出的方案？",
+        "options": [
+          "原范围原预算，或另行确认补充报价与期限",
+          "无条件接受全部新增工作且不变价",
+          "完全取消所有服务"
+        ],
+        "answer": "原范围原预算，或另行确认补充报价与期限",
+        "explain": "第二段给出两种有明确边界的选择。"
+      },
+      {
+        "prompt": "工作追加前还需要什么？",
+        "options": [
+          "书面确认",
+          "自动视为已同意",
+          "删除交付日期"
+        ],
+        "answer": "书面确认",
+        "explain": "第二段明确要求confirmación escrita。"
+      },
+      {
+        "prompt": "目的为确认范围：Le escribo para ___ el alcance.（confirmar，原形）",
+        "options": null,
+        "answer": "confirmar",
+        "explain": "para引出同主语目的，后接原形。"
+      },
+      {
+        "prompt": "礼貌请求，指定-ra：Le agradecería que ___ la opción elegida.（indicar，usted）",
+        "options": null,
+        "answer": "indicara",
+        "explain": "条件式礼貌框架配未完成虚拟式indicara。"
+      },
+      {
+        "prompt": "说明排除项：La oferta no ___ las entregas urgentes.（incluir，现在时）",
+        "options": null,
+        "answer": "incluye",
+        "explain": "主语la oferta为单数，incluir现在时为incluye。"
+      }
+    ],
+    "rules": [
+      "先区分包含项与排除项。",
+      "报价变化要同步检查范围、价格和期限。",
+      "礼貌回复不自动构成无条件接受。"
+    ],
+    "task": "写一封西语回复：复述原范围，提出两种可选方案，请求书面确认；明确税费和新增任务尚未自动纳入。",
+    "originalId": null,
+    "professional": true,
+    "domain": "商务沟通与协商",
+    "goal": "把礼貌表达和可执行约定连接起来。",
+    "ruleLessons": [
+      {
+        "key": "domain-1",
+        "title": "先区分包含项与排除项。",
+        "explanation": [
+          "先逐项核对原报价包含什么、明确排除了什么。",
+          "sin impuestos表示未含税；不认识合同条件时先保留原词，不自行补保证。"
+        ],
+        "example": "La revisión está incluida; la traducción adicional no lo está.",
+        "translation": "审校已包含；额外翻译未包含。",
+        "analysis": "两项服务应分别说明，避免把一个价格写成无限范围。",
+        "contrast": {
+          "before": "Todo está incluido.",
+          "after": "La oferta cubre únicamente la revisión acordada.",
+          "why": "原文只涵盖约定审校，不能扩大成所有服务。"
+        },
+        "practiceIndex": 0
+      },
+      {
+        "key": "domain-2",
+        "title": "报价变化要同步检查范围、价格和期限。",
+        "explanation": [
+          "新增工作可能改变工时、预算或日期，应当一起确认。",
+          "给出真实可选方案，比含糊说“没有问题”更能减少误解。"
+        ],
+        "example": "Podemos mantener el presupuesto si se conserva el alcance original.",
+        "translation": "若保留原范围，我们可以维持预算。",
+        "analysis": "if条件保留了维持预算的前提。",
+        "contrast": {
+          "before": "Mantendremos el precio haga lo que haga falta.",
+          "after": "El trabajo adicional requiere una nueva confirmación.",
+          "why": "不能把有范围的报价改成无条件追加。"
+        },
+        "practiceIndex": 1
+      },
+      {
+        "key": "domain-3",
+        "title": "礼貌回复不自动构成无条件接受。",
+        "explanation": [
+          "礼貌表达可以委婉，任务、责任与生效条件仍要清楚。",
+          "请求书面确认并不等于确认已收到，应分别描述状态。"
+        ],
+        "example": "Quedamos a la espera de su confirmación escrita.",
+        "translation": "我们等待您的书面确认。",
+        "analysis": "待确认的状态明确，不把未达成事项当最终协议。",
+        "contrast": {
+          "before": "Ya hemos aceptado todos los cambios.",
+          "after": "Esperamos su confirmación antes de iniciar el trabajo adicional.",
+          "why": "后者保留尚待确认与开工界限。"
+        },
+        "practiceIndex": 2
+      }
+    ]
+  },
+  {
+    "id": "quality-domain-mediation",
+    "level": "C2",
+    "title": "信息调解：让不同对象都能行动",
+    "paragraphs": [
+      {
+        "es": "La biblioteca anuncia que cerrará el sábado por una revisión de seguridad. Los préstamos que vencen ese día podrán devolverse el lunes sin recargo. La sala digital seguirá disponible a distancia, pero no se aceptarán devoluciones en el edificio durante el cierre.",
+        "zh": "图书馆宣布周六因安全检查闭馆。当天到期的借阅可于周一归还，不加收费用。数字资源仍可远程使用，但闭馆期间楼内不接收还书。"
+      },
+      {
+        "es": "Una vecina pregunta si debe ir el sábado para evitar una multa. Otro usuario quiere saber si perderá el acceso digital. Repetir el anuncio entero a ambos no garantiza que comprendan qué deben hacer. La respuesta tiene que seleccionar la información pertinente para cada necesidad.",
+        "zh": "一位邻居问是否必须周六去才能避免罚款；另一位用户问是否会失去数字访问权限。对两人重复整份公告，并不能保证他们明白该做什么。回复应按各自需要选择相关信息。"
+      },
+      {
+        "es": "Una buena mediación conserva fechas, condiciones y excepciones, aunque cambie el orden o use frases más sencillas. No debe prometer que todos los préstamos se prorrogan indefinidamente. Después de resumir, conviene comprobar con una pregunta breve si el destinatario ha entendido el siguiente paso.",
+        "zh": "好的信息调解即使调整顺序、使用短句，也保留日期、条件和例外。不应承诺所有借阅无限延期。概括后，宜用一个简短问题确认对方理解下一步。"
+      }
+    ],
+    "glosses": [
+      {
+        "head": "préstamo",
+        "abbr": "n. m.",
+        "meaning": "借阅；贷款，依语境"
+      },
+      {
+        "head": "vencer",
+        "abbr": "v.",
+        "meaning": "到期；战胜"
+      },
+      {
+        "head": "recargo",
+        "abbr": "n. m.",
+        "meaning": "附加费用"
+      },
+      {
+        "head": "a distancia",
+        "abbr": "loc. adv.",
+        "meaning": "远程"
+      },
+      {
+        "head": "mediación",
+        "abbr": "n. f.",
+        "meaning": "信息调解；帮助不同对象理解与沟通"
+      },
+      {
+        "head": "destinatario",
+        "abbr": "n. m. (f. destinataria)",
+        "meaning": "接收者；收件人"
+      }
+    ],
+    "hard": [
+      [
+        "Los préstamos que vencen ese día podrán devolverse el lunes sin recargo.",
+        "当天到期的借阅可在周一归还，不加收费用。",
+        "限制性关系从句指定受政策影响的借阅，不等于所有借阅永久延期。"
+      ],
+      [
+        "aunque cambie el orden o use frases más sencillas",
+        "即使调整顺序或使用更简单的句子",
+        "改变呈现方式不授权改动日期、条件或例外；调解需要忠实与可操作两方面。"
+      ]
+    ],
+    "questions": [
+      {
+        "prompt": "周六到期的借阅最迟可按此公告何时无附加费归还？",
+        "options": [
+          "周一",
+          "无限期",
+          "必须周六进楼"
+        ],
+        "answer": "周一",
+        "explain": "首段只给出周一与当天到期借阅的有限安排。"
+      },
+      {
+        "prompt": "数字资源怎样？",
+        "options": [
+          "仍可远程使用",
+          "全部停用",
+          "必须到楼里才能用"
+        ],
+        "answer": "仍可远程使用",
+        "explain": "公告明确seguir disponible a distancia。"
+      },
+      {
+        "prompt": "按用户需求改述时，必须保留什么？",
+        "options": [
+          "日期、适用条件和例外",
+          "只保留安慰语",
+          "保证所有借阅永久延期"
+        ],
+        "answer": "日期、适用条件和例外",
+        "explain": "末段直接列出忠实调解的必要信息。"
+      },
+      {
+        "prompt": "说明仍可用：La sala digital ___ disponible a distancia.（seguir，将来时）",
+        "options": null,
+        "answer": "seguirá",
+        "explain": "单数主语的seguir将来时为seguirá。"
+      },
+      {
+        "prompt": "禁止进楼归还：No se ___ devoluciones en el edificio.（aceptar，将来时，被动se）",
+        "options": null,
+        "answer": "aceptarán",
+        "explain": "devoluciones是复数主语，配aceptarán。"
+      },
+      {
+        "prompt": "确认是否理解，介词后：Después de ___, conviene preguntar.（resumir）",
+        "options": null,
+        "answer": "resumir",
+        "explain": "de后接原形；摘要后还可核对理解。"
+      }
+    ],
+    "rules": [
+      "按接收者需求选取相关信息。",
+      "简化语言时保留条件、日期与例外。",
+      "用下一步行动核对是否理解。"
+    ],
+    "task": "分别给两位用户写两句西语回复，再写中文转述。说明哪些信息可以省略、哪些日期和条件不能改。",
+    "originalId": null,
+    "professional": true,
+    "domain": "跨语言转述与信息调解",
+    "goal": "在忠实保留限制的同时，让接收者知道下一步。",
+    "ruleLessons": [
+      {
+        "key": "domain-1",
+        "title": "按接收者需求选取相关信息。",
+        "explanation": [
+          "先问对方需要做哪一个决定，再选取对应信息。",
+          "按需求排序不同于随意删掉不方便的事实。例如只回答能否周一归还，也应保留“周六到期”这个适用条件。"
+        ],
+        "example": "Puedes devolverlo el lunes si vence el sábado.",
+        "translation": "如果它周六到期，你可以周一归还。",
+        "analysis": "给询问还书的人提供直接行动，同时保留条件。",
+        "contrast": {
+          "before": "No tienes que devolver ningún libro nunca.",
+          "after": "Los préstamos que vencen el sábado pueden devolverse el lunes.",
+          "why": "不能把指定日期的安排改成所有借阅永久豁免。"
+        },
+        "practiceIndex": 0
+      },
+      {
+        "key": "domain-2",
+        "title": "简化语言时保留条件、日期与例外。",
+        "explanation": [
+          "句子可以变短，日期、适用范围和例外不能改变。",
+          "原文未给出的保证应保留未知，不替服务方作额外承诺。"
+        ],
+        "example": "El edificio estará cerrado, pero podrás usar los recursos digitales a distancia.",
+        "translation": "楼会关闭，但你仍可远程使用数字资源。",
+        "analysis": "把两种服务状态分别说明，避免从闭馆推成全部停用。",
+        "contrast": {
+          "before": "Todo el servicio estará cerrado.",
+          "after": "Solo el edificio estará cerrado; el acceso digital seguirá disponible.",
+          "why": "原文区分实体场所和远程资源，转述必须保留区别。"
+        },
+        "practiceIndex": 1
+      },
+      {
+        "key": "domain-3",
+        "title": "用下一步行动核对是否理解。",
+        "explanation": [
+          "调解的效果是接收者能理解并行动，不是转述者说得很长。",
+          "用一个具体问题核对日期或下一步，不把沉默自动当作理解。"
+        ],
+        "example": "¿Te queda claro que puedes ir el lunes?",
+        "translation": "你清楚可以周一去了吗？",
+        "analysis": "核对具体行动；对方仍可提出误解或疑问。",
+        "contrast": {
+          "before": "Si no pregunta, seguro que ha entendido todo.",
+          "after": "Comprobemos qué día piensa devolver el préstamo.",
+          "why": "没有提问不证明已理解，应核对可执行信息。"
+        },
+        "practiceIndex": 2
+      }
+    ]
+  },
+  {
+    "id": "quality-domain-literary",
+    "level": "C2",
+    "title": "文学细读：叙述声音与可支持的解释",
+    "paragraphs": [
+      {
+        "es": "Cuando volvió al pueblo, encontró la casa cerrada. «Aquí nunca cambia nada», pensó. Sin embargo, la puerta que recordaba azul era verde, y donde antes había un árbol quedaba una sombra rectangular en la pared. Guardó la llave sin intentar abrir.",
+        "zh": "回到村庄时，她／他发现房子关着。“这里从来没有变化”，她／他想。然而，记忆中的蓝门变绿了，原先有树的地方只剩墙上一块长方形阴影。她／他收起钥匙，没有试着开门。"
+      },
+      {
+        "es": "La frase sobre la ausencia de cambios pertenece al pensamiento del personaje. Los detalles posteriores introducen una tensión con esa percepción. No es necesario decidir de inmediato que el narrador miente o que el autor rechaza todo recuerdo: esas interpretaciones exigirían más evidencia.",
+        "zh": "“没有变化”是人物的想法。随后的细节与这一感受形成张力。无须立即断言叙述者撒谎或作者否定所有记忆，因为这些解释还需要更多证据。"
+      },
+      {
+        "es": "El lector puede proponer que la llave sugiera una pertenencia interrumpida, siempre que distinga la hipótesis de lo explícito. El texto dice que la guardó; no explica de forma inequívoca por qué. Una lectura rigurosa puede comparar varias posibilidades sin convertir una de ellas en un dato demostrado.",
+        "zh": "读者可以提出钥匙暗示归属中断，但须区分假设与明说。文本说人物收起钥匙，却没唯一说明原因。严谨阅读可以比较多种可能，而不把其中一种当成已证事实。"
+      }
+    ],
+    "glosses": [
+      {
+        "head": "narrador",
+        "abbr": "n. m. (f. narradora)",
+        "meaning": "叙述者"
+      },
+      {
+        "head": "percepción",
+        "abbr": "n. f.",
+        "meaning": "感知；看法"
+      },
+      {
+        "head": "pertenencia",
+        "abbr": "n. f.",
+        "meaning": "归属"
+      },
+      {
+        "head": "inequívoco",
+        "abbr": "adj.",
+        "meaning": "明确无歧义的"
+      },
+      {
+        "head": "explícito",
+        "abbr": "adj.",
+        "meaning": "明说的；显性的"
+      },
+      {
+        "head": "hipótesis",
+        "abbr": "n. f.",
+        "meaning": "假设，单复数同形"
+      }
+    ],
+    "hard": [
+      [
+        "«Aquí nunca cambia nada», pensó.",
+        "“这里从来没有变化”，人物想。",
+        "pensó将这句归入人物思想，不能不加区分地当作作者的客观断言。"
+      ],
+      [
+        "El texto dice que la guardó; no explica de forma inequívoca por qué.",
+        "文本说人物收起钥匙，却未唯一说明原因。",
+        "区分明确动作与动机推断；提出象征性解读时要标为可能。"
+      ]
+    ],
+    "questions": [
+      {
+        "prompt": "“这里从来没有变化”直接属于谁的想法？",
+        "options": [
+          "人物",
+          "已经明确表态的作者本人",
+          "所有村民共同声明"
+        ],
+        "answer": "人物",
+        "explain": "pensó明确标记人物思想。"
+      },
+      {
+        "prompt": "门的颜色与树的痕迹起什么作用？",
+        "options": [
+          "与人物的无变化感受形成张力",
+          "证明文本没有变化",
+          "唯一证明作者厌恶家乡"
+        ],
+        "answer": "与人物的无变化感受形成张力",
+        "explain": "第二段解释感受与细节之间的张力，没有唯一作者立场。"
+      },
+      {
+        "prompt": "对收起钥匙原因的严谨表述是什么？",
+        "options": [
+          "可以提出假设，但文本未唯一说明",
+          "肯定是钥匙坏了",
+          "肯定是作者亲身经历"
+        ],
+        "answer": "可以提出假设，但文本未唯一说明",
+        "explain": "末段要求区分动作明确事实与动机解释。"
+      },
+      {
+        "prompt": "记忆中的过去状态：La puerta que recordaba azul ___ verde.（ser，未完成过去）",
+        "options": null,
+        "answer": "era",
+        "explain": "该叙述中的过去背景状态用era。"
+      },
+      {
+        "prompt": "完整过去事件：Él ___ la llave.（guardar，简单过去）",
+        "options": null,
+        "answer": "guardó",
+        "explain": "叙述某次收起钥匙的完成事件，用guardó。"
+      },
+      {
+        "prompt": "没有试着开门：sin ___ abrir.（intentar，原形）",
+        "options": null,
+        "answer": "intentar",
+        "explain": "sin后接原形，不能由此唯一推出动作的心理原因。"
+      }
+    ],
+    "rules": [
+      "区分人物、叙述者与作者。",
+      "用文本细节支持解读，而非只贴文学术语。",
+      "把明确事实与象征性假设分别标出。"
+    ],
+    "task": "给出两种不同的动机解释，每种引用两条文本依据；再列出文本没有说明的事项。避免把推测写成作者真实经历。",
+    "originalId": null,
+    "professional": true,
+    "domain": "文学阅读与文体分析",
+    "goal": "用证据支持多种可能解读，区分声音与立场。",
+    "ruleLessons": [
+      {
+        "key": "domain-1",
+        "title": "区分人物、叙述者与作者。",
+        "explanation": [
+          "先确认是谁在说、谁在想、叙述者呈现了什么。",
+          "人物思想可以与细节冲突，不能直接当成作者亲自担保的事实。"
+        ],
+        "example": "«Nada ha cambiado», pensó el personaje.",
+        "translation": "“什么都没变”，人物想。",
+        "analysis": "这一想法归属于人物，不是自动归属于作者。",
+        "contrast": {
+          "before": "El autor asegura que nada cambió.",
+          "after": "El personaje piensa que nada cambió.",
+          "why": "改述保留声音归属，不增加作者立场。"
+        },
+        "practiceIndex": 0
+      },
+      {
+        "key": "domain-2",
+        "title": "用文本细节支持解读，而非只贴文学术语。",
+        "explanation": [
+          "给解释找具体细节，说明细节怎样支持它。本例可先标出蓝色记忆与绿色门的对照，再分析它与人物感受的关系。",
+          "细节可以支持一种可能，却未必排除所有其他解释。"
+        ],
+        "example": "La puerta verde contrasta con el recuerdo de una puerta azul.",
+        "translation": "绿门与蓝门的记忆形成对比。",
+        "analysis": "颜色对比是明确文字依据；推论还要说明中间关系。",
+        "contrast": {
+          "before": "Los detalles no importan; cualquier interpretación vale.",
+          "after": "La interpretación debe responder a los detalles del texto.",
+          "why": "合理多义不等于任意解读。"
+        },
+        "practiceIndex": 1
+      },
+      {
+        "key": "domain-3",
+        "title": "把明确事实与象征性假设分别标出。",
+        "explanation": [
+          "把动作事实、动机推测和象征解读分别写出来。",
+          "比较替代解释，并承认文本没有唯一说明的部分。"
+        ],
+        "example": "Guardar la llave podría sugerir distancia, pero el motivo no se declara.",
+        "translation": "收起钥匙可能暗示疏离，但动机并未明说。",
+        "analysis": "podría与no se declara保留解读的证据边界。",
+        "contrast": {
+          "before": "Está demostrado que guardó la llave porque estaba rota.",
+          "after": "El texto no explica de forma inequívoca por qué la guardó.",
+          "why": "不能把未出现的坏钥匙写成已经证实的原因。"
+        },
+        "practiceIndex": 2
+      }
+    ]
   }
 ]

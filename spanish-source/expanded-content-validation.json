@@ -2,25 +2,25 @@
   "checks": [
     "638动词、20组规则齐全；28个独立语言学用例；虚拟式-se、自复命令、拼写变化及haber存在义边界",
     "49节基础、过渡与补充课、全部40单元中译和扩展课堂、24文化专题；保留原10专题标识与笔记对应",
-    "165篇听力材料与357道理解题；新增音频另有43段文件核验",
+    "169篇听力材料与369道理解题；教学纠正及领域训练音频共47段文件核验",
     "全部词条带词性；40+常见多义词有分义示范；15场景120物品；所有题有有效答案、无重复ID或重复选项"
   ],
   "counts": {
     "verbs": 638,
     "tenseGroups": 20,
     "independentConjugationCases": 28,
-    "grammar": 413,
+    "grammar": 417,
     "foundationLessons": 49,
     "units": 40,
     "dialogueTurns": 182,
-    "listening": 165,
-    "listeningQuestions": 357,
-    "audioMinutes": 65.88,
+    "listening": 169,
+    "listeningQuestions": 369,
+    "audioMinutes": 69.59,
     "culture": 24,
     "scenes": 15,
     "objects": 120,
     "words": 7423,
     "reviewedMultiSenseEntries": 46,
-    "questions": 11968
+    "questions": 12028
   }
 }

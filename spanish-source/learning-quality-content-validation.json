@@ -8,19 +8,19 @@
     "controlledReadings": 9,
     "newB1B2Readings": 4,
     "advancedTopics": 8,
-    "newReadingQuestions": 126,
-    "newListeningQuestions": 63,
+    "newReadingQuestions": 150,
+    "newListeningQuestions": 75,
     "phonicsQuestions": 12,
-    "newAudioFiles": 43,
-    "newAudioMinutes": 12.28,
-    "sourceNotebookPositions": 1196,
-    "totalQuestions": 11968,
-    "totalReadings": 43
+    "newAudioFiles": 47,
+    "newAudioMinutes": 15.99,
+    "sourceNotebookPositions": 1570,
+    "totalQuestions": 12028,
+    "totalReadings": 47
   },
   "limits": [
     "C1/C2是8个专项训练，不冒充完整等级课程",
-    "21篇新增听力使用同一批原创阅读脚本和各自前3道理解题；学习记录分开，场景不重复冒充新增",
-    "43段新增音频为eSpeak NG合成音，不是真人或多口音音源",
+    "25篇教学纠正与领域训练听力使用同一批原创阅读脚本和各自前3道理解题；学习记录分开，场景不重复冒充新增",
+    "47段教学纠正与领域训练音频为eSpeak NG合成音，不是真人或多口音音源",
     "词形覆盖与性别标签齐全不证明每个多义义项均经教师逐项终审"
   ]
 }

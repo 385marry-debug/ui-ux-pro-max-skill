@@ -1,5 +1,5 @@
 {
-  "version": "2026-10-26-learning-quality-and-folding-navigation",
+  "version": "2026-10-26-level-boundaries-and-professional-routes",
   "verification": "Local Chromium and content checks; hosting result is recorded separately in GitHub Pages Actions.",
   "reports": {
     "public-site-validation": {
@@ -34,26 +34,26 @@
       "checks": [
         "638动词、20组规则齐全；28个独立语言学用例；虚拟式-se、自复命令、拼写变化及haber存在义边界",
         "49节基础、过渡与补充课、全部40单元中译和扩展课堂、24文化专题；保留原10专题标识与笔记对应",
-        "165篇听力材料与357道理解题；新增音频另有43段文件核验",
+        "169篇听力材料与369道理解题；教学纠正及领域训练音频共47段文件核验",
         "全部词条带词性；40+常见多义词有分义示范；15场景120物品；所有题有有效答案、无重复ID或重复选项"
       ],
       "counts": {
         "verbs": 638,
         "tenseGroups": 20,
         "independentConjugationCases": 28,
-        "grammar": 413,
+        "grammar": 417,
         "foundationLessons": 49,
         "units": 40,
         "dialogueTurns": 182,
-        "listening": 165,
-        "listeningQuestions": 357,
-        "audioMinutes": 65.88,
+        "listening": 169,
+        "listeningQuestions": 369,
+        "audioMinutes": 69.59,
         "culture": 24,
         "scenes": 15,
         "objects": 120,
         "words": 7423,
         "reviewedMultiSenseEntries": 46,
-        "questions": 11968
+        "questions": 12028
       }
     },
     "expansion-browser-validation": {
@@ -1857,19 +1857,19 @@
     "reading-content-audit": {
       "scope": "原创配套材料与链接的结构完整性、词汇解析和真实文件核验；不是宣称原教材所有原题、脚注、歌曲与录音已逐项验收。",
       "counts": {
-        "articles": 43,
-        "bilingualParagraphs": 160,
-        "contextualGlosses": 302,
-        "sentenceAnalyses": 86,
-        "readingQuestions": 258,
+        "articles": 47,
+        "bilingualParagraphs": 172,
+        "contextualGlosses": 326,
+        "sentenceAnalyses": 94,
+        "readingQuestions": 282,
         "textbookChapters": 18,
         "textbookPartReferences": 108,
         "unitReviews": 6,
         "textbookWordFacts": 659,
         "entries": 7423,
-        "listening": 165,
-        "listeningQuestions": 357,
-        "totalStaticQuestions": 11968
+        "listening": 169,
+        "listeningQuestions": 369,
+        "totalStaticQuestions": 12028
       },
       "chapters": [
         {
@@ -3465,10 +3465,66 @@
             "quality-C2-04-q4",
             "quality-C2-04-q5"
           ]
+        },
+        {
+          "id": "quality-domain-academic",
+          "title": "学术领域：把研究写成可信摘要",
+          "level": "C1",
+          "wordCount": 136,
+          "questions": [
+            "quality-domain-academic-q0",
+            "quality-domain-academic-q1",
+            "quality-domain-academic-q2",
+            "quality-domain-academic-q3",
+            "quality-domain-academic-q4",
+            "quality-domain-academic-q5"
+          ]
+        },
+        {
+          "id": "quality-domain-business",
+          "title": "商务领域：报价、期限与条件",
+          "level": "C1",
+          "wordCount": 121,
+          "questions": [
+            "quality-domain-business-q0",
+            "quality-domain-business-q1",
+            "quality-domain-business-q2",
+            "quality-domain-business-q3",
+            "quality-domain-business-q4",
+            "quality-domain-business-q5"
+          ]
+        },
+        {
+          "id": "quality-domain-mediation",
+          "title": "信息调解：让不同对象都能行动",
+          "level": "C2",
+          "wordCount": 131,
+          "questions": [
+            "quality-domain-mediation-q0",
+            "quality-domain-mediation-q1",
+            "quality-domain-mediation-q2",
+            "quality-domain-mediation-q3",
+            "quality-domain-mediation-q4",
+            "quality-domain-mediation-q5"
+          ]
+        },
+        {
+          "id": "quality-domain-literary",
+          "title": "文学细读：叙述声音与可支持的解释",
+          "level": "C2",
+          "wordCount": 132,
+          "questions": [
+            "quality-domain-literary-q0",
+            "quality-domain-literary-q1",
+            "quality-domain-literary-q2",
+            "quality-domain-literary-q3",
+            "quality-domain-literary-q4",
+            "quality-domain-literary-q5"
+          ]
         }
       ],
       "limitations": [
-        "43篇有限已发布阅读库；当前难度读完后明确安排复读，不冒充每日自动生成新文章。",
+        "47篇有限已发布阅读库；当前难度读完后明确安排复读，不冒充每日自动生成新文章。",
         "自适应为浏览器本地选篇、调整材料难度与推荐；不是服务器AI重写或专业等级测评。",
         "开放口语和写作提供范例与自查，只有有限规则检查，没有自动专业能力评分。",
         "使用原创内容对应教材学习功能，不复制原书故事、原题全文、歌曲或扫描页。"
@@ -3478,15 +3534,17 @@
       "passed": true,
       "chapters": 18,
       "partsPerChapter": 7,
-      "articles": 22,
+      "articles": 47,
       "questionsPerArticle": 6,
-      "audioLessons": 144,
+      "audioLessons": 169,
       "adaptation": {
         "up": "A2",
         "noEvidence": "A1",
         "stable": true
       },
-      "errors": []
+      "errors": [],
+      "originalArticleAnswers": 6,
+      "scope": "目录库存计数；实际回归原sr-01作答及18课各分部，新材料全题另见learning-quality-browser-validation"
     },
     "adaptive-browser-report": {
       "passed": true,
@@ -5330,8 +5388,8 @@
         "independentAnswerFixtures": 31,
         "appendixModels": 40,
         "modelFixtures": 10,
-        "grammarEntries": 413,
-        "totalQuestions": 11968
+        "grammarEntries": 417,
+        "totalQuestions": 12028
       },
       "checks": [
         "每个原有字母小节有直接网页正文，不再只有宽泛别名跳转",
@@ -5371,7 +5429,7 @@
         "notebook": {
           "textbook": 1231,
           "course": 1784,
-          "reading": 3500
+          "reading": 3874
         },
         "sourceOccurrenceGroups": 6634,
         "newCanonicalQuestions": 2,
@@ -5432,19 +5490,19 @@
         "controlledReadings": 9,
         "newB1B2Readings": 4,
         "advancedTopics": 8,
-        "newReadingQuestions": 126,
-        "newListeningQuestions": 63,
+        "newReadingQuestions": 150,
+        "newListeningQuestions": 75,
         "phonicsQuestions": 12,
-        "newAudioFiles": 43,
-        "newAudioMinutes": 12.28,
-        "sourceNotebookPositions": 1196,
-        "totalQuestions": 11968,
-        "totalReadings": 43
+        "newAudioFiles": 47,
+        "newAudioMinutes": 15.99,
+        "sourceNotebookPositions": 1570,
+        "totalQuestions": 12028,
+        "totalReadings": 47
       },
       "limits": [
         "C1/C2是8个专项训练，不冒充完整等级课程",
-        "21篇新增听力使用同一批原创阅读脚本和各自前3道理解题；学习记录分开，场景不重复冒充新增",
-        "43段新增音频为eSpeak NG合成音，不是真人或多口音音源",
+        "25篇教学纠正与领域训练听力使用同一批原创阅读脚本和各自前3道理解题；学习记录分开，场景不重复冒充新增",
+        "47段教学纠正与领域训练音频为eSpeak NG合成音，不是真人或多口音音源",
         "词形覆盖与性别标签齐全不证明每个多义义项均经教师逐项终审"
       ]
     },
@@ -5452,8 +5510,8 @@
       "passed": true,
       "workedExamples": 120,
       "actualTransferAnswers": 120,
-      "actualNewReadingAnswers": 126,
-      "actualNewListeningAnswers": 63,
+      "actualNewReadingAnswers": 150,
+      "actualNewListeningAnswers": 75,
       "actualPhonicsAnswers": 12,
       "decodedAudioSamples": 3,
       "checks": [
@@ -5463,15 +5521,15 @@
         "乱码被拒，已知主谓问题有提示，两版表达保留，提交不自动判掌握",
         "24小时证据边界用时间数据夹具验证，未假称实际等待一天",
         "A1短句/原文切换及分享参数，推荐不会困在同一原文",
-        "21篇新增文章126题实际作答，8个高级专题可保存表达草稿",
-        "21篇新增听力63题及12道音频辨词题实际DOM作答",
+        "25篇教学纠正与领域训练文章150题实际作答，8个高级专题可保存表达草稿",
+        "25篇教学纠正与领域训练听力75题及12道音频辨词题实际DOM作答",
         "查词后准确返回课内步骤，备份/刷新保留表达，两端无整页横向溢出"
       ],
       "errors": []
     },
     "quality-audio-audit": {
-      "clips": 43,
-      "totalMinutes": 12.28,
+      "clips": 47,
+      "totalMinutes": 15.99,
       "humanRecordings": false,
       "items": [
         {
@@ -5619,6 +5677,34 @@
           "durationSeconds": 47.15,
           "sha256": "b9fe5e4728b95fa93d3325e667885150f020e8b0b99fe5aacb113067b4496f0e",
           "bytes": 283132,
+          "engine": "eSpeak NG, Spanish es, 150 wpm, synthetic"
+        },
+        {
+          "id": "quality-domain-academic",
+          "durationSeconds": 56.42,
+          "sha256": "82a7c457cc44e8d945f80138780f009946e9a4ef08ae79d34b68eae6d7eb921c",
+          "bytes": 338773,
+          "engine": "eSpeak NG, Spanish es, 150 wpm, synthetic"
+        },
+        {
+          "id": "quality-domain-business",
+          "durationSeconds": 52.82,
+          "sha256": "0864cdd296cb9833f0886c7d23d62bc1924c96603c0aa0249db5f5efff780154",
+          "bytes": 317143,
+          "engine": "eSpeak NG, Spanish es, 150 wpm, synthetic"
+        },
+        {
+          "id": "quality-domain-mediation",
+          "durationSeconds": 56.32,
+          "sha256": "ca76408e32737c5273a0076c5b8c70e33b503214c9f3a814722a1b01f62e5150",
+          "bytes": 338146,
+          "engine": "eSpeak NG, Spanish es, 150 wpm, synthetic"
+        },
+        {
+          "id": "quality-domain-literary",
+          "durationSeconds": 57.39,
+          "sha256": "efde4c3cec52472fe02c0502919e5781d668ef253f612ea4285501f73387a6f2",
+          "bytes": 344572,
           "engine": "eSpeak NG, Spanish es, 150 wpm, synthetic"
         },
         {
@@ -5776,6 +5862,49 @@
           "engine": "eSpeak NG, Spanish es, 150 wpm, synthetic"
         }
       ]
+    },
+    "level-route-content-validation": {
+      "passed": true,
+      "scope": "CEFR等级边界说明、当前覆盖披露、高级小节独立讲解、领域案例与自评保存；不代表逐项验收全部官方描述子。",
+      "counts": {
+        "mainLevels": 6,
+        "preparationStages": 1,
+        "abilityModes": 4,
+        "advancedRuleSections": 24,
+        "standaloneRuleQuestions": 24,
+        "independentGoldCases": 8,
+        "professionalCases": 4,
+        "professionalReadingQuestions": 24,
+        "professionalListeningQuestions": 12,
+        "totalReadings": 47,
+        "totalQuestions": 12028
+      },
+      "findingsFixed": [
+        "零基础准备由非正式A0改为明确的Pre-A1路线标识，原学习ID保留",
+        "C1/C2规则说明不再借用其他难句或段落翻译；24节各有独立解释、示范、对比和练习",
+        "新增四个领域任务归入既有C1/C2材料范围，没有创建C3/C4",
+        "等级自评与正式能力证据分开，勾选不更改推荐或认定等级"
+      ],
+      "remaining": [
+        "C1/C2仍为专项覆盖，缺完整课程序列及长篇听说读写反馈",
+        "所有教材知识、原题、附录及全部官方描述子尚未完成逐项终审",
+        "领域案例用于语言训练，不等于专业资格或覆盖全部行业"
+      ]
+    },
+    "level-route-browser-validation": {
+      "passed": true,
+      "advancedRuleAnswers": 24,
+      "professionalSectionAnswers": 12,
+      "decodedDomainAudios": 4,
+      "checks": [
+        "新等级路线页、六个主等级和Pre-A1准备显示准确，不创建C3/C4",
+        "四类能力自评刷新与备份保留，且不改变推荐或学习等级",
+        "手机导航进入与返回、课程入口及Pre-A1准备课可用",
+        "8个高级专题24个独立规则题真实DOM作答，无需先读原文",
+        "4个领域案例12个分节题提供原文证据并真实DOM作答",
+        "领域草稿备份恢复、按篇单词本、直接分享链接和390px宽度验证"
+      ],
+      "errors": []
     }
   }
 }

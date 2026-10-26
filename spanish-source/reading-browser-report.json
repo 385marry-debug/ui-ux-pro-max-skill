@@ -2,13 +2,15 @@
   "passed": true,
   "chapters": 18,
   "partsPerChapter": 7,
-  "articles": 22,
+  "articles": 47,
   "questionsPerArticle": 6,
-  "audioLessons": 144,
+  "audioLessons": 169,
   "adaptation": {
     "up": "A2",
     "noEvidence": "A1",
     "stable": true
   },
-  "errors": []
+  "errors": [],
+  "originalArticleAnswers": 6,
+  "scope": "目录库存计数；实际回归原sr-01作答及18课各分部，新材料全题另见learning-quality-browser-validation"
 }

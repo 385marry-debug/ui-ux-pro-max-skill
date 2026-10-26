@@ -1,6 +1,6 @@
 {
-  "clips": 43,
-  "totalMinutes": 12.28,
+  "clips": 47,
+  "totalMinutes": 15.99,
   "humanRecordings": false,
   "items": [
     {
@@ -148,6 +148,34 @@
       "durationSeconds": 47.15,
       "sha256": "b9fe5e4728b95fa93d3325e667885150f020e8b0b99fe5aacb113067b4496f0e",
       "bytes": 283132,
+      "engine": "eSpeak NG, Spanish es, 150 wpm, synthetic"
+    },
+    {
+      "id": "quality-domain-academic",
+      "durationSeconds": 56.42,
+      "sha256": "82a7c457cc44e8d945f80138780f009946e9a4ef08ae79d34b68eae6d7eb921c",
+      "bytes": 338773,
+      "engine": "eSpeak NG, Spanish es, 150 wpm, synthetic"
+    },
+    {
+      "id": "quality-domain-business",
+      "durationSeconds": 52.82,
+      "sha256": "0864cdd296cb9833f0886c7d23d62bc1924c96603c0aa0249db5f5efff780154",
+      "bytes": 317143,
+      "engine": "eSpeak NG, Spanish es, 150 wpm, synthetic"
+    },
+    {
+      "id": "quality-domain-mediation",
+      "durationSeconds": 56.32,
+      "sha256": "ca76408e32737c5273a0076c5b8c70e33b503214c9f3a814722a1b01f62e5150",
+      "bytes": 338146,
+      "engine": "eSpeak NG, Spanish es, 150 wpm, synthetic"
+    },
+    {
+      "id": "quality-domain-literary",
+      "durationSeconds": 57.39,
+      "sha256": "efde4c3cec52472fe02c0502919e5781d668ef253f612ea4285501f73387a6f2",
+      "bytes": 344572,
       "engine": "eSpeak NG, Spanish es, 150 wpm, synthetic"
     },
     {

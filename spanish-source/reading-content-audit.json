@@ -1,19 +1,19 @@
 {
   "scope": "原创配套材料与链接的结构完整性、词汇解析和真实文件核验；不是宣称原教材所有原题、脚注、歌曲与录音已逐项验收。",
   "counts": {
-    "articles": 43,
-    "bilingualParagraphs": 160,
-    "contextualGlosses": 302,
-    "sentenceAnalyses": 86,
-    "readingQuestions": 258,
+    "articles": 47,
+    "bilingualParagraphs": 172,
+    "contextualGlosses": 326,
+    "sentenceAnalyses": 94,
+    "readingQuestions": 282,
     "textbookChapters": 18,
     "textbookPartReferences": 108,
     "unitReviews": 6,
     "textbookWordFacts": 659,
     "entries": 7423,
-    "listening": 165,
-    "listeningQuestions": 357,
-    "totalStaticQuestions": 11968
+    "listening": 169,
+    "listeningQuestions": 369,
+    "totalStaticQuestions": 12028
   },
   "chapters": [
     {
@@ -1609,10 +1609,66 @@
         "quality-C2-04-q4",
         "quality-C2-04-q5"
       ]
+    },
+    {
+      "id": "quality-domain-academic",
+      "title": "学术领域：把研究写成可信摘要",
+      "level": "C1",
+      "wordCount": 136,
+      "questions": [
+        "quality-domain-academic-q0",
+        "quality-domain-academic-q1",
+        "quality-domain-academic-q2",
+        "quality-domain-academic-q3",
+        "quality-domain-academic-q4",
+        "quality-domain-academic-q5"
+      ]
+    },
+    {
+      "id": "quality-domain-business",
+      "title": "商务领域：报价、期限与条件",
+      "level": "C1",
+      "wordCount": 121,
+      "questions": [
+        "quality-domain-business-q0",
+        "quality-domain-business-q1",
+        "quality-domain-business-q2",
+        "quality-domain-business-q3",
+        "quality-domain-business-q4",
+        "quality-domain-business-q5"
+      ]
+    },
+    {
+      "id": "quality-domain-mediation",
+      "title": "信息调解：让不同对象都能行动",
+      "level": "C2",
+      "wordCount": 131,
+      "questions": [
+        "quality-domain-mediation-q0",
+        "quality-domain-mediation-q1",
+        "quality-domain-mediation-q2",
+        "quality-domain-mediation-q3",
+        "quality-domain-mediation-q4",
+        "quality-domain-mediation-q5"
+      ]
+    },
+    {
+      "id": "quality-domain-literary",
+      "title": "文学细读：叙述声音与可支持的解释",
+      "level": "C2",
+      "wordCount": 132,
+      "questions": [
+        "quality-domain-literary-q0",
+        "quality-domain-literary-q1",
+        "quality-domain-literary-q2",
+        "quality-domain-literary-q3",
+        "quality-domain-literary-q4",
+        "quality-domain-literary-q5"
+      ]
     }
   ],
   "limitations": [
-    "43篇有限已发布阅读库；当前难度读完后明确安排复读，不冒充每日自动生成新文章。",
+    "47篇有限已发布阅读库；当前难度读完后明确安排复读，不冒充每日自动生成新文章。",
     "自适应为浏览器本地选篇、调整材料难度与推荐；不是服务器AI重写或专业等级测评。",
     "开放口语和写作提供范例与自查，只有有限规则检查，没有自动专业能力评分。",
     "使用原创内容对应教材学习功能，不复制原书故事、原题全文、歌曲或扫描页。"

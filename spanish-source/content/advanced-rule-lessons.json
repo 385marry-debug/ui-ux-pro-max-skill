@@ -1,0 +1,743 @@
+{
+  "quality-C1-01": [
+    {
+      "key": "point-1",
+      "title": "把观察结果与因果结论分开",
+      "explanation": [
+        "先问研究直接记录了什么，再问作者由此推断了什么。两个现象一起出现，不能只凭这点就写成其中一个导致另一个。",
+        "写作时用observa、sugiere、demuestra表达不同的断言力度。措辞变强需要证据支持，不只是换个更高级的动词。"
+      ],
+      "example": "La encuesta observa una relación, pero no prueba una causa.",
+      "translation": "问卷观察到一种关联，但没有证明因果。",
+      "analysis": "observa承诺的是观察结果；no prueba限制能够据此作出的推论。",
+      "contrast": {
+        "before": "La relación demuestra por sí sola la causa.",
+        "after": "La relación sugiere una posible conexión.",
+        "why": "若证据只有相关，前句增加了未证明的因果；改写保留可能性。"
+      },
+      "practiceIndices": [
+        0,
+        1,
+        2
+      ],
+      "practice": {
+        "prompt": "问卷发现睡眠习惯与学习成绩相关，但没有随机对照。哪句结论最稳妥？",
+        "options": [
+          "观察到关联，因果尚待验证",
+          "已证明睡眠决定所有成绩",
+          "已经证明二者毫无关系"
+        ],
+        "answer": "观察到关联，因果尚待验证",
+        "explain": "相关记录既不单独证明因果，也不证明完全没有关系。",
+        "kind": "choice"
+      }
+    },
+    {
+      "key": "point-2",
+      "title": "否定证实：未确证不等于事实相反",
+      "explanation": [
+        "No demuestra que…在本专题中否定的是证明充分，并没有直接断言后面的命题一定为假。",
+        "在明确保留为未确证内容的读法中，可以用虚拟式。语气选择仍看上下文，不要把所有带no的句子一律改成虚拟式。"
+      ],
+      "example": "No está demostrado que el cambio mejore la memoria.",
+      "translation": "尚未证实这一改变能改善记忆。",
+      "analysis": "mejore是mejorar的现在虚拟式；本句不支持“已证明无效”的反向结论。",
+      "contrast": {
+        "before": "No está demostrado; por tanto, es falso.",
+        "after": "No está demostrado; hace falta más evidencia.",
+        "why": "尚未证实不能自动推出虚假，后一说法保留未决状态。"
+      },
+      "practiceIndices": [
+        3
+      ],
+      "practice": {
+        "prompt": "No se ha demostrado que el tratamiento funcione. 这句话单独能推出什么？",
+        "options": [
+          "尚未确证有效，不能直接推出已证无效",
+          "已证实无效",
+          "已证实有效"
+        ],
+        "answer": "尚未确证有效，不能直接推出已证无效",
+        "explain": "否定的是证明状态，不会反向证明命题为假。",
+        "kind": "choice"
+      }
+    },
+    {
+      "key": "point-3",
+      "title": "no…sino…：纠正理解并保持结构平行",
+      "explanation": [
+        "先明确前半句否定哪一种理解，再用sino引出纠正后的内容。这里不是给一个仍成立的事实添加转折。",
+        "如果前面用se trata de加原形，后面常对应sino de加原形。检查连接词与介词两处，不只背一个sino。"
+      ],
+      "example": "No se trata de ocultar el dato, sino de explicar su alcance.",
+      "translation": "不是要隐藏数字，而是要解释它的适用范围。",
+      "analysis": "两项都是de加原形；sino纠正前面已否定的理解。",
+      "contrast": {
+        "before": "No se trata de ocultar, pero explicar.",
+        "after": "No se trata de ocultar, sino de explicar.",
+        "why": "本题明确要求纠正理解并保留平行结构，使用sino de。"
+      },
+      "practiceIndices": [
+        4,
+        5
+      ],
+      "practice": {
+        "prompt": "保持纠正结构平行：No se trata de negar el dato, sino ___ precisar su alcance.",
+        "answer": "de",
+        "explain": "se trata de加原形，纠正后的项目保留sino de加原形。",
+        "kind": "input"
+      }
+    }
+  ],
+  "quality-C1-02": [
+    {
+      "key": "point-1",
+      "title": "转述先保留来源",
+      "explanation": [
+        "先区分记者亲自核实的内容、公告直接确认的内容和消息人士的说法。它们可以出现在同一篇报道里，但证据地位不一样。",
+        "según加来源有助于说明是谁在说。来源本身也需要评价，不能因为写了según就把消息当作已经证实。"
+      ],
+      "example": "Según el portavoz, todavía no hay una decisión.",
+      "translation": "据发言人说，目前还没有决定。",
+      "analysis": "según el portavoz保留陈述归属；删去后，容易把它写成作者自己的确定断言。",
+      "contrast": {
+        "before": "La decisión está tomada, según un rumor sin confirmar.",
+        "after": "Una fuente sin confirmar afirma que ya hay una decisión.",
+        "why": "后一表述先标出信息地位，不把未确认说法包在确定标题里。"
+      },
+      "practiceIndices": [
+        0,
+        2,
+        4
+      ],
+      "practice": {
+        "prompt": "原文：Según la portavoz, aún no hay decisión. 哪句保留来源？",
+        "options": [
+          "La portavoz dice que aún no hay decisión.",
+          "Está confirmado por todos que no hay decisión.",
+          "La empresa ya ha decidido."
+        ],
+        "answer": "La portavoz dice que aún no hay decisión.",
+        "explain": "第一句仍把说法归给发言人，没有添加全体确认或既成决定。",
+        "kind": "choice"
+      }
+    },
+    {
+      "key": "point-2",
+      "title": "条件完成的两种功能要靠语境区分",
+      "explanation": [
+        "Habría加分词既可能出现在过去反事实的结果里，也可能在某些新闻表达中呈现未确认信息。两者不是同一个分析。",
+        "判断时找条件前提、来源标记和文章是否承诺真实性。不要仅凭habría这个词就断言句子一定省略了si条件。"
+      ],
+      "example": "Según la información recibida, el acto se habría cancelado.",
+      "translation": "根据收到的消息，活动可能已经取消。",
+      "analysis": "此例给出消息来源并保留核实空间；没有直接提供过去反事实条件。",
+      "contrast": {
+        "before": "Habría cancelado siempre significa que no ocurrió.",
+        "after": "En este contexto, habría cancelado presenta una noticia no confirmada.",
+        "why": "新闻转述读法不等于断言取消没有发生，也不能把它确定为已经发生。"
+      },
+      "practiceIndices": [
+        1,
+        3
+      ],
+      "practice": {
+        "prompt": "比较：Si hubiera llamado, habría sabido la fecha. / Según una fuente, habría llamado ayer. 后一句habría llamado在本语境怎样读？",
+        "options": [
+          "未确认的消息转述",
+          "明确断言没有打电话",
+          "必然省略一个过去反事实条件"
+        ],
+        "answer": "未确认的消息转述",
+        "explain": "给出消息来源并保留确认状态，不能只凭条件完成断言没有发生。",
+        "kind": "choice"
+      }
+    },
+    {
+      "key": "point-3",
+      "title": "摘要不得提高原文确定性",
+      "explanation": [
+        "概括可以缩短文字，不能删去决定信息可信程度的来源、可能性或时间限制。",
+        "做完摘要后逐句问：这句是否比原文更确定？如果是，需要补回限定，或解释新增证据。"
+      ],
+      "example": "La noticia atribuye el cambio a dos fuentes; el comunicado solo anuncia una revisión.",
+      "translation": "报道把改动归于两位消息人士；公告只宣布重审。",
+      "analysis": "两条消息分别归属，不能合并成“官方确认改动”。",
+      "contrast": {
+        "before": "El comunicado confirmó la cancelación.",
+        "after": "El comunicado confirmó una revisión; la cancelación sigue sin confirmarse.",
+        "why": "原文官方确认的范围较窄，摘要必须保留该界限。"
+      },
+      "practiceIndices": [
+        2,
+        5
+      ],
+      "practice": {
+        "prompt": "原消息：Dos fuentes afirman que el acto se habría cancelado; no hay confirmación oficial. 哪个摘要忠实？",
+        "options": [
+          "Dos fuentes apuntan a una cancelación aún no confirmada oficialmente.",
+          "La autoridad confirmó la cancelación.",
+          "Está demostrado que el acto no se canceló."
+        ],
+        "answer": "Dos fuentes apuntan a una cancelación aún no confirmada oficialmente.",
+        "explain": "摘要保留两位来源以及缺少官方确认，不能升级或反转确定性。",
+        "kind": "choice"
+      }
+    }
+  ],
+  "quality-C1-03": [
+    {
+      "key": "point-1",
+      "title": "先确定让步内容如何呈现",
+      "explanation": [
+        "先看说话者是否正在承认一个实际发生的情况，还是把障碍暂作假设、悬置或背景化。连接词本身不能替你完成判断。",
+        "即便说话者知道某事，也可能在话语中将它背景化。因此“事实等于直陈、非事实等于虚拟”只是粗糙起点，不能作为无例外算法。"
+      ],
+      "example": "Aunque sé la respuesta, prefiero escuchar primero.",
+      "translation": "虽然我知道答案，但我更愿先听。",
+      "analysis": "此例明确承认知道答案，用sé；语气选择与此处的信息呈现相配。",
+      "contrast": {
+        "before": "Después de aunque siempre se usa subjuntivo.",
+        "after": "Después de aunque la elección depende de la interpretación.",
+        "why": "aunque可以搭配不同语气；不能把连接词变成唯一判据。"
+      },
+      "practiceIndices": [
+        0,
+        2
+      ],
+      "practice": {
+        "prompt": "面对aunque后的语气选择，哪种检查顺序更可靠？",
+        "options": [
+          "先读语境与立场，再看形式",
+          "找到aunque就一律填虚拟式",
+          "只要说话者知道事实就永远不能用虚拟式"
+        ],
+        "answer": "先读语境与立场，再看形式",
+        "explain": "语气同时涉及事实承诺和话语背景化；不能使用无例外的连接词算法。",
+        "kind": "choice"
+      }
+    },
+    {
+      "key": "point-2",
+      "title": "por más que：实际反复与未来悬置",
+      "explanation": [
+        "Por más que可以表达“无论怎样努力仍未改变结果”。如果本句明确讲已发生的反复尝试，直陈式可以成立。",
+        "若把未来尝试当尚未断言实现的情况，可使用现在虚拟式。先限定本题语境，再填写形式，避免让合理的其他读法被误判。"
+      ],
+      "example": "Por más que insistes, no cambia de opinión. / Por más que insistas mañana, necesitarás pruebas.",
+      "translation": "尽管你反复坚持，他／她还是不改主意。／即使明天你再坚持，也需要证据。",
+      "analysis": "insistes对应本例的实际反复；insistas对应本例的未来悬置，两句语境已明确。",
+      "contrast": {
+        "before": "Por más que lo intentas mañana, necesitarás la clave.（本题限定未来悬置）",
+        "after": "Por más que lo intentes mañana, necesitarás la clave.",
+        "why": "在题目指定的未来悬置读法中，使用intentes；并非脱离语境宣判所有其他形式。"
+      },
+      "practiceIndices": [
+        3,
+        4
+      ],
+      "practice": {
+        "prompt": "本题明确悬置未来尝试：Por más que lo ___ mañana, necesitarás la clave.（intentar，tú，现在虚拟式）",
+        "answer": "intentes",
+        "explain": "题干已限定读法，intentar的tú现在虚拟式为intentes。",
+        "kind": "input"
+      }
+    },
+    {
+      "key": "point-3",
+      "title": "纠错要解释读法，不机械划错",
+      "explanation": [
+        "先询问原句想表达哪种立场，再比较不同形式会改变什么。高阶纠错的目标是保留作者意图，而不是把所有句子改成同一种风格。",
+        "面对可有多种读法的句子，说明所采用语境并接受相应表达。题目若只收一个答案，就必须在题干限定语气或解释。"
+      ],
+      "example": "Con el contexto adecuado, ambas versiones pueden ser válidas.",
+      "translation": "在适当语境中，两个版本都可能成立。",
+      "analysis": "“可能成立”仍要求相应语境，并不等于任何词尾都可以随便替换。",
+      "contrast": {
+        "before": "La forma es incorrecta porque no coincide con mi ejemplo.",
+        "after": "Esta forma produce otra lectura; aclaremos cuál quieres expresar.",
+        "why": "例句只有一种分析，不能排除所有合理读法。"
+      },
+      "practiceIndices": [
+        1,
+        5
+      ],
+      "practice": {
+        "prompt": "学习者的形式与老师例句不同，但能对应另一种合理语境。最好怎样反馈？",
+        "options": [
+          "解释读法差别，并确认学习者意图",
+          "因为与例句不同就判错",
+          "认为任何形式都可以不用解释"
+        ],
+        "answer": "解释读法差别，并确认学习者意图",
+        "explain": "承认合理读法，同时要求对应语境，不将例句当作排除其他解读的标准。",
+        "kind": "choice"
+      }
+    }
+  ],
+  "quality-C1-04": [
+    {
+      "key": "point-1",
+      "title": "连接词表示论证关系，不替代证据",
+      "explanation": [
+        "因此、事实上、然而告诉读者作者怎样组织论证。它们不自动证明连接起来的两件事存在因果关系。",
+        "检查连接词前后的具体命题：观察、因果解释、建议可能需要不同证据。不要因为一句话以por consiguiente开头，就认为推论已经有效。"
+      ],
+      "example": "Se redujo el servicio; por consiguiente, debemos estudiar sus efectos.",
+      "translation": "服务减少了；因此我们应当研究它的影响。",
+      "analysis": "这里提出的是进一步研究的建议，不是直接宣布所有行为改变都由服务减少导致。",
+      "contrast": {
+        "before": "A ocurrió antes que B; por consiguiente, A causó B.",
+        "after": "A ocurrió antes que B, pero la relación causal requiere más pruebas.",
+        "why": "时间先后不能单独完成因果证明。"
+      },
+      "practiceIndices": [
+        0,
+        2
+      ],
+      "practice": {
+        "prompt": "A发生在B之前，作者用por consiguiente写成A必然导致B。缺少什么？",
+        "options": [
+          "能够支持因果的证据",
+          "一个更长的连接词",
+          "把动词都换成虚拟式"
+        ],
+        "answer": "能够支持因果的证据",
+        "explain": "先后和连接词不能替代因果证据。",
+        "kind": "choice"
+      }
+    },
+    {
+      "key": "point-2",
+      "title": "de ahí que加虚拟式结果从句",
+      "explanation": [
+        "De ahí que可把前文作为背景，引出作者呈现的结果；这一结构通常与虚拟式结合。",
+        "若结果中的动作先于当前评述，可用haya加分词。先判断语气框架，再判断完成时间，不要只选择一个“更复杂”的时态。"
+      ],
+      "example": "El precio ha subido; de ahí que algunas familias hayan cambiado de plan.",
+      "translation": "价格涨了，因此一些家庭已经改变计划。",
+      "analysis": "hayan cambiado将改变计划放在当前评述之前，并配de ahí que的虚拟式框架。",
+      "contrast": {
+        "before": "De ahí que muchas personas han cambiado de plan.（本课标准框架）",
+        "after": "De ahí que muchas personas hayan cambiado de plan.",
+        "why": "本课练习此结构与完成虚拟式的常规搭配，不是把所有结果连接词一律改虚拟式。"
+      },
+      "practiceIndices": [
+        3
+      ],
+      "practice": {
+        "prompt": "标准结果框架：El servicio se redujo; de ahí que algunos usuarios ___ cambiado de plan.（haber，ellos，完成虚拟式）",
+        "answer": "hayan",
+        "explain": "de ahí que配虚拟式，先于当前评述的改变用hayan cambiado。",
+        "kind": "input"
+      }
+    },
+    {
+      "key": "point-3",
+      "title": "限制因果推论的范围",
+      "explanation": [
+        "一个措施可能解释部分变化，但不代表它解释所有变化。比较措施前后的趋势，并问还存在什么其他原因。",
+        "结论可以保留局部影响，同时承认范围未知。这种限制不等于否定观察结果，也不等于不允许提出建议。"
+      ],
+      "example": "La medida pudo contribuir, aunque la tendencia ya existía.",
+      "translation": "该措施可能有贡献，但此前就已存在这一趋势。",
+      "analysis": "contribuir保留可能影响；ya existía说明不能把全部变化都归给新措施。",
+      "contrast": {
+        "before": "La tendencia previa demuestra que la medida no influyó en nada.",
+        "after": "La tendencia previa impide atribuir todo el cambio a la medida.",
+        "why": "限制“全部由它造成”并不等于证明“完全没有影响”。"
+      },
+      "practiceIndices": [
+        1,
+        4,
+        5
+      ],
+      "practice": {
+        "prompt": "措施前已有增长趋势。这一信息首先限制哪种结论？",
+        "options": [
+          "全部增长都由新措施造成",
+          "新措施可能贡献部分增长",
+          "还需要进一步比较"
+        ],
+        "answer": "全部增长都由新措施造成",
+        "explain": "原有趋势限制全部归因，不能据此宣判新措施影响为零。",
+        "kind": "choice"
+      }
+    }
+  ],
+  "quality-C2-01": [
+    {
+      "key": "point-1",
+      "title": "否定范围：no todos与ninguno不同",
+      "explanation": [
+        "No todos否定的是“所有都如此”。它不能直接改写成ninguno，也不能推出多数人的立场。",
+        "先圈量词，再标出no作用在哪个命题上。用集合或具体人数举例，通常比反复背中文标签更容易理解。"
+      ],
+      "example": "No todos los estudiantes faltaron.",
+      "translation": "并非所有学生都缺席了。",
+      "analysis": "至少不能把缺席断言到全体；这句话没有单独给出到场人数或多数比例。",
+      "contrast": {
+        "before": "No todos faltaron = Ninguno faltó.",
+        "after": "No todos faltaron ≠ Ninguno faltó.",
+        "why": "两句话的逻辑范围不同，不能作为同义改写。"
+      },
+      "practiceIndices": [
+        0,
+        4
+      ],
+      "practice": {
+        "prompt": "No todos apoyaron la propuesta. 哪个释义不擅自增添人数？",
+        "options": [
+          "不能说全体都支持；也不能仅据此说无人支持",
+          "所有人都不支持",
+          "大多数一定支持"
+        ],
+        "answer": "不能说全体都支持；也不能仅据此说无人支持",
+        "explain": "no todos否定全称，不能由这一句直接决定无人、少数或多数的完整分布。",
+        "kind": "choice"
+      }
+    },
+    {
+      "key": "point-2",
+      "title": "证据状态的否定不反转命题真假",
+      "explanation": [
+        "No se ha demostrado que p否定已证明p的状态，不能单凭这句话得出非p已经为真。",
+        "区分未证实、已证伪、已证实。把三者混在一起，会让句子语法正确却逻辑错误。"
+      ],
+      "example": "No se ha probado que el método falle.",
+      "translation": "尚未证明这个方法会失败。",
+      "analysis": "未证明失败不自动证明成功；还需要实际验证和评价标准。",
+      "contrast": {
+        "before": "No se ha probado que falle; por tanto, su éxito está demostrado.",
+        "after": "No se ha probado que falle; su eficacia aún debe evaluarse.",
+        "why": "后一表述保留未知状态，没有从缺少反证跳成已证真。"
+      },
+      "practiceIndices": [
+        1,
+        3
+      ],
+      "practice": {
+        "prompt": "No está probado que sea falso. 单凭此句，哪种结论恰当？",
+        "options": [
+          "真实性仍不能据此反向证实",
+          "因此它已被证明为真",
+          "因此它已被证明为假"
+        ],
+        "answer": "真实性仍不能据此反向证实",
+        "explain": "未证伪不等于已证真；两种证明都需要各自依据。",
+        "kind": "choice"
+      }
+    },
+    {
+      "key": "point-3",
+      "title": "忠实改写保留量词、来源与模态",
+      "explanation": [
+        "改写前列出原句的量词、消息来源、时间范围和确定程度。改写后逐项对照，而不是只检查主题词有没有出现。",
+        "在允许缩写的情况下删掉背景细节，在决定命题承诺的地方保留限定。越精炼的摘要越要检查是否悄悄扩大范围。"
+      ],
+      "example": "Algunas fuentes sugieren una mejora parcial.",
+      "translation": "部分来源提示出现了局部改善。",
+      "analysis": "algunas、sugieren、parcial分别限制来源数量、断言力度和改善范围，不能都省去。",
+      "contrast": {
+        "before": "Está demostrada una mejora general.",
+        "after": "Algunas fuentes apuntan a una mejora limitada.",
+        "why": "后者保留限制；前者从部分与可能变成确定与普遍。"
+      },
+      "practiceIndices": [
+        2,
+        5
+      ],
+      "practice": {
+        "prompt": "原文：Algunas fuentes sugieren una mejora parcial. 哪个改写保留量词与力度？",
+        "options": [
+          "Ciertas fuentes apuntan a una mejora limitada.",
+          "Todas las fuentes prueban un éxito total.",
+          "Se ha probado que no hubo ninguna mejora."
+        ],
+        "answer": "Ciertas fuentes apuntan a una mejora limitada.",
+        "explain": "Ciertas、apuntan、limitada分别保留部分来源、非最终证明和有限范围。",
+        "kind": "choice"
+      }
+    }
+  ],
+  "quality-C2-02": [
+    {
+      "key": "point-1",
+      "title": "用场景证据判断反讽",
+      "explanation": [
+        "先读实际发生了什么，再分析评价与场景是否出现张力。不要只看到一个感叹词就给整句话贴上反讽标签。",
+        "同样的字面称赞，可能是真心评价，也可能是讽刺。给出证据和替代解释，比断言所有人必然这样理解更准确。"
+      ],
+      "example": "Después de perder otra vez las llaves, dijo: «¡Qué memoria tengo!».",
+      "translation": "又一次丢了钥匙后，他／她说：“我这记性可真好！”",
+      "analysis": "再次丢钥匙为反讽读法提供依据；离开该语境，字面形式本身不足以唯一确定意图。",
+      "contrast": {
+        "before": "¡Qué memoria! siempre es una crítica.",
+        "after": "En esta escena, ¡Qué memoria! puede interpretarse como una autocrítica irónica.",
+        "why": "加入场景与可能性，避免把语用解读当作词典唯一义。"
+      },
+      "practiceIndices": [
+        0
+      ],
+      "practice": {
+        "prompt": "某人又一次丢钥匙后说¡Qué memoria tengo!。哪种分析最好？",
+        "options": [
+          "丢钥匙这一场景支持反讽读法",
+          "此短语在所有场景都只能是反讽",
+          "不看任何背景也能唯一确认语气"
+        ],
+        "answer": "丢钥匙这一场景支持反讽读法",
+        "explain": "依据本场景提出解读，不给短语永久贴标签。",
+        "kind": "choice"
+      }
+    },
+    {
+      "key": "point-2",
+      "title": "文字证据与语调证据分开",
+      "explanation": [
+        "只有文字时，可以分析词语、事件和上下文，却不能声称已听到某个具体语调。录音、说话关系和共同背景可能进一步支持或修正判断。",
+        "答案应说明证据来自哪里；无法获得的线索要保留未知，而不是自己补出一段声音。"
+      ],
+      "example": "Sin la grabación, no podemos describir con certeza la entonación.",
+      "translation": "没有录音，我们无法确定地描述语调。",
+      "analysis": "这不阻止根据文字提出合理解释，只限制对实际声音的断言。",
+      "contrast": {
+        "before": "La voz demuestra ironía.（手头只有文字）",
+        "after": "El contexto escrito favorece una lectura irónica; la entonación no está disponible.",
+        "why": "说明真实证据渠道，不把想象的语调当作听到的事实。"
+      },
+      "practiceIndices": [
+        1,
+        3
+      ],
+      "practice": {
+        "prompt": "手上只有文字，没有录音。哪种表述符合证据？",
+        "options": [
+          "文字背景支持反讽，但实际语调未知",
+          "我听出说话者用了反讽语调",
+          "没有音频就不能分析任何文字意义"
+        ],
+        "answer": "文字背景支持反讽，但实际语调未知",
+        "explain": "可以分析书面场景，不能声称听到了不存在的音频证据。",
+        "kind": "choice"
+      }
+    },
+    {
+      "key": "point-3",
+      "title": "把隐含评价改写成可讨论事实",
+      "explanation": [
+        "如果听者不知道背景，可直接说明观察到的情况、造成的影响和希望怎样改进。",
+        "明确表达不是必须消灭所有幽默，而是在需要共同解决问题时减少歧义，避免让对方猜批评的具体内容。"
+      ],
+      "example": "Empezamos tarde y faltaban documentos; propongo enviarlos el día anterior.",
+      "translation": "我们开始得晚，材料也不齐；我建议提前一天发送材料。",
+      "analysis": "先给两条事实，再给具体建议，不要求所有人都能识别一句讽刺的语气。",
+      "contrast": {
+        "before": "Todo fue perfecto.（其实希望对方改善迟到与材料）",
+        "after": "Faltaron materiales y empezamos tarde; revisemos la preparación.",
+        "why": "明确说出问题和可采取的行动，更适合信息不共享的听者。"
+      },
+      "practiceIndices": [
+        2,
+        4,
+        5
+      ],
+      "practice": {
+        "prompt": "会议迟到且缺材料，对不知情的同事怎样说明最清楚？",
+        "options": [
+          "Empezamos tarde y faltaban documentos; propongo enviarlos antes.",
+          "¡Todo perfecto!（不再提供背景）",
+          "你肯定知道我在讽刺什么"
+        ],
+        "answer": "Empezamos tarde y faltaban documentos; propongo enviarlos antes.",
+        "explain": "直接给事实和建议，避免让缺少共同背景的人猜测。",
+        "kind": "choice"
+      }
+    }
+  ],
+  "quality-C2-03": [
+    {
+      "key": "point-1",
+      "title": "区分提交、登记、受理与获批",
+      "explanation": [
+        "专业文本中的状态词不能仅凭日常印象互换。先确认本句实际承诺哪个步骤，后续是否仍有材料或审核条件。",
+        "本篇虚构语言案例只说明presentada与aprobada的差别；实际制度里的受理和审批含义要查对应规定。"
+      ],
+      "example": "Recibir la solicitud no equivale a aprobarla.",
+      "translation": "收到申请不等于批准申请。",
+      "analysis": "两者是不同过程节点，不能为了让说明听起来积极就合并。",
+      "contrast": {
+        "before": "La solicitud se ha recibido; ya está aprobada.",
+        "after": "La solicitud se ha recibido; la decisión sigue pendiente.",
+        "why": "第二句保留审批未知状态，不从收到材料推到批准。"
+      },
+      "practiceIndices": [
+        0,
+        5
+      ],
+      "practice": {
+        "prompt": "收到回执只写solicitud recibida，未说明审核。哪种转述忠实？",
+        "options": [
+          "已收到申请，审核结果仍未知",
+          "申请已获批",
+          "申请必然被拒绝"
+        ],
+        "answer": "已收到申请，审核结果仍未知",
+        "explain": "收到材料与作出审批决定不是同一个阶段。",
+        "kind": "choice"
+      }
+    },
+    {
+      "key": "point-2",
+      "title": "保留条件、时点与后续可能性",
+      "explanation": [
+        "先标出cuando等时点条件，再找sin perjuicio de等保留条款。两部分可以同时成立，不能简化时只留一半。",
+        "“之后可能补交材料”与“已经要求补交”不同。虚拟式或可能性表达不应被改成已发生的确定事实。"
+      ],
+      "example": "La recepción queda registrada, sin perjuicio de que se pidan otros documentos.",
+      "translation": "收到情况会被登记，但仍可能要求其他材料。",
+      "analysis": "se pidan与复数otros documentos一致；后续要求只被保留为可能性。",
+      "contrast": {
+        "before": "Ya se han pedido otros documentos.（原文只保留可能性）",
+        "after": "Después podrían pedir otros documentos.",
+        "why": "后者保留原文的可能性，不凭空添加已经发生的要求。"
+      },
+      "practiceIndices": [
+        1,
+        3,
+        4
+      ],
+      "practice": {
+        "prompt": "原文保留之后可能补件。哪句不会把可能写成已发生？",
+        "options": [
+          "Después podrían pedir más documentos.",
+          "Ya han pedido más documentos.",
+          "Nunca podrán pedir documentos."
+        ],
+        "answer": "Después podrían pedir más documentos.",
+        "explain": "podrían保留后续可能性，另外两句分别变成既成事实和永久排除。",
+        "kind": "choice"
+      }
+    },
+    {
+      "key": "point-3",
+      "title": "通俗改写改变语体，保留原承诺",
+      "explanation": [
+        "先拆长句，让每句话只有一个步骤或条件。再检查谁负责、何时生效、什么仍待定。",
+        "不要用“更容易懂”作为删掉例外的理由。遇到制度术语不确定，应保留术语并解释，而不是发明一个更强的保证。"
+      ],
+      "example": "Hemos registrado el envío. Si hace falta, solicitaremos más información.",
+      "translation": "我们已登记这次提交。如有需要，会索取更多信息。",
+      "analysis": "短句保留已确认事实与有条件的未来行动，没有追加获批承诺。",
+      "contrast": {
+        "before": "Lo hemos recibido y todo está resuelto.",
+        "after": "Lo hemos recibido; aún puede ser necesaria una revisión.",
+        "why": "原文没有保证完成所有审核，改写不应添加这种承诺。"
+      },
+      "practiceIndices": [
+        2
+      ],
+      "practice": {
+        "prompt": "把“收到后登记，必要时补材料”改成短句，应保留什么？",
+        "options": [
+          "登记条件与后续补件的可能性",
+          "只保留已获批的好消息",
+          "把所有条件都删掉"
+        ],
+        "answer": "登记条件与后续补件的可能性",
+        "explain": "语体可以变简单，时点、条件和可能性不能凭空改变。",
+        "kind": "choice"
+      }
+    }
+  ],
+  "quality-C2-04": [
+    {
+      "key": "point-1",
+      "title": "看清否定词的实际作用",
+      "explanation": [
+        "No deja de ser cierto que…在本课中仍承认后面事实成立。表面出现no，不等于说话者否认que后的内容。",
+        "语气判断应先理解整段结构的肯定或否定力量，再选择直陈或虚拟；不能只在句子里搜索no。"
+      ],
+      "example": "No deja de ser cierto que el plazo se amplió.",
+      "translation": "期限确实延长了，这一点仍然成立。",
+      "analysis": "本句承认se amplió这个过去事实，所以用直陈式。",
+      "contrast": {
+        "before": "Hay un no, así que la subordinada siempre debe ir en subjuntivo.",
+        "after": "La estructura completa afirma un hecho; hay que analizar su sentido.",
+        "why": "否定词数量不能代替完整的语义分析。"
+      },
+      "practiceIndices": [
+        0,
+        3
+      ],
+      "practice": {
+        "prompt": "本题承认过去事实：No deja de ser cierto que el plazo se ___.（ampliar，第三人称单数，简单过去）",
+        "answer": "amplió",
+        "explain": "整段结构承认事实，ampliar用直陈简单过去amplió；不能只看到no就改虚拟式。",
+        "kind": "input"
+      }
+    },
+    {
+      "key": "point-2",
+      "title": "局部有效与普遍可迁移分开",
+      "explanation": [
+        "先保留直接观察到的改善，再问新地点是否具备相近条件。不能把范围尚未确定写成方案必然失败。",
+        "在论证中同时容纳“有证据支持的局部结果”和“尚待检查的普遍性”，比单纯赞成或反对更精确。"
+      ],
+      "example": "La mejora está documentada en dos centros, pero su extensión requiere evaluación.",
+      "translation": "两家中心的改善有记录，但推广还需评估。",
+      "analysis": "前半句承认局部事实，后半句限制推广条件；两者不矛盾。",
+      "contrast": {
+        "before": "No sabemos si funcionará en todos; por tanto, no funcionó en ninguno.",
+        "after": "Funcionó en dos centros; aún no sabemos si el resultado es transferible.",
+        "why": "前者把推广未知偷换成完全无效，后者保留两种证据状态。"
+      },
+      "practiceIndices": [
+        1,
+        4
+      ],
+      "practice": {
+        "prompt": "两处试点有效，其他地点未检验。哪句保留两方面证据？",
+        "options": [
+          "试点有改善，推广效果仍待检验",
+          "所有地点必然有效",
+          "因此试点也必然无效"
+        ],
+        "answer": "试点有改善，推广效果仍待检验",
+        "explain": "保留局部正面证据与迁移未知，避免向任一极端偷换。",
+        "kind": "choice"
+      }
+    },
+    {
+      "key": "point-3",
+      "title": "提出可以被后续证据修订的决定",
+      "explanation": [
+        "给出决策，同时写明观察哪些数据、在什么条件下维持或调整。可修订不等于完全没有立场。",
+        "综合评述应保留支持与限制两面，避免删掉不符合自己偏好的那一面。看完摘要，读者应知道下一步怎样检验。"
+      ],
+      "example": "Proponemos una prueba limitada y revisaremos la decisión si cambian los resultados.",
+      "translation": "我们建议有限试行；如果结果变化，就重新审视决定。",
+      "analysis": "建议包含范围、后续证据和调整条件，不把试行包装成全面成功。",
+      "contrast": {
+        "before": "La prueba fue positiva; no será necesario revisar nunca la decisión.",
+        "after": "La prueba fue positiva; fijemos qué datos justificarían revisar la decisión.",
+        "why": "正面初步结果不取消未来核验；应说明修订依据。"
+      },
+      "practiceIndices": [
+        2,
+        5
+      ],
+      "practice": {
+        "prompt": "怎样把正面试点变成可修订决定？",
+        "options": [
+          "限定试行范围，并列出何种数据会促使调整",
+          "保证永远不再复核",
+          "不说明依据就立即全面推广"
+        ],
+        "answer": "限定试行范围，并列出何种数据会促使调整",
+        "explain": "可修订的决定有范围、检验数据和调整条件，不等于没有立场。",
+        "kind": "choice"
+      }
+    }
+  ]
+}

@@ -177,3 +177,20 @@ public-site-validation.json、classroom-validation.json 和 navigation-validatio
 数据源：content/course-transfer-lessons.tsv、course-transfer-reasons.json、quality-readings.json、quality-phonics.json、quality-word-supplements.tsv；build.py生成quality-authored-data.js。实现集中在learning-quality-data.js及learning-quality-ui.js，新增状态走原备份验证链；无需服务器、账号或自动生成API。
 
 验证：audit-learning-quality.cjs含18个独立语言学答案样例、120组题／示范区分、43篇目录与新篇词形标签／来源、43段音频文件；learning-quality-browser.mjs实际DOM作答120迁移题、126新增阅读题、63新增听力题、12辨音题，并检查导航、真假完成证据、错误／修改记录、原文切换、推荐前进、备份、返回与390px显示。旧study-path-browser.mjs继续遍历48专题332小步与40课五阶段，实际回答140系统题和240单元题；book-source-browser.mjs回归212来源入口1032题。
+
+
+## 等级边界、能力路线与高级规则纠正（2026-10-26）
+
+CEFR六个主等级为A1、A2、B1、B2、C1、C2；补充描述中还有A1之前的Pre-A1。本轮将准备路线的非正式A0元数据改为Pre-A1，原10节课ID与进度保持。新增“等级与能力路线”入口，解释课程拆分阶段与A2+/B1+/B2+等强档标签，明确没有正式C3/C4；C2不等于掌握所有领域或地区变体。官方框架、Companion Volume和塞万提斯学院课程计划列作参考入口，未冒称已逐项验收全部官方描述子。
+
+新页按接收、产出、互动、调解四类模式给出本站独立改写的训练目标，并列实际资源与缺口。自评勾选独立保存到备份，不改变材料推荐或认定等级。A1—B2仍各10个运用单元，C1/C2仍各4个一般专项；页面明确它们尚非完整高级课程。
+
+本次又查到高级规则说明借用了其他难句解释的问题：现8个一般专项的24个规则小节分别有两段解释、独立示范、判断过程、两种版本对比及独立习题。文章的usage也使用对应规则解释，移除按索引循环借用难句解析的做法。新24题无需先读整篇原文即可作答；信息逻辑题在题干提供必要上下文。对比改写分别讨论句法、语用、信息归属或推论范围，不把所有不忠实改写一概称为语法错句。
+
+另增4个原创领域案例：学术摘要、商务报价与协商、跨语言转述／信息调解、文学细读；沿用C1/C2材料参考标签，不创造更高等级，也不要求达到C2才可按需要选修。每案例3段双语文本、3节针对性说明、6题、难句、生词、音频和输出任务。领域草稿、按篇单词本、单独分享链接可用；不是职业资格认证。全库现47篇阅读、169篇听力与369个听力题位置。听力与阅读共用新案例的文本和前三道理解题，学习记录分开，不重复计算成不同场景。
+
+此批新增4段MP3，教学纠正与领域训练音频家族累计47段约15.99分钟；加旧144段共约69.59分钟，均为合成语音。补写37项专业案例词形／释义，quality-word-supplements.tsv累计168行；新增篇的词形覆盖和名词性别检查仍不等于所有词典义项的教师终审。
+
+实现：content/level-map-reference.json、advanced-rule-lessons.json；level-route-data.js、level-route-ui.js；专业案例并入quality-readings.json，音频可用既有build-quality-audio.py生成。等级页公开参数view=levels&level=C2；专业课仍以view=guide&id=quality-domain-...分享。
+
+验证：audit-level-route.cjs核对六级与Pre-A1、24个独立规则题、8个独立语言／逻辑答案样例、四领域及备份边界；level-route-browser.mjs实际答24个高级分节题和12个带案例证据的分节题，检查手机导航、自评不升级、刷新／备份、专业草稿、按篇词本和分享入口。既有learning-quality-browser.mjs继续实答120迁移题、150个本家族阅读题、75个本家族听力题和12个辨音题；study-path-browser.mjs回归48专题332小步、40课五阶段及380个实际系统／单元答案。

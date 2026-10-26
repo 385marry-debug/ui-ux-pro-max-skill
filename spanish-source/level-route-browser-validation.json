@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "advancedRuleAnswers": 24,
+  "professionalSectionAnswers": 12,
+  "decodedDomainAudios": 4,
+  "checks": [
+    "新等级路线页、六个主等级和Pre-A1准备显示准确，不创建C3/C4",
+    "四类能力自评刷新与备份保留，且不改变推荐或学习等级",
+    "手机导航进入与返回、课程入口及Pre-A1准备课可用",
+    "8个高级专题24个独立规则题真实DOM作答，无需先读原文",
+    "4个领域案例12个分节题提供原文证据并真实DOM作答",
+    "领域草稿备份恢复、按篇单词本、直接分享链接和390px宽度验证"
+  ],
+  "errors": []
+}

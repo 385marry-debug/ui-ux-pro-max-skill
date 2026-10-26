@@ -1,0 +1,28 @@
+{
+  "passed": true,
+  "scope": "CEFR等级边界说明、当前覆盖披露、高级小节独立讲解、领域案例与自评保存；不代表逐项验收全部官方描述子。",
+  "counts": {
+    "mainLevels": 6,
+    "preparationStages": 1,
+    "abilityModes": 4,
+    "advancedRuleSections": 24,
+    "standaloneRuleQuestions": 24,
+    "independentGoldCases": 8,
+    "professionalCases": 4,
+    "professionalReadingQuestions": 24,
+    "professionalListeningQuestions": 12,
+    "totalReadings": 47,
+    "totalQuestions": 12028
+  },
+  "findingsFixed": [
+    "零基础准备由非正式A0改为明确的Pre-A1路线标识，原学习ID保留",
+    "C1/C2规则说明不再借用其他难句或段落翻译；24节各有独立解释、示范、对比和练习",
+    "新增四个领域任务归入既有C1/C2材料范围，没有创建C3/C4",
+    "等级自评与正式能力证据分开，勾选不更改推荐或认定等级"
+  ],
+  "remaining": [
+    "C1/C2仍为专项覆盖，缺完整课程序列及长篇听说读写反馈",
+    "所有教材知识、原题、附录及全部官方描述子尚未完成逐项终审",
+    "领域案例用于语言训练，不等于专业资格或覆盖全部行业"
+  ]
+}
