@@ -9,7 +9,7 @@
     "verbs": 638,
     "tenseGroups": 20,
     "independentConjugationCases": 28,
-    "grammar": 387,
+    "grammar": 405,
     "foundationLessons": 49,
     "units": 40,
     "dialogueTurns": 182,
@@ -21,6 +21,6 @@
     "objects": 120,
     "words": 7423,
     "reviewedMultiSenseEntries": 46,
-    "questions": 11533
+    "questions": 11645
   }
 }

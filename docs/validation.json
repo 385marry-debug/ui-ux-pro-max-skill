@@ -1,5 +1,5 @@
 {
-  "version": "2026-10-25-textbook-rule-repairs",
+  "version": "2026-10-26-two-book-source-pass",
   "verification": "Local Chromium and content checks; hosting result is recorded separately in GitHub Pages Actions.",
   "reports": {
     "public-site-validation": {
@@ -41,7 +41,7 @@
         "verbs": 638,
         "tenseGroups": 20,
         "independentConjugationCases": 28,
-        "grammar": 387,
+        "grammar": 405,
         "foundationLessons": 49,
         "units": 40,
         "dialogueTurns": 182,
@@ -53,7 +53,7 @@
         "objects": 120,
         "words": 7423,
         "reviewedMultiSenseEntries": 46,
-        "questions": 11533
+        "questions": 11645
       }
     },
     "expansion-browser-validation": {
@@ -1869,7 +1869,7 @@
         "entries": 7423,
         "listening": 144,
         "listeningQuestions": 294,
-        "totalStaticQuestions": 11533
+        "totalStaticQuestions": 11645
       },
       "chapters": [
         {
@@ -3586,7 +3586,7 @@
     },
     "rules-first-content-audit": {
       "passed": true,
-      "scope": "49个既有系统课入口使用48份独立细讲（一个一致关系入口共享形容词课）。本次补改其余39课，并补回教材-e/-i规则。387个细分条目及两书全部脚注原题不等同于已逐条验收。",
+      "scope": "49个既有系统课入口使用48份独立细讲（一个一致关系入口共享形容词课）。本次补改其余39课，并补回教材-e/-i规则。系统课基础验收与新增两书来源规则首轮核对分别统计，见book-source-pass-audit.json；不据此宣称两书全部原题已验收。",
       "counts": {
         "systemLessonEntries": 49,
         "independentExplanations": 48,
@@ -5018,6 +5018,51 @@
         "表格列保留最小阅读宽度，西语词内不强制拆行",
         "宽表在容器内滑动，页面无横向溢出"
       ]
+    },
+    "book-source-pass-audit": {
+      "passed": true,
+      "scope": "194个语法书正文小节与18个教材逐课语法入口的首轮规则对照、网页连接和练习注册；不是所有印刷习题和附录格逐项复核证明。",
+      "counts": {
+        "grammarBookChapters": 44,
+        "grammarBookSubsections": 194,
+        "caminanteChapters": 18,
+        "caminanteMainTopicLinks": 58,
+        "sourceLessons": 212,
+        "ruleStatements": 688,
+        "sourcePractice": 1032,
+        "reusedAuthoredWebsiteQuestions": 920,
+        "newGapQuestions": 112,
+        "tableRows": 274,
+        "independentAnswerFixtures": 31,
+        "appendixModels": 40,
+        "modelFixtures": 10,
+        "grammarEntries": 405,
+        "totalQuestions": 11645
+      },
+      "checks": [
+        "每个原有字母小节有直接网页正文，不再只有宽泛别名跳转",
+        "全部来源规则、页码、习题ID、独立详解链接可导出",
+        "58个教材主标题逐课关联；语法资源外的句型补入18个入口",
+        "新增与沿用自编题分开计数，全部有解析并保留旧题ID",
+        "40个附录模型在现有638词变位库中可查询；抽验特殊形式，未冒充全格验收"
+      ]
+    },
+    "book-source-browser-validation": {
+      "passed": true,
+      "sourceLessons": 212,
+      "actualDOMAnswers": 1032,
+      "backup": {
+        "sourceCards": 1032,
+        "oldRetained": true
+      },
+      "checks": [
+        "212个来源入口直接显示正文与全部规则锚点",
+        "1032道来源专题题通过实际按钮/表单作答并显示解析",
+        "规则与题目关键词检索、全站来源内容检索",
+        "故意错答、刷新不重复计分、返回原小节",
+        "新旧题目备份兼容及390px表格/内容无整页横向溢出"
+      ],
+      "errors": []
     }
   }
 }

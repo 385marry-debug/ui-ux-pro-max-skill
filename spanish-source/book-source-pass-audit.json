@@ -1,0 +1,28 @@
+{
+  "passed": true,
+  "scope": "194个语法书正文小节与18个教材逐课语法入口的首轮规则对照、网页连接和练习注册；不是所有印刷习题和附录格逐项复核证明。",
+  "counts": {
+    "grammarBookChapters": 44,
+    "grammarBookSubsections": 194,
+    "caminanteChapters": 18,
+    "caminanteMainTopicLinks": 58,
+    "sourceLessons": 212,
+    "ruleStatements": 688,
+    "sourcePractice": 1032,
+    "reusedAuthoredWebsiteQuestions": 920,
+    "newGapQuestions": 112,
+    "tableRows": 274,
+    "independentAnswerFixtures": 31,
+    "appendixModels": 40,
+    "modelFixtures": 10,
+    "grammarEntries": 405,
+    "totalQuestions": 11645
+  },
+  "checks": [
+    "每个原有字母小节有直接网页正文，不再只有宽泛别名跳转",
+    "全部来源规则、页码、习题ID、独立详解链接可导出",
+    "58个教材主标题逐课关联；语法资源外的句型补入18个入口",
+    "新增与沿用自编题分开计数，全部有解析并保留旧题ID",
+    "40个附录模型在现有638词变位库中可查询；抽验特殊形式，未冒充全格验收"
+  ]
+}
